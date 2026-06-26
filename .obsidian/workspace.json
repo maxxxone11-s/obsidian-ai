@@ -45,8 +45,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Roadmap/Roadmap.md",
+                "file": "Сообщение для сбора конспектов.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Roadmap"
+              "title": "Backlinks for Сообщение для сбора конспектов"
             }
           },
           {
@@ -139,12 +138,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Roadmap/Roadmap.md",
+                "file": "Сообщение для сбора конспектов.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Roadmap"
+              "title": "Outgoing links from Сообщение для сбора конспектов"
             }
           },
           {
@@ -182,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Roadmap/Roadmap.md",
+                "file": "Сообщение для сбора конспектов.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Roadmap"
+              "title": "Outline of Сообщение для сбора конспектов"
             }
           }
         ]
@@ -210,34 +209,35 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "42e9604561a5a0b7",
+  "active": "000be950026907f7",
   "lastOpenFiles": [
-    "00 Dashboard/Dashboard.md",
+    "Machine Learning/Mathematics/README.md",
+    "Machine Learning/Mathematics/Частная производная.md",
+    "Machine Learning/Mathematics/Скалярное произведение.md",
+    "Machine Learning/Mathematics/Распределения и Mean.md",
+    "Machine Learning/Mathematics/Размерность вектора.md",
+    "Machine Learning/Mathematics/Производная.md",
+    "Machine Learning/Mathematics/Операции над матрицами.md",
+    "Machine Learning/Mathematics/Нормализация вектора.md",
+    "Machine Learning/Mathematics/Нейрон как скалярное произведение.md",
+    "Machine Learning/Mathematics/Матричное умножение.md",
+    "Machine Learning/Mathematics/Матрица.md",
+    "Machine Learning/Mathematics/Длина вектора.md",
+    "Machine Learning/Mathematics/Градиент.md",
+    "Machine Learning/Mathematics/Вероятность.md",
+    "Machine Learning/Mathematics/Вектор.md",
+    "Machine Learning/Mathematics/MSE.md",
+    "Machine Learning/Mathematics/Entropy.md",
+    "Machine Learning/Mathematics/Cosine Similarity.md",
+    "Machine Learning/Mathematics/Cross Entropy.md",
+    "Machine Learning/Mathematics",
     "Сообщение для сбора конспектов.md",
-    "Indexes/Index.md",
     "01 Roadmap/Roadmap.md",
+    "00 Dashboard/Dashboard.md",
+    "Indexes/Index.md",
     "02 Progress/Learning Log.md",
     "Neural Networks/README.md",
     "PyTorch/model.eval().md",
-    "PyTorch/torch.optim.md",
-    "PyTorch/nn.Module.md",
-    "Neural Networks/torch.no_grad().md",
-    "Neural Networks/model.train() и model.eval().md",
-    "Neural Networks/Dataset.md",
-    "Neural Networks/Train Validation Test.md",
-    "Neural Networks/Validation.md",
-    "Neural Networks/Train Set.md",
-    "Neural Networks/Test Set.md",
-    "Neural Networks/Scaling.md",
-    "Neural Networks/Regularization.md",
-    "Neural Networks/Batch Normalization.md",
-    "Neural Networks/Dropout.md",
-    "Neural Networks/Overfitting.md",
-    "Neural Networks/Momentum.md",
-    "Neural Networks/Mini-Batch Gradient Descent.md",
-    "Neural Networks/SGD.md",
-    "Neural Networks/Batch Gradient Descent.md",
-    "Neural Networks/Epoch.md",
     "LangGraph/Practice",
     "AI Engineering",
     "Untitled.canvas",
@@ -248,7 +248,6 @@
     "AI Agents",
     "LLM Engineering",
     "RAG",
-    "LangGraph",
-    "PyTorch"
+    "LangGraph"
   ]
 }

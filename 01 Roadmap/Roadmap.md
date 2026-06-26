@@ -53,6 +53,13 @@ updated: 2026-06-26
 - [[Overfitting]] — stub
 - [[Underfitting]] — stub
 
+
+**Математическая база импортирована:**
+- [[Machine Learning/Mathematics/README|Математика для Machine Learning]] ✅
+- [[Вектор]], [[Матрица]], [[Матричное умножение]] ✅
+- [[Производная]], [[Частная производная]], [[Градиент]] ✅
+- [[Вероятность]], [[Entropy]] ✅
+
 **Статус:** 1 тема завершена, остальные в draft
 
 ## Фаза 3: Neural Networks ✅ Completed

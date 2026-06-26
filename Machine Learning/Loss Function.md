@@ -1,15 +1,17 @@
 ---
 type: concept
 area: Machine Learning
-status: draft
+status: learned
 created: 2026-06-26
 updated: 2026-06-26
 tags:
   - machine-learning
+  - mathematics
+  - optimization
   - loss
   - function
   - training
-confidence: 0
+confidence: 0.7
 ---
 
 # Loss Function
@@ -62,3 +64,26 @@ loss = loss_fn(predictions, targets)
 
 **Дата создания:** 2026-06-26
 **Статус:** draft — требует разработки
+
+## Импорт KNOWLEDGE_EXPORT — 2026-06-26
+
+**Кратко:** Loss Function — функция, измеряющая ошибку модели.
+
+**Простое объяснение:** Чем меньше Loss, тем лучше модель.
+
+**Зачем это нужно:** Именно Loss минимизирует Gradient Descent.
+
+**Как это работает:** Loss сравнивает предсказание модели с правильным ответом и возвращает число ошибки.
+
+**Пример:** MSE.
+
+**Типичные ошибки:**
+- Путать Loss и Gradient.
+
+**Вопросы для проверки:**
+- Чем отличается Loss от Gradient?
+
+**Следующие темы:**
+- [[Вероятность]]
+
+**Связанные темы:** [[MSE]] · [[Neural Networks/Gradient|Gradient]]

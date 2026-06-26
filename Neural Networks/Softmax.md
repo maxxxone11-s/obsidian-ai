@@ -1,13 +1,16 @@
 ---
 type: concept
-area: Neural Networks
+area: Machine Learning
 status: learned
 created: 2026-06-26
 updated: 2026-06-26
 tags:
+  - machine-learning
+  - mathematics
+  - probability
   - neural-networks
   - activation-functions
-confidence: 0.93
+confidence: 0.95
 ---
 
 # Softmax
@@ -37,3 +40,26 @@ Logits `[8, 2, 5]` → вероятности `[94%, 1%, 5%]`.
 
 ## Связанные темы
 [[Logits]] · [[Sigmoid]] · [[Output]]
+
+## Импорт KNOWLEDGE_EXPORT — 2026-06-26
+
+**Кратко:** Softmax преобразует logits в вероятности.
+
+**Простое объяснение:** Делает сумму вероятностей равной 1.
+
+**Зачем это нужно:** Используется в классификации и LLM.
+
+**Как это работает:** Softmax усиливает большие logits и нормирует весь вектор так, чтобы получить распределение вероятностей.
+
+**Пример:** `[8, 3, 1] → [0.99, 0.007, 0.001]`.
+
+**Типичные ошибки:**
+- Пока не замечены.
+
+**Вопросы для проверки:**
+- Что делает Softmax?
+
+**Следующие темы:**
+- [[Entropy]]
+
+**Связанные темы:** [[Entropy]]

@@ -1,13 +1,16 @@
 ---
 type: concept
-area: Neural Networks
+area: Machine Learning
 status: learned
 created: 2026-06-26
 updated: 2026-06-26
 tags:
+  - machine-learning
+  - mathematics
+  - optimization
   - neural-networks
   - learning
-confidence: 0.97
+confidence: 0.95
 ---
 
 # Learning Rate
@@ -36,3 +39,26 @@ Optimizer умножает Gradient на learning rate и применяет upd
 
 ## Связанные темы
 [[Machine Learning/Gradient Descent|Gradient Descent]] · [[Optimizer]]
+
+## Импорт KNOWLEDGE_EXPORT — 2026-06-26
+
+**Кратко:** Learning Rate — размер шага обучения.
+
+**Простое объяснение:** Насколько сильно менять веса за один шаг.
+
+**Зачем это нужно:** Слишком большой шаг приводит к перескоку минимума.
+
+**Как это работает:** Learning Rate масштабирует градиент перед обновлением параметров.
+
+**Пример:** `lr = 0.01`.
+
+**Типичные ошибки:**
+- Пока не замечены.
+
+**Вопросы для проверки:**
+- Что произойдет при слишком большом Learning Rate?
+
+**Следующие темы:**
+- [[Machine Learning/Loss Function|Loss Function]]
+
+**Связанные темы:** [[Machine Learning/Gradient Descent|Gradient Descent]]

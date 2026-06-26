@@ -6,6 +6,7 @@ created: 2026-06-26
 updated: 2026-06-26
 tags:
   - machine-learning
+  - mathematics
   - optimization
   - neural-networks
   - ml

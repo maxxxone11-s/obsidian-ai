@@ -43,10 +43,32 @@ updated: 2026-06-26
 - [[Machine Learning/Normalization|Normalization]]
 - [[Machine Learning/Overfitting|Overfitting]]
 - [[Machine Learning/Random Forest|Random Forest]]
-- [[Machine Learning/SVM|SVM]]
 - [[Machine Learning/Standardization|Standardization]]
+- [[Machine Learning/SVM|SVM]]
 - [[Machine Learning/Train Test Split|Train Test Split]]
 - [[Machine Learning/Underfitting|Underfitting]]
+
+### Математика для Machine Learning
+
+- [[Machine Learning/Mathematics/README|Математика для Machine Learning]]
+- [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]]
+- [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]]
+- [[Machine Learning/Mathematics/Entropy|Entropy]]
+- [[Machine Learning/Mathematics/MSE|MSE]]
+- [[Machine Learning/Mathematics/Вектор|Вектор]]
+- [[Machine Learning/Mathematics/Вероятность|Вероятность]]
+- [[Machine Learning/Mathematics/Градиент|Градиент]]
+- [[Machine Learning/Mathematics/Длина вектора|Длина вектора]]
+- [[Machine Learning/Mathematics/Матрица|Матрица]]
+- [[Machine Learning/Mathematics/Матричное умножение|Матричное умножение]]
+- [[Machine Learning/Mathematics/Нейрон как скалярное произведение|Нейрон как скалярное произведение]]
+- [[Machine Learning/Mathematics/Нормализация вектора|Нормализация вектора]]
+- [[Machine Learning/Mathematics/Операции над матрицами|Операции над матрицами]]
+- [[Machine Learning/Mathematics/Производная|Производная]]
+- [[Machine Learning/Mathematics/Размерность вектора|Размерность вектора]]
+- [[Machine Learning/Mathematics/Распределения и Mean|Распределения и Mean]]
+- [[Machine Learning/Mathematics/Скалярное произведение|Скалярное произведение]]
+- [[Machine Learning/Mathematics/Частная производная|Частная производная]]
 
 ## Neural Networks
 
