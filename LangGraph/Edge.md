@@ -1,14 +1,14 @@
 ---
 type: concept
 area: LangGraph
-status: draft
+status: learned
 created: 2026-06-26
 updated: 2026-06-26
 tags:
   - langgraph
   - edge
   - connection
-confidence: 0
+confidence: 0.96
 ---
 
 # Edge
@@ -59,3 +59,26 @@ graph.add_edge("node1", "node2")
 
 **Дата создания:** 2026-06-26
 **Статус:** draft — требует разработки
+
+## Импорт KNOWLEDGE_EXPORT — 2026-06-26
+
+**Кратко:** Edge соединяет Node, Conditional Edge позволяет ветвить граф.
+
+**Простое объяснение:** Node делает работу, Edge определяет маршрут.
+
+**Зачем это нужно:** Именно Conditional Edge делает граф умным и позволяет выбирать разные ветки выполнения.
+
+**Как это работает:** Обычный Edge задаёт фиксированный переход. [[Conditional Edge]] вызывает [[Router]], который смотрит на [[State]] и возвращает имя следующего маршрута.
+
+**Пример:** `choose_mode` → [[Router]] → `diet` / `fried` / `balance`.
+
+**Типичные ошибки:**
+- Путать Edge и Router.
+
+**Вопросы для проверки:**
+- Чем отличается обычный Edge от Conditional Edge?
+
+**Следующие темы:**
+- [[Router]]
+
+**Связанные темы:** [[Router]]

@@ -69,12 +69,42 @@ updated: 2026-06-26
 
 ## LangGraph
 
+- [[LangGraph/Agent Loop|Agent Loop]]
+- [[LangGraph/Checkpoint|Checkpoint]]
+- [[LangGraph/Checkpoint и Memory|Checkpoint и Memory]]
 - [[LangGraph/Conditional Edge|Conditional Edge]]
 - [[LangGraph/Edge|Edge]]
+- [[LangGraph/Human-in-the-loop|Human-in-the-loop]]
+- [[LangGraph/Interrupt|Interrupt]]
+- [[LangGraph/invoke()|invoke()]]
+- [[LangGraph/LangGraph Overview|LangGraph Overview]]
+- [[LangGraph/LLM Tool Calling|LLM Tool Calling]]
+- [[LangGraph/Multi-Agent|Multi-Agent]]
+- [[LangGraph/Multi-Agent, Supervisor и Subgraph|Multi-Agent, Supervisor и Subgraph]]
 - [[LangGraph/Node|Node]]
+- [[LangGraph/Planner|Planner]]
+- [[LangGraph/Planner и Executor|Planner и Executor]]
+- [[LangGraph/Production Architecture|Production Architecture]]
+- [[LangGraph/Resume|Resume]]
 - [[LangGraph/Router|Router]]
+- [[LangGraph/START и END|START и END]]
+- [[LangGraph/START, END и invoke()|START, END и invoke()]]
 - [[LangGraph/State|State]]
+- [[LangGraph/State Update|State Update]]
+- [[LangGraph/StateGraph|StateGraph]]
+- [[LangGraph/Supervisor|Supervisor]]
+- [[LangGraph/Tool|Tool]]
 - [[LangGraph/Tool Node|Tool Node]]
+
+### Практика LangGraph
+
+- [[LangGraph/Practice/Практика LangGraph 01 - Линейный граф|Практика LangGraph 01 - Линейный граф]]
+- [[LangGraph/Practice/Практика LangGraph 02 - Conditional Edge|Практика LangGraph 02 - Conditional Edge]]
+- [[LangGraph/Practice/Практика LangGraph 03 - Tool Node|Практика LangGraph 03 - Tool Node]]
+- [[LangGraph/Practice/Практика LangGraph 04 - Human-in-the-loop|Практика LangGraph 04 - Human-in-the-loop]]
+- [[LangGraph/Practice/Практика LangGraph 05 - Multi-tool Agent|Практика LangGraph 05 - Multi-tool Agent]]
+- [[LangGraph/Practice/Практика LangGraph 06 - Subgraph|Практика LangGraph 06 - Subgraph]]
+- [[LangGraph/Practice/Практика LangGraph 07 - WhatToCook|Практика LangGraph 07 - WhatToCook]]
 
 ## RAG
 

@@ -1,14 +1,14 @@
 ---
 type: concept
 area: LangGraph
-status: draft
+status: learned
 created: 2026-06-26
 updated: 2026-06-26
 tags:
   - langgraph
   - tool
   - action
-confidence: 0
+confidence: 0.96
 ---
 
 # Tool Node
@@ -65,3 +65,26 @@ graph.add_node("tools", tool_node)
 
 **Дата создания:** 2026-06-26
 **Статус:** draft — требует разработки
+
+## Импорт KNOWLEDGE_EXPORT — 2026-06-26
+
+**Кратко:** Tool — внешняя функция, Tool Node — Node, вызывающий Tool.
+
+**Простое объяснение:** Tool похож на service в FastAPI, а Tool Node встраивает его в граф.
+
+**Зачем это нужно:** Позволяет агенту работать с внешним миром: API, базами данных, файлами и вычислениями.
+
+**Как это работает:** [[Tool]] описывает действие, а [[Tool Node]] получает команду на вызов инструмента и возвращает результат в [[State]].
+
+**Пример:** `calories_tool()` считает калории для рецепта.
+
+**Типичные ошибки:**
+- Считать Tool Node самим Tool.
+
+**Вопросы для проверки:**
+- Чем отличается Tool от Tool Node?
+
+**Следующие темы:**
+- [[LLM Tool Calling]]
+
+**Связанные темы:** [[LLM Tool Calling]]

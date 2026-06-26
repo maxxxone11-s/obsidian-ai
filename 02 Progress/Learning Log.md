@@ -9,6 +9,27 @@ updated: 2026-06-26
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-26 (KNOWLEDGE_EXPORT: LangGraph)
+
+### ✅ Импортировано
+
+- Обновлены ключевые заметки LangGraph: [[State]], [[Node]], [[Edge]], [[Conditional Edge]], [[Router]], [[Tool Node]].
+- Созданы новые концепции по LangGraph agent architecture и runtime.
+- Добавлены stub-заметки для связанных терминов.
+- Добавлен раздел практики LangGraph из 7 мини-проектов.
+
+### 🧠 Уровень понимания
+
+- Понимание State, Node, Edge, Router, Checkpoint, Memory, Tool Node, Planner/Executor и Multi-Agent архитектуры отмечено как learned.
+- Слабые места: add_conditional_edges, Router без подсказки, несколько Tool с последовательными Router.
+
+### 🔁 Повторить
+
+- [[State Update]]
+- [[Router]]
+- [[Conditional Edge]]
+- [[Практика LangGraph 07 - WhatToCook]]
+
 ## 2026-06-26 (Сеанс 3: Заполнение структуры)
 
 ### ✅ Создано

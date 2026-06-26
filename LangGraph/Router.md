@@ -1,14 +1,14 @@
 ---
 type: concept
 area: LangGraph
-status: draft
+status: learned
 created: 2026-06-26
 updated: 2026-06-26
 tags:
   - langgraph
   - router
   - routing
-confidence: 0
+confidence: 0.95
 ---
 
 # Router
@@ -65,3 +65,27 @@ graph.add_conditional_edges("router_node", route_decision)
 
 **Дата создания:** 2026-06-26
 **Статус:** draft — требует разработки
+
+## Импорт KNOWLEDGE_EXPORT — 2026-06-26
+
+**Кратко:** Выбирает следующий маршрут на основе State.
+
+**Простое объяснение:** Router не делает работу, а возвращает название следующего пути.
+
+**Зачем это нужно:** Router управляет всей логикой ветвлений.
+
+**Как это работает:** Router читает [[State]], принимает решение и возвращает ключ маршрута, который описан в [[Conditional Edge]].
+
+**Пример:** `route_after_mode()` возвращает `diet`, `fried` или `balance`.
+
+**Типичные ошибки:**
+- Вызывать Node внутри Router.
+- Возвращать результат функции вместо имени маршрута.
+
+**Вопросы для проверки:**
+- Что должен возвращать Router?
+
+**Следующие темы:**
+- [[StateGraph]]
+
+**Связанные темы:** [[Conditional Edge]] · [[Tool Node]]

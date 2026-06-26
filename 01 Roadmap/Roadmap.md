@@ -80,17 +80,28 @@ updated: 2026-06-26
 
 **Статус:** Все в статусе draft
 
-## Фаза 5: LangGraph 📋
+## Фаза 5: LangGraph ✅
 
-**Структура создана (6 концепций):**
-- [[State]] — stub
-- [[Node]] — stub
-- [[Edge]] — stub
-- [[Router]] — stub
-- [[Conditional Edge]] — stub
-- [[Tool Node]] — stub
+**Импорт KNOWLEDGE_EXPORT завершён:**
+- [[LangGraph Overview]] ✅ — overview агентных графов
+- [[Agent Loop]] ✅ — базовый цикл агента
+- [[State]] ✅ — центральный объект графа
+- [[State Update]] ✅ — возврат изменений из Node
+- [[Node]] ✅ — отдельный шаг выполнения
+- [[Edge]] ✅ и [[Conditional Edge]] ✅ — маршрутизация графа
+- [[Router]] ✅ — выбор следующего пути
+- [[StateGraph]] ✅ — сборка структуры графа
+- [[START, END и invoke()]] ✅ — запуск и завершение графа
+- [[Checkpoint и Memory]] ✅ — состояние процесса и память
+- [[Human-in-the-loop]] ✅ — interrupt/resume
+- [[Tool Node]] ✅ и [[LLM Tool Calling]] ✅ — инструменты агента
+- [[Planner и Executor]] ✅ — планирование и выполнение
+- [[Multi-Agent, Supervisor и Subgraph]] ✅ — production-паттерны
+- [[Production Architecture]] ✅ — архитектура крупных AI-систем
 
-**Статус:** Все в статусе draft
+**Практика:** создано 7 мини-проектов LangGraph.
+
+**Статус:** теория импортирована, следующий шаг — пройти практику без LLM API
 
 ## Фаза 6: AI Engineering 📋
 
