@@ -178,6 +178,7 @@
   },
   "active": "b4f20512e35a6053",
   "lastOpenFiles": [
+    "Templates/SYNC_PACKAGE_PROTOCOL.md",
     "2026-06-26.md",
     "Тема 2.md",
     "Тема 1.md",
@@ -205,7 +206,6 @@
     "00 Dashboard/Dashboard.md",
     "AI Agents/Index.md",
     "LangGraph/Index.md",
-    "LLM Engineering/Index.md",
     "Inbox",
     "Indexes",
     "Templates",
