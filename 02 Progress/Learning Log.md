@@ -9,6 +9,19 @@ updated: 2026-06-26
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-26 (Аудит правил KNOWLEDGE_EXPORT)
+
+### ✅ Обновлено
+
+- В [[AGENTS]] добавлены обязательные правила обновления Dashboard, Knowledge Map, Roadmap, Learning Log и соответствующего `Indexes/*` после каждого KNOWLEDGE_EXPORT.
+- [[00 Dashboard/Dashboard|Dashboard]] пересчитан по текущим `type: concept`: всего 147, learned 94, learning 0, needs_review 2, draft 51.
+- [[00 Dashboard/Knowledge Map|Knowledge Map]] пересобран по текущим учебным разделам без дублей.
+- [[01 Roadmap/Roadmap|Roadmap]] дополнен аудитом правил импорта.
+
+### Следующий шаг
+
+- При каждом следующем импорте сначала обновлять концепции, затем обязательно синхронизировать модульный статус и обзорные файлы.
+
 ## 2026-06-26 (Проверка импорта: Machine Learning Fundamentals)
 
 ### ✅ Проверено

@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "Roadmap"
             }
+          },
+          {
+            "id": "eaaf5db2dbb058a3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +120,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 Roadmap/Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +129,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Roadmap"
+              "title": "Backlinks"
             }
           },
           {
@@ -129,12 +138,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Roadmap/Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Roadmap"
+              "title": "Outgoing links"
             }
           },
           {
@@ -172,13 +180,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Roadmap/Roadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Roadmap"
+              "title": "Outline"
             }
           }
         ]
@@ -200,10 +207,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "331126f871a56ec7",
+  "active": "eaaf5db2dbb058a3",
   "lastOpenFiles": [
-    "Machine Learning/KNN.md",
     "01 Roadmap/Roadmap.md",
+    "Machine Learning/KNN.md",
     "00 Dashboard/Dashboard.md",
     "Сообщение для сбора конспектов.md",
     "Machine Learning/Standardization.md",

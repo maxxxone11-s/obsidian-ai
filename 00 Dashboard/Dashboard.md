@@ -46,6 +46,7 @@ updated: 2026-06-26
 
 ## 🔄 Последние обновления
 
+- **2026-06-26** — Обновлены правила импорта KNOWLEDGE_EXPORT и синхронизированы Dashboard, Knowledge Map, Roadmap и Learning Log
 - **2026-06-26** — Импорт Machine Learning Fundamentals: fundamentals, evaluation, metrics, algorithms и model selection
 - **2026-06-26** — Импорт LangGraph: core concepts, runtime, tools, patterns и практика
 - **2026-06-26** — Импорт Neural Networks: fundamentals, activation functions, learning loop, optimizers, regularization, dataset и inference
