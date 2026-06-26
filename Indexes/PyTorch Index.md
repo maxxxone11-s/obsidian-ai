@@ -13,10 +13,14 @@ tags: [pytorch, deep-learning, neural-networks]
 ## Структура
 
 ### Основы PyTorch
-- Tensors
-- Autograd (автоматическое дифференцирование)
-- Dynamic computation graphs
-- CUDA и GPU support
+- [[Tensor]] — основная структура данных
+- [[Shape]] — форма тензора
+- [[View]] — изменение формы
+- [[Reshape]] — переформирование тензора
+- [[Unsqueeze]] — добавление размерности
+- [[Squeeze]] — удаление размерности
+- [[Broadcasting]] — операции между тензорами
+- [[Autograd]] — автоматическое дифференцирование
 
 ### Модели и слои
 - torch.nn Module

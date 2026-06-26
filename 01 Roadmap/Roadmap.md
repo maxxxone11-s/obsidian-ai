@@ -6,63 +6,111 @@ updated: 2026-06-26
 
 # 🗺️ Дорожная карта обучения
 
-## Фаза 1: Основы Python Backend
+## Статус: ✅ Структура завершена, начинается наполнение контентом
 
-- [ ] Основы Python
-- [ ] Структуры данных
-- [ ] OOP в Python
-- [ ] Работа с файлами
-- [ ] HTTP и Web основы
+## Фаза 0: Инфраструктура Vault ✅
 
-## Фаза 2: Web фреймворки
+- [x] Создана структура папок
+- [x] Созданы правила (AGENTS.md)
+- [x] Созданы шаблоны заметок
+- [x] Установлена система SYNC_PACKAGE
+- [x] Создано 37 stub концепций во всех доменах
 
-- [ ] Django основы
-- [ ] FastAPI основы
-- [ ] REST API
-- [ ] Работа с БД
-- [ ] Аутентификация
+## Фаза 1: Основы Python Backend 📋
 
-## Фаза 3: Базы данных
+**Структура создана (12 концепций):**
+- [[Python Core]] — основы Python
+- [[OOP]] — объектно-ориентированное программирование
+- [[Asyncio]] — асинхронное программирование
+- [[FastAPI]] — веб-фреймворк
+- [[SQL]] — язык БД
+- [[SQLAlchemy]] — ORM
+- [[Alembic]] — миграции БД
+- [[PostgreSQL]] — реляционная БД
+- [[Redis]] — кеш и очереди
+- [[Docker]] — контейнеризация
+- [[Git]] — версионный контроль
+- [[Linux]] — операционная система
 
-- [ ] SQL основы
-- [ ] PostgreSQL
-- [ ] ORM (SQLAlchemy)
-- [ ] Индексирование и оптимизация
+**Статус:** Все в статусе draft, ожидают наполнения контентом
 
-## Фаза 4: Machine Learning
+## Фаза 2: Machine Learning 📋
 
-- [ ] Основы ML
-- [ ] Numpy и Pandas
-- [ ] Scikit-learn
-- [x] Feature Scaling (✅ 2026-06-26)
-- [ ] Линейная регрессия
-- [ ] Классификация
-- [ ] Decision Trees & Ensemble методы
+**Структура создана (12 концепций):**
+- [[Feature Scaling]] ✅ — **ЗАВЕРШЕНО (confidence: 80%)**
+- [[Normalization]] — stub
+- [[Standardization]] — stub
+- [[Gradient Descent]] — stub
+- [[KNN]] — stub
+- [[SVM]] — stub
+- [[Linear Regression]] — stub
+- [[Logistic Regression]] — stub
+- [[Loss Function]] — stub
+- [[Train Test Split]] — stub
+- [[Overfitting]] — stub
+- [[Underfitting]] — stub
 
-## Фаза 5: Neural Networks & PyTorch
+**Статус:** 1 тема завершена, остальные в draft
 
-- [ ] Основы нейросетей
-- [ ] Perceptron
-- [ ] CNN для изображений
-- [ ] RNN для последовательностей
-- [ ] PyTorch фреймворк
+## Фаза 3: Neural Networks 📋
 
-## Фаза 6: LLM & RAG
+**Структура создана (5 концепций):**
+- [[Perceptron]] — stub
+- [[Weights]] — stub
+- [[Bias]] — stub
+- [[Activation Function]] — stub
+- [[Backpropagation]] — stub
 
-- [ ] Основы LLM
-- [ ] Трансформеры
-- [ ] Embeddings
-- [ ] RAG система
-- [ ] LangChain
+**Статус:** Все в статусе draft
 
-## Фаза 7: AI Agents
+## Фаза 4: PyTorch 📋
 
-- [ ] Концепция агентов
-- [ ] LangGraph
-- [ ] Multi-agent системы
-- [ ] Интеграция с LLM
+**Структура создана (8 концепций):**
+- [[Tensor]] — stub
+- [[Shape]] — stub
+- [[Broadcasting]] — stub
+- [[View]] — stub
+- [[Reshape]] — stub
+- [[Unsqueeze]] — stub
+- [[Squeeze]] — stub
+- [[Autograd]] — stub
+
+**Статус:** Все в статусе draft
+
+## Фаза 5: LangGraph 📋
+
+**Структура создана (6 концепций):**
+- [[State]] — stub
+- [[Node]] — stub
+- [[Edge]] — stub
+- [[Router]] — stub
+- [[Conditional Edge]] — stub
+- [[Tool Node]] — stub
+
+**Статус:** Все в статусе draft
+
+## Фаза 6: AI Engineering 📋
+
+**Структура создана (5 концепций):**
+- [[RAG]] — stub
+- [[Embeddings]] — stub
+- [[Vector Database]] — stub
+- [[LLM]] — stub
+- [[AI Agent]] — stub
+
+**Статус:** Все в статусе draft
+
+---
+
+## Следующие шаги
+
+1. **Наполнение контентом** — преобразование draft в полноценные концепции
+2. **SYNC_PACKAGE примеры** — использование протокола для обновления с ChatGPT
+3. **Проверка и проработка** — переход из draft в learning/learned
+4. **Интеграция примеров** — добавление кода и практических примеров
 
 ---
 
 **Дата создания:** 2026-06-26
-**Статус:** В процессе
+**Последнее обновление:** 2026-06-26
+**Статус:** Структурный фундамент готов ✅

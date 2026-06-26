@@ -13,11 +13,12 @@ tags: [langgraph, agents, workflows, orchestration]
 ## Структура
 
 ### Основы LangGraph
-- State Management
-- Graph nodes
-- Graph edges
-- Conditional edges
-- Start и end nodes
+- [[State]] — состояние графа
+- [[Node]] — узлы в графе
+- [[Edge]] — соединения между узлами
+- [[Conditional Edge]] — условные переходы
+- [[Router]] — маршрутизация
+- [[Tool Node]] — узел для выполнения инструментов
 
 ### Архитектура
 - StateGraph
