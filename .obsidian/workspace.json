@@ -177,5 +177,30 @@
     }
   },
   "active": "e80803b65e1cac31",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "AI Agents/Index.md",
+    "LangGraph/Index.md",
+    "LLM Engineering/Index.md",
+    "RAG/Index.md",
+    "PyTorch/Index.md",
+    "Neural Networks/Index.md",
+    "Machine Learning/Index.md",
+    "Python Backend/Index.md",
+    "Indexes/Index.md",
+    "Templates/Template.md",
+    "02 Progress/Learning Log.md",
+    "00 Dashboard/README.md",
+    "01 Roadmap/Roadmap.md",
+    "Inbox",
+    "Indexes",
+    "Templates",
+    "AI Agents",
+    "LLM Engineering",
+    "RAG",
+    "LangGraph",
+    "PyTorch",
+    "Neural Networks",
+    "Machine Learning",
+    "AGENTS.md"
+  ]
 }
