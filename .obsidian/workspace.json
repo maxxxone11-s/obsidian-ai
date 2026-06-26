@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "eaaf5db2dbb058a3",
+            "id": "783f41337f1caa9c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -99,7 +99,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -207,9 +208,23 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "eaaf5db2dbb058a3",
+  "active": "783f41337f1caa9c",
   "lastOpenFiles": [
+    "Indexes/Algorithms Index.md",
+    "Algorithms/Two Pointers.md",
+    "Algorithms/Tree.md",
+    "Algorithms/Stack.md",
+    "Algorithms/Queue.md",
+    "Algorithms/Binary Search.md",
+    "Algorithms/DFS.md",
+    "Algorithms/Index.md",
+    "Algorithms/Hash Table.md",
+    "Algorithms/Graphs.md",
+    "Algorithms/Dynamic Programming.md",
+    "Algorithms/BFS.md",
+    "Algorithms",
     "01 Roadmap/Roadmap.md",
+    "wikilinks.md",
     "Machine Learning/KNN.md",
     "00 Dashboard/Dashboard.md",
     "Сообщение для сбора конспектов.md",
@@ -222,19 +237,6 @@
     "Machine Learning/Feature Engineering.md",
     "Machine Learning/Confusion Matrix.md",
     "Machine Learning/Accuracy Precision Recall и F1.md",
-    "Machine Learning/Classification.md",
-    "Machine Learning/Regression.md",
-    "Machine Learning/Data Leakage.md",
-    "Machine Learning/Dataset, Features и Labels.md",
-    "Machine Learning/Что такое Machine Learning.md",
-    "Machine Learning/Mathematics/README.md",
-    "Machine Learning/Mathematics/Частная производная.md",
-    "Machine Learning/Mathematics/Скалярное произведение.md",
-    "Machine Learning/Mathematics/Распределения и Mean.md",
-    "Machine Learning/Mathematics/Размерность вектора.md",
-    "Machine Learning/Mathematics/Производная.md",
-    "Machine Learning/Mathematics/Операции над матрицами.md",
-    "Machine Learning/Mathematics/Нормализация вектора.md",
     "Machine Learning/Mathematics",
     "LangGraph/Practice",
     "AI Engineering",
@@ -245,7 +247,6 @@
     "Templates",
     "AI Agents",
     "LLM Engineering",
-    "RAG",
-    "LangGraph"
+    "RAG"
   ]
 }

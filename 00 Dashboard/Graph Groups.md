@@ -28,6 +28,7 @@ updated: 2026-06-26
 - `tag:#rag` — бирюзовый
 - `tag:#llm-engineering` — жёлтый
 - `tag:#ai-agents` — розовый
+- `tag:#algorithms` — голубой
 
 ## Как скрыть служебные файлы
 

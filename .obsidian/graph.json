@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "-tag:#practice -tag:#system ",
   "showTags": true,
   "showAttachments": false,
@@ -74,6 +74,6 @@
   "repelStrength": 7.40711805555556,
   "linkStrength": 1,
   "linkDistance": 146,
-  "scale": 0.9437188164926643,
+  "scale": 0.5627900910413182,
   "close": true
 }

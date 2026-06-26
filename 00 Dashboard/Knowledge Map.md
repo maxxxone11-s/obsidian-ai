@@ -206,4 +206,17 @@ updated: 2026-06-26
 ## AI Agents
 
 - Пока нет отдельных заметок.
+## Algorithms & Data Structures
+
+- [[Algorithms/Index|Algorithms Index]]
+- [[Algorithms/Graphs|Graphs]]
+- [[Algorithms/DFS|DFS]]
+- [[Algorithms/BFS|BFS]]
+- [[Algorithms/Tree|Tree]]
+- [[Algorithms/Hash Table|Hash Table]]
+- [[Algorithms/Stack|Stack]]
+- [[Algorithms/Queue|Queue]]
+- [[Algorithms/Dynamic Programming|Dynamic Programming]]
+- [[Algorithms/Two Pointers|Two Pointers]]
+- [[Algorithms/Binary Search|Binary Search]]
 

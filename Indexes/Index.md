@@ -69,6 +69,13 @@ Retrieval-Augmented Generation
 - Multi-agent системы
 - Примеры реализации
 
+### [[Algorithms/Index|🧩 Algorithms & Data Structures]]
+Алгоритмы, структуры данных и паттерны решения задач
+
+- Graphs, DFS, BFS
+- Trees, Hash Tables, Stack, Queue
+- Binary Search, Two Pointers, Dynamic Programming
+
 ## 📖 По уровню сложности
 
 ### Начинающие

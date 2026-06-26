@@ -159,6 +159,25 @@ Obsidian Vault
 5. **Добавить типичные ошибки** пользователя
 6. **Создать связи между темами** через Obsidian-ссылки
 
+### Классификация Algorithms & Data Structures
+
+Если `KNOWLEDGE_EXPORT` или `SYNC_PACKAGE` относится к алгоритмам, структурам данных, LeetCode, графам, деревьям, DFS, BFS, сортировкам, хеш-таблицам, стеку, очереди, двум указателям, бинарному поиску или динамическому программированию — сохранять материал как:
+
+```yaml
+area: Algorithms & Data Structures
+folder: Algorithms
+tags:
+  - algorithms
+```
+
+Для заметок этой области использовать YAML:
+
+```yaml
+area: Algorithms & Data Structures
+tags:
+  - algorithms
+```
+
 ## Важные ограничения
 
 - ✗ **Не удалять** существующие заметки без явного разрешения
