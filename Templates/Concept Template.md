@@ -1,10 +1,12 @@
 ---
-type: concept
+type: template
 area: [выбрать область]
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [тег1, тег2]
+tags:
+  - template
+  - system
 confidence: 0
 last_review: null
 next_review: null

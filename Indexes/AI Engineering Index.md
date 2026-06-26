@@ -3,7 +3,9 @@ type: index
 area: ai-engineering
 created: 2026-06-26
 updated: 2026-06-26
-tags: [ai-engineering, llm, agents, rag]
+tags:
+  - index
+  - system
 ---
 
 # 🤖 AI Engineering Index

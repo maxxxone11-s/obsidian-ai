@@ -3,7 +3,9 @@ type: index
 area: pytorch
 created: 2026-06-26
 updated: 2026-06-26
-tags: [pytorch, deep-learning, neural-networks]
+tags:
+  - index
+  - system
 ---
 
 # ⚡ PyTorch Index

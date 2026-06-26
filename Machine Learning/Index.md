@@ -1,8 +1,11 @@
 ---
 type: index
-area: ml-basics
+area: Machine Learning
 created: 2026-06-26
 updated: 2026-06-26
+tags:
+  - index
+  - system
 ---
 
 # 🤖 Machine Learning

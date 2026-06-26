@@ -1,10 +1,14 @@
 ---
 type: concept
-area: backend
+area: Python Backend
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [fastapi, web, framework]
+tags:
+  - python-backend
+  - fastapi
+  - web
+  - framework
 confidence: 0
 ---
 

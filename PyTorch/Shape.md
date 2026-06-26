@@ -1,10 +1,13 @@
 ---
 type: concept
-area: pytorch
+area: PyTorch
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [pytorch, shape, dimensions]
+tags:
+  - pytorch
+  - shape
+  - dimensions
 confidence: 0
 ---
 

@@ -1,10 +1,14 @@
 ---
 type: concept
-area: backend
+area: Python Backend
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [linux, unix, os]
+tags:
+  - python-backend
+  - linux
+  - unix
+  - os
 confidence: 0
 ---
 

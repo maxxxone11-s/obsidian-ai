@@ -1,10 +1,14 @@
 ---
 type: concept
-area: databases
+area: Python Backend
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [postgresql, database, relational]
+tags:
+  - python-backend
+  - postgresql
+  - database
+  - relational
 confidence: 0
 ---
 

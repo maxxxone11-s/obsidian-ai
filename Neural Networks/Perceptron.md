@@ -1,10 +1,14 @@
 ---
 type: concept
-area: neural-networks
+area: Neural Networks
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [perceptron, neuron, basic]
+tags:
+  - neural-networks
+  - perceptron
+  - neuron
+  - basic
 confidence: 0
 ---
 

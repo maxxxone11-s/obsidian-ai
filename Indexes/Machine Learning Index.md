@@ -3,7 +3,9 @@ type: index
 area: ml-basics
 created: 2026-06-26
 updated: 2026-06-26
-tags: [machine-learning, data-science, algorithms]
+tags:
+  - index
+  - system
 ---
 
 # 🤖 Machine Learning Index

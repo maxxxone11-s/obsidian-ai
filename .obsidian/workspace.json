@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "58dc979b5c181f67",
+        "id": "3c9a538c779d2eea",
         "type": "tabs",
         "children": [
           {
-            "id": "b4f20512e35a6053",
+            "id": "5bc5af2b1d763d92",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b52a2f472efcfa6d",
@@ -173,11 +174,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "b4f20512e35a6053",
+  "active": "5bc5af2b1d763d92",
   "lastOpenFiles": [
+    "01 Roadmap/Roadmap.md",
+    "00 Dashboard/Graph Groups.md",
+    "00 Dashboard/Dashboard.md",
+    "00 Dashboard/Knowledge Map.md",
     "Indexes/AI Engineering Index.md",
     "AI Engineering/AI Agent.md",
     "AI Engineering/LLM.md",
@@ -201,10 +207,6 @@
     "PyTorch/Shape.md",
     "Neural Networks/Backpropagation.md",
     "Neural Networks/Activation Function.md",
-    "Neural Networks/Bias.md",
-    "Neural Networks/Weights.md",
-    "Neural Networks/Perceptron.md",
-    "Machine Learning/Underfitting.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Inbox",

@@ -1,10 +1,14 @@
 ---
 type: concept
-area: neural-networks
+area: Neural Networks
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [activation, nonlinearity, function]
+tags:
+  - neural-networks
+  - activation
+  - nonlinearity
+  - function
 confidence: 0
 ---
 

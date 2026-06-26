@@ -1,10 +1,14 @@
 ---
 type: concept
-area: databases
+area: Python Backend
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [sql, database, query]
+tags:
+  - python-backend
+  - sql
+  - database
+  - query
 confidence: 0
 ---
 

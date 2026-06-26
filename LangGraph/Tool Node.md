@@ -1,10 +1,13 @@
 ---
 type: concept
-area: ai-agents
+area: LangGraph
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [langgraph, tool, action]
+tags:
+  - langgraph
+  - tool
+  - action
 confidence: 0
 ---
 

@@ -1,10 +1,15 @@
 ---
 type: concept
-area: ml-basics
+area: Machine Learning
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [train, test, split, data]
+tags:
+  - machine-learning
+  - train
+  - test
+  - split
+  - data
 confidence: 0
 ---
 

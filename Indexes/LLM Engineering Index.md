@@ -3,7 +3,9 @@ type: index
 area: llm-engineering
 created: 2026-06-26
 updated: 2026-06-26
-tags: [llm, language-models, nlp, transformers]
+tags:
+  - index
+  - system
 ---
 
 # ✨ LLM Engineering Index

@@ -1,10 +1,13 @@
 ---
 type: concept
-area: ai-agents
+area: LangGraph
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [langgraph, node, workflow]
+tags:
+  - langgraph
+  - node
+  - workflow
 confidence: 0
 ---
 

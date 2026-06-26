@@ -1,10 +1,13 @@
 ---
 type: concept
-area: pytorch
+area: PyTorch
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [pytorch, autograd, gradient]
+tags:
+  - pytorch
+  - autograd
+  - gradient
 confidence: 0
 ---
 

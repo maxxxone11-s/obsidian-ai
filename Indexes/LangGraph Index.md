@@ -3,7 +3,9 @@ type: index
 area: ai-agents
 created: 2026-06-26
 updated: 2026-06-26
-tags: [langgraph, agents, workflows, orchestration]
+tags:
+  - index
+  - system
 ---
 
 # 🔗 LangGraph Index

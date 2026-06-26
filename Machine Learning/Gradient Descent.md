@@ -1,10 +1,13 @@
 ---
 type: concept
-area: backend
+area: Machine Learning
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [optimization, ml]
+tags:
+  - machine-learning
+  - optimization
+  - ml
 confidence: 0
 ---
 

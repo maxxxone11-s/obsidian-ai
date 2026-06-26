@@ -1,10 +1,13 @@
 ---
 type: concept
-area: neural-networks
+area: Machine Learning
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [deep-learning, architecture]
+tags:
+  - machine-learning
+  - deep-learning
+  - architecture
 confidence: 0
 ---
 

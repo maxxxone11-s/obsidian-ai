@@ -1,10 +1,14 @@
 ---
 type: concept
-area: ml-basics
+area: Machine Learning
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [algorithm, classification, regression]
+tags:
+  - machine-learning
+  - algorithm
+  - classification
+  - regression
 confidence: 0
 ---
 

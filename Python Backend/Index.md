@@ -1,8 +1,11 @@
 ---
 type: index
-area: backend
+area: Python Backend
 created: 2026-06-26
 updated: 2026-06-26
+tags:
+  - index
+  - system
 ---
 
 # 🐍 Python Backend

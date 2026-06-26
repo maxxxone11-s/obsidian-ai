@@ -1,8 +1,11 @@
 ---
 type: index
-area: rag
+area: RAG
 created: 2026-06-26
 updated: 2026-06-26
+tags:
+  - index
+  - system
 ---
 
 # 📚 Retrieval-Augmented Generation (RAG)

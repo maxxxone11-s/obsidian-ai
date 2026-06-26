@@ -1,10 +1,14 @@
 ---
 type: concept
-area: ml-basics
+area: Machine Learning
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [loss, function, training]
+tags:
+  - machine-learning
+  - loss
+  - function
+  - training
 confidence: 0
 ---
 

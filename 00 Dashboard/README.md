@@ -1,3 +1,9 @@
+---
+type: dashboard
+tags:
+  - dashboard
+  - system
+---
 # Obsidian Vault: Python Backend & AI
 
 Добро пожаловать в Vault для обучения **Python Backend** и **AI**! 🚀

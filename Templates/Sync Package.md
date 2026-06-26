@@ -1,5 +1,8 @@
 ---
-type: specification
+type: template
+tags:
+  - template
+  - system
 name: "Sync Package Format"
 version: "1.0"
 created: 2026-06-26

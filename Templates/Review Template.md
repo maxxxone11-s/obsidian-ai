@@ -1,5 +1,8 @@
 ---
-type: review
+type: template
+tags:
+  - template
+  - system
 concept_reviewed: "[[Название проверяемой концепции]]"
 review_date: 2026-06-26
 reviewer_confidence: 0

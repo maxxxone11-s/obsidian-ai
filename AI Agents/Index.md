@@ -1,8 +1,11 @@
 ---
 type: index
-area: ai-agents
+area: AI Agents
 created: 2026-06-26
 updated: 2026-06-26
+tags:
+  - index
+  - system
 ---
 
 # 🤖 AI Agents

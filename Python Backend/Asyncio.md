@@ -1,10 +1,14 @@
 ---
 type: concept
-area: backend
+area: Python Backend
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [python, async, concurrency]
+tags:
+  - python-backend
+  - python
+  - async
+  - concurrency
 confidence: 0
 ---
 

@@ -1,10 +1,14 @@
 ---
 type: concept
-area: neural-networks
+area: Neural Networks
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [weights, parameters, model]
+tags:
+  - neural-networks
+  - weights
+  - parameters
+  - model
 confidence: 0
 ---
 

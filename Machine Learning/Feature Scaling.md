@@ -1,10 +1,15 @@
 ---
 type: concept
-area: ml-basics
+area: Machine Learning
 status: learned
 created: 2026-06-26
 updated: 2026-06-26
-tags: [preprocessing, scaling, normalization, standardization]
+tags:
+  - machine-learning
+  - preprocessing
+  - scaling
+  - normalization
+  - standardization
 confidence: 0.80
 last_review: 2026-06-26
 next_review: 2026-07-10

@@ -1,3 +1,8 @@
+---
+type: system
+tags:
+  - system
+---
 # Правила агента для Obsidian Vault
 
 Это Obsidian Vault для обучения **Python Backend** и **AI**.

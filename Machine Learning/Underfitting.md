@@ -1,10 +1,14 @@
 ---
 type: concept
-area: ml-basics
+area: Machine Learning
 status: draft
 created: 2026-06-26
 updated: 2026-06-26
-tags: [underfitting, bias, model-capacity]
+tags:
+  - machine-learning
+  - underfitting
+  - bias
+  - model-capacity
 confidence: 0
 ---
 

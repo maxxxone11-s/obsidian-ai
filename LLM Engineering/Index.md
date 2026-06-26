@@ -1,8 +1,11 @@
 ---
 type: index
-area: llm-engineering
+area: LLM Engineering
 created: 2026-06-26
 updated: 2026-06-26
+tags:
+  - index
+  - system
 ---
 
 # ✨ LLM Engineering

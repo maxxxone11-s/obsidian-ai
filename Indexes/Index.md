@@ -1,5 +1,8 @@
 ---
 type: index
+tags:
+  - index
+  - system
 created: 2026-06-26
 updated: 2026-06-26
 ---
