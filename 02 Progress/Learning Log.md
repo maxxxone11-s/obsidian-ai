@@ -9,6 +9,78 @@ updated: 2026-06-26
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-26 (KNOWLEDGE_EXPORT: Neural Networks — Dataset и Inference)
+
+### ✅ Импортировано
+
+- Созданы и обновлены темы: [[Dataset]], [[Train Set]], [[Validation|Validation Set]], [[Test Set]], [[Inference]].
+- Добавлены PyTorch-preview темы: [[model.train() и model.eval()]], [[torch.no_grad()]].
+- Созданы мосты к PyTorch: [[PyTorch/nn.Module|nn.Module]], [[PyTorch/torch.optim|torch.optim]], [[PyTorch/model.eval()|model.eval()]].
+- Создано оглавление модуля: [[Neural Networks/README|Neural Networks README]].
+
+### ✅ Итог модуля
+
+- Модуль [[Neural Networks/Index|Neural Networks]] завершен.
+- Итоговая проверка пройдена.
+- Общий уровень понимания: высокий.
+- Основные слабые места: [[Adam]], [[Chain Rule]], отличие [[Batch Normalization]] от [[Machine Learning/Feature Scaling|Feature Scaling]].
+
+### Следующий шаг
+
+- Активировать модуль [[PyTorch/Index|PyTorch]] и увидеть в коде: [[PyTorch/Tensor|Tensor]], [[PyTorch/nn.Module|nn.Module]], [[PyTorch/Autograd|Autograd]], `loss.backward()`, [[PyTorch/torch.optim|optimizer.step()]].
+
+## 2026-06-26 (KNOWLEDGE_EXPORT: Neural Networks — Optimizers и Regularization)
+
+### ✅ Импортировано
+
+- Обновлены stub-заметки [[Optimizer]], [[Batch]], [[Epoch]] и [[Adam]].
+- Созданы темы оптимизации: [[Batch Gradient Descent]], [[SGD]], [[Mini-Batch Gradient Descent]], [[Momentum]].
+- Созданы темы регуляризации: [[Overfitting]], [[Dropout]], [[Batch Normalization]].
+- Добавлены stub-связи для [[Train Set]], [[Validation]], [[Test Set]], [[Scaling]], [[Train Validation Test]] и [[Regularization]].
+
+### 🧠 Уровень понимания
+
+- Закреплены различия Optimizer / Backpropagation, Batch / Epoch, Mini-Batch как стандарт обучения.
+- На повторение: математика [[Adam]], внутреннее устройство [[Momentum]], отличие [[Batch Normalization]] от [[Machine Learning/Feature Scaling|Feature Scaling]].
+
+### Следующий шаг
+
+- Перейти к [[Train Validation Test]], Dataset и [[Inference]].
+
+## 2026-06-26 (KNOWLEDGE_EXPORT: Neural Networks — Forward Pass и Learning)
+
+### ✅ Импортировано
+
+- Обновлены заметки [[Forward Pass]], [[Backpropagation]], [[Gradient]], [[Vanishing Gradient]] и [[Machine Learning/Gradient Descent|Gradient Descent]].
+- Созданы новые темы: [[Hierarchical Feature Learning]], [[Loss]], [[Derivative]], [[Chain Rule]], [[Learning Rate]].
+- Добавлены stub-связи для [[Layer]], [[Deep Learning]] и [[Adam]].
+
+### 🧠 Уровень понимания
+
+- Закреплена цепочка: [[Forward Pass]] → [[Loss]] → [[Backpropagation]] → [[Gradient]] → [[Optimizer]] → Update.
+- На повторение: [[Chain Rule]], порядок этапов обучения, различие Gradient / Backpropagation / Optimizer.
+
+### Следующий шаг
+
+- Перейти к [[Optimizer]], [[Batch]], [[Epoch]] и организации цикла обучения.
+
+## 2026-06-26 (KNOWLEDGE_EXPORT: Neural Networks)
+
+### ✅ Импортировано
+
+- Обновлены ключевые заметки: [[Weights]], [[Bias]], [[Perceptron]], [[Activation Function]].
+- Созданы новые заметки по fundamentals и activation functions: [[Feature]], [[Model]], [[Score]], [[Sigmoid]], [[Tanh]], [[ReLU]], [[Dead Neuron]], [[Leaky ReLU]], [[Softmax]].
+- Добавлены stub-заметки для связанных тем: [[Gradient]], [[Optimizer]], [[Forward Pass]], [[Inference]], [[Logits]], [[Output]], [[Vanishing Gradient]].
+
+### 🧠 Уровень понимания
+
+- Закреплены Feature, Weight, Bias, Score, Output и назначение функций активации.
+- Особое внимание для повторения: место [[Softmax]] в пайплайне, различие [[Score]] и [[Output]], отличие [[Sigmoid]], [[Tanh]], [[ReLU]] и [[Softmax]].
+
+### Следующий шаг
+
+- Перейти к [[Forward Pass]] и процессу обучения модели.
+
 ## 2026-06-26 (KNOWLEDGE_EXPORT: LangGraph)
 
 ### ✅ Импортировано

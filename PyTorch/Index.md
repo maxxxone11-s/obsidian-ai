@@ -43,3 +43,12 @@ tags:
 ---
 
 **Дата создания:** 2026-06-26
+
+
+## Связи с Neural Networks
+
+- [[Tensor]] — данные и параметры
+- [[nn.Module]] — реализация [[Neural Networks/Forward Pass|Forward Pass]]
+- [[Autograd]] — автоматический [[Neural Networks/Gradient|Gradient]]
+- [[torch.optim]] — реализация [[Neural Networks/Optimizer|Optimizer]]
+- [[model.eval()]] — режим [[Neural Networks/Inference|Inference]]

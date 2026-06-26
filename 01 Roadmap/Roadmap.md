@@ -55,30 +55,31 @@ updated: 2026-06-26
 
 **Статус:** 1 тема завершена, остальные в draft
 
-## Фаза 3: Neural Networks 📋
+## Фаза 3: Neural Networks ✅ Completed
 
-**Структура создана (5 концепций):**
-- [[Perceptron]] — stub
-- [[Weights]] — stub
-- [[Bias]] — stub
-- [[Activation Function]] — stub
-- [[Backpropagation]] — stub
+**Модуль завершён:**
+- [[Dataset]], [[Train Set]], [[Validation|Validation Set]], [[Test Set]] ✅ — data pipeline
+- [[Feature]], [[Weights]], [[Bias]], [[Perceptron]], [[Model]] ✅ — фундамент нейрона и модели
+- [[Score]], [[Activation Function]], [[Sigmoid]], [[Tanh]], [[ReLU]], [[Leaky ReLU]], [[Softmax]] ✅ — функции активации
+- [[Forward Pass]], [[Loss]], [[Backpropagation]], [[Gradient]], [[Machine Learning/Gradient Descent|Gradient Descent]], [[Learning Rate]] ✅ — базовый цикл обучения
+- [[Optimizer]], [[Batch Gradient Descent]], [[SGD]], [[Mini-Batch Gradient Descent]], [[Momentum]], [[Adam]] ✅ — оптимизаторы
+- [[Batch]], [[Epoch]] ✅ — организация обучения
+- [[Overfitting]], [[Dropout]], [[Batch Normalization]] ✅ — регуляризация
+- [[Inference]], [[model.train() и model.eval()]], [[torch.no_grad()]] ✅ — inference и PyTorch-preview
+- [[Chain Rule]] 🔁, [[Adam]] 🔁, [[Batch Normalization]] vs [[Machine Learning/Feature Scaling|Feature Scaling]] 🔁 — зоны повторения
 
-**Статус:** Все в статусе draft
+**Статус:** Completed. Следующий активный модуль — [[PyTorch/Index|PyTorch]]
 
-## Фаза 4: PyTorch 📋
+## Фаза 4: PyTorch 🚀 Active
 
-**Структура создана (8 концепций):**
-- [[Tensor]] — stub
-- [[Shape]] — stub
-- [[Broadcasting]] — stub
-- [[View]] — stub
-- [[Reshape]] — stub
-- [[Unsqueeze]] — stub
-- [[Squeeze]] — stub
-- [[Autograd]] — stub
+**Следующий активный модуль:**
+- [[Tensor]] — данные и параметры
+- [[nn.Module]] — реализация модели и Forward Pass
+- [[Autograd]] — автоматические градиенты
+- [[torch.optim]] — оптимизаторы и optimizer.step()
+- [[model.eval()]] — режим Inference
 
-**Статус:** Все в статусе draft
+**Цель:** увидеть в коде цепочку [[Forward Pass]] → [[Loss]] → [[Backpropagation]] → [[Gradient]] → [[Optimizer]]
 
 ## Фаза 5: LangGraph ✅
 

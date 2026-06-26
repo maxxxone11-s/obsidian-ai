@@ -41,3 +41,74 @@ tags:
 ---
 
 **Дата создания:** 2026-06-26
+
+## Импорт KNOWLEDGE_EXPORT — Neural Networks
+
+### Fundamentals
+- [[Feature]]
+- [[Weights]]
+- [[Bias]]
+- [[Perceptron]]
+- [[Model]]
+
+### Activation Functions
+- [[Score]]
+- [[Activation Function]]
+- [[Sigmoid]]
+- [[Tanh]]
+- [[ReLU]]
+- [[Dead Neuron]]
+- [[Leaky ReLU]]
+- [[Softmax]]
+
+### Forward Pass и Learning
+- [[Forward Pass]]
+- [[Hierarchical Feature Learning]]
+- [[Loss]]
+- [[Backpropagation]]
+- [[Derivative]]
+- [[Gradient]]
+- [[Chain Rule]]
+- [[Learning Rate]]
+- [[Vanishing Gradient]]
+- [[Machine Learning/Gradient Descent|Gradient Descent]]
+
+### Optimizers и Training Process
+- [[Optimizer]]
+- [[Batch Gradient Descent]]
+- [[SGD]]
+- [[Mini-Batch Gradient Descent]]
+- [[Batch]]
+- [[Epoch]]
+- [[Momentum]]
+- [[Adam]]
+
+### Regularization
+- [[Overfitting]]
+- [[Dropout]]
+- [[Batch Normalization]]
+
+### Dataset, Evaluation и Inference
+- [[Dataset]]
+- [[Train Set]]
+- [[Validation]]
+- [[Test Set]]
+- [[Train Validation Test]]
+- [[Inference]]
+- [[model.train() и model.eval()]]
+- [[torch.no_grad()]]
+
+### Мост к PyTorch
+- [[PyTorch/Tensor|Tensor]]
+- [[PyTorch/nn.Module|nn.Module]]
+- [[PyTorch/Autograd|Autograd]]
+- [[PyTorch/torch.optim|torch.optim]]
+- [[PyTorch/model.eval()|model.eval()]]
+
+### Связанные stub-темы
+- [[Deep Learning]]
+- [[Layer]]
+- [[Logits]]
+- [[Output]]
+- [[Regularization]]
+- [[Scaling]]

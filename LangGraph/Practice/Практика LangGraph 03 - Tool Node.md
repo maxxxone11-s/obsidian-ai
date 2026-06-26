@@ -1,12 +1,12 @@
 ---
-type: concept
+type: practice
 area: LangGraph
 status: learning
 created: 2026-06-26
 updated: 2026-06-26
 tags:
-  - langgraph
   - practice
+  - langgraph
 confidence: 0
 ---
 

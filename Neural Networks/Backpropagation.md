@@ -1,15 +1,16 @@
 ---
 type: concept
 area: Neural Networks
-status: draft
+status: learned
 created: 2026-06-26
 updated: 2026-06-26
 tags:
   - neural-networks
+  - learning
   - backpropagation
   - algorithm
   - training
-confidence: 0
+confidence: 0.95
 ---
 
 # Backpropagation
@@ -66,3 +67,28 @@ print(x.grad)  # tensor([2., 2.])
 
 **Дата создания:** 2026-06-26
 **Статус:** draft — требует разработки
+
+## Импорт KNOWLEDGE_EXPORT — 2026-06-26
+
+**Кратко:** Backpropagation распространяет информацию об ошибке от последнего слоя к первому и вычисляет градиенты.
+
+**Простое объяснение:** Forward Pass отвечает. Backpropagation разбирается, кто виноват в ошибке.
+
+**Зачем это нужно:** Именно благодаря Backpropagation нейросеть понимает, какие параметры необходимо изменить.
+
+**Как это работает:** Backpropagation идёт от [[Loss]] назад по вычислительному графу и через [[Chain Rule]] вычисляет [[Gradient]] для каждого [[Weights|Weight]] и [[Bias]].
+
+**Пример:** Loss → Layer 3 → Layer 2 → Layer 1.
+
+**Типичные ошибки:**
+- Думать, что Backpropagation обновляет веса.
+- Представлять его как повторный Forward Pass.
+
+**Вопросы для проверки:**
+- Что делает Backpropagation?
+- Почему он идет в обратном направлении?
+
+**Следующие темы:**
+- [[Gradient]]
+
+**Связанные темы:** [[Loss]] · [[Gradient]] · [[Chain Rule]] · [[Optimizer]]

@@ -29,6 +29,7 @@ updated: 2026-06-26
 ### [[Neural Networks/Index|🧠 Neural Networks]]
 Нейронные сети и глубокое обучение
 
+- [[Indexes/Neural Networks Index|Neural Networks Index]]
 - Архитектуры нейросетей
 - CNN, RNN, Transformers
 - Обучение и оптимизация

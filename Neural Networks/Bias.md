@@ -1,15 +1,16 @@
 ---
 type: concept
 area: Neural Networks
-status: draft
+status: learned
 created: 2026-06-26
 updated: 2026-06-26
 tags:
   - neural-networks
+  - fundamentals
   - bias
   - offset
   - parameter
-confidence: 0
+confidence: 0.95
 ---
 
 # Bias (Смещение)
@@ -68,3 +69,28 @@ print(layer.bias.shape)  # (5,)
 
 **Дата создания:** 2026-06-26
 **Статус:** draft — требует разработки
+
+## Импорт KNOWLEDGE_EXPORT — 2026-06-26
+
+**Кратко:** Bias — дополнительный обучаемый параметр, позволяющий смещать решение нейрона.
+
+**Простое объяснение:** Bias позволяет нейрону изменить решение, даже если входные данные одинаковые.
+
+**Зачем это нужно:** Без Bias нейрон становится значительно менее гибким.
+
+**Как это работает:** Bias добавляется к сумме feature × weight и сдвигает [[Score]] до применения [[Activation Function]].
+
+**Пример:** `score = feature * weight + bias`
+
+**Типичные ошибки:**
+- Думать, что обучаются только Weight.
+
+**Вопросы для проверки:**
+- Зачем нужен Bias?
+- Почему Bias тоже обучается?
+
+**Следующие темы:**
+- [[Score]]
+- [[Forward Pass]]
+
+**Связанные темы:** [[Weights|Weight]] · [[Score]] · [[Perceptron]]

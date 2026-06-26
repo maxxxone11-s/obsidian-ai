@@ -42,3 +42,9 @@ updated: 2026-06-26
 ```text
 -tag:#system -tag:#template -tag:#index
 ```
+
+Фильтр для чистого учебного графа без служебных и практических заметок:
+
+```text
+-tag:#system -tag:#practice
+```
