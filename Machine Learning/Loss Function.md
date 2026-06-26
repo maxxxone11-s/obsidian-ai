@@ -6,12 +6,12 @@ created: 2026-06-26
 updated: 2026-06-26
 tags:
   - machine-learning
-  - mathematics
   - optimization
+  - mathematics
   - loss
   - function
   - training
-confidence: 0.7
+confidence: 0.95
 ---
 
 # Loss Function
@@ -87,3 +87,26 @@ loss = loss_fn(predictions, targets)
 - [[Вероятность]]
 
 **Связанные темы:** [[MSE]] · [[Neural Networks/Gradient|Gradient]]
+
+## Импорт KNOWLEDGE_EXPORT — Machine Learning Fundamentals — 2026-06-26
+
+**Кратко:** Loss показывает качество текущего ответа модели. MAE усредняет абсолютную ошибку. MSE возводит ошибку в квадрат.
+
+**Простое объяснение:** Loss показывает, насколько модель ошиблась.
+
+**Зачем это нужно:** Без Loss невозможно обучить модель.
+
+**Как это работает:** Loss превращает ошибку модели в число. MAE считает среднюю абсолютную ошибку, MSE сильнее штрафует большие ошибки за счёт квадрата.
+
+**Пример:** Prediction → Loss → изменение весов.
+
+**Типичные ошибки:**
+- Думать, что Loss сам исправляет модель.
+
+**Вопросы для проверки:**
+- Почему MSE сильнее штрафует большие ошибки?
+
+**Следующие темы:**
+- [[Gradient Descent]]
+
+**Связанные темы:** [[Gradient Descent]] · [[Mathematics/MSE|MSE]]

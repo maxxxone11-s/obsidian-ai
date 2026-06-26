@@ -32,9 +32,17 @@ updated: 2026-06-26
 
 ## Machine Learning
 
+- [[Machine Learning/Accuracy Precision Recall и F1|Accuracy Precision Recall и F1]]
+- [[Machine Learning/Classification|Classification]]
+- [[Machine Learning/Confusion Matrix|Confusion Matrix]]
+- [[Machine Learning/Cross Validation|Cross Validation]]
+- [[Machine Learning/Data Leakage|Data Leakage]]
+- [[Machine Learning/Dataset, Features и Labels|Dataset, Features и Labels]]
 - [[Machine Learning/Decision Tree|Decision Tree]]
+- [[Machine Learning/Feature Engineering|Feature Engineering]]
 - [[Machine Learning/Feature Scaling|Feature Scaling]]
 - [[Machine Learning/Gradient Descent|Gradient Descent]]
+- [[Machine Learning/Grid Search|Grid Search]]
 - [[Machine Learning/KNN|KNN]]
 - [[Machine Learning/Linear Regression|Linear Regression]]
 - [[Machine Learning/Logistic Regression|Logistic Regression]]
@@ -42,11 +50,16 @@ updated: 2026-06-26
 - [[Machine Learning/Neural Networks|Neural Networks]]
 - [[Machine Learning/Normalization|Normalization]]
 - [[Machine Learning/Overfitting|Overfitting]]
+- [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]]
 - [[Machine Learning/Random Forest|Random Forest]]
+- [[Machine Learning/Regression|Regression]]
 - [[Machine Learning/Standardization|Standardization]]
 - [[Machine Learning/SVM|SVM]]
 - [[Machine Learning/Train Test Split|Train Test Split]]
 - [[Machine Learning/Underfitting|Underfitting]]
+- [[Machine Learning/XGBoost|XGBoost]]
+- [[Machine Learning/Связь Machine Learning и Deep Learning|Связь Machine Learning и Deep Learning]]
+- [[Machine Learning/Что такое Machine Learning|Что такое Machine Learning]]
 
 ### Математика для Machine Learning
 

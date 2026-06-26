@@ -1,16 +1,17 @@
 ---
 type: concept
 area: Machine Learning
-status: draft
+status: learned
 created: 2026-06-26
 updated: 2026-06-26
 tags:
   - machine-learning
+  - evaluation
   - train
   - test
   - split
   - data
-confidence: 0
+confidence: 0.95
 ---
 
 # Train/Test Split
@@ -63,3 +64,26 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 **Дата создания:** 2026-06-26
 **Статус:** draft — требует разработки
+
+## Импорт KNOWLEDGE_EXPORT — Machine Learning Fundamentals — 2026-06-26
+
+**Кратко:** Train используется для обучения. Test — только для проверки качества модели.
+
+**Простое объяснение:** Train — подготовка. Test — экзамен.
+
+**Зачем это нужно:** Позволяет понять способность модели обобщать знания.
+
+**Как это работает:** Данные делят на обучающую и тестовую части. Модель учится только на train, а test используется как имитация новых данных.
+
+**Пример:** 80% Train / 20% Test.
+
+**Типичные ошибки:**
+- Использовать Test при обучении.
+
+**Вопросы для проверки:**
+- Почему нельзя обучаться на Test?
+
+**Следующие темы:**
+- [[Data Leakage]]
+
+**Связанные темы:** [[Cross Validation]] · [[Overfitting]]

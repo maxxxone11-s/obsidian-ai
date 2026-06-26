@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "42e9604561a5a0b7",
+            "id": "331126f871a56ec7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,18 +34,9 @@
               "icon": "lucide-file",
               "title": "Roadmap"
             }
-          },
-          {
-            "id": "c9d056307317af6d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Сообщение для сбора конспектов.md",
+                "file": "01 Roadmap/Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Сообщение для сбора конспектов"
+              "title": "Backlinks for Roadmap"
             }
           },
           {
@@ -138,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Сообщение для сбора конспектов.md",
+                "file": "01 Roadmap/Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Сообщение для сбора конспектов"
+              "title": "Outgoing links from Roadmap"
             }
           },
           {
@@ -181,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Сообщение для сбора конспектов.md",
+                "file": "01 Roadmap/Roadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Сообщение для сбора конспектов"
+              "title": "Outline of Roadmap"
             }
           }
         ]
@@ -209,8 +200,26 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "000be950026907f7",
+  "active": "331126f871a56ec7",
   "lastOpenFiles": [
+    "Machine Learning/KNN.md",
+    "01 Roadmap/Roadmap.md",
+    "00 Dashboard/Dashboard.md",
+    "Сообщение для сбора конспектов.md",
+    "Machine Learning/Standardization.md",
+    "Machine Learning/Связь Machine Learning и Deep Learning.md",
+    "Machine Learning/XGBoost.md",
+    "Machine Learning/Grid Search.md",
+    "Machine Learning/Parameters и Hyperparameters.md",
+    "Machine Learning/Cross Validation.md",
+    "Machine Learning/Feature Engineering.md",
+    "Machine Learning/Confusion Matrix.md",
+    "Machine Learning/Accuracy Precision Recall и F1.md",
+    "Machine Learning/Classification.md",
+    "Machine Learning/Regression.md",
+    "Machine Learning/Data Leakage.md",
+    "Machine Learning/Dataset, Features и Labels.md",
+    "Machine Learning/Что такое Machine Learning.md",
     "Machine Learning/Mathematics/README.md",
     "Machine Learning/Mathematics/Частная производная.md",
     "Machine Learning/Mathematics/Скалярное произведение.md",
@@ -219,25 +228,7 @@
     "Machine Learning/Mathematics/Производная.md",
     "Machine Learning/Mathematics/Операции над матрицами.md",
     "Machine Learning/Mathematics/Нормализация вектора.md",
-    "Machine Learning/Mathematics/Нейрон как скалярное произведение.md",
-    "Machine Learning/Mathematics/Матричное умножение.md",
-    "Machine Learning/Mathematics/Матрица.md",
-    "Machine Learning/Mathematics/Длина вектора.md",
-    "Machine Learning/Mathematics/Градиент.md",
-    "Machine Learning/Mathematics/Вероятность.md",
-    "Machine Learning/Mathematics/Вектор.md",
-    "Machine Learning/Mathematics/MSE.md",
-    "Machine Learning/Mathematics/Entropy.md",
-    "Machine Learning/Mathematics/Cosine Similarity.md",
-    "Machine Learning/Mathematics/Cross Entropy.md",
     "Machine Learning/Mathematics",
-    "Сообщение для сбора конспектов.md",
-    "01 Roadmap/Roadmap.md",
-    "00 Dashboard/Dashboard.md",
-    "Indexes/Index.md",
-    "02 Progress/Learning Log.md",
-    "Neural Networks/README.md",
-    "PyTorch/model.eval().md",
     "LangGraph/Practice",
     "AI Engineering",
     "Untitled.canvas",

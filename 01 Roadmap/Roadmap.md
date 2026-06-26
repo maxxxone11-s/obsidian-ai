@@ -37,22 +37,16 @@ updated: 2026-06-26
 
 **Статус:** Все в статусе draft, ожидают наполнения контентом
 
-## Фаза 2: Machine Learning 📋
+## Фаза 2: Machine Learning ✅ Fundamentals Completed
 
-**Структура создана (12 концепций):**
-- [[Feature Scaling]] ✅ — **ЗАВЕРШЕНО (confidence: 80%)**
-- [[Normalization]] — stub
-- [[Standardization]] — stub
-- [[Gradient Descent]] — stub
-- [[KNN]] — stub
-- [[SVM]] — stub
-- [[Linear Regression]] — stub
-- [[Logistic Regression]] — stub
-- [[Loss Function]] — stub
-- [[Train Test Split]] — stub
-- [[Overfitting]] — stub
-- [[Underfitting]] — stub
-
+**Machine Learning Fundamentals пройден:**
+- [[Что такое Machine Learning]], [[Dataset, Features и Labels]], [[Train Test Split]], [[Data Leakage]] ✅
+- [[Regression]], [[Classification]], [[Linear Regression]], [[Logistic Regression]] ✅
+- [[Loss Function]], [[Gradient Descent]], [[Feature Scaling]], [[Cross Validation]] ✅
+- [[Accuracy Precision Recall и F1]], [[Confusion Matrix]] ✅
+- [[Decision Tree]], [[Random Forest]], [[XGBoost]] ✅
+- [[Связь Machine Learning и Deep Learning]] ✅
+- [[Parameters и Hyperparameters]] 🔁 — единственная ключевая тема в needs_review
 
 **Математическая база импортирована:**
 - [[Machine Learning/Mathematics/README|Математика для Machine Learning]] ✅
@@ -60,7 +54,8 @@ updated: 2026-06-26
 - [[Производная]], [[Частная производная]], [[Градиент]] ✅
 - [[Вероятность]], [[Entropy]] ✅
 
-**Статус:** 1 тема завершена, остальные в draft
+**Прогресс модуля:** 22/23 ключевых тем learned, 1 тема needs_review.
+**Статус:** Machine Learning Fundamentals пройден. Следующий практический шаг после PyTorch: pandas → sklearn → train/test split → Logistic Regression → Decision Tree → Random Forest → XGBoost.
 
 ## Фаза 3: Neural Networks ✅ Completed
 

@@ -9,6 +9,37 @@ updated: 2026-06-26
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-26 (Проверка импорта: Machine Learning Fundamentals)
+
+### ✅ Проверено
+
+- Найдены ключевые темы Machine Learning Fundamentals: 23.
+- Статусы: 22 learned, 1 needs_review ([[Parameters и Hyperparameters]]).
+- Модуль Machine Learning Fundamentals отмечен в [[01 Roadmap/Roadmap|Roadmap]] как пройденный.
+- Обновлена статистика в [[00 Dashboard/Dashboard|Dashboard]].
+
+### 🔁 Повторить
+
+- [[Parameters и Hyperparameters]] — различие между обучаемыми parameters и задаваемыми hyperparameters.
+
+## 2026-06-26 (KNOWLEDGE_EXPORT: Machine Learning Fundamentals)
+
+### ✅ Импортировано
+
+- Добавлен фундамент ML: [[Что такое Machine Learning]], [[Dataset, Features и Labels]], [[Data Leakage]].
+- Обновлены supervised learning и optimization темы: [[Regression]], [[Classification]], [[Linear Regression]], [[Logistic Regression]], [[Loss Function]], [[Gradient Descent]].
+- Добавлены evaluation и metrics: [[Train Test Split]], [[Cross Validation]], [[Accuracy Precision Recall и F1]], [[Confusion Matrix]].
+- Добавлены model selection и tree-based algorithms: [[Parameters и Hyperparameters]], [[Grid Search]], [[Decision Tree]], [[Random Forest]], [[XGBoost]].
+
+### 🧠 Уровень понимания
+
+- Закреплены Regression vs Classification, Train/Test Split, Loss и Gradient Descent, Overfitting/Underfitting, metrics и Feature Scaling.
+- На повторение: [[Parameters и Hyperparameters]], реальные примеры [[Data Leakage]], практика pandas/sklearn.
+
+### Следующий шаг
+
+- После Neural Networks вернуться к практическому ML: pandas → sklearn → train/test split → Logistic Regression → Decision Tree → Random Forest → XGBoost.
+
 ## 2026-06-26 (KNOWLEDGE_EXPORT: Математика для Machine Learning)
 
 ### ✅ Импортировано

@@ -71,3 +71,46 @@ tags:
 - [[Mathematics/Entropy|Entropy]]
 - [[Mathematics/MSE|MSE]]
 - [[Mathematics/Cross Entropy|Cross Entropy]]
+
+
+## Импорт KNOWLEDGE_EXPORT — Machine Learning Fundamentals
+
+### Fundamentals и Data
+- [[Что такое Machine Learning]]
+- [[Dataset, Features и Labels]]
+- [[Data Leakage]]
+- [[Связь Machine Learning и Deep Learning]]
+
+### Supervised Learning
+- [[Regression]]
+- [[Classification]]
+- [[Linear Regression]]
+- [[Logistic Regression]]
+
+### Optimization и Model Selection
+- [[Loss Function]]
+- [[Gradient Descent]]
+- [[Parameters и Hyperparameters]]
+- [[Grid Search]]
+
+### Evaluation
+- [[Train Test Split]]
+- [[Overfitting]]
+- [[Underfitting]]
+- [[Cross Validation]]
+
+### Metrics
+- [[Accuracy Precision Recall и F1]]
+- [[Confusion Matrix]]
+
+### Data Preparation
+- [[Feature Engineering]]
+- [[Feature Scaling]]
+
+### Algorithms
+- [[Decision Tree]]
+- [[Random Forest]]
+- [[XGBoost]]
+
+### Mathematics
+- [[Machine Learning/Mathematics/README|Математика для Machine Learning]]

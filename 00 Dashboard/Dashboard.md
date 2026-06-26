@@ -38,14 +38,15 @@ updated: 2026-06-26
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 116 |
-| Изучено | 57 |
+| Всего концепций | 147 |
+| Изучено | 94 |
 | В процессе | 0 |
-| Требует повтора | 1 |
-| Черновики | 58 |
+| Требует повтора | 2 |
+| Черновики | 51 |
 
 ## 🔄 Последние обновления
 
+- **2026-06-26** — Импорт Machine Learning Fundamentals: fundamentals, evaluation, metrics, algorithms и model selection
 - **2026-06-26** — Импорт LangGraph: core concepts, runtime, tools, patterns и практика
 - **2026-06-26** — Импорт Neural Networks: fundamentals, activation functions, learning loop, optimizers, regularization, dataset и inference
 - **2026-06-26** — Инициализация структуры проекта

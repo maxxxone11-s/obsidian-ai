@@ -55,6 +55,46 @@ tags:
 - Random Search
 - Bayesian Optimization
 
+
+## Machine Learning Fundamentals
+
+### Fundamentals и Data
+- [[Что такое Machine Learning]]
+- [[Dataset, Features и Labels]]
+- [[Data Leakage]]
+- [[Связь Machine Learning и Deep Learning]]
+
+### Supervised Learning
+- [[Regression]]
+- [[Classification]]
+- [[Linear Regression]]
+- [[Logistic Regression]]
+
+### Optimization и Model Selection
+- [[Loss Function]]
+- [[Gradient Descent]]
+- [[Parameters и Hyperparameters]]
+- [[Grid Search]]
+
+### Evaluation
+- [[Train Test Split]]
+- [[Overfitting]]
+- [[Underfitting]]
+- [[Cross Validation]]
+
+### Metrics
+- [[Accuracy Precision Recall и F1]]
+- [[Confusion Matrix]]
+
+### Data Preparation
+- [[Feature Engineering]]
+- [[Feature Scaling]]
+
+### Algorithms
+- [[Decision Tree]]
+- [[Random Forest]]
+- [[XGBoost]]
+
 ## Математика для Machine Learning
 
 ### Линейная алгебра

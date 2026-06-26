@@ -1,15 +1,16 @@
 ---
 type: concept
 area: Machine Learning
-status: draft
+status: learned
 created: 2026-06-26
 updated: 2026-06-26
 tags:
   - machine-learning
+  - evaluation
   - underfitting
   - bias
   - model-capacity
-confidence: 0
+confidence: 0.95
 ---
 
 # Underfitting
@@ -66,3 +67,26 @@ print(f"Test loss: {test_loss}")   # высокая
 
 **Дата создания:** 2026-06-26
 **Статус:** draft — требует разработки
+
+## Импорт KNOWLEDGE_EXPORT — Machine Learning Fundamentals — 2026-06-26
+
+**Кратко:** Overfitting — модель запомнила данные. Underfitting — модель ничего не поняла.
+
+**Простое объяснение:** Хорошая модель должна находить закономерность, а не запоминать ответы.
+
+**Зачем это нужно:** Эти понятия помогают оценивать качество обучения.
+
+**Как это работает:** При overfitting модель хорошо работает на train и плохо на test. При underfitting плохо работает и на train, и на test.
+
+**Пример:** Train высокий / Test низкий → Overfitting.
+
+**Типичные ошибки:**
+- Использовать только Train-метрики.
+
+**Вопросы для проверки:**
+- Как определить Overfitting?
+
+**Следующие темы:**
+- [[Classification]]
+
+**Связанные темы:** [[Train Test Split]]

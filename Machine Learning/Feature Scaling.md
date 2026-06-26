@@ -6,11 +6,12 @@ created: 2026-06-26
 updated: 2026-06-26
 tags:
   - machine-learning
+  - data-preparation
   - preprocessing
   - scaling
   - normalization
   - standardization
-confidence: 0.80
+confidence: 0.95
 last_review: 2026-06-26
 next_review: 2026-07-10
 ---
@@ -206,3 +207,26 @@ age <= 30?           age <= 0.5?
 | **Confidence** | 80% |
 | **Следующий пересмотр** | 2026-07-10 |
 | **Статус** | ✅ Learned |
+
+## Импорт KNOWLEDGE_EXPORT — Machine Learning Fundamentals — 2026-06-26
+
+**Кратко:** Feature Scaling — приведение признаков к сопоставимому масштабу. Включает Normalization и Standardization.
+
+**Простое объяснение:** Убирает влияние разных порядков величин.
+
+**Зачем это нужно:** Ускоряет Gradient Descent и стабилизирует обучение.
+
+**Как это работает:** Scaling приводит признаки к сопоставимому масштабу, чтобы признаки с большими числами не доминировали в алгоритмах, чувствительных к расстояниям или gradient descent.
+
+**Пример:** Возраст = 20, доход = 100000.
+
+**Типичные ошибки:**
+- Не понимал, почему деревьям Scaling не нужен.
+
+**Вопросы для проверки:**
+- Почему нейросетям нужен Scaling?
+
+**Следующие темы:**
+- [[Cross Validation]]
+
+**Связанные темы:** [[Neural Networks/Index|Neural Networks]] · [[Decision Tree]]
