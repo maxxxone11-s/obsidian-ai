@@ -9,14 +9,34 @@ updated: 2026-06-26
 ## 2026-06-26
 
 ### ✅ Создано
+
+**Инфраструктура (Первый сеанс):**
 - Структура Vault
 - Правила работы (AGENTS.md)
 - Базовые папки и файлы
-- Шаблоны для заметок
+- Шаблоны для заметок (Concept, Review, Sync Package)
+- Dashboard и индексы
+
+**Knowledge Sync: Feature Scaling (Второй сеанс):**
+- ✅ [[Feature Scaling]] — полная концепция (confidence: 80%, status: learned)
+- ✅ [[Normalization]] — stub заметка
+- ✅ [[Standardization]] — stub заметка
+- ✅ [[Gradient Descent]] — stub заметка
+- ✅ [[KNN]] — stub заметка
+- ✅ [[SVM]] — stub заметка
+- ✅ [[Linear Regression]] — stub заметка
+- ✅ [[Logistic Regression]] — stub заметка
+- ✅ [[Decision Tree]] — stub заметка
+- ✅ [[Random Forest]] — stub заметка
+- ✅ [[XGBoost]] — stub заметка
+- ✅ [[Neural Networks]] (Machine Learning) — stub заметка
 
 ### 📚 В процессе
 
 ### 🎯 Планы на будущее
+- Разработать stub заметки в полноценные концепции
+- Добавить практические примеры для каждой темы
+- Провести проверку (review) изученных концепций
 
 ---
 
@@ -24,12 +44,13 @@ updated: 2026-06-26
 
 | Метрика | Значение |
 |---------|----------|
-| Всего заметок | 0 |
-| Изучено тем | 0 |
-| Draft | 0 |
+| Всего заметок | 12 |
+| Изучено тем | 1 |
+| Draft | 11 |
 | Learning | 0 |
 | Needs Review | 0 |
-| Learned | 0 |
+| Learned | 1 |
+| Avg Confidence | 0.07 |
 
 ---
 

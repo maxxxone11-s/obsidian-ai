@@ -34,8 +34,10 @@ updated: 2026-06-26
 - [ ] Основы ML
 - [ ] Numpy и Pandas
 - [ ] Scikit-learn
+- [x] Feature Scaling (✅ 2026-06-26)
 - [ ] Линейная регрессия
 - [ ] Классификация
+- [ ] Decision Trees & Ensemble методы
 
 ## Фаза 5: Neural Networks & PyTorch
 

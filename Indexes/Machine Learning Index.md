@@ -21,7 +21,9 @@ tags: [machine-learning, data-science, algorithms]
 ### Подготовка данных
 - Data cleaning
 - Feature engineering
-- Normalization и Standardization
+- [[Feature Scaling]] — приведение признаков к единому масштабу
+- [[Normalization]] — масштабирование к диапазону [0, 1]
+- [[Standardization]] — z-score нормализация
 - Train/Test split
 
 ### Библиотеки
@@ -31,17 +33,19 @@ tags: [machine-learning, data-science, algorithms]
 - Matplotlib
 
 ### Классические алгоритмы
-- Линейная регрессия
-- Логистическая регрессия
-- Decision Trees
-- Random Forests
-- SVM (Support Vector Machine)
+- [[Linear Regression]] — требует масштабирования
+- [[Logistic Regression]] — требует масштабирования
+- [[KNN]] — требует масштабирования
+- [[SVM]] — требует масштабирования
+- [[Decision Tree]] — не требует масштабирования
+- [[Random Forest]] — не требует масштабирования
 - K-Means кластеризация
 
 ### Оценка моделей
 - Метрики качества (Accuracy, Precision, Recall)
 - Cross-validation
 - ROC-AUC
+- [[XGBoost]] — gradient boosting алгоритм
 - Confusion Matrix
 
 ### Гиперпараметры
