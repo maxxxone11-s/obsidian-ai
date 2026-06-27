@@ -54,4 +54,4 @@ print(y.dtype)  # torch.float32
 
 ## Связанные темы
 
-[[Tensor]] · [[Tensor Creation]] · [[Tensor Operations]] · [[Broadcasting]]
+- [[Tensor]] · [[Tensor Creation]] · [[Tensor Operations]] · [[Broadcasting]]

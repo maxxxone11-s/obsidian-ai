@@ -3,7 +3,7 @@ type: concept
 area: Python Backend
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - python-backend
   - linux
@@ -58,8 +58,3 @@ chmod +x script.sh
 
 - [[Docker]] — контейнеры работают на Linux
 - [[Git]] — git часто используется на Linux
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

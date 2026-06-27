@@ -53,4 +53,4 @@ print(z.shape)  # torch.Size([6])
 
 ## Связанные темы
 
-[[Tensor]] · [[Shape]] · [[Reshape]] · [[Unsqueeze]] · [[Squeeze]]
+- [[Tensor]] · [[Shape]] · [[Reshape]] · [[Unsqueeze]] · [[Squeeze]]

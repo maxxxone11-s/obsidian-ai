@@ -3,7 +3,7 @@ type: concept
 area: Machine Learning
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - machine-learning
   - algorithm
@@ -20,7 +20,3 @@ confidence: 0
 
 - [[Feature Scaling]] — рекомендуется для SVM
 - [[Standardization]] — часто используется для SVM
-
----
-
-**Статус:** stub, требует полной разработки

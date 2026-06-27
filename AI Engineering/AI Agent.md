@@ -3,7 +3,7 @@ type: concept
 area: ai-agents
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags: [ai-agent, autonomous, reasoning]
 confidence: 0
 ---
@@ -54,8 +54,3 @@ result = agent.run("Сколько людей живёт в Москве?")
 - [[RAG]] — для поиска информации
 - [[State]] — состояние агента (LangGraph)
 - [[Node]] — действия агента (LangGraph)
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

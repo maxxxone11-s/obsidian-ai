@@ -3,7 +3,7 @@ type: concept
 area: llm-engineering
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags: [llm, language-model, transformer]
 confidence: 0
 ---
@@ -57,8 +57,3 @@ response = client.chat.completions.create(
 - [[Embeddings]] — компонент многих LLM
 - [[AI Agent]] — использует LLM для решения задач
 - [[Vector Database]] — часто используется с LLM
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

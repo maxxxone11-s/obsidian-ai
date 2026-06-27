@@ -54,4 +54,4 @@ print(x.ndim)  # 2
 
 ## Связанные темы
 
-[[Tensor]] · [[Shape]] · [[Tensor Indexing and Slicing]]
+- [[Tensor]] · [[Shape]] · [[Tensor Indexing and Slicing]]

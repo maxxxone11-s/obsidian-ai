@@ -56,4 +56,4 @@ r = torch.arange(10)
 
 ## Связанные темы
 
-[[Tensor]] · [[Tensor Dtype]] · [[Shape]]
+- [[Tensor]] · [[Tensor Dtype]] · [[Shape]]

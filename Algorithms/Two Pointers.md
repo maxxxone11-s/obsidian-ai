@@ -3,7 +3,7 @@ type: concept
 area: Algorithms & Data Structures
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - algorithms
 confidence: 0
@@ -12,19 +12,25 @@ confidence: 0
 # Two Pointers
 
 ## Простое объяснение
+
 Two Pointers — техника с двумя указателями по массиву или строке.
 
 ## Зачем это нужно
+
 Помогает решать задачи за O(n), особенно на sorted arrays, windows и pairs.
 
 ## Как это работает
+
 Два индекса двигаются по структуре данных по правилам задачи: навстречу друг другу или в одном направлении.
 
 ## Пример
+
 Найти пару чисел с заданной суммой в отсортированном массиве.
 
 ## Типичные ошибки
+
 - Применять two pointers к неотсортированным данным там, где порядок важен.
 
 ## Связанные темы
-[[Binary Search]] · [[Hash Table]]
+
+- [[Binary Search]] · [[Hash Table]]

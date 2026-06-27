@@ -3,7 +3,7 @@ type: concept
 area: llm-engineering
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags: [embeddings, vectors, representation]
 confidence: 0
 ---
@@ -55,8 +55,3 @@ print(embedding.shape)  # (384,)
 - [[Vector Database]] — хранит embeddings
 - [[LLM]] — генерирует текст
 - [[AI Agent]] — может использовать embeddings
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

@@ -2,7 +2,7 @@
 type: index
 area: Machine Learning
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - index
   - system
@@ -41,7 +41,7 @@ tags:
 **Дата создания:** 2026-06-26
 
 
-## Импорт KNOWLEDGE_EXPORT — Математика для Machine Learning
+## Математика для Machine Learning
 
 ### Линейная алгебра
 - [[Mathematics/Вектор|Вектор]]
@@ -62,6 +62,9 @@ tags:
 - [[Machine Learning/Gradient Descent|Gradient Descent]]
 - [[Neural Networks/Learning Rate|Learning Rate]]
 - [[Machine Learning/Loss Function|Loss Function]]
+- [[Mathematics/MSE|MSE]]
+- [[Mathematics/MAE|MAE]]
+- [[Mathematics/Cross Entropy|Cross Entropy]]
 
 ### Вероятность, статистика и классификация
 - [[Mathematics/Вероятность|Вероятность]]
@@ -73,7 +76,7 @@ tags:
 - [[Mathematics/Cross Entropy|Cross Entropy]]
 
 
-## Импорт KNOWLEDGE_EXPORT — Machine Learning Fundamentals
+## Machine Learning Fundamentals
 
 ### Fundamentals и Data
 - [[Что такое Machine Learning]]
@@ -106,6 +109,12 @@ tags:
 ### Data Preparation
 - [[Feature Engineering]]
 - [[Feature Scaling]]
+- [[Normalization]]
+- [[Standardization]]
+- [[Fit Transform и Data Leakage]]
+- [[Scaling и Gradient Descent]]
+- [[Scaling для KNN и SVM]]
+- [[Scaling и Tree-Based Models]]
 
 ### Algorithms
 - [[Decision Tree]]
@@ -114,3 +123,7 @@ tags:
 
 ### Mathematics
 - [[Machine Learning/Mathematics/README|Математика для Machine Learning]]
+
+---
+
+**Обновлено:** 2026-06-27

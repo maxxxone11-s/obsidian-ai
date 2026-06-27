@@ -1,8 +1,8 @@
 ---
 type: index
-area: ml-basics
+area: Machine Learning
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - index
   - system
@@ -26,6 +26,10 @@ tags:
 - [[Feature Scaling]] — приведение признаков к единому масштабу
 - [[Normalization]] — масштабирование к диапазону [0, 1]
 - [[Standardization]] — z-score нормализация
+- [[Fit Transform и Data Leakage]] — правильный scaling train/test
+- [[Scaling и Gradient Descent]] — влияние масштаба на оптимизацию
+- [[Scaling для KNN и SVM]] — distance-based модели
+- [[Scaling и Tree-Based Models]] — почему деревьям scaling почти не нужен
 - Train/Test split
 
 ### Библиотеки
@@ -49,6 +53,12 @@ tags:
 - ROC-AUC
 - [[XGBoost]] — gradient boosting алгоритм
 - Confusion Matrix
+
+### Loss Functions
+- [[Loss Function]] — обзор функций потерь
+- [[Machine Learning/Mathematics/MSE|MSE]] — средняя квадратичная ошибка
+- [[Machine Learning/Mathematics/MAE|MAE]] — средняя абсолютная ошибка
+- [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]] — loss для классификации
 
 ### Гиперпараметры
 - Grid Search
@@ -89,6 +99,12 @@ tags:
 ### Data Preparation
 - [[Feature Engineering]]
 - [[Feature Scaling]]
+- [[Normalization]]
+- [[Standardization]]
+- [[Fit Transform и Data Leakage]]
+- [[Scaling и Gradient Descent]]
+- [[Scaling для KNN и SVM]]
+- [[Scaling и Tree-Based Models]]
 
 ### Algorithms
 - [[Decision Tree]]
@@ -98,34 +114,35 @@ tags:
 ## Математика для Machine Learning
 
 ### Линейная алгебра
-- [[Mathematics/Вектор|Вектор]]
-- [[Mathematics/Размерность вектора|Размерность вектора]]
-- [[Mathematics/Длина вектора|Длина вектора]]
-- [[Mathematics/Нормализация вектора|Нормализация вектора]]
-- [[Mathematics/Скалярное произведение|Скалярное произведение]]
-- [[Mathematics/Cosine Similarity|Cosine Similarity]]
-- [[Mathematics/Матрица|Матрица]]
-- [[Mathematics/Операции над матрицами|Операции над матрицами]]
-- [[Mathematics/Матричное умножение|Матричное умножение]]
-- [[Mathematics/Нейрон как скалярное произведение|Нейрон как скалярное произведение]]
+- [[Machine Learning/Mathematics/Вектор|Вектор]]
+- [[Machine Learning/Mathematics/Размерность вектора|Размерность вектора]]
+- [[Machine Learning/Mathematics/Длина вектора|Длина вектора]]
+- [[Machine Learning/Mathematics/Нормализация вектора|Нормализация вектора]]
+- [[Machine Learning/Mathematics/Скалярное произведение|Скалярное произведение]]
+- [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]]
+- [[Machine Learning/Mathematics/Матрица|Матрица]]
+- [[Machine Learning/Mathematics/Операции над матрицами|Операции над матрицами]]
+- [[Machine Learning/Mathematics/Матричное умножение|Матричное умножение]]
+- [[Machine Learning/Mathematics/Нейрон как скалярное произведение|Нейрон как скалярное произведение]]
 
 ### Производные и оптимизация
-- [[Mathematics/Производная|Производная]]
-- [[Mathematics/Частная производная|Частная производная]]
-- [[Mathematics/Градиент|Градиент]]
+- [[Machine Learning/Mathematics/Производная|Производная]]
+- [[Machine Learning/Mathematics/Частная производная|Частная производная]]
+- [[Machine Learning/Mathematics/Градиент|Градиент]]
 - [[Machine Learning/Gradient Descent|Gradient Descent]]
 - [[Neural Networks/Learning Rate|Learning Rate]]
 - [[Machine Learning/Loss Function|Loss Function]]
 
 ### Вероятность, статистика и классификация
-- [[Mathematics/Вероятность|Вероятность]]
-- [[Mathematics/Распределения и Mean|Распределения и Mean]]
+- [[Machine Learning/Mathematics/Вероятность|Вероятность]]
+- [[Machine Learning/Mathematics/Распределения и Mean|Распределения и Mean]]
 - [[Neural Networks/Logits|Logits]]
 - [[Neural Networks/Softmax|Softmax]]
-- [[Mathematics/Entropy|Entropy]]
-- [[Mathematics/MSE|MSE]]
-- [[Mathematics/Cross Entropy|Cross Entropy]]
+- [[Machine Learning/Mathematics/Entropy|Entropy]]
+- [[Machine Learning/Mathematics/MSE|MSE]]
+- [[Machine Learning/Mathematics/MAE|MAE]]
+- [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]]
 
 ---
 
-**Обновлено:** 2026-06-26
+**Обновлено:** 2026-06-27

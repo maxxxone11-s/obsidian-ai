@@ -3,7 +3,7 @@ type: concept
 area: Python Backend
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - python-backend
   - fastapi
@@ -63,8 +63,3 @@ async def read_item(item_id: int):
 - [[Asyncio]] — асинхронная обработка запросов
 - [[SQL]] — работа с базами данных
 - [[PostgreSQL]] — хранение данных
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

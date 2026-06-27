@@ -3,7 +3,7 @@ type: concept
 area: Python Backend
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - python-backend
   - python
@@ -62,8 +62,3 @@ dct = {"key": "value"}  # dict
 
 - [[OOP]] — классы и объекты
 - [[Asyncio]] — асинхронное программирование
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

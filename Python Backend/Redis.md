@@ -3,7 +3,7 @@ type: concept
 area: Python Backend
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - python-backend
   - redis
@@ -60,8 +60,3 @@ value = r.get("key")
 
 - [[FastAPI]] — кэширование запросов
 - [[PostgreSQL]] — для постоянного хранения
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

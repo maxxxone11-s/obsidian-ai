@@ -64,4 +64,4 @@ print(y.device)  # cpu
 
 ## Связанные темы
 
-[[Shape]] · [[Tensor Dimensions (ndim)]] · [[Tensor Creation]] · [[Tensor Dtype]] · [[Broadcasting]] · [[Autograd]]
+- [[Shape]] · [[Tensor Dimensions (ndim)]] · [[Tensor Creation]] · [[Tensor Dtype]] · [[Broadcasting]] · [[Autograd]]

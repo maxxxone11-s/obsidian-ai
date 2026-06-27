@@ -3,7 +3,7 @@ type: concept
 area: Python Backend
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - python-backend
   - git
@@ -58,8 +58,3 @@ git push origin main
 
 - [[Docker]] — контейнеры часто хранятся в git
 - [[Linux]] — используется в Linux среде
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

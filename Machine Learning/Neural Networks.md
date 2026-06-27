@@ -3,7 +3,7 @@ type: concept
 area: Machine Learning
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - machine-learning
   - deep-learning
@@ -19,8 +19,4 @@ confidence: 0
 
 - [[Feature Scaling]] — критично для сходимости
 - [[Gradient Descent]] — используется для обучения
-- [[PyTorch]] — фреймворк для реализации
-
----
-
-**Статус:** stub, требует полной разработки
+- [[PyTorch/Index|PyTorch]] — фреймворк для реализации

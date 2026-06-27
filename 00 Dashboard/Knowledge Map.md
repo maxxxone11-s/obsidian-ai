@@ -41,6 +41,7 @@ updated: 2026-06-27
 - [[Machine Learning/Decision Tree|Decision Tree]]
 - [[Machine Learning/Feature Engineering|Feature Engineering]]
 - [[Machine Learning/Feature Scaling|Feature Scaling]]
+- [[Machine Learning/Fit Transform и Data Leakage|Fit Transform и Data Leakage]]
 - [[Machine Learning/Gradient Descent|Gradient Descent]]
 - [[Machine Learning/Grid Search|Grid Search]]
 - [[Machine Learning/KNN|KNN]]
@@ -53,6 +54,9 @@ updated: 2026-06-27
 - [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]]
 - [[Machine Learning/Random Forest|Random Forest]]
 - [[Machine Learning/Regression|Regression]]
+- [[Machine Learning/Scaling для KNN и SVM|Scaling для KNN и SVM]]
+- [[Machine Learning/Scaling и Gradient Descent|Scaling и Gradient Descent]]
+- [[Machine Learning/Scaling и Tree-Based Models|Scaling и Tree-Based Models]]
 - [[Machine Learning/Standardization|Standardization]]
 - [[Machine Learning/SVM|SVM]]
 - [[Machine Learning/Train Test Split|Train Test Split]]
@@ -67,6 +71,7 @@ updated: 2026-06-27
 - [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]]
 - [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]]
 - [[Machine Learning/Mathematics/Entropy|Entropy]]
+- [[Machine Learning/Mathematics/MAE|MAE]]
 - [[Machine Learning/Mathematics/MSE|MSE]]
 - [[Machine Learning/Mathematics/Вектор|Вектор]]
 - [[Machine Learning/Mathematics/Вероятность|Вероятность]]
@@ -213,7 +218,9 @@ updated: 2026-06-27
 
 ## AI Agents
 
-- Пока нет отдельных заметок.
+- [[AI Agents/Index|AI Agents Index]]
+- AI Agents используют графовую оркестрацию; подробности по agent workflows см. в [[LangGraph/Index]].
+
 ## Algorithms & Data Structures
 
 - [[Algorithms/Index|Algorithms Index]]

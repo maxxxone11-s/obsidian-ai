@@ -49,4 +49,4 @@ print(x.squeeze(0).shape)  # torch.Size([3, 1, 4])
 
 ## Связанные темы
 
-[[Tensor]] · [[Shape]] · [[Reshape]] · [[View]] · [[Unsqueeze]]
+- [[Tensor]] · [[Shape]] · [[Reshape]] · [[View]] · [[Unsqueeze]]

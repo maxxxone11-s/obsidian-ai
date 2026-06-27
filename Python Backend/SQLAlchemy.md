@@ -3,7 +3,7 @@ type: concept
 area: Python Backend
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - python-backend
   - sqlalchemy
@@ -64,8 +64,3 @@ class User(Base):
 - [[SQL]] — под капотом SQLAlchemy используется SQL
 - [[PostgreSQL]] — одна из поддерживаемых БД
 - [[Alembic]] — для миграций схемы
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

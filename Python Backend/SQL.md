@@ -3,7 +3,7 @@ type: concept
 area: Python Backend
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - python-backend
   - sql
@@ -54,8 +54,3 @@ SELECT * FROM users WHERE age > 18;
 
 - [[SQLAlchemy]] — ORM для Python
 - [[PostgreSQL]] — популярная СУБД
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

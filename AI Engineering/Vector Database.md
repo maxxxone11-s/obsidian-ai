@@ -3,7 +3,7 @@ type: concept
 area: llm-engineering
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags: [vector-database, storage, similarity]
 confidence: 0
 ---
@@ -60,8 +60,3 @@ results = db.search(query_embedding, top_k=5)
 - [[RAG]] — использует для поиска
 - [[LLM]] — получает контекст из поиска
 - [[AI Agent]] — может работать с базой
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

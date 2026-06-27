@@ -12,24 +12,31 @@ confidence: 0
 # Tree
 
 ## Простое объяснение
+
 Tree — иерархическая структура данных без циклов.
 
 ## Зачем это нужно
+
 Деревья встречаются в DOM, файловых системах, AST, binary search tree и задачах рекурсии.
 
 ## Как это работает
+
 У дерева есть root, parent/children связи и поддеревья. Обходы дерева часто реализуются через DFS или BFS.
 
 ## Пример
+
 Файловая система: папки и вложенные файлы.
 
 ## Типичные ошибки
+
 - Забывать базовый случай в рекурсивном обходе.
 
 ## Связанные темы
-[[Graphs]] · [[DFS]] · [[BFS]] · [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]] · [[Algorithms/Recursion/Basics/Recursion|Recursion]]
+
+- [[Graphs]] · [[DFS]] · [[BFS]] · [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]] · [[Algorithms/Recursion/Basics/Recursion|Recursion]]
 
 ## Graph Theory
+
 - [[Graph Theory/Trees/Дерево|Дерево]]
 - [[Graph Theory/Trees/Root Parent Child Leaf|Root Parent Child Leaf]]
 - [[Graph Theory/Basics/Цикл|Цикл]]

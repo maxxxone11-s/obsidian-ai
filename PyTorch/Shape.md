@@ -58,4 +58,4 @@ print(x.ndim)   # 4
 
 ## Связанные темы
 
-[[Tensor]] · [[Tensor Dimensions (ndim)]] · [[Tensor Indexing and Slicing]] · [[Reshape]] · [[Broadcasting]]
+- [[Tensor]] · [[Tensor Dimensions (ndim)]] · [[Tensor Indexing and Slicing]] · [[Reshape]] · [[Broadcasting]]

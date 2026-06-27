@@ -2,7 +2,7 @@
 type: index
 area: Machine Learning
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - index
   - system
@@ -17,12 +17,14 @@ tags:
 - [[Вектор]] → [[Матрица]] → [[Матричное умножение]]
 - [[Производная]] → [[Частная производная]] → [[Градиент]] → [[Machine Learning/Gradient Descent|Gradient Descent]]
 - [[Вероятность]] → [[Распределения и Mean]] → [[Neural Networks/Softmax|Softmax]] → [[Entropy]]
+- [[Machine Learning/Loss Function|Loss Function]] → [[MSE]] / [[MAE]] / [[Cross Entropy]]
 
 ## Все концепции
 
 - [[Cosine Similarity]]
 - [[Cross Entropy]]
 - [[Entropy]]
+- [[MAE]]
 - [[MSE]]
 - [[Вектор]]
 - [[Вероятность]]

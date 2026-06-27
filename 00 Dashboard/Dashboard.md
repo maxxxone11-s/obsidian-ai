@@ -39,14 +39,16 @@ updated: 2026-06-27
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 192 |
-| Изучено | 121 |
+| Всего концепций | 197 |
+| Изучено | 130 |
 | В процессе | 0 |
 | Требует повтора | 5 |
-| Черновики | 66 |
+| Черновики | 62 |
 
 ## 🔄 Последние обновления
 
+- **2026-06-27** — Full Knowledge Synchronization: удалены import-блоки и дубли секций в concept-заметках
+- **2026-06-27** — Рефакторинг ML: Feature Scaling и Loss Function разнесены по отдельным концепциям
 - **2026-06-27** — Импорт Python — Рекурсия: base case, call stack, return chain, factorial, строки и первые tree traversal stubs
 - **2026-06-27** — Импорт PyTorch — Tensor Fundamentals: tensors, shape, dtype, indexing, reshape и broadcasting
 - **2026-06-27** — Импорт Основы теории графов: graph basics, trees, cycles и DAG

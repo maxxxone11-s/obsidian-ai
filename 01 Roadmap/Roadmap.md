@@ -26,6 +26,7 @@ updated: 2026-06-27
 - [x] Dashboard пересчитывается только по `type: concept` и без служебных файлов.
 - [x] Roadmap обновляется по модулю целиком на основе `module.name` и статусов ключевых concepts.
 - [x] Текущий vault синхронизирован после обновления правил.
+- [x] Full Knowledge Synchronization выполнена: import-блоки удалены из concept-заметок, дубли canonical-секций объединены.
 
 ## Фаза 1: Основы Python Backend 📋
 
@@ -61,6 +62,12 @@ updated: 2026-06-27
 - [[Вектор]], [[Матрица]], [[Матричное умножение]] ✅
 - [[Производная]], [[Частная производная]], [[Градиент]] ✅
 - [[Вероятность]], [[Entropy]] ✅
+- [[Machine Learning/Mathematics/MSE|MSE]], [[Machine Learning/Mathematics/MAE|MAE]], [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]] ✅
+
+**Data Preparation после рефакторинга:**
+- [[Feature Scaling]] превращён в overview ✅
+- [[Normalization]], [[Standardization]], [[Fit Transform и Data Leakage]] ✅
+- [[Scaling и Gradient Descent]], [[Scaling для KNN и SVM]], [[Scaling и Tree-Based Models]] ✅
 
 **Прогресс модуля:** 22/23 ключевых тем learned, 1 тема needs_review.
 **Статус:** Machine Learning Fundamentals пройден. Следующий практический шаг после PyTorch: pandas → sklearn → train/test split → Logistic Regression → Decision Tree → Random Forest → XGBoost.
@@ -105,7 +112,7 @@ updated: 2026-06-27
 
 ## Фаза 5: LangGraph ✅
 
-**Импорт KNOWLEDGE_EXPORT завершён:**
+**Синхронизация LangGraph завершена:**
 - [[LangGraph Overview]] ✅ — overview агентных графов
 - [[Agent Loop]] ✅ — базовый цикл агента
 - [[State]] ✅ — центральный объект графа

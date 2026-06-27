@@ -3,7 +3,7 @@ type: concept
 area: Python Backend
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - python-backend
   - python
@@ -62,8 +62,3 @@ dog = Dog("Rex")
 
 - [[Python Core]] — базовые типы данных
 - [[FastAPI]] — использует классы для определения эндпоинтов
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

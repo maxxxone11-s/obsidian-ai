@@ -2,7 +2,7 @@
 type: index
 area: Neural Networks
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - index
   - system
@@ -42,7 +42,7 @@ tags:
 
 **Дата создания:** 2026-06-26
 
-## Импорт KNOWLEDGE_EXPORT — Neural Networks
+## Neural Networks Fundamentals
 
 ### Fundamentals
 - [[Feature]]

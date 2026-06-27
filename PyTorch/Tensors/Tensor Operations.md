@@ -48,4 +48,4 @@ print(x.mean())
 
 ## Связанные темы
 
-[[Tensor]] · [[Tensor Dtype]] · [[Broadcasting]] · [[Autograd]]
+- [[Tensor]] · [[Tensor Dtype]] · [[Broadcasting]] · [[Autograd]]

@@ -1,32 +1,42 @@
 ---
 type: concept
 area: Machine Learning
-status: draft
+status: learned
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - machine-learning
   - mathematics
-  - stub
-confidence: 0
+  - loss
+  - cross-entropy
+confidence: 0.95
 ---
 
 # Cross Entropy
 
+Cross Entropy — функция потерь для классификации.
+
 ## Простое объяснение
-Stub-заметка для связанной математической темы из импорта [[Loss Function]] и [[Entropy]].
+
+Cross Entropy измеряет ошибку классификационной модели.
 
 ## Зачем это нужно
-Эта тема помогает связать математику с обучением ML-моделей.
+
+Она используется там, где модель должна выбрать класс, а loss нужен для обучения через [[Gradient Descent]].
 
 ## Как это работает
-Пока не раскрыто.
+
+В исходном материале Cross Entropy отмечена как loss для классификации. Она связана с вероятностями классов, [[Neural Networks/Logits|Logits]], [[Neural Networks/Softmax|Softmax]] и [[Entropy]].
 
 ## Пример
-Пока не добавлен.
+
+Prediction class probabilities → target class → Cross Entropy loss.
 
 ## Типичные ошибки
-- Пока не добавлены.
+
+- Путать Cross Entropy с [[Machine Learning/Mathematics/MSE|MSE]].
+- Использовать неподходящую функцию потерь для классификации.
 
 ## Связанные темы
-[[Loss Function]] · [[Entropy]]
+
+- [[Machine Learning/Loss Function|Loss Function]] · [[Entropy]] · [[Neural Networks/Softmax|Softmax]] · [[Neural Networks/Logits|Logits]]

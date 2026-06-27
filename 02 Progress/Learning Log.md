@@ -9,6 +9,41 @@ updated: 2026-06-27
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-27 (Full Knowledge Synchronization)
+
+### ✅ Синхронизировано
+
+- Просканированы все concept-заметки Vault.
+- Удалены устаревшие `Импорт KNOWLEDGE_EXPORT` блоки из concept-заметок.
+- Поля из старых import-блоков объединены с существующими canonical-разделами.
+- Удалены дубли canonical-разделов и generated footers внутри учебных заметок.
+- Индексы очищены от старой import-терминологии.
+
+### Результат проверки
+
+- Concept-заметок: 197.
+- Дубли canonical-секций: 0.
+- Import-блоки в concept-заметках: 0.
+- Служебные generated footers внутри concept-заметок: 0.
+
+### Следующий шаг
+
+- В следующих KNOWLEDGE_EXPORT выполнять только синхронизацию существующих концепций: one concept, one note, one truth.
+
+## 2026-06-27 (Рефакторинг Vault: одна концепция = одна заметка)
+
+### ✅ Обновлено
+
+- [[Machine Learning/Feature Scaling|Feature Scaling]] превращён в overview/index с пометкой, что материал разнесён по отдельным заметкам.
+- Обновлены и выделены отдельные концепции: [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Standardization|Standardization]], [[Machine Learning/Fit Transform и Data Leakage|Fit Transform и Data Leakage]], [[Machine Learning/Scaling и Gradient Descent|Scaling и Gradient Descent]], [[Machine Learning/Scaling для KNN и SVM|Scaling для KNN и SVM]], [[Machine Learning/Scaling и Tree-Based Models|Scaling и Tree-Based Models]].
+- [[Machine Learning/Loss Function|Loss Function]] превращён в overview по функциям потерь.
+- Обновлены loss-концепции: [[Machine Learning/Mathematics/MSE|MSE]], [[Machine Learning/Mathematics/MAE|MAE]], [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]].
+- [[AI Agents/Index|AI Agents Index]] очищен от полного импорта LangGraph и оставлен как короткий overview со ссылкой на [[LangGraph/Index]].
+
+### Следующий шаг
+
+- Читать ML preprocessing через [[Machine Learning/Feature Scaling|Feature Scaling]] как карту, а детали открывать в отдельных concept-заметках.
+
 ## 2026-06-27 (KNOWLEDGE_EXPORT: Python — Рекурсия)
 
 ### ✅ Импортировано
@@ -265,9 +300,9 @@ updated: 2026-06-27
 - ✅ [[AI Agent]] — stub заметка
 
 **Обновлены Index файлы:**
-- ✅ [[PyTorch Index.md]] — добавлены ссылки на 8 концепций
-- ✅ [[LangGraph Index.md]] — добавлены ссылки на 6 концепций
-- ✅ [[AI Engineering Index.md]] — создан новый Index для 5 концепций
+- ✅ [[Indexes/PyTorch Index|PyTorch Index]] — добавлены ссылки на 8 концепций
+- ✅ [[Indexes/LangGraph Index|LangGraph Index]] — добавлены ссылки на 6 концепций
+- ✅ [[Indexes/AI Engineering Index|AI Engineering Index]] — создан новый Index для 5 концепций
 
 ## 2026-06-26 (Сеанс 2: Knowledge Sync Feature Scaling)
 

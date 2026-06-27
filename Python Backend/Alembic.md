@@ -3,7 +3,7 @@ type: concept
 area: Python Backend
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - python-backend
   - alembic
@@ -56,8 +56,3 @@ alembic upgrade head
 
 - [[SQLAlchemy]] — работает с SQLAlchemy моделями
 - [[PostgreSQL]] — управление схемой БД
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

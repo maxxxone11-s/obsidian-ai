@@ -3,7 +3,7 @@ type: concept
 area: rag
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags: [rag, retrieval, augmented]
 confidence: 0
 ---
@@ -56,8 +56,3 @@ answer = llm.generate(prompt)
 - [[Vector Database]] — хранилище для embeddings
 - [[LLM]] — генерирует ответ
 - [[AI Agent]] — может использовать RAG
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

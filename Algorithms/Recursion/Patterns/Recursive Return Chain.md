@@ -14,16 +14,19 @@ difficulty: medium
 # Рекурсия через возвращаемые значения
 
 ## Простое объяснение
+
 Правильная рекурсия чаще всего строится через `return`: каждый вызов получает ответ от следующего вызова и использует его для своего результата.
 
 То есть вызов не знает весь ответ заранее. Он знает только, как объединить текущую маленькую операцию с ответом меньшей задачи.
 
 ## Зачем это нужно
+
 Такой стиль используется в большинстве рекурсивных алгоритмов: факториал, сумма, обход дерева, поиск в глубину, divide and conquer.
 
 Он делает функцию независимой и предсказуемой, потому что результат передается явно, а не складывается в общей глобальной переменной.
 
 ## Как это работает
+
 Каждый вызов:
 
 - проверяет Base Case;
@@ -32,6 +35,7 @@ difficulty: medium
 - строит свой ответ и возвращает его выше.
 
 ## Пример
+
 ```python
 def factorial(n: int) -> int:
     if n == 0:
@@ -43,10 +47,11 @@ def factorial(n: int) -> int:
 `factorial(5)` получает `factorial(4)`, затем умножает его на `5`.
 
 ## Типичные ошибки
+
 - Использовать `global result` вместо `return`.
 - Забывать вернуть результат рекурсивного вызова.
 - Изменять общее состояние и потом терять контроль над порядком вызовов.
 
 ## Связанные темы
-[[Algorithms/Recursion/Examples/Factorial|Factorial]] · [[Algorithms/Recursion/Internals/Call Stack|Call Stack]] · [[Algorithms/Recursion/Basics/Base Case|Base Case]]
 
+- [[Algorithms/Recursion/Examples/Factorial|Factorial]] · [[Algorithms/Recursion/Internals/Call Stack|Call Stack]] · [[Algorithms/Recursion/Basics/Base Case|Base Case]]

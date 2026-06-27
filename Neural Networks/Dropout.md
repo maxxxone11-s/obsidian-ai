@@ -3,7 +3,7 @@ type: concept
 area: Neural Networks
 status: learned
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - neural-networks
   - regularization
@@ -13,26 +13,34 @@ confidence: 0.98
 # Dropout
 
 ## Простое объяснение
+
 Нейрон больше не может надеяться, что сосед сделает работу за него.
 
 ## Зачем это нужно
+
 Dropout помогает модели искать общие закономерности, а не запоминать данные.
 
 ## Как это работает
+
 Во время training часть активаций случайно зануляется. Во время [[Inference]] Dropout отключается, чтобы модель использовала всю сеть.
 
 ## Пример
+
 ● ○ ● ○ ● — часть нейронов временно отключена.
 
 ## Типичные ошибки
+
 - Думать, что Dropout работает во время Inference.
 
 ## Вопросы для проверки
+
 - Почему Dropout уменьшает переобучение?
 - Когда он отключается?
 
 ## Следующие темы
+
 - [[Batch Normalization]]
 
 ## Связанные темы
-[[Overfitting]] · [[Batch Normalization]]
+
+- [[Overfitting]] · [[Batch Normalization]]

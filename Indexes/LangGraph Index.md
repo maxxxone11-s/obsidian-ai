@@ -66,7 +66,7 @@ tags:
 
 **Обновлено:** 2026-06-26
 
-## Импорт KNOWLEDGE_EXPORT — LangGraph
+## LangGraph Fundamentals
 
 ### Концепции
 - [[Agent Loop]]

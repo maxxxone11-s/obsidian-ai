@@ -14,16 +14,19 @@ difficulty: easy
 # Что такое рекурсия
 
 ## Простое объяснение
+
 Рекурсия — это способ решать задачу через такую же, но меньшую задачу. Функция не пытается сразу решить всё целиком: она уменьшает входные данные, вызывает тот же алгоритм для меньшей версии задачи и затем использует полученный результат.
 
 Главная мысль: рекурсия — это не магическое «функция вызывает саму себя», а формула вида: большая задача = меньшая задача + небольшая операция.
 
 ## Зачем это нужно
+
 Рекурсия часто используется там, где данные уже имеют вложенную структуру: деревья, графы, файловые системы, вложенные JSON, парсинг, DFS, backtracking и алгоритмы divide and conquer.
 
 В backend это помогает обходить директории, вложенные структуры API и сериализуемые деревья. В ML и PyTorch похожее мышление встречается при обходе деревьев решений, модулей модели и вычислительных графов.
 
 ## Как это работает
+
 У рекурсивного решения есть две части:
 
 - базовый случай, где ответ уже известен;
@@ -32,12 +35,12 @@ difficulty: easy
 Каждый вызов функции независим: у него свои аргументы и локальные переменные. Когда самый маленький случай решен, результаты начинают возвращаться обратно по [[Algorithms/Recursion/Internals/Call Stack|Call Stack]].
 
 ## Пример
+
 ```python
 def sum_to_n(n: int) -> int:
     if n == 0:
         return 0
     return n + sum_to_n(n - 1)
-
 
 print(sum_to_n(5))  # 15
 ```
@@ -45,11 +48,12 @@ print(sum_to_n(5))  # 15
 Здесь `sum_to_n(5)` не считает всю сумму сам. Он говорит: «Я знаю, что ответ — это `5 + sum_to_n(4)`».
 
 ## Типичные ошибки
+
 - Воспринимать рекурсию как бесконечный самовызов, а не как уменьшение задачи.
 - Забывать [[Algorithms/Recursion/Basics/Base Case|Base Case]].
 - Не понимать, что каждый вызов работает со своими аргументами.
 - Использовать `global` вместо возврата значения через `return`.
 
 ## Связанные темы
-[[Algorithms/Recursion/Basics/Base Case|Base Case]] · [[Algorithms/Recursion/Internals/Call Stack|Call Stack]] · [[Algorithms/Recursion/Patterns/Recursive Thinking|Recursive Thinking]] · [[Algorithms/Recursion/Examples/Factorial|Factorial]] · [[Algorithms/DFS|DFS]]
 
+- [[Algorithms/Recursion/Basics/Base Case|Base Case]] · [[Algorithms/Recursion/Internals/Call Stack|Call Stack]] · [[Algorithms/Recursion/Patterns/Recursive Thinking|Recursive Thinking]] · [[Algorithms/Recursion/Examples/Factorial|Factorial]] · [[Algorithms/DFS|DFS]]

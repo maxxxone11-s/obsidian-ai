@@ -64,4 +64,4 @@ print(x[:1].shape)  # torch.Size([1, 3])
 
 ## Связанные темы
 
-[[Tensor]] · [[Shape]] · [[Tensor Dimensions (ndim)]] · [[Reshape]]
+- [[Tensor]] · [[Shape]] · [[Tensor Dimensions (ndim)]] · [[Reshape]]

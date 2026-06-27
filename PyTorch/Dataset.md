@@ -50,4 +50,4 @@ class MyDataset(Dataset):
 
 ## Связанные темы
 
-[[Tensor]] · [[DataLoader]] · [[Tensor Dtype]] · [[Shape]]
+- [[Tensor]] · [[DataLoader]] · [[Tensor Dtype]] · [[Shape]]

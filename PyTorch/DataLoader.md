@@ -48,4 +48,4 @@ for x, y in loader:
 
 ## Связанные темы
 
-[[Dataset]] · [[Tensor]] · [[Shape]] · [[nn.Module]]
+- [[Dataset]] · [[Tensor]] · [[Shape]] · [[nn.Module]]

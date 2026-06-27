@@ -3,7 +3,7 @@ type: concept
 area: Python Backend
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - python-backend
   - postgresql
@@ -57,8 +57,3 @@ SELECT * FROM users;
 - [[SQL]] — язык запросов
 - [[SQLAlchemy]] — ORM для Python
 - [[Alembic]] — управление миграциями
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки

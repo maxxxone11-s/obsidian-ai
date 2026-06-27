@@ -55,16 +55,10 @@ print(z.shape)  # torch.Size([8, 5])
 +
 (1, 5)
 =
-(8, 5)
-```
 
 А вот так не сработает:
 
-```text
-(8, 5)
-+
 (8,)
-```
 
 Потому что справа сравниваются `5` и `8`, а они не равны и ни одно из них не `1`.
 
@@ -77,4 +71,4 @@ print(z.shape)  # torch.Size([8, 5])
 
 ## Связанные темы
 
-[[Tensor]] · [[Shape]] · [[Tensor Dtype]] · [[Tensor Operations]] · [[Reshape]] · [[Autograd]]
+- [[Tensor]] · [[Shape]] · [[Tensor Dtype]] · [[Tensor Operations]] · [[Reshape]] · [[Autograd]]

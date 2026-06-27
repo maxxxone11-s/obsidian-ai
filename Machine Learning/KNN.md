@@ -3,7 +3,7 @@ type: concept
 area: Machine Learning
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - machine-learning
   - algorithm
@@ -20,7 +20,3 @@ confidence: 0
 
 - [[Feature Scaling]] — критично для KNN
 - [[Normalization]] — часто используется для KNN
-
----
-
-**Статус:** stub, требует полной разработки

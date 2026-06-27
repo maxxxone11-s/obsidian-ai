@@ -2,7 +2,7 @@
 type: index
 area: LangGraph
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - index
   - system
@@ -46,7 +46,7 @@ tags:
 
 **Дата создания:** 2026-06-26
 
-## Импорт KNOWLEDGE_EXPORT — LangGraph
+## LangGraph Fundamentals
 
 ### Концепции
 - [[Agent Loop]]

@@ -54,4 +54,4 @@ print(z.shape)  # torch.Size([12])
 
 ## Связанные темы
 
-[[Tensor]] · [[Shape]] · [[View]] · [[Unsqueeze]] · [[Squeeze]] · [[Tensor Indexing and Slicing]] · [[Broadcasting]]
+- [[Tensor]] · [[Shape]] · [[View]] · [[Unsqueeze]] · [[Squeeze]] · [[Tensor Indexing and Slicing]] · [[Broadcasting]]
