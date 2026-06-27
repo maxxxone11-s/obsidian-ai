@@ -139,3 +139,20 @@ updated: 2026-06-26
 **Дата создания:** 2026-06-26
 **Последнее обновление:** 2026-06-26
 **Статус:** Структурный фундамент готов ✅
+## Фаза Algorithms: Graph Theory ✅
+
+**Модуль Основы теории графов импортирован:**
+- [[Algorithms/Graph Theory/Basics/Что такое граф|Что такое граф]] ✅
+- [[Algorithms/Graph Theory/Basics/Вершины и ребра|Вершины и ребра]] ✅
+- [[Algorithms/Graph Theory/Basics/Изолированная вершина|Изолированная вершина]] ✅
+- [[Algorithms/Graph Theory/Basics/Удаление вершины и удаление ребра|Удаление вершины и удаление ребра]] ✅
+- [[Algorithms/Graph Theory/Basics/Ориентированный и неориентированный граф|Ориентированный и неориентированный граф]] ✅
+- [[Algorithms/Graph Theory/Basics/Путь|Путь]] ✅
+- [[Algorithms/Graph Theory/Trees/Дерево|Дерево]] ✅
+- [[Algorithms/Graph Theory/Trees/Root Parent Child Leaf|Root Parent Child Leaf]] ✅
+- [[Algorithms/Graph Theory/Basics/Цикл|Цикл]] ✅
+- [[Algorithms/Graph Theory/DAG/DAG|DAG]] ✅
+
+**Прогресс модуля:** 10/10 ключевых тем learned.
+**Требует повторения:** строгое определение дерева, связь дерева и DAG, почему отсутствие нескольких путей следует из отсутствия циклов.
+

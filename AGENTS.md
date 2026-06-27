@@ -53,6 +53,7 @@ Obsidian Vault
 ├── RAG/
 ├── LLM Engineering/
 ├── AI Agents/
+├── Algorithms/
 ├── Templates/
 ├── Indexes/
 └── Inbox/
@@ -94,21 +95,133 @@ Obsidian Vault
 
 ## Validation Rules перед KNOWLEDGE_EXPORT
 
-Перед импортом **KNOWLEDGE_EXPORT** агент обязан проверить:
+### Knowledge Areas
 
-1. Существует ли указанная `area`.
-2. Существует ли указанная `folder`.
-3. Если `area` или `folder` отсутствуют:
-   - **НЕ создавать** их автоматически.
-   - **НЕ импортировать** знания.
-   - Остановить импорт.
-   - Сообщить пользователю, какие области или папки отсутствуют.
-   - Предложить:
-     - создать новую область;
-     - выбрать существующую область или папку;
-     - отменить импорт.
-4. Агенту запрещено самостоятельно создавать новые области знаний без явного подтверждения пользователя.
-5. Если обнаружены похожие названия, например `ML` и `Machine Learning`, агент должен запросить подтверждение вместо выбора по своему усмотрению.
+Knowledge Areas считаются стабильными доменами верхнего уровня.
+
+Примеры:
+
+- Python Backend
+- Machine Learning
+- Neural Networks
+- PyTorch
+- LangGraph
+- RAG
+- LLM Engineering
+- AI Agents
+- Algorithms & Data Structures
+
+### Area Validation
+
+Перед импортом любого **KNOWLEDGE_EXPORT** агент обязан:
+
+1. Проверить, что `module.area` существует среди стабильных Knowledge Areas.
+2. Никогда не создавать новую Knowledge Area автоматически.
+3. Никогда не переименовывать существующую Knowledge Area автоматически.
+4. Никогда не выбирать между похожими Knowledge Areas автоматически.
+5. Если область неизвестна — остановить импорт и спросить пользователя.
+
+Пример ответа:
+
+```markdown
+❌ Import stopped.
+
+Unknown Knowledge Area:
+Graph Theory
+
+Possible actions:
+
+- Create a new Knowledge Area
+- Import into an existing Knowledge Area
+- Cancel import
+```
+
+### Similar Area Detection
+
+Если входящая область похожа на существующую, импорт нельзя продолжать автоматически.
+
+Пример:
+
+```yaml
+Incoming:
+area: Algorithms
+
+Existing:
+Algorithms & Data Structures
+```
+
+Агент обязан запросить подтверждение вместо предположения.
+
+### Folder Creation
+
+Папки внутри уже существующей и подтвержденной Knowledge Area можно создавать автоматически.
+
+Пример:
+
+```yaml
+Existing area:
+Algorithms & Data Structures
+
+Incoming folder:
+Algorithms/Graph Theory/DAG
+```
+
+Разрешено:
+
+- создать `Graph Theory/`
+- создать `DAG/`
+- создать index-файлы
+- создать concept-заметки
+
+Это действие не требует дополнительного подтверждения пользователя.
+
+### Automatic Import Rules
+
+После подтверждения пользователем целевой Knowledge Area агент может:
+
+- создавать папки
+- создавать indexes
+- создавать concept-заметки
+- создавать backlinks
+- обновлять Dashboard
+- обновлять Knowledge Map
+- обновлять Roadmap
+- обновлять Learning Log
+
+### Forbidden Operations
+
+Агенту запрещено:
+
+- создавать новые Knowledge Areas
+- переименовывать существующие Knowledge Areas
+- автоматически объединять Knowledge Areas
+- переносить заметки между Knowledge Areas без подтверждения
+
+### Alias Resolution
+
+Aliases являются только подсказками.
+
+Пример:
+
+```yaml
+Incoming:
+Graph Theory
+
+Possible destination:
+Algorithms & Data Structures
+```
+
+Агент обязан спросить:
+
+> Do you want to import this module into Algorithms & Data Structures?
+
+Только после явного подтверждения импорт можно продолжать.
+
+### Guiding Principle
+
+Knowledge Areas верхнего уровня стабильны.
+
+Внутренняя иерархия папок гибкая и может развиваться автоматически.
 
 ## Обязательные обновления после KNOWLEDGE_EXPORT
 
@@ -296,20 +409,17 @@ SYNC_PACKAGE интегрируется с системой Knowledge Sync:
 
 Возможные значения для поля `area` в frontmatter:
 
-- `python-basics` — Основы Python
-- `backend` — Python Backend
-- `web-frameworks` — Web фреймворки (Django, FastAPI)
-- `databases` — Базы данных
-- `ml-basics` — Основы машинного обучения
-- `ml-advanced` — Продвинутое ML
-- `neural-networks` — Нейронные сети
-- `pytorch` — PyTorch фреймворк
-- `langchain` — LangChain экосистема
-- `rag` — Retrieval-Augmented Generation
-- `llm-engineering` — LLM инженерия
-- `ai-agents` — AI агенты
-- `system-design` — Системный дизайн
-- `devops` — DevOps практики
+- `Python Backend`
+- `Machine Learning`
+- `Neural Networks`
+- `PyTorch`
+- `LangGraph`
+- `RAG`
+- `LLM Engineering`
+- `AI Agents`
+- `Algorithms & Data Structures`
+
+`folder` может быть внутренней структурой существующей области. Например, для `area: Algorithms & Data Structures` допустимы вложенные пути вроде `Algorithms/Graph Theory/DAG`.
 
 ---
 

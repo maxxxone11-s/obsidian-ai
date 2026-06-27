@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "-tag:#practice -tag:#system ",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#python-backend",
@@ -60,7 +60,14 @@
       "query": "tag:#ai-agents",
       "color": {
         "a": 1,
-        "rgb": 16482010
+        "rgb": 16711867
+      }
+    },
+    {
+      "query": "tag:#algorithms",
+      "color": {
+        "a": 1,
+        "rgb": 393015
       }
     }
   ],
@@ -74,6 +81,6 @@
   "repelStrength": 7.40711805555556,
   "linkStrength": 1,
   "linkDistance": 146,
-  "scale": 0.5627900910413182,
+  "scale": 0.5707027520481486,
   "close": true
 }

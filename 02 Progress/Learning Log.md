@@ -9,6 +9,25 @@ updated: 2026-06-26
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-27 (KNOWLEDGE_EXPORT: Основы теории графов)
+
+### ✅ Импортировано
+
+- Создана структура [[Algorithms/Graph Theory/Index|Graph Theory]]: Basics, Trees, DAG.
+- Созданы концепции: [[Algorithms/Graph Theory/Basics/Что такое граф|Что такое граф]], [[Algorithms/Graph Theory/Basics/Вершины и ребра|Вершины и ребра]], [[Algorithms/Graph Theory/Basics/Изолированная вершина|Изолированная вершина]], [[Algorithms/Graph Theory/Basics/Удаление вершины и удаление ребра|Удаление вершины и удаление ребра]], [[Algorithms/Graph Theory/Basics/Ориентированный и неориентированный граф|Ориентированный и неориентированный граф]], [[Algorithms/Graph Theory/Basics/Путь|Путь]], [[Algorithms/Graph Theory/Trees/Дерево|Дерево]], [[Algorithms/Graph Theory/Trees/Root Parent Child Leaf|Root Parent Child Leaf]], [[Algorithms/Graph Theory/Basics/Цикл|Цикл]], [[Algorithms/Graph Theory/DAG/DAG|DAG]].
+- Обновлены [[Algorithms/Graphs|Graphs]] и [[Algorithms/Tree|Tree]] связями на Graph Theory.
+
+### 🧠 Weak spots
+
+- Более строгое определение дерева.
+- Связь дерева и DAG.
+- Почему отсутствие нескольких путей является следствием отсутствия циклов.
+- Склонность придумывать связи, которых нет в условии.
+
+### Следующий шаг
+
+- Перейти к представлению графов в памяти: adjacency list, adjacency matrix и обходы [[Algorithms/DFS|DFS]] / [[Algorithms/BFS|BFS]].
+
 ## 2026-06-26 (Аудит правил KNOWLEDGE_EXPORT)
 
 ### ✅ Обновлено

@@ -38,14 +38,15 @@ updated: 2026-06-26
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 147 |
-| Изучено | 94 |
+| Всего концепций | 171 |
+| Изучено | 104 |
 | В процессе | 0 |
 | Требует повтора | 2 |
-| Черновики | 51 |
+| Черновики | 65 |
 
 ## 🔄 Последние обновления
 
+- **2026-06-27** — Импорт Основы теории графов: graph basics, trees, cycles и DAG
 - **2026-06-26** — Обновлены правила импорта KNOWLEDGE_EXPORT и синхронизированы Dashboard, Knowledge Map, Roadmap и Learning Log
 - **2026-06-26** — Импорт Machine Learning Fundamentals: fundamentals, evaluation, metrics, algorithms и model selection
 - **2026-06-26** — Импорт LangGraph: core concepts, runtime, tools, patterns и практика
