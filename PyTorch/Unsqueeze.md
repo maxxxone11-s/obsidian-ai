@@ -1,65 +1,55 @@
 ---
 type: concept
 area: PyTorch
-status: draft
+status: learned
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - pytorch
-  - squeeze
+  - unsqueeze
   - dimensions
-confidence: 0
+  - tensor
+confidence: 0.91
 ---
 
 # Unsqueeze
 
-Добавление размерности размера 1 в тензор.
+Unsqueeze добавляет новую ось размера `1` в Tensor.
 
 ## Простое объяснение
 
-Unsqueeze добавляет новую размерность размера 1 в указанную позицию.
-
-## Интуитивное объяснение
-
-Как добавление новой полки в шкаф — мы расширяем структуру.
+`unsqueeze()` не меняет данные. Он добавляет новый уровень структуры, чтобы Tensor стал совместим с batch processing, channel dimension или [[Broadcasting]].
 
 ## Зачем это нужно
 
-- Подготовка данных для batch processing
-- Совместимость с операциями
-- Добавление channel dimension
+- Добавить batch dimension.
+- Добавить channel dimension.
+- Подготовить Tensor к операции с другим Tensor.
 
 ## Как это работает
 
-### Размерность
-- Добавляет размерность размера 1
-- Не меняет данные, только структуру
+Если был Tensor формы `(5,)`, то:
+
+- `unsqueeze(0)` даст `(1, 5)`;
+- `unsqueeze(1)` даст `(5, 1)`.
 
 ## Пример
 
 ```python
 import torch
 
-x = torch.randn(3, 4)        # shape: (3, 4)
-y = x.unsqueeze(0)           # shape: (1, 3, 4)
-z = x.unsqueeze(-1)          # shape: (3, 4, 1)
+x = torch.randn(5)
+
+print(x.unsqueeze(0).shape)  # torch.Size([1, 5])
+print(x.unsqueeze(1).shape)  # torch.Size([5, 1])
 ```
 
 ## Типичные ошибки
 
-- Забывают индекс размерности
-- Неправильный индекс (-1 vs 0)
-- Путаница с squeeze
+- Неправильно выбирать позицию новой оси.
+- Путать `unsqueeze(0)` и `unsqueeze(-1)`.
+- Забывать, что данные не меняются, меняется только shape.
 
 ## Связанные темы
 
-- [[Tensor]] — операция на тензоре
-- [[Shape]] — изменение shape
-- [[Squeeze]] — удаление размерности 1
-- [[View]] — альтернатива для reshape
-- [[Reshape]] — альтернатива для reshape
-
----
-
-**Дата создания:** 2026-06-26
-**Статус:** draft — требует разработки
+[[Tensor]] · [[Shape]] · [[Reshape]] · [[View]] · [[Squeeze]] · [[Broadcasting]]

@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 ---
 
 # 🧠 Knowledge Map
@@ -144,17 +144,25 @@ updated: 2026-06-26
 
 ## PyTorch
 
-- [[PyTorch/Autograd|Autograd]]
+- [[PyTorch/Tensors/Index|PyTorch Tensor Fundamentals Index]]
+- [[PyTorch/Tensor|Tensor]]
+- [[PyTorch/Tensors/Tensor Dimensions (ndim)|Tensor Dimensions (ndim)]]
+- [[PyTorch/Shape|Tensor Shape]]
+- [[PyTorch/Tensors/Tensor Creation|Tensor Creation]]
+- [[PyTorch/Tensors/Tensor Dtype|Tensor Dtype]]
+- [[PyTorch/Tensors/Tensor Indexing and Slicing|Tensor Indexing and Slicing]]
+- [[PyTorch/Reshape|Reshape]]
+- [[PyTorch/View|View]]
+- [[PyTorch/Unsqueeze|Unsqueeze]]
+- [[PyTorch/Squeeze|Squeeze]]
 - [[PyTorch/Broadcasting|Broadcasting]]
+- [[PyTorch/Tensors/Tensor Operations|Tensor Operations]]
+- [[PyTorch/Autograd|Autograd]]
+- [[PyTorch/Dataset|Dataset]]
+- [[PyTorch/DataLoader|DataLoader]]
 - [[PyTorch/model.eval()|model.eval()]]
 - [[PyTorch/nn.Module|nn.Module]]
-- [[PyTorch/Reshape|Reshape]]
-- [[PyTorch/Shape|Shape]]
-- [[PyTorch/Squeeze|Squeeze]]
-- [[PyTorch/Tensor|Tensor]]
 - [[PyTorch/torch.optim|torch.optim]]
-- [[PyTorch/Unsqueeze|Unsqueeze]]
-- [[PyTorch/View|View]]
 
 ## LangGraph
 

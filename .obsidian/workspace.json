@@ -48,19 +48,9 @@
               "icon": "lucide-file",
               "title": "Сообщение для сбора конспектов"
             }
-          },
-          {
-            "id": "880a135eb8419c04",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#algorithms",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -225,8 +215,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "0a23ad8f77b5f9c8",
+  "active": "783f41337f1caa9c",
   "lastOpenFiles": [
+    "PyTorch/DataLoader.md",
+    "PyTorch/Dataset.md",
+    "PyTorch/Tensors/Tensor Operations.md",
+    "PyTorch/Tensors/Tensor Indexing and Slicing.md",
+    "PyTorch/Tensors/Tensor Dtype.md",
+    "PyTorch/Tensors/Tensor Dimensions (ndim).md",
+    "PyTorch/Tensors/Tensor Creation.md",
+    "PyTorch/Tensors/Index.md",
+    "PyTorch/Tensors",
+    "Algorithms/BFS.md",
+    "Сообщение для сбора конспектов.md",
     "Algorithms/Graph Theory/Index.md",
     "Algorithms/Graph Theory/Trees/Дерево.md",
     "Algorithms/Graph Theory/Trees/Root Parent Child Leaf.md",
@@ -246,24 +247,13 @@
     "Algorithms/Graph Theory/DAG",
     "Algorithms/Graph Theory/Basics",
     "Algorithms/Graph Theory",
-    "Сообщение для сбора конспектов.md",
     "00 Dashboard/Graph Groups.md",
-    "01 Roadmap/Roadmap.md",
-    "Indexes/Algorithms Index.md",
-    "Algorithms/Two Pointers.md",
-    "Algorithms/Tree.md",
-    "Algorithms/Stack.md",
-    "Algorithms/Queue.md",
-    "Algorithms/Binary Search.md",
-    "Algorithms/DFS.md",
-    "Algorithms/Index.md",
     "Algorithms",
     "Machine Learning/Mathematics",
     "LangGraph/Practice",
     "AI Engineering",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Inbox",
-    "Indexes"
+    "Inbox"
   ]
 }

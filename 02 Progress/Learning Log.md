@@ -4,10 +4,33 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-06-27 (KNOWLEDGE_EXPORT: PyTorch — Tensor Fundamentals)
+
+### ✅ Импортировано
+
+- Модуль импортирован в существующую область [[PyTorch/Index|PyTorch]].
+- Создана внутренняя структура [[PyTorch/Tensors/Index|PyTorch/Tensors]].
+- Обновлены концепции: [[PyTorch/Tensor|Tensor]], [[PyTorch/Shape|Tensor Shape]], [[PyTorch/Reshape|Reshape]], [[PyTorch/View|View]], [[PyTorch/Unsqueeze|Unsqueeze]], [[PyTorch/Squeeze|Squeeze]], [[PyTorch/Broadcasting|Broadcasting]].
+- Созданы концепции: [[PyTorch/Tensors/Tensor Dimensions (ndim)|Tensor Dimensions (ndim)]], [[PyTorch/Tensors/Tensor Creation|Tensor Creation]], [[PyTorch/Tensors/Tensor Dtype|Tensor Dtype]], [[PyTorch/Tensors/Tensor Indexing and Slicing|Tensor Indexing and Slicing]].
+- Созданы stub-заметки: [[PyTorch/Tensors/Tensor Operations|Tensor Operations]], [[PyTorch/Dataset|Dataset]], [[PyTorch/DataLoader|DataLoader]].
+
+### 🧠 Weak spots
+
+- [[PyTorch/Broadcasting|Broadcasting]].
+- Shape после сложных операций slicing.
+- Мысленное выравнивание размерностей справа налево.
+- Не считать элементы вместо структуры.
+- Не путать строки и столбцы.
+- Читать `Tensor[rows, columns]`, где запятая разделяет оси.
+
+### Следующий шаг
+
+- Повторить [[PyTorch/Broadcasting|Broadcasting]] и [[PyTorch/Tensors/Tensor Indexing and Slicing|Tensor Indexing and Slicing]], затем перейти к [[PyTorch/Tensors/Tensor Operations|Tensor Operations]] и [[PyTorch/Autograd|Autograd]].
 
 ## 2026-06-27 (KNOWLEDGE_EXPORT: Основы теории графов)
 

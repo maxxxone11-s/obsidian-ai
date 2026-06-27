@@ -3,7 +3,7 @@ type: concept
 area: PyTorch
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - pytorch
   - autograd
@@ -64,3 +64,7 @@ print(x.grad)  # tensor([4.])
 
 **Дата создания:** 2026-06-26
 **Статус:** draft — требует разработки
+
+## Связь с Tensor Fundamentals
+
+[[Broadcasting]] и [[Tensor Operations]] ведут к [[Autograd]]: как только операции участвуют в вычислении loss, PyTorch может построить вычислительный граф и посчитать градиенты.

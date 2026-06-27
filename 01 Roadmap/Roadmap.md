@@ -82,14 +82,26 @@ updated: 2026-06-26
 
 ## Фаза 4: PyTorch 🚀 Active
 
-**Следующий активный модуль:**
-- [[Tensor]] — данные и параметры
-- [[nn.Module]] — реализация модели и Forward Pass
-- [[Autograd]] — автоматические градиенты
-- [[torch.optim]] — оптимизаторы и optimizer.step()
-- [[model.eval()]] — режим Inference
+**Модуль PyTorch — Tensor Fundamentals импортирован:**
+- [[PyTorch/Tensor|Tensor]] ✅ — основной объект PyTorch
+- [[PyTorch/Tensors/Tensor Dimensions (ndim)|Tensor Dimensions (ndim)]] ✅ — количество осей
+- [[PyTorch/Shape|Tensor Shape]] ✅ — структура Tensor
+- [[PyTorch/Tensors/Tensor Creation|Tensor Creation]] ✅ — создание Tensor
+- [[PyTorch/Tensors/Tensor Dtype|Tensor Dtype]] ✅ — типы данных
+- [[PyTorch/Reshape|Reshape]], [[PyTorch/View|View]], [[PyTorch/Unsqueeze|Unsqueeze]], [[PyTorch/Squeeze|Squeeze]] ✅ — изменение формы
+- [[PyTorch/Tensors/Tensor Indexing and Slicing|Tensor Indexing and Slicing]] 🔁 — требует повторения
+- [[PyTorch/Broadcasting|Broadcasting]] 🔁 — требует повторения
 
-**Цель:** увидеть в коде цепочку [[Forward Pass]] → [[Loss]] → [[Backpropagation]] → [[Gradient]] → [[Optimizer]]
+**Прогресс модуля:** 6/8 ключевых тем learned, 2 темы needs_review.
+**Статус:** Tensor Fundamentals почти пройден; перед переходом к [[PyTorch/Autograd|Autograd]] повторить [[PyTorch/Broadcasting|Broadcasting]] и shape после slicing.
+
+**Следующий активный блок:**
+- [[PyTorch/Tensors/Tensor Operations|Tensor Operations]]
+- [[PyTorch/Autograd|Autograd]]
+- [[PyTorch/Dataset|Dataset]] и [[PyTorch/DataLoader|DataLoader]]
+- [[PyTorch/nn.Module|nn.Module]]
+
+**Цель:** увидеть в коде цепочку [[Neural Networks/Forward Pass|Forward Pass]] → [[Neural Networks/Loss|Loss]] → [[Neural Networks/Backpropagation|Backpropagation]] → [[Neural Networks/Gradient|Gradient]] → [[Neural Networks/Optimizer|Optimizer]]
 
 ## Фаза 5: LangGraph ✅
 
@@ -137,7 +149,7 @@ updated: 2026-06-26
 ---
 
 **Дата создания:** 2026-06-26
-**Последнее обновление:** 2026-06-26
+**Последнее обновление:** 2026-06-27
 **Статус:** Структурный фундамент готов ✅
 ## Фаза Algorithms: Graph Theory ✅
 

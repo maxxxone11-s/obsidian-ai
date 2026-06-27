@@ -3,7 +3,7 @@ type: concept
 area: PyTorch
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - pytorch
   - stub
@@ -29,3 +29,7 @@ confidence: 0
 
 ## Связанные темы
 [[Neural Networks/Forward Pass|Forward Pass]] · [[Neural Networks/Optimizer|Optimizer]] · [[Neural Networks/Inference|Inference]]
+
+## Связь с Tensor Fundamentals
+
+[[nn.Module]] получает на вход [[Tensor]], ожидает корректный [[Shape]] и обычно используется вместе с [[Dataset]] и [[DataLoader]].

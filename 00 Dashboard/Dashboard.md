@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 ---
 
 # 🧠 AI Second Brain Dashboard
@@ -38,14 +38,15 @@ updated: 2026-06-26
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 171 |
-| Изучено | 104 |
+| Всего концепций | 178 |
+| Изучено | 113 |
 | В процессе | 0 |
-| Требует повтора | 2 |
-| Черновики | 65 |
+| Требует повтора | 4 |
+| Черновики | 61 |
 
 ## 🔄 Последние обновления
 
+- **2026-06-27** — Импорт PyTorch — Tensor Fundamentals: tensors, shape, dtype, indexing, reshape и broadcasting
 - **2026-06-27** — Импорт Основы теории графов: graph basics, trees, cycles и DAG
 - **2026-06-26** — Обновлены правила импорта KNOWLEDGE_EXPORT и синхронизированы Dashboard, Knowledge Map, Roadmap и Learning Log
 - **2026-06-26** — Импорт Machine Learning Fundamentals: fundamentals, evaluation, metrics, algorithms и model selection
