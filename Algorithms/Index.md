@@ -30,6 +30,24 @@ tags:
 - [[Graph Theory/DAG/Python Imports|Python Imports]]
 - [[Graph Theory/DAG/PyTorch Computation Graph|PyTorch Computation Graph]]
 
+## Recursion
+
+- [[Recursion/Index|Recursion Index]]
+- [[Recursion/Basics/Recursion|Recursion]]
+- [[Recursion/Basics/Base Case|Base Case]]
+- [[Recursion/Internals/Call Stack|Call Stack]]
+- [[Recursion/Patterns/Recursive Return Chain|Recursive Return Chain]]
+- [[Recursion/Examples/Factorial|Factorial]]
+- [[Recursion/Examples/Рекурсивная сумма чисел|Рекурсивная сумма чисел]]
+- [[Recursion/Examples/Рекурсивный разворот строки|Рекурсивный разворот строки]]
+- [[Recursion/Examples/Рекурсивная проверка палиндрома|Рекурсивная проверка палиндрома]]
+- [[Recursion/Examples/String Slicing in Recursion|String Slicing in Recursion]]
+- [[Recursion/Patterns/Recursive Thinking|Recursive Thinking]]
+- [[Recursion/Patterns/Recursion Patterns|Recursion Patterns]]
+- [[Recursion/Patterns/Divide and Conquer|Divide and Conquer]]
+- [[Recursion/Trees/Tree Traversal|Tree Traversal]]
+- [[Recursion/Trees/Binary Tree Traversal|Binary Tree Traversal]]
+
 ## Graphs и Trees
 
 - [[Graphs]]

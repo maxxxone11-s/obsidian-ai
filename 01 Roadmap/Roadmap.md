@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 ---
 
 # 🗺️ Дорожная карта обучения
@@ -168,3 +168,19 @@ updated: 2026-06-26
 **Прогресс модуля:** 10/10 ключевых тем learned.
 **Требует повторения:** строгое определение дерева, связь дерева и DAG, почему отсутствие нескольких путей следует из отсутствия циклов.
 
+## Фаза Algorithms: Python — Рекурсия ✅
+
+**Модуль Python — Рекурсия импортирован:**
+- [[Algorithms/Recursion/Basics/Recursion|Recursion]] ✅ — идея уменьшения задачи
+- [[Algorithms/Recursion/Basics/Base Case|Base Case]] ✅ — остановка рекурсии
+- [[Algorithms/Recursion/Internals/Call Stack|Call Stack]] ✅ — stack frame и размотка
+- [[Algorithms/Recursion/Patterns/Recursive Return Chain|Recursive Return Chain]] ✅ — рекурсия через `return`
+- [[Algorithms/Recursion/Examples/Factorial|Factorial]] ✅ — классический пример
+- [[Algorithms/Recursion/Examples/Рекурсивная сумма чисел|Рекурсивная сумма чисел]] ✅
+- [[Algorithms/Recursion/Examples/Рекурсивный разворот строки|Рекурсивный разворот строки]] ✅
+- [[Algorithms/Recursion/Examples/Рекурсивная проверка палиндрома|Рекурсивная проверка палиндрома]] ✅
+- [[Algorithms/Recursion/Examples/String Slicing in Recursion|String Slicing in Recursion]] 🔁 — повторить срезы
+
+**Прогресс модуля:** 8/9 ключевых тем learned, 1 тема needs_review.
+**Статус:** базовая рекурсия пройдена; следующий активный блок — [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]], [[Algorithms/DFS|DFS]] и рекурсия на графах.
+**Требует повторения:** срезы строк, различие «вызов» и «возврат», рекурсия на деревьях и графах.

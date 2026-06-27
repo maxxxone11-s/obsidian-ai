@@ -9,6 +9,28 @@ updated: 2026-06-27
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-27 (KNOWLEDGE_EXPORT: Python — Рекурсия)
+
+### ✅ Импортировано
+
+- Модуль импортирован в существующую область [[Algorithms/Index|Algorithms & Data Structures]] во внутреннюю структуру [[Algorithms/Recursion/Index|Algorithms/Recursion]].
+- Созданы основные концепции: [[Algorithms/Recursion/Basics/Recursion|Recursion]], [[Algorithms/Recursion/Basics/Base Case|Base Case]], [[Algorithms/Recursion/Internals/Call Stack|Call Stack]], [[Algorithms/Recursion/Patterns/Recursive Return Chain|Recursive Return Chain]].
+- Созданы примеры: [[Algorithms/Recursion/Examples/Factorial|Factorial]], [[Algorithms/Recursion/Examples/Рекурсивная сумма чисел|Рекурсивная сумма чисел]], [[Algorithms/Recursion/Examples/Рекурсивный разворот строки|Рекурсивный разворот строки]], [[Algorithms/Recursion/Examples/Рекурсивная проверка палиндрома|Рекурсивная проверка палиндрома]].
+- Созданы stub-заметки: [[Algorithms/Recursion/Patterns/Recursive Thinking|Recursive Thinking]], [[Algorithms/Recursion/Patterns/Recursion Patterns|Recursion Patterns]], [[Algorithms/Recursion/Patterns/Divide and Conquer|Divide and Conquer]], [[Algorithms/Recursion/Examples/String Slicing in Recursion|String Slicing in Recursion]], [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]], [[Algorithms/Recursion/Trees/Binary Tree Traversal|Binary Tree Traversal]].
+- Обновлены связи в [[Algorithms/DFS|DFS]], [[Algorithms/Stack|Stack]] и [[Algorithms/Tree|Tree]].
+
+### 🧠 Weak spots
+
+- Рекурсия на деревьях.
+- Рекурсия на графах.
+- Сложные рекурсивные задачи LeetCode.
+- Неточности в использовании срезов строк.
+- Иногда путается терминология «вызов» и «возврат».
+
+### Следующий шаг
+
+- Повторить [[Algorithms/Recursion/Examples/String Slicing in Recursion|String Slicing in Recursion]], затем перейти к [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]] и [[Algorithms/DFS|DFS]].
+
 ## 2026-06-27 (KNOWLEDGE_EXPORT: PyTorch — Tensor Fundamentals)
 
 ### ✅ Импортировано

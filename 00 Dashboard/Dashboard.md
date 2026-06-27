@@ -28,6 +28,7 @@ updated: 2026-06-27
 - [[Indexes/PyTorch Index|⚡ PyTorch]]
 - [[Indexes/LLM Engineering Index|✨ LLM Engineering]]
 - [[Indexes/LangGraph Index|🔗 LangGraph]]
+- [[Indexes/Algorithms Index|🧩 Algorithms & Data Structures]]
 
 ### Рабочие инструменты
 - [[Templates/Concept Template|📝 Шаблон для новой концепции]]
@@ -38,14 +39,15 @@ updated: 2026-06-27
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 178 |
-| Изучено | 113 |
+| Всего концепций | 192 |
+| Изучено | 121 |
 | В процессе | 0 |
-| Требует повтора | 4 |
-| Черновики | 61 |
+| Требует повтора | 5 |
+| Черновики | 66 |
 
 ## 🔄 Последние обновления
 
+- **2026-06-27** — Импорт Python — Рекурсия: base case, call stack, return chain, factorial, строки и первые tree traversal stubs
 - **2026-06-27** — Импорт PyTorch — Tensor Fundamentals: tensors, shape, dtype, indexing, reshape и broadcasting
 - **2026-06-27** — Импорт Основы теории графов: graph basics, trees, cycles и DAG
 - **2026-06-26** — Обновлены правила импорта KNOWLEDGE_EXPORT и синхронизированы Dashboard, Knowledge Map, Roadmap и Learning Log

@@ -3,7 +3,7 @@ type: concept
 area: Algorithms & Data Structures
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - algorithms
 confidence: 0
@@ -27,4 +27,4 @@ DFS — обход графа или дерева в глубину.
 - Забывать отмечать visited и попадать в бесконечный цикл.
 
 ## Связанные темы
-[[Graphs]] · [[Stack]] · [[Tree]]
+[[Graphs]] · [[Stack]] · [[Tree]] · [[Algorithms/Recursion/Basics/Recursion|Recursion]] · [[Algorithms/Recursion/Internals/Call Stack|Call Stack]]

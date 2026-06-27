@@ -3,7 +3,7 @@ type: concept
 area: Algorithms & Data Structures
 status: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-27
 tags:
   - algorithms
 confidence: 0
@@ -27,4 +27,4 @@ Stack — структура LIFO: последним пришёл, первым
 - Путать Stack и Queue.
 
 ## Связанные темы
-[[DFS]] · [[Queue]]
+[[DFS]] · [[Queue]] · [[Algorithms/Recursion/Internals/Call Stack|Call Stack]]

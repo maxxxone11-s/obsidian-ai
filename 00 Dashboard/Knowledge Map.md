@@ -218,6 +218,7 @@ updated: 2026-06-27
 
 - [[Algorithms/Index|Algorithms Index]]
 - [[Algorithms/Graph Theory/Index|Graph Theory Index]]
+- [[Algorithms/Recursion/Index|Recursion Index]]
 - [[Algorithms/BFS|BFS]]
 - [[Algorithms/Binary Search|Binary Search]]
 - [[Algorithms/DFS|DFS]]
@@ -246,3 +247,19 @@ updated: 2026-06-27
 - [[Algorithms/Graph Theory/DAG/Python Imports|Python Imports]]
 - [[Algorithms/Graph Theory/DAG/PyTorch Computation Graph|PyTorch Computation Graph]]
 
+### Recursion
+
+- [[Algorithms/Recursion/Basics/Recursion|Recursion]]
+- [[Algorithms/Recursion/Basics/Base Case|Base Case]]
+- [[Algorithms/Recursion/Internals/Call Stack|Call Stack]]
+- [[Algorithms/Recursion/Patterns/Recursive Return Chain|Recursive Return Chain]]
+- [[Algorithms/Recursion/Examples/Factorial|Factorial]]
+- [[Algorithms/Recursion/Examples/Рекурсивная сумма чисел|Рекурсивная сумма чисел]]
+- [[Algorithms/Recursion/Examples/Рекурсивный разворот строки|Рекурсивный разворот строки]]
+- [[Algorithms/Recursion/Examples/Рекурсивная проверка палиндрома|Рекурсивная проверка палиндрома]]
+- [[Algorithms/Recursion/Examples/String Slicing in Recursion|String Slicing in Recursion]]
+- [[Algorithms/Recursion/Patterns/Recursive Thinking|Recursive Thinking]]
+- [[Algorithms/Recursion/Patterns/Recursion Patterns|Recursion Patterns]]
+- [[Algorithms/Recursion/Patterns/Divide and Conquer|Divide and Conquer]]
+- [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]]
+- [[Algorithms/Recursion/Trees/Binary Tree Traversal|Binary Tree Traversal]]
