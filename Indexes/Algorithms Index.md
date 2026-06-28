@@ -19,6 +19,7 @@ tags:
 - [[Algorithms/Graph Theory/Basics/Изолированная вершина|Изолированная вершина]]
 - [[Algorithms/Graph Theory/Basics/Ориентированный и неориентированный граф|Ориентированный и неориентированный граф]]
 - [[Algorithms/Graph Theory/Basics/Представление графов в памяти|Представление графов в памяти]]
+- [[Algorithms/Graph Theory/Basics/Список смежности|Список смежности]]
 - [[Algorithms/Graph Theory/Basics/Путь|Путь]]
 - [[Algorithms/Graph Theory/Basics/Удаление вершины и удаление ребра|Удаление вершины и удаление ребра]]
 - [[Algorithms/Graph Theory/Basics/Цикл|Цикл]]

@@ -39,14 +39,15 @@ updated: 2026-06-29
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 205 |
-| Изучено | 138 |
+| Всего концепций | 206 |
+| Изучено | 140 |
 | В процессе | 0 |
 | Требует повтора | 6 |
-| Черновики | 61 |
+| Черновики | 60 |
 
 ## 🔄 Последние обновления
 
+- **2026-06-29** — Синхронизация Graph Theory Foundations I: graph basics, paths, trees, cycles, DAG и список смежности
 - **2026-06-29** — Синхронизация рекурсии на деревьях: DFS, return из поддерева, count nodes и max depth
 - **2026-06-28** — Синхронизация PyTorch Foundations II: matmul, nn.Linear, Autograd, Training Loop
 - **2026-06-27** — Full Knowledge Synchronization: удалены import-блоки и дубли секций в concept-заметках

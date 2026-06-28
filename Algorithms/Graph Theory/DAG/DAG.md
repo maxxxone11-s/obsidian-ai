@@ -3,11 +3,11 @@ type: concept
 area: Algorithms & Data Structures
 status: learned
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-06-29
 tags:
   - algorithms
   - graph-theory
-confidence: 0.92
+confidence: 0.98
 difficulty: medium
 ---
 
@@ -15,19 +15,19 @@ difficulty: medium
 
 ## Простое объяснение
 
-Есть направление, но невозможно вернуться назад по циклу.
+DAG — это ориентированный граф без циклов. Можно двигаться только вперед, но невозможно вернуться обратно по циклу.
 
 ## Зачем это нужно
 
-DAG используется практически во всех современных вычислительных системах.
+DAG используется в PyTorch, Git, системах сборки, AI Pipeline и многих современных технологиях.
 
 ## Как это работает
 
-DAG означает Directed Acyclic Graph: directed, acyclic, graph. Любой процесс в нём движется вперед без циклического возврата.
+Граф содержит направление, но не допускает циклических путей. Поэтому зависимости можно выполнять в порядке, где результат предыдущих шагов нужен следующим.
 
 ## Пример
 
-PyTorch Computation Graph, Git, Python imports, AI Pipelines.
+PyTorch Computation Graph.
 
 ## Типичные ошибки
 
@@ -39,14 +39,13 @@ PyTorch Computation Graph — обычный DAG.
 
 ## Вопросы для проверки
 
-- Что означает DAG?
-- Почему PyTorch использует DAG?
-- Почему DAG не может содержать цикл?
+- Почему PyTorch Graph является DAG?
+- Почему DAG не содержит циклов?
 
 ## Следующие темы
 
-- [[Представление графов в памяти]]
+- Topological Sort
 
 ## Связанные темы
 
-- [[PyTorch Computation Graph]] · [[Что такое граф]] · [[Цикл]]
+- [[Что такое граф]] · [[Цикл]] · [[PyTorch Computation Graph]]

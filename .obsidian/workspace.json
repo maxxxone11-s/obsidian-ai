@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Сообщение для сбора конспектов.md",
+                "file": "PyTorch/Shape.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Сообщение для сбора конспектов"
+              "title": "Shape"
             }
           }
         ]
@@ -188,6 +188,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "PyTorch/Tensor.md",
+    "Algorithms/Graph Theory/Basics/Список смежности.md",
+    "Сообщение для сбора конспектов.md",
     "Algorithms/Recursion/Trees/Поиск максимальной глубины дерева.md",
     "Algorithms/Recursion/Trees/Подсчет количества узлов дерева.md",
     "Algorithms/Recursion/Trees/Рекурсия с возвратом результата из поддерева.md",
@@ -196,7 +199,6 @@
     "01 Roadmap/Roadmap.md",
     "PyTorch/Broadcasting.md",
     "PyTorch/Reshape.md",
-    "Сообщение для сбора конспектов.md",
     "PyTorch/PyTorch Training Loop.md",
     "PyTorch/nn.Linear.md",
     "PyTorch/Matrix Multiplication in PyTorch (matmul).md",
@@ -212,8 +214,6 @@
     "Machine Learning/Scaling и Gradient Descent.md",
     "Machine Learning/Fit Transform и Data Leakage.md",
     "Machine Learning/Gradient Descent.md",
-    "Neural Networks/Score.md",
-    "Neural Networks/Perceptron.md",
     "Algorithms/Recursion/Trees",
     "Algorithms/Recursion/Patterns",
     "Algorithms/Recursion/Internals",

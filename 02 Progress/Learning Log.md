@@ -9,6 +9,25 @@ updated: 2026-06-29
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-29 (KNOWLEDGE_EXPORT sync: Graph Theory Foundations I)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[Algorithms/Index|Algorithms & Data Structures]].
+- Обновлены существующие концепции: [[Algorithms/Graph Theory/Basics/Что такое граф|Что такое граф]], [[Algorithms/Graph Theory/Basics/Вершины и ребра|Вершины и ребра]], [[Algorithms/Graph Theory/Basics/Изолированная вершина|Изолированная вершина]], [[Algorithms/Graph Theory/Basics/Удаление вершины и удаление ребра|Удаление вершины и удаление ребра]], [[Algorithms/Graph Theory/Basics/Ориентированный и неориентированный граф|Ориентированный и неориентированный граф]], [[Algorithms/Graph Theory/Basics/Путь|Путь]], [[Algorithms/Graph Theory/Trees/Дерево|Дерево]], [[Algorithms/Graph Theory/Trees/Root Parent Child Leaf|Root Parent Child Leaf]], [[Algorithms/Graph Theory/Basics/Цикл|Цикл]], [[Algorithms/Graph Theory/DAG/DAG|DAG]].
+- Создана новая concept-заметка: [[Algorithms/Graph Theory/Basics/Список смежности|Список смежности]].
+- Обновлена обзорная заметка [[Algorithms/Graph Theory/Basics/Представление графов в памяти|Представление графов в памяти]] ссылкой на список смежности.
+
+### 🧠 Weak spots
+
+- Пока еще не полностью сформировано понимание строгого определения дерева.
+- Пока не изучены альтернативные способы хранения графов.
+- Пока отсутствует понимание сложности операций Big O для графов.
+
+### Следующий шаг
+
+- Изучить матрицу смежности, сравнить список смежности и матрицу смежности, научиться выбирать способ хранения графа в зависимости от задачи.
+
 ## 2026-06-29 (KNOWLEDGE_EXPORT sync: Рекурсия на деревьях)
 
 ### ✅ Синхронизировано
