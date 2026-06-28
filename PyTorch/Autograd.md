@@ -1,23 +1,27 @@
 ---
 type: concept
 area: PyTorch
-status: draft
+status: learned
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-06-28
 tags:
   - pytorch
   - autograd
   - gradient
-confidence: 0
+confidence: 0.90
 ---
 
 # Autograd
 
 Автоматическое дифференцирование в PyTorch.
 
+## Кратко
+
+Изучена идея автоматического вычисления производных.
+
 ## Простое объяснение
 
-Autograd автоматически вычисляет градиенты для обратного распространения.
+Autograd строит граф вычислений и автоматически считает производные.
 
 ## Интуитивное объяснение
 
@@ -29,12 +33,17 @@ Autograd автоматически вычисляет градиенты для
 - Автоматическое дифференцирование
 - Упрощение кода обучения
 
+Без Autograd обучение современных нейросетей невозможно.
+
 ## Как это работает
 
 ### Механизм
 - requires_grad флаг
 - Построение вычислительного графа
 - backward() для вычисления градиентов
+- После `backward()` появляются `.grad`
+
+Autograd — автоматический вычислитель производных по computation graph.
 
 ## Пример
 
@@ -52,6 +61,19 @@ print(x.grad)  # tensor([4.])
 - Забывают requires_grad=True
 - Не вызывают backward()
 - Забывают zero_grad() между итерациями
+- Думать, что `requires_grad` хранит историю состояний Tensor.
+- Путать `x.backward()` и `loss.backward()`.
+
+## Вопросы для проверки
+
+- Что делает `requires_grad=True`?
+- Когда появляется `.grad`?
+- Что делает `backward()`?
+- Почему сначала `.grad == None`?
+
+## Следующие темы
+
+- [[Machine Learning/Gradient Descent|Gradient Descent]]
 
 ## Связанные темы
 
@@ -59,6 +81,8 @@ print(x.grad)  # tensor([4.])
 - [[Backpropagation]] — использует autograd
 - [[Weights]] — градиенты для весов
 - [[Gradient Descent]] — использует градиенты
+- [[Algorithms/Graph Theory/DAG/PyTorch Computation Graph|Computation Graph]]
+- [[Neural Networks/Derivative|Derivative]]
 
 ## Связь с Tensor Fundamentals
 

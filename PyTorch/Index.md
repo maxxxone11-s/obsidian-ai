@@ -2,7 +2,7 @@
 type: index
 area: PyTorch
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-06-28
 tags:
   - index
   - system
@@ -28,7 +28,18 @@ tags:
 - [[Unsqueeze]] — добавление размерности
 - [[Squeeze]] — удаление размерности
 - [[Broadcasting]] — операции между совместимыми Tensor
+- [[Matrix Multiplication in PyTorch (matmul)]] — `*` vs `@`
 - [[PyTorch/Tensors/Tensor Operations|Tensor Operations]] — следующий stub-блок
+
+### PyTorch Foundations II
+
+- [[Matrix Multiplication in PyTorch (matmul)]] — матричное умножение в PyTorch
+- [[nn.Linear]] — Linear Layer
+- [[Autograd]] — автоматическое вычисление производных
+- [[PyTorch Training Loop]] — цикл обучения
+- [[Machine Learning/Mathematics/Производная|Производная]] — производные для AI
+- [[Machine Learning/Gradient Descent|Gradient Descent]] — шаг оптимизации
+- [[Machine Learning/Loss Function|Loss Function]] — ошибка модели
 
 ### Основы PyTorch
 - [[Autograd]] — автоматическое дифференцирование
@@ -38,6 +49,7 @@ tags:
 
 ### Модели и слои
 - [[nn.Module]] — базовый класс модели
+- [[nn.Linear]] — линейный слой
 - Создание собственных слоев
 - Sequential vs Custom models
 
@@ -60,13 +72,14 @@ tags:
 ---
 
 **Дата создания:** 2026-06-26
-**Обновлено:** 2026-06-27
+**Обновлено:** 2026-06-28
 
 
 ## Связи с Neural Networks
 
 - [[Tensor]] — данные и параметры
 - [[nn.Module]] — реализация [[Neural Networks/Forward Pass|Forward Pass]]
+- [[nn.Linear]] — реализация формулы [[Neural Networks/Perceptron|Perceptron]]
 - [[Autograd]] — автоматический [[Neural Networks/Gradient|Gradient]]
 - [[torch.optim]] — реализация [[Neural Networks/Optimizer|Optimizer]]
 - [[model.eval()]] — режим [[Neural Networks/Inference|Inference]]

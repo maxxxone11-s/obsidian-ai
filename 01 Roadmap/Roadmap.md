@@ -108,6 +108,15 @@ updated: 2026-06-27
 - [[PyTorch/Dataset|Dataset]] и [[PyTorch/DataLoader|DataLoader]]
 - [[PyTorch/nn.Module|nn.Module]]
 
+**PyTorch Foundations II синхронизирован:**
+- [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch (matmul)]] ✅ — различие `*` и `@`
+- [[PyTorch/nn.Linear|nn.Linear]] ✅ — Linear Layer как `x @ w + b`
+- [[PyTorch/Autograd|Autograd]] ✅ — computation graph и `backward()`
+- [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]] ✅ — `model(x) → loss → zero_grad → backward → step`
+- [[Machine Learning/Mathematics/Производная|Производная]] 🔁 — повторить правила производных и смысл изменения входа
+
+**Прогресс модуля Foundations II:** 6/7 ключевых тем learned, 1 тема needs_review.
+
 **Цель:** увидеть в коде цепочку [[Neural Networks/Forward Pass|Forward Pass]] → [[Neural Networks/Loss|Loss]] → [[Neural Networks/Backpropagation|Backpropagation]] → [[Neural Networks/Gradient|Gradient]] → [[Neural Networks/Optimizer|Optimizer]]
 
 ## Фаза 5: LangGraph ✅

@@ -156,6 +156,7 @@ updated: 2026-06-27
 - [[PyTorch/Tensors/Tensor Creation|Tensor Creation]]
 - [[PyTorch/Tensors/Tensor Dtype|Tensor Dtype]]
 - [[PyTorch/Tensors/Tensor Indexing and Slicing|Tensor Indexing and Slicing]]
+- [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch (matmul)]]
 - [[PyTorch/Reshape|Reshape]]
 - [[PyTorch/View|View]]
 - [[PyTorch/Unsqueeze|Unsqueeze]]
@@ -167,6 +168,8 @@ updated: 2026-06-27
 - [[PyTorch/DataLoader|DataLoader]]
 - [[PyTorch/model.eval()|model.eval()]]
 - [[PyTorch/nn.Module|nn.Module]]
+- [[PyTorch/nn.Linear|nn.Linear]]
+- [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]]
 - [[PyTorch/torch.optim|torch.optim]]
 
 ## LangGraph

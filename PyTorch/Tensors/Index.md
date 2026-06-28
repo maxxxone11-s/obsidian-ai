@@ -2,7 +2,7 @@
 type: index
 area: PyTorch
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-06-28
 tags:
   - index
   - system
@@ -26,10 +26,12 @@ tags:
 - [[PyTorch/Unsqueeze|Unsqueeze]] — добавление оси
 - [[PyTorch/Squeeze|Squeeze]] — удаление оси размера 1
 - [[PyTorch/Broadcasting|Broadcasting]] — операции между совместимыми shape
+- [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch (matmul)]] — `*` vs `@`
 
 ## Следующие темы
 
 - [[PyTorch/Tensors/Tensor Operations|Tensor Operations]]
+- [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch (matmul)]]
 - [[PyTorch/Autograd|Autograd]]
 - [[PyTorch/Dataset|Dataset]]
 - [[PyTorch/DataLoader|DataLoader]]

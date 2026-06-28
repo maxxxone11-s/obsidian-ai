@@ -3,7 +3,7 @@ type: concept
 area: PyTorch
 status: draft
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-06-28
 tags:
   - pytorch
   - tensor
@@ -26,7 +26,7 @@ Tensor Operations — это арифметические, матричные и
 
 ## Как это работает
 
-Будет раскрыто позже: element-wise операции, reductions, matrix multiplication, comparison operations и операции на GPU.
+Будет раскрыто позже: element-wise операции, reductions, [[PyTorch/Matrix Multiplication in PyTorch (matmul)|matrix multiplication]], comparison operations и операции на GPU.
 
 ## Пример
 
@@ -43,9 +43,10 @@ print(x.mean())
 ## Типичные ошибки
 
 - Не проверять shape перед операцией.
-- Путать element-wise multiplication и matrix multiplication.
+- Путать element-wise multiplication и [[PyTorch/Matrix Multiplication in PyTorch (matmul)|matrix multiplication]].
 - Не учитывать dtype и device.
 
 ## Связанные темы
 
 - [[Tensor]] · [[Tensor Dtype]] · [[Broadcasting]] · [[Autograd]]
+- [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication]]

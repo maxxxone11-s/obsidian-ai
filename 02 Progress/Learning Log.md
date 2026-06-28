@@ -4,10 +4,30 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-06-28
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-06-28 (KNOWLEDGE_EXPORT sync: PyTorch Foundations II)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
+- Созданы новые concept-заметки: [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch (matmul)]], [[PyTorch/nn.Linear|nn.Linear]], [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]].
+- Обновлены существующие заметки: [[PyTorch/Autograd|Autograd]], [[Machine Learning/Gradient Descent|Gradient Descent]], [[Machine Learning/Loss Function|Loss Function]], [[Machine Learning/Mathematics/Производная|Производная]], [[PyTorch/Tensors/Tensor Operations|Tensor Operations]], [[PyTorch/nn.Module|nn.Module]].
+- `Derivatives for AI` не создавался как новая Knowledge Area; материал слит в [[Machine Learning/Mathematics/Производная|Производная]].
+
+### 🧠 Weak spots
+
+- Производные сложных функций и [[Neural Networks/Chain Rule|Chain Rule]].
+- Более глубокое понимание computation graph.
+- Момент появления gradient: `backward()` вычисляет градиенты, `optimizer.step()` обновляет веса.
+- Порядок вызовов в [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]].
+
+### Следующий шаг
+
+- Закрепить [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]] на маленькой модели: `nn.Linear → loss → zero_grad → backward → step`.
 
 ## 2026-06-27 (Full Knowledge Synchronization)
 

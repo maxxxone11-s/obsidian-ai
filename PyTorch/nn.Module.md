@@ -3,7 +3,7 @@ type: concept
 area: PyTorch
 status: draft
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-06-28
 tags:
   - pytorch
   - stub
@@ -18,23 +18,33 @@ confidence: 0
 
 ## Зачем это нужно
 
-Эта тема связывает теорию Neural Networks с реализацией в PyTorch.
+Эта тема связывает теорию Neural Networks с реализацией в PyTorch. Конкретный пример слоя — [[nn.Linear]].
 
 ## Как это работает
 
-Пока не раскрыто.
+`nn.Module` описывает модель или слой как объект с forward pass. Внутри `nn.Module` могут быть слои вроде [[nn.Linear]].
 
 ## Пример
 
-Пока не добавлен.
+```python
+from torch import nn
+
+class Model(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.linear = nn.Linear(3, 1)
+
+    def forward(self, x):
+        return self.linear(x)
+```
 
 ## Типичные ошибки
 
-- Пока не добавлены.
+- Путать `nn.Module` как базовый класс модели и [[nn.Linear]] как конкретный слой.
 
 ## Связанные темы
 
-- [[Neural Networks/Forward Pass|Forward Pass]] · [[Neural Networks/Optimizer|Optimizer]] · [[Neural Networks/Inference|Inference]]
+- [[Neural Networks/Forward Pass|Forward Pass]] · [[Neural Networks/Optimizer|Optimizer]] · [[Neural Networks/Inference|Inference]] · [[nn.Linear]]
 
 ## Связь с Tensor Fundamentals
 
