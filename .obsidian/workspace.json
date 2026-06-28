@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Roadmap/Roadmap.md",
+                "file": "Сообщение для сбора конспектов.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roadmap"
+              "title": "Сообщение для сбора конспектов"
             }
           }
         ]
@@ -188,8 +188,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "PyTorch/Broadcasting.md",
+    "Algorithms/Recursion/Trees/Поиск максимальной глубины дерева.md",
+    "Algorithms/Recursion/Trees/Подсчет количества узлов дерева.md",
+    "Algorithms/Recursion/Trees/Рекурсия с возвратом результата из поддерева.md",
+    "Algorithms/Recursion/Trees/Дерево как рекурсивная структура данных.md",
+    "Algorithms/Recursion/Trees/DFS на дереве.md",
     "01 Roadmap/Roadmap.md",
+    "PyTorch/Broadcasting.md",
     "PyTorch/Reshape.md",
     "Сообщение для сбора конспектов.md",
     "PyTorch/PyTorch Training Loop.md",
@@ -209,11 +214,6 @@
     "Machine Learning/Gradient Descent.md",
     "Neural Networks/Score.md",
     "Neural Networks/Perceptron.md",
-    "Neural Networks/Optimizer.md",
-    "Machine Learning/Data Leakage.md",
-    "Machine Learning/Что такое Machine Learning.md",
-    "00 Dashboard/Dashboard.md",
-    "00 Dashboard/Knowledge Map.md",
     "Algorithms/Recursion/Trees",
     "Algorithms/Recursion/Patterns",
     "Algorithms/Recursion/Internals",

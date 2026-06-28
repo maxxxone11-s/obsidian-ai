@@ -3,7 +3,7 @@ type: concept
 area: Algorithms & Data Structures
 status: draft
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-06-29
 tags:
   - algorithms
   - recursion
@@ -42,4 +42,4 @@ def inorder(node):
 
 ## Связанные темы
 
-- [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]] · [[Algorithms/DFS|DFS]] · [[Algorithms/Recursion/Basics/Base Case|Base Case]]
+- [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]] · [[Algorithms/DFS|DFS]] · [[Algorithms/Recursion/Trees/DFS на дереве|DFS на дереве]] · [[Algorithms/Recursion/Basics/Base Case|Base Case]]

@@ -3,7 +3,7 @@ type: concept
 area: Algorithms & Data Structures
 status: learned
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-06-29
 tags:
   - algorithms
   - recursion
@@ -22,6 +22,8 @@ difficulty: medium
 ## Зачем это нужно
 
 Такой стиль используется в большинстве рекурсивных алгоритмов: факториал, сумма, обход дерева, поиск в глубину, divide and conquer.
+
+На деревьях этот же принцип превращается в возврат результата из поддерева к родителю.
 
 Он делает функцию независимой и предсказуемой, потому что результат передается явно, а не складывается в общей глобальной переменной.
 
@@ -54,4 +56,4 @@ def factorial(n: int) -> int:
 
 ## Связанные темы
 
-- [[Algorithms/Recursion/Examples/Factorial|Factorial]] · [[Algorithms/Recursion/Internals/Call Stack|Call Stack]] · [[Algorithms/Recursion/Basics/Base Case|Base Case]]
+- [[Algorithms/Recursion/Examples/Factorial|Factorial]] · [[Algorithms/Recursion/Internals/Call Stack|Call Stack]] · [[Algorithms/Recursion/Basics/Base Case|Base Case]] · [[Algorithms/Recursion/Trees/Рекурсия с возвратом результата из поддерева|Рекурсия с возвратом результата из поддерева]]

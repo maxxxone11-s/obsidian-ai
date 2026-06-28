@@ -3,7 +3,7 @@ type: concept
 area: Algorithms & Data Structures
 status: draft
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-06-29
 tags:
   - algorithms
 confidence: 0
@@ -14,6 +14,8 @@ confidence: 0
 ## Простое объяснение
 
 DFS — обход графа или дерева в глубину.
+
+На дереве DFS особенно естественно реализуется рекурсией: функция обрабатывает текущий узел и вызывает себя для каждого ребенка.
 
 ## Зачем это нужно
 
@@ -33,4 +35,4 @@ DFS — обход графа или дерева в глубину.
 
 ## Связанные темы
 
-- [[Graphs]] · [[Stack]] · [[Tree]] · [[Algorithms/Recursion/Basics/Recursion|Recursion]] · [[Algorithms/Recursion/Internals/Call Stack|Call Stack]]
+- [[Graphs]] · [[Stack]] · [[Tree]] · [[Algorithms/Recursion/Trees/DFS на дереве|DFS на дереве]] · [[Algorithms/Recursion/Basics/Recursion|Recursion]] · [[Algorithms/Recursion/Internals/Call Stack|Call Stack]]

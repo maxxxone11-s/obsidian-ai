@@ -4,10 +4,30 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-28
+updated: 2026-06-29
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-06-29 (KNOWLEDGE_EXPORT sync: Рекурсия на деревьях)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[Algorithms/Index|Algorithms & Data Structures]].
+- Созданы concept-заметки: [[Algorithms/Recursion/Trees/Дерево как рекурсивная структура данных|Дерево как рекурсивная структура данных]], [[Algorithms/Recursion/Trees/DFS на дереве|DFS на дереве]], [[Algorithms/Recursion/Trees/Рекурсия с возвратом результата из поддерева|Рекурсия с возвратом результата из поддерева]], [[Algorithms/Recursion/Trees/Подсчет количества узлов дерева|Подсчет количества узлов дерева]], [[Algorithms/Recursion/Trees/Поиск максимальной глубины дерева|Поиск максимальной глубины дерева]].
+- Обновлены связи в [[Algorithms/Tree|Tree]], [[Algorithms/DFS|DFS]], [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]], [[Algorithms/Recursion/Trees/Binary Tree Traversal|Binary Tree Traversal]] и [[Algorithms/Recursion/Patterns/Recursive Return Chain|Recursive Return Chain]].
+
+### 🧠 Weak spots
+
+- Объединение результатов нескольких рекурсивных вызовов.
+- Понимание момента, когда использовать сумму, а когда максимум.
+- Склонность совмещать несколько способов решения: цикл и генератор.
+- Игнорирование возвращаемого значения рекурсивного вызова.
+- Двойной подсчет текущего узла.
+
+### Следующий шаг
+
+- Отработать подсчет листьев, поиск значения в дереве, возврат пути до узла, preorder/postorder traversal и переход к бинарным деревьям.
 
 ## 2026-06-28 (KNOWLEDGE_EXPORT sync: PyTorch Foundations II)
 

@@ -2,7 +2,7 @@
 type: index
 area: Algorithms & Data Structures
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-06-29
 tags:
   - index
   - system
@@ -47,6 +47,11 @@ tags:
 - [[Recursion/Patterns/Divide and Conquer|Divide and Conquer]]
 - [[Recursion/Trees/Tree Traversal|Tree Traversal]]
 - [[Recursion/Trees/Binary Tree Traversal|Binary Tree Traversal]]
+- [[Recursion/Trees/Дерево как рекурсивная структура данных|Дерево как рекурсивная структура данных]]
+- [[Recursion/Trees/DFS на дереве|DFS на дереве]]
+- [[Recursion/Trees/Рекурсия с возвратом результата из поддерева|Рекурсия с возвратом результата из поддерева]]
+- [[Recursion/Trees/Подсчет количества узлов дерева|Подсчет количества узлов дерева]]
+- [[Recursion/Trees/Поиск максимальной глубины дерева|Поиск максимальной глубины дерева]]
 
 ## Graphs и Trees
 
