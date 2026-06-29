@@ -4,10 +4,29 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-29
+updated: 2026-06-30
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-06-30 (KNOWLEDGE_EXPORT sync: PyTorch Foundations III)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
+- Созданы concept-заметки: [[PyTorch/Многослойная нейронная сеть|Многослойная нейронная сеть]], [[PyTorch/Анализ архитектуры модели по слоям|Анализ архитектуры модели по слоям]], [[PyTorch/Чтение архитектуры PyTorch-проектов|Чтение архитектуры PyTorch-проектов]].
+- Обновлены существующие концепции: [[Neural Networks/Train Validation Test|Train Validation Test]], [[PyTorch/nn.Module|nn.Module]], [[Neural Networks/ReLU|ReLU]], [[Neural Networks/model.train() и model.eval()|model.train() и model.eval()]], [[PyTorch/model.eval()|model.eval()]], [[Neural Networks/Output|Output]], [[PyTorch/nn.Linear|nn.Linear]].
+- Правило "последний слой определяется задачей" не вынесено в отдельную concept-заметку; знание слито в [[Neural Networks/Output|Output]] и [[PyTorch/nn.Linear|nn.Linear]].
+
+### 🧠 Weak spots
+
+- Пока нет уверенности в выборе последнего слоя для разных типов классификации.
+- Недостаточное понимание связи между последним слоем и функцией потерь.
+- Требуется закрепление анализа архитектуры на реальных GitHub-проектах.
+
+### Следующий шаг
+
+- Изучить Loss Functions: MSELoss, CrossEntropyLoss, BCEWithLogitsLoss; разобрать [[torch.no_grad()]]; читать реальные PyTorch-проекты с GitHub параллельно с оставшимися темами фундамента.
 
 ## 2026-06-29 (KNOWLEDGE_EXPORT sync: Graph Theory Foundations I)
 

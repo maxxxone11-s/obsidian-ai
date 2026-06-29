@@ -2,7 +2,7 @@
 type: index
 area: Neural Networks
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-30
 tags:
   - index
   - system

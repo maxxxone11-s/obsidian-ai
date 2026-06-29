@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PyTorch/Shape.md",
+                "file": "Сообщение для сбора конспектов.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shape"
+              "title": "Сообщение для сбора конспектов"
             }
           }
         ]
@@ -188,6 +188,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "PyTorch/Чтение архитектуры PyTorch-проектов.md",
+    "PyTorch/Анализ архитектуры модели по слоям.md",
+    "PyTorch/Многослойная нейронная сеть.md",
+    "PyTorch/Shape.md",
     "PyTorch/Tensor.md",
     "Algorithms/Graph Theory/Basics/Список смежности.md",
     "Сообщение для сбора конспектов.md",
@@ -210,10 +214,6 @@
     "Neural Networks/Backpropagation.md",
     "Machine Learning/Mathematics/MAE.md",
     "Machine Learning/Scaling и Tree-Based Models.md",
-    "Machine Learning/Scaling для KNN и SVM.md",
-    "Machine Learning/Scaling и Gradient Descent.md",
-    "Machine Learning/Fit Transform и Data Leakage.md",
-    "Machine Learning/Gradient Descent.md",
     "Algorithms/Recursion/Trees",
     "Algorithms/Recursion/Patterns",
     "Algorithms/Recursion/Internals",

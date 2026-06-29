@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-29
+updated: 2026-06-30
 ---
 
 # 🧠 AI Second Brain Dashboard
@@ -39,14 +39,15 @@ updated: 2026-06-29
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 206 |
-| Изучено | 140 |
+| Всего концепций | 209 |
+| Изучено | 147 |
 | В процессе | 0 |
 | Требует повтора | 6 |
-| Черновики | 60 |
+| Черновики | 56 |
 
 ## 🔄 Последние обновления
 
+- **2026-06-30** — Синхронизация PyTorch Foundations III: dataset split, nn.Module, многослойные сети, ReLU, train/eval и анализ архитектуры
 - **2026-06-29** — Синхронизация Graph Theory Foundations I: graph basics, paths, trees, cycles, DAG и список смежности
 - **2026-06-29** — Синхронизация рекурсии на деревьях: DFS, return из поддерева, count nodes и max depth
 - **2026-06-28** — Синхронизация PyTorch Foundations II: matmul, nn.Linear, Autograd, Training Loop

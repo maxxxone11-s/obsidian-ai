@@ -2,7 +2,7 @@
 type: index
 area: PyTorch
 created: 2026-06-26
-updated: 2026-06-28
+updated: 2026-06-30
 tags:
   - index
   - system
@@ -41,6 +41,17 @@ tags:
 - [[Machine Learning/Gradient Descent|Gradient Descent]] — шаг оптимизации
 - [[Machine Learning/Loss Function|Loss Function]] — ошибка модели
 
+### PyTorch Foundations III
+
+- [[Neural Networks/Train Validation Test|Train Validation Test]] — роли train, validation и test
+- [[nn.Module]] — архитектура модели через `__init__` и `forward`
+- [[Многослойная нейронная сеть]] — последовательное построение признаков
+- [[Neural Networks/ReLU|ReLU]] — нелинейность между Linear-слоями
+- [[Анализ архитектуры модели по слоям]] — чтение shape по слоям
+- [[Neural Networks/model.train() и model.eval()|model.train() и model.eval()]] — режимы обучения и инференса
+- [[Neural Networks/Output|Output]] — выбор размера последнего слоя по задаче
+- [[Чтение архитектуры PyTorch-проектов]] — чтение реальных моделей
+
 ### Основы PyTorch
 - [[Autograd]] — автоматическое дифференцирование
 - Динамические графы вычислений
@@ -72,7 +83,7 @@ tags:
 ---
 
 **Дата создания:** 2026-06-26
-**Обновлено:** 2026-06-28
+**Обновлено:** 2026-06-30
 
 
 ## Связи с Neural Networks

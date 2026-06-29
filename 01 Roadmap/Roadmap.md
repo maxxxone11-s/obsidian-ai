@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-29
+updated: 2026-06-30
 ---
 
 # 🗺️ Дорожная карта обучения
@@ -117,6 +117,19 @@ updated: 2026-06-29
 
 **Прогресс модуля Foundations II:** 6/7 ключевых тем learned, 1 тема needs_review.
 
+**PyTorch Foundations III синхронизирован:**
+- [[Neural Networks/Train Validation Test|Train Validation Test]] ✅ — роли train, validation и test
+- [[PyTorch/nn.Module|nn.Module]] ✅ — `__init__`, `forward` и вызов `model(x)`
+- [[PyTorch/Многослойная нейронная сеть|Многослойная нейронная сеть]] ✅ — слои строят новые признаки последовательно
+- [[Neural Networks/ReLU|ReLU]] ✅ — нелинейность между Linear-слоями
+- [[PyTorch/Анализ архитектуры модели по слоям|Анализ архитектуры модели по слоям]] ✅ — чтение shape по слоям
+- [[Neural Networks/model.train() и model.eval()|model.train() и model.eval()]] ✅ и [[PyTorch/model.eval()|model.eval()]] ✅ — режимы модели
+- [[Neural Networks/Output|Output]] ✅ и [[PyTorch/nn.Linear|nn.Linear]] ✅ — последний слой определяется задачей
+- [[PyTorch/Чтение архитектуры PyTorch-проектов|Чтение архитектуры PyTorch-проектов]] ✅ — базовое чтение архитектур
+
+**Прогресс модуля Foundations III:** 8/8 ключевых тем learned.
+**Требует повторения:** выбор последнего слоя для разных типов классификации, связь последнего слоя и loss function, анализ реальных GitHub-проектов.
+
 **Цель:** увидеть в коде цепочку [[Neural Networks/Forward Pass|Forward Pass]] → [[Neural Networks/Loss|Loss]] → [[Neural Networks/Backpropagation|Backpropagation]] → [[Neural Networks/Gradient|Gradient]] → [[Neural Networks/Optimizer|Optimizer]]
 
 ## Фаза 5: LangGraph ✅
@@ -165,7 +178,7 @@ updated: 2026-06-29
 ---
 
 **Дата создания:** 2026-06-26
-**Последнее обновление:** 2026-06-29
+**Последнее обновление:** 2026-06-30
 **Статус:** Структурный фундамент готов ✅
 
 ## Фаза Algorithms: Graph Theory ✅

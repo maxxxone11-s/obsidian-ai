@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-29
+updated: 2026-06-30
 ---
 
 # 🧠 Knowledge Map
@@ -169,6 +169,9 @@ updated: 2026-06-29
 - [[PyTorch/model.eval()|model.eval()]]
 - [[PyTorch/nn.Module|nn.Module]]
 - [[PyTorch/nn.Linear|nn.Linear]]
+- [[PyTorch/Многослойная нейронная сеть|Многослойная нейронная сеть]]
+- [[PyTorch/Анализ архитектуры модели по слоям|Анализ архитектуры модели по слоям]]
+- [[PyTorch/Чтение архитектуры PyTorch-проектов|Чтение архитектуры PyTorch-проектов]]
 - [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]]
 - [[PyTorch/torch.optim|torch.optim]]
 

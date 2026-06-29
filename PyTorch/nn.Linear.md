@@ -3,7 +3,7 @@ type: concept
 area: PyTorch
 status: learned
 created: 2026-06-28
-updated: 2026-06-28
+updated: 2026-06-30
 tags:
   - pytorch
   - neural-networks
@@ -45,6 +45,8 @@ x @ w + b
 
 Linear Layer — это множество персептронов.
 
+В последнем слое `out_features` выбирается по задаче: для regression обычно нужен 1 выход, для multi-class classification — количество классов, для multi-label — по одному выходу на каждый независимый класс.
+
 ## Пример
 
 ```python
@@ -62,6 +64,7 @@ print(output)
 
 - Путать, что означают `3` и `1` в `nn.Linear(3, 1)`.
 - Считать, что PyTorch создаёт признаки, а не веса.
+- Не связывать `out_features` последнего слоя с типом задачи.
 
 ## Вопросы для проверки
 
@@ -69,6 +72,7 @@ print(output)
 - Что автоматически создаётся?
 - Почему веса случайные?
 - Что происходит внутри `layer(x)`?
+- Почему размер последнего слоя зависит от задачи?
 
 ## Следующие темы
 
@@ -79,5 +83,6 @@ print(output)
 - [[Neural Networks/Perceptron|Perceptron]]
 - [[Neural Networks/Weights|Weights]]
 - [[Neural Networks/Bias|Bias]]
+- [[Neural Networks/Output|Output]]
 - [[Matrix Multiplication in PyTorch (matmul)]]
 - [[nn.Module]]

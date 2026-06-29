@@ -2,7 +2,7 @@
 type: index
 area: PyTorch
 created: 2026-06-26
-updated: 2026-06-28
+updated: 2026-06-30
 tags:
   - index
   - system
@@ -39,6 +39,18 @@ tags:
 - [[Machine Learning/Mathematics/Производная|Производная]] — базовые производные для AI
 - [[Machine Learning/Gradient Descent|Gradient Descent]] — обновление весов
 - [[Machine Learning/Loss Function|Loss Function]] — откуда появляется Loss
+
+## PyTorch Foundations III
+
+- [[Neural Networks/Train Validation Test|Train Validation Test]] — роли train, validation и test
+- [[PyTorch/nn.Module|nn.Module]] — `__init__`, `forward` и вызов `model(x)`
+- [[PyTorch/Многослойная нейронная сеть|Многослойная нейронная сеть]] — слои работают с выходами предыдущих слоев
+- [[Neural Networks/ReLU|ReLU]] — нелинейность между Linear-слоями
+- [[PyTorch/Анализ архитектуры модели по слоям|Анализ архитектуры модели по слоям]] — shape и совместимость слоев
+- [[Neural Networks/model.train() и model.eval()|model.train() и model.eval()]] — режимы модели
+- [[PyTorch/model.eval()|model.eval()]] — PyTorch-режим inference
+- [[Neural Networks/Output|Output]] — размер последнего слоя по задаче
+- [[PyTorch/Чтение архитектуры PyTorch-проектов|Чтение архитектуры PyTorch-проектов]] — чтение параметров архитектуры
 
 ## Основы PyTorch
 
@@ -91,4 +103,4 @@ tags:
 
 ---
 
-**Обновлено:** 2026-06-28
+**Обновлено:** 2026-06-30
