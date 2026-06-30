@@ -22,30 +22,6 @@
               "icon": "lucide-file",
               "title": "Сообщение для сбора конспектов"
             }
-          },
-          {
-            "id": "c6108020fb8899c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Roadmap/Roadmap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Roadmap"
-            }
-          },
-          {
-            "id": "af3444b3879d909f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ]
       }
@@ -214,19 +190,21 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Transformers/Attention Scores.md",
+    "01 Roadmap/Roadmap.md",
+    "Transformers/Attention Output.md",
+    "Transformers/Embedding Space.md",
+    "Transformers/MultiheadAttention в PyTorch.md",
+    "00 Dashboard/Graph Groups.md",
+    "00 Dashboard/Dashboard.md",
+    "Сообщение для сбора конспектов.md",
     "Indexes/Transformers Index.md",
     "Transformers/Index.md",
-    "Transformers/MultiheadAttention в PyTorch.md",
-    "Transformers/Embedding Space.md",
-    "Transformers/Attention Output.md",
     "Transformers/Attention Weights.md",
-    "Transformers/Attention Scores.md",
     "Transformers/Query Key Value.md",
     "Transformers/Статический и контекстный Embedding.md",
     "Transformers/Embedding Layer.md",
     "Transformers",
-    "01 Roadmap/Roadmap.md",
-    "Сообщение для сбора конспектов.md",
     "PyTorch/Повторение терминов PyTorch Foundations.md",
     "PyTorch/Интерфейс важнее реализации.md",
     "PyTorch/Модель как универсальная функция.md",
@@ -239,8 +217,6 @@
     "PyTorch/preprocess_image().md",
     "PyTorch/load_model().md",
     "PyTorch/Inference Pipeline.md",
-    "PyTorch/predict.py.md",
-    "PyTorch/train_utils.py.md",
     "Algorithms/Recursion/Trees",
     "Algorithms/Recursion/Patterns",
     "Algorithms/Recursion/Internals",

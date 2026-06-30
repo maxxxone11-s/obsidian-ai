@@ -30,6 +30,8 @@ updated: 2026-06-30
 - `tag:#llm-engineering` — жёлтый
 - `tag:#ai-agents` — розовый
 - `tag:#algorithms` — голубой
+- `tag:#transformers` - малиновый
+
 
 ## Как скрыть служебные файлы
 

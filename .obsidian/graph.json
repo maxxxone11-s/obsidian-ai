@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#python-backend",
@@ -69,6 +69,13 @@
         "a": 1,
         "rgb": 393015
       }
+    },
+    {
+      "query": "tag:#transformers",
+      "color": {
+        "a": 1,
+        "rgb": 16711829
+      }
     }
   ],
   "collapse-display": true,
@@ -81,6 +88,6 @@
   "repelStrength": 7.40711805555556,
   "linkStrength": 1,
   "linkDistance": 146,
-  "scale": 0.7730741608021136,
+  "scale": 0.4700781427947096,
   "close": true
 }
