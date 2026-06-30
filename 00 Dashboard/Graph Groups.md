@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-30
 ---
 
 # Graph Groups
@@ -23,6 +23,7 @@ updated: 2026-06-26
 - `tag:#python-backend` — синий
 - `tag:#machine-learning` — зелёный
 - `tag:#neural-networks` — оранжевый
+- `tag:#transformers` — сине-фиолетовый
 - `tag:#pytorch` — фиолетовый
 - `tag:#langgraph` — красный
 - `tag:#rag` — бирюзовый

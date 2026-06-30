@@ -25,6 +25,7 @@ updated: 2026-06-30
 ### Основные темы
 - [[Indexes/Python Backend Index|🐍 Python Backend]]
 - [[Indexes/Machine Learning Index|🤖 Machine Learning]]
+- [[Indexes/Transformers Index|🧠 Transformers]]
 - [[Indexes/PyTorch Index|⚡ PyTorch]]
 - [[Indexes/LLM Engineering Index|✨ LLM Engineering]]
 - [[Indexes/LangGraph Index|🔗 LangGraph]]
@@ -39,14 +40,15 @@ updated: 2026-06-30
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 232 |
-| Изучено | 174 |
+| Всего концепций | 240 |
+| Изучено | 181 |
 | В процессе | 0 |
-| Требует повтора | 6 |
+| Требует повтора | 7 |
 | Черновики | 52 |
 
 ## 🔄 Последние обновления
 
+- **2026-06-30** — Синхронизация Transformer Foundations I: embeddings, QKV, attention scores, attention weights, weighted sum, embedding space и MultiheadAttention
 - **2026-06-30** — Синхронизация PyTorch Engineering Mindset & GitHub Project Analysis: чтение репозиториев, интерфейсы, модель как функция и словарь терминов
 - **2026-06-30** — Синхронизация PyTorch GitHub File Analysis & Inference Pipeline: predict.py, load_model, preprocess_image, top_k и weighted loss
 - **2026-06-30** — Синхронизация PyTorch Loss, Optimization & Autograd: CrossEntropyLoss, model.parameters(), Adam, backward, no_grad и DataLoader internals

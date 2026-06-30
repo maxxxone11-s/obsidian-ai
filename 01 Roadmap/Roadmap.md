@@ -87,6 +87,22 @@ updated: 2026-06-30
 
 **Статус:** Completed. Следующий активный модуль — [[PyTorch/Index|PyTorch]]
 
+## Фаза 3.5: Transformers 🚀 Active
+
+**Модуль Transformer Foundations I синхронизирован в отдельную область [[Transformers/Index|Transformers]]:**
+- [[Transformers/Embedding Layer|Embedding Layer]] ✅ — обучаемая таблица признаков
+- [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]] ✅ — переход от статического представления к контекстному
+- [[Transformers/Query Key Value|Query Key Value]] ✅ — три линейных преобразования embedding
+- [[Transformers/Attention Scores|Attention Scores]] ✅ — матрица похожести `QK^T`
+- [[Transformers/Attention Weights|Attention Weights]] ✅ — нормализация scores через [[Neural Networks/Softmax|Softmax]]
+- [[Transformers/Attention Output|Attention Output]] ✅ — weighted sum по Value
+- [[Transformers/Embedding Space|Embedding Space]] 🔁 — геометрическая интерпретация требует повторения
+- [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] ✅ — packed projection и `in_proj_weight`
+
+**Прогресс модуля Transformer Foundations I:** 7/8 ключевых тем learned, 1 тема needs_review.
+**Требует повторения:** геометрическая интерпретация embedding space, интуиция изменения embedding после каждого слоя, связь Scores → Softmax → Weighted Sum и постепенное уточнение embedding в нескольких Transformer Block.
+**Следующий шаг:** изучить полный Transformer Block: Residual Connection, LayerNorm, FeedForward и ручную реализацию SelfAttention на PyTorch.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

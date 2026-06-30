@@ -4,7 +4,7 @@ tags:
   - index
   - system
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-30
 ---
 
 # 📑 Главный индекс Vault
@@ -31,8 +31,16 @@ updated: 2026-06-26
 
 - [[Indexes/Neural Networks Index|Neural Networks Index]]
 - Архитектуры нейросетей
-- CNN, RNN, Transformers
+- CNN, RNN
 - Обучение и оптимизация
+
+### [[Transformers/Index|🧠 Transformers]]
+Архитектуры Transformer и attention-механизмы
+
+- [[Indexes/Transformers Index|Transformers Index]]
+- Embeddings и Self-Attention
+- QKV, Attention Scores и Attention Weights
+- PyTorch MultiheadAttention internals
 
 ### [[PyTorch/Index|⚡ PyTorch]]
 Фреймворк для глубокого обучения
@@ -90,4 +98,4 @@ Retrieval-Augmented Generation
 ---
 
 **Дата создания:** 2026-06-26
-**Последнее обновление:** 2026-06-26
+**Последнее обновление:** 2026-06-30

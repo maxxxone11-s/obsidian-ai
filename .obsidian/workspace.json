@@ -36,6 +36,16 @@
               "icon": "lucide-file",
               "title": "Roadmap"
             }
+          },
+          {
+            "id": "af3444b3879d909f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
         ]
       }
@@ -204,6 +214,19 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Indexes/Transformers Index.md",
+    "Transformers/Index.md",
+    "Transformers/MultiheadAttention в PyTorch.md",
+    "Transformers/Embedding Space.md",
+    "Transformers/Attention Output.md",
+    "Transformers/Attention Weights.md",
+    "Transformers/Attention Scores.md",
+    "Transformers/Query Key Value.md",
+    "Transformers/Статический и контекстный Embedding.md",
+    "Transformers/Embedding Layer.md",
+    "Transformers",
+    "01 Roadmap/Roadmap.md",
+    "Сообщение для сбора конспектов.md",
     "PyTorch/Повторение терминов PyTorch Foundations.md",
     "PyTorch/Интерфейс важнее реализации.md",
     "PyTorch/Модель как универсальная функция.md",
@@ -218,18 +241,6 @@
     "PyTorch/Inference Pipeline.md",
     "PyTorch/predict.py.md",
     "PyTorch/train_utils.py.md",
-    "PyTorch/model.parameters().md",
-    "PyTorch/CrossEntropyLoss.md",
-    "PyTorch/Интерфейс Dataset DataLoader Model.md",
-    "PyTorch/Separation of Concerns.md",
-    "PyTorch/config.py.md",
-    "PyTorch/train.py как центр обучения.md",
-    "PyTorch/model.py как отдельная ответственность.md",
-    "PyTorch/Архитектура ML-проекта.md",
-    "PyTorch/Reading GitHub ML Projects.md",
-    "01 Roadmap/Roadmap.md",
-    "PyTorch/Чтение архитектуры PyTorch-проектов.md",
-    "Python Backend/SQLAlchemy.md",
     "Algorithms/Recursion/Trees",
     "Algorithms/Recursion/Patterns",
     "Algorithms/Recursion/Internals",
@@ -239,7 +250,6 @@
     "PyTorch/Tensors",
     "Algorithms/Graph Theory/Trees",
     "Algorithms/Graph Theory/DAG",
-    "Algorithms/Graph Theory/Basics",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

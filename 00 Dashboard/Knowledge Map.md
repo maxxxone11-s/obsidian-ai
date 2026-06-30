@@ -147,6 +147,24 @@ updated: 2026-06-30
 - [[Neural Networks/Forward Pass|Forward Pass]] → [[PyTorch/nn.Module|nn.Module]]
 - [[Neural Networks/Inference|Inference]] → [[PyTorch/model.eval()|model.eval()]]
 
+## Transformers
+
+- [[Transformers/Index|Transformers Index]]
+- [[Transformers/Embedding Layer|Embedding Layer]]
+- [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]]
+- [[Transformers/Query Key Value|Query Key Value]]
+- [[Transformers/Attention Scores|Attention Scores]]
+- [[Transformers/Attention Weights|Attention Weights]]
+- [[Transformers/Attention Output|Attention Output]]
+- [[Transformers/Embedding Space|Embedding Space]]
+- [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]]
+
+### Связи Transformers
+
+- [[Transformers/Attention Weights|Attention Weights]] → [[Neural Networks/Softmax|Softmax]]
+- [[Transformers/Query Key Value|Query Key Value]] → [[PyTorch/nn.Linear|nn.Linear]]
+- [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] → [[PyTorch/nn.Linear|nn.Linear]]
+
 ## PyTorch
 
 - [[PyTorch/Tensors/Index|PyTorch Tensor Fundamentals Index]]

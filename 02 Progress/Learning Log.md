@@ -9,6 +9,29 @@ updated: 2026-06-30
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-30 (KNOWLEDGE_EXPORT sync: Transformer Foundations I)
+
+### ✅ Синхронизировано
+
+- Создана новая Knowledge Area [[Transformers/Index|Transformers]] по явному подтверждению пользователя.
+- Модуль синхронизирован в `Transformers`, не в `Neural Networks`.
+- Созданы concept-заметки: [[Transformers/Embedding Layer|Embedding Layer]], [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]], [[Transformers/Query Key Value|Query Key Value]], [[Transformers/Attention Scores|Attention Scores]], [[Transformers/Attention Weights|Attention Weights]], [[Transformers/Attention Output|Attention Output]], [[Transformers/Embedding Space|Embedding Space]], [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]].
+- Созданы обзорные индексы: [[Transformers/Index|Transformers Index]] и [[Indexes/Transformers Index|Transformers Index]].
+- Связи проставлены на существующие темы [[Neural Networks/Softmax|Softmax]] и [[PyTorch/nn.Linear|nn.Linear]] без создания дублей.
+
+### 🧠 Weak spots
+
+- Геометрическая интерпретация embedding space.
+- Интуитивное понимание изменения embedding после каждого слоя.
+- Математическая связь Scores → Softmax → Weighted Sum.
+- Связь нескольких Transformer Block с постепенным уточнением embedding.
+
+### Следующий шаг
+
+- Изучить полный Transformer Block: Residual Connection, LayerNorm, FeedForward.
+- Разобрать реальную реализацию MultiHeadAttention из исходников PyTorch.
+- Реализовать упрощенный SelfAttention вручную на PyTorch без использования `nn.MultiheadAttention`.
+
 ## 2026-06-30 (KNOWLEDGE_EXPORT sync: PyTorch Foundations — Engineering Mindset & GitHub Project Analysis)
 
 ### ✅ Синхронизировано
