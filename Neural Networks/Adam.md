@@ -3,11 +3,12 @@ type: concept
 area: Neural Networks
 status: learned
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-06-30
 tags:
   - neural-networks
   - optimizers
-confidence: 0.88
+confidence: 0.96
+difficulty: hard
 ---
 
 # Adam
@@ -18,46 +19,56 @@ Adam объединяет Momentum и адаптивный Learning Rate.
 
 ## Простое объяснение
 
-Stub-заметка для связанной темы из импорта [[Forward Pass]] и [[Backpropagation]].
-
-Adam понимает, что каждому Weight нужен свой размер шага.
+Adam получает список параметров модели и после backward изменяет их значения. Он учитывает историю градиентов и подбирает адаптивный шаг для разных параметров.
 
 ## Зачем это нужно
 
-Эта тема помогает понять полный цикл обучения нейросети.
-
-Сегодня является самым популярным оптимизатором общего назначения.
+Adam — один из самых распространенных оптимизаторов в современных ML-проектах.
 
 ## Как это работает
 
-Пока не раскрыто.
+```text
+model.parameters()
+↓
+список weight и bias
+↓
+loss.backward()
+↓
+появляются .grad
+↓
+optimizer.step()
+↓
+параметры обновляются
+```
 
-Adam хранит сглаженное направление градиента и оценку масштаба градиентов, поэтому может выбирать индивидуальный [[Learning Rate]] для разных параметров.
+Adam хранит историю градиентов и использует ее для адаптации шага обновления каждого параметра.
 
 ## Пример
 
-Пока не добавлен.
-
-Weight 1: lr маленький. Weight 2: lr большой.
+```python
+optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+```
 
 ## Типичные ошибки
 
-- Пока не добавлены.
-
 - Думать, что Adam вычисляет Gradient.
 - Не понимать, откуда берется индивидуальный Learning Rate.
+- Думать, что Adam обновляет модель самостоятельно без `backward()`.
+- Считать, что Adam получает всю модель вместо параметров.
+- Считать, что Adam использует одинаковый шаг для всех параметров.
 
 ## Вопросы для проверки
 
 - Почему Adam лучше обычного SGD?
 - Что он хранит кроме Gradient?
+- Что получает Adam при создании?
+- Что происходит при `optimizer.step()`?
+- Почему Adam считается адаптивным?
 
 ## Следующие темы
 
-- [[Regularization]]
+- [[PyTorch/model.parameters()|model.parameters()]]
 
 ## Связанные темы
 
-- [[Forward Pass]] · [[Backpropagation]] · [[Gradient]]
-
-- [[Momentum]] · [[Learning Rate]] · [[Optimizer]]
+- [[Forward Pass]] · [[Backpropagation]] · [[Gradient]] · [[Momentum]] · [[Learning Rate]] · [[Optimizer]] · [[PyTorch/torch.optim|torch.optim]] · [[PyTorch/model.parameters()|model.parameters()]]

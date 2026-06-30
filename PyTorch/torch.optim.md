@@ -1,37 +1,64 @@
 ---
 type: concept
 area: PyTorch
-status: draft
+status: learned
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-06-30
 tags:
   - pytorch
-  - stub
-confidence: 0
+  - optimizer
+confidence: 0.96
+difficulty: hard
 ---
 
 # torch.optim
 
 ## Простое объяснение
 
-Модуль PyTorch с оптимизаторами. Связан с [[Neural Networks/Optimizer|Optimizer]].
+`torch.optim` — модуль PyTorch с оптимизаторами. Optimizer получает параметры модели и обновляет их после `loss.backward()`.
 
 ## Зачем это нужно
 
-Эта тема связывает теорию Neural Networks с реализацией в PyTorch.
+Без optimizer модель может посчитать градиенты, но ее веса не изменятся.
 
 ## Как это работает
 
-Пока не раскрыто.
+Базовая схема:
+
+```text
+model.parameters()
+↓
+optimizer
+↓
+loss.backward()
+↓
+optimizer.step()
+```
+
+`backward()` вычисляет `.grad`, а `optimizer.step()` использует эти градиенты для обновления параметров.
 
 ## Пример
 
-Пока не добавлен.
+```python
+optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+```
 
 ## Типичные ошибки
 
-- Пока не добавлены.
+- Передавать `model` вместо `model.parameters()`.
+- Думать, что optimizer работает без `backward()`.
+- Путать вычисление градиентов и обновление параметров.
+
+## Вопросы для проверки
+
+- Что получает optimizer при создании?
+- Что делает `optimizer.step()`?
+- Почему optimizer не запускает forward?
+
+## Следующие темы
+
+- [[model.parameters()]]
 
 ## Связанные темы
 
-- [[Neural Networks/Forward Pass|Forward Pass]] · [[Neural Networks/Optimizer|Optimizer]] · [[Neural Networks/Inference|Inference]]
+- [[Neural Networks/Optimizer|Optimizer]] · [[Neural Networks/Adam|Adam]] · [[model.parameters()]] · [[Autograd]] · [[PyTorch Training Loop]]

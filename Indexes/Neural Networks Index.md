@@ -78,6 +78,11 @@ tags:
 - [[PyTorch/nn.Module|nn.Module]]
 - [[PyTorch/Autograd|Autograd]]
 - [[PyTorch/torch.optim|torch.optim]]
+- [[PyTorch/CrossEntropyLoss|CrossEntropyLoss]]
+- [[PyTorch/model.parameters()|model.parameters()]]
+- [[PyTorch/Inference Pipeline|Inference Pipeline]]
+- [[PyTorch/preprocess_image()|preprocess_image()]]
+- [[PyTorch/Модель как универсальная функция|Модель как универсальная функция]]
 - [[PyTorch/model.eval()|model.eval()]]
 
 ## Связанные темы

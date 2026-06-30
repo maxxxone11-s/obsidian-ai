@@ -130,6 +130,65 @@ updated: 2026-06-30
 **Прогресс модуля Foundations III:** 8/8 ключевых тем learned.
 **Требует повторения:** выбор последнего слоя для разных типов классификации, связь последнего слоя и loss function, анализ реальных GitHub-проектов.
 
+**PyTorch Foundations — GitHub Projects & ML Architecture синхронизирован:**
+- [[PyTorch/Reading GitHub ML Projects|Reading GitHub ML Projects]] ✅ — порядок чтения ML-репозитория
+- [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]] ✅ — структура проекта
+- [[PyTorch/model.py как отдельная ответственность|model.py как отдельная ответственность]] ✅ — файл модели
+- [[PyTorch/train.py как центр обучения|train.py как центр обучения]] ✅ — центр обучения
+- [[PyTorch/config.py|config.py]] ✅ — настройки проекта
+- [[PyTorch/Dataset|Dataset]] ✅ и [[PyTorch/DataLoader|DataLoader]] ✅ — данные и batch-интерфейс
+- [[PyTorch/Separation of Concerns|Separation of Concerns]] ✅ — разделение ответственности
+- [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]] ✅ — контракт передачи данных
+- [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]] 🔁 — гиперпараметры vs параметры датасета
+
+**Прогресс модуля GitHub Projects & ML Architecture:** 8/9 ключевых тем learned, 1 тема needs_review.
+**Требует повторения:** чтение крупных репозиториев без подсказок, анализ архитектуры до реализации, интуиция выбора `hidden_size`.
+
+**PyTorch Foundations — Loss, Optimization & Autograd синхронизирован:**
+- [[PyTorch/CrossEntropyLoss|CrossEntropyLoss]] ✅ — loss для multi-class classification
+- [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]] ✅ — математическая идея loss
+- [[Neural Networks/Logits|Logits]] ✅ — сырые outputs модели
+- [[Neural Networks/Adam|Adam]] ✅ — адаптивный optimizer
+- [[PyTorch/model.parameters()|model.parameters()]] ✅ — trainable параметры
+- [[PyTorch/Autograd|Autograd]] ✅ — computation graph и `backward()`
+- [[Neural Networks/torch.no_grad()|torch.no_grad()]] ✅ — inference без graph
+- [[Neural Networks/model.train() и model.eval()|model.train() и model.eval()]] ✅ и [[PyTorch/model.eval()|model.eval()]] ✅ — режимы модели
+- [[PyTorch/DataLoader|DataLoader]] ✅ — batch loading под капотом
+
+**Прогресс модуля Loss, Optimization & Autograd:** 9/9 ключевых тем learned.
+**Требует повторения:** внутреннее устройство Adam, математическая основа CrossEntropyLoss, хранение промежуточных значений в computation graph, DataLoader на уровне реализации.
+
+**PyTorch Foundations — GitHub File Analysis & Inference Pipeline синхронизирован:**
+- [[PyTorch/model.py как отдельная ответственность|model.py как отдельная ответственность]] ✅ — review файла модели
+- [[PyTorch/train.py как центр обучения|train.py как центр обучения]] ✅ — review training script
+- [[PyTorch/train_utils.py|train_utils.py]] ✅ — helper-функции обучения
+- [[PyTorch/predict.py|predict.py]] ✅ — inference script
+- [[PyTorch/Inference Pipeline|Inference Pipeline]] ✅ — полный prediction pipeline
+- [[PyTorch/load_model()|load_model()]] ✅ — загрузка модели
+- [[PyTorch/preprocess_image()|preprocess_image()]] ✅ — подготовка изображения
+- [[PyTorch/predict()|predict()]] ✅ — функция предсказания
+- [[PyTorch/top_k|top_k]] ✅ — несколько лучших классов
+- [[PyTorch/Unsqueeze|Unsqueeze]] ✅ — `unsqueeze(0)` для batch dimension
+- [[PyTorch/loss.item()|loss.item()]] ✅ — Tensor loss в Python number
+- [[PyTorch/Weighted Average Loss|Weighted Average Loss]] ✅ — средний loss с учетом batch size
+- [[PyTorch/Tuple Unpacking|Tuple Unpacking]] ✅ — распаковка нескольких return values
+
+**Прогресс модуля GitHub File Analysis & Inference Pipeline:** 14/14 ключевых тем learned.
+**Требует повторения:** размерности Tensor и параметр `dim`, внутренние преобразования `torchvision.transforms`, эффективность загрузки модели при многократных предсказаниях.
+
+**PyTorch Foundations — Engineering Mindset & GitHub Project Analysis синхронизирован:**
+- [[PyTorch/Reading GitHub ML Projects|Reading GitHub ML Projects]] ✅ — чтение репозитория через архитектуру
+- [[PyTorch/Как анализировать неизвестный код|Как анализировать неизвестный код]] ✅ — вопросы к незнакомому файлу
+- [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]] ✅ — понимание проекта по структуре файлов
+- [[PyTorch/Модель как универсальная функция|Модель как универсальная функция]] ✅ — модель как `features -> prediction`
+- [[PyTorch/train.py как центр обучения|train.py как центр обучения]] ✅ — независимость train loop от источника данных
+- [[PyTorch/Dataset|Dataset]] ✅ и [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]] ✅ — replaceable Dataset через стабильный интерфейс
+- [[PyTorch/Интерфейс важнее реализации|Интерфейс важнее реализации]] ✅ — interface over implementation
+- [[PyTorch/Повторение терминов PyTorch Foundations|Повторение терминов PyTorch Foundations]] ✅ — связанный словарь модуля
+
+**Прогресс модуля Engineering Mindset & GitHub Project Analysis:** 8/8 ключевых тем learned.
+**Требует повторения:** самостоятельный анализ новых репозиториев, закрепление dependency flow между файлами, переход от tutorial-кода к production-коду.
+
 **Цель:** увидеть в коде цепочку [[Neural Networks/Forward Pass|Forward Pass]] → [[Neural Networks/Loss|Loss]] → [[Neural Networks/Backpropagation|Backpropagation]] → [[Neural Networks/Gradient|Gradient]] → [[Neural Networks/Optimizer|Optimizer]]
 
 ## Фаза 5: LangGraph ✅

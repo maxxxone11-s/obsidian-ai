@@ -9,6 +9,85 @@ updated: 2026-06-30
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-30 (KNOWLEDGE_EXPORT sync: PyTorch Foundations — Engineering Mindset & GitHub Project Analysis)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]]; новая Knowledge Area `ML Engineering` не создавалась.
+- Созданы concept-заметки: [[PyTorch/Как анализировать неизвестный код|Как анализировать неизвестный код]], [[PyTorch/Модель как универсальная функция|Модель как универсальная функция]], [[PyTorch/Интерфейс важнее реализации|Интерфейс важнее реализации]], [[PyTorch/Повторение терминов PyTorch Foundations|Повторение терминов PyTorch Foundations]].
+- Обновлены существующие концепции: [[PyTorch/Reading GitHub ML Projects|Reading GitHub ML Projects]], [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]], [[PyTorch/train.py как центр обучения|train.py как центр обучения]], [[PyTorch/Dataset|Dataset]], [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]], [[PyTorch/Separation of Concerns|Separation of Concerns]], [[Neural Networks/Model|Model]].
+- Темы про независимость `train.py` от Dataset, заменяемость Dataset и interface over implementation связаны с существующими PyTorch architecture/data pipeline заметками.
+
+### 🧠 Weak spots
+
+- Нужно закрепить навык самостоятельного анализа новых репозиториев без подсказок.
+- Нужно чаще отслеживать dependency flow между файлами.
+- Требуется практика перехода от tutorial-кода к production-коду.
+
+### Следующий шаг
+
+- Перейти к production ML и Transformer/Hugging Face репозиториям; при чтении начинать со структуры проекта, ответственности файлов и интерфейсов между компонентами.
+
+## 2026-06-30 (KNOWLEDGE_EXPORT sync: PyTorch Foundations — GitHub File Analysis & Inference Pipeline)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
+- Созданы concept-заметки: [[PyTorch/train_utils.py|train_utils.py]], [[PyTorch/predict.py|predict.py]], [[PyTorch/Inference Pipeline|Inference Pipeline]], [[PyTorch/load_model()|load_model()]], [[PyTorch/preprocess_image()|preprocess_image()]], [[PyTorch/predict()|predict()]], [[PyTorch/top_k|top_k]], [[PyTorch/loss.item()|loss.item()]], [[PyTorch/Weighted Average Loss|Weighted Average Loss]], [[PyTorch/Tuple Unpacking|Tuple Unpacking]].
+- Обновлены существующие концепции: [[PyTorch/model.py как отдельная ответственность|model.py как отдельная ответственность]], [[PyTorch/train.py как центр обучения|train.py как центр обучения]], [[PyTorch/Unsqueeze|Unsqueeze]], [[Neural Networks/Softmax|Softmax]], [[Neural Networks/Inference|Inference]], [[Neural Networks/model.train() и model.eval()|model.train() и model.eval()]], [[Neural Networks/torch.no_grad()|torch.no_grad()]], [[PyTorch/model.eval()|model.eval()]], [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]].
+- `softmax(dim=1)` не вынесен в отдельную concept-заметку; знание слито в [[Neural Networks/Softmax|Softmax]] и связано с [[PyTorch/Inference Pipeline|Inference Pipeline]].
+- `unsqueeze(0)` не вынесен в отдельную concept-заметку; знание слито в [[PyTorch/Unsqueeze|Unsqueeze]] и [[PyTorch/preprocess_image()|preprocess_image()]].
+
+### 🧠 Weak spots
+
+- Требуется практика с различными размерностями Tensor и параметром `dim`.
+- Нужно закрепить понимание внутренних преобразований `torchvision.transforms`.
+- Следует глубже изучить эффективность загрузки модели при многократных предсказаниях.
+
+### Следующий шаг
+
+- Изучить production-проекты с Transformer и современными архитектурами; разобрать checkpoint, state_dict и полный inference pipeline; перейти к Hugging Face Transformers и PyTorch Lightning.
+
+## 2026-06-30 (KNOWLEDGE_EXPORT sync: PyTorch Foundations — Loss, Optimization & Autograd)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
+- Созданы concept-заметки: [[PyTorch/CrossEntropyLoss|CrossEntropyLoss]], [[PyTorch/model.parameters()|model.parameters()]].
+- Обновлены существующие концепции: [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]], [[Neural Networks/Logits|Logits]], [[Neural Networks/Adam|Adam]], [[PyTorch/torch.optim|torch.optim]], [[PyTorch/Autograd|Autograd]], [[Neural Networks/torch.no_grad()|torch.no_grad()]], [[Neural Networks/model.train() и model.eval()|model.train() и model.eval()]], [[PyTorch/model.eval()|model.eval()]], [[PyTorch/DataLoader|DataLoader]], [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]].
+- `Softmax внутри CrossEntropyLoss` не вынесен в отдельную concept-заметку; знание слито в [[PyTorch/CrossEntropyLoss|CrossEntropyLoss]].
+- `DataLoader под капотом` не вынесен в отдельную concept-заметку; знание слито в [[PyTorch/DataLoader|DataLoader]].
+
+### 🧠 Weak spots
+
+- Требуется более глубокое понимание внутреннего устройства Adam.
+- Требуется понимание математической основы CrossEntropyLoss.
+- Пока не полностью сформирована интуиция хранения промежуточных значений в вычислительном графе.
+- Требуется практика анализа DataLoader на уровне реализации.
+
+### Следующий шаг
+
+- Изучить train_utils.py и inference pipeline; разобрать predict.py и полный процесс использования обученной модели; перейти к анализу реальных GitHub-проектов с Transformer и современными архитектурами.
+
+## 2026-06-30 (KNOWLEDGE_EXPORT sync: PyTorch Foundations — GitHub Projects & ML Architecture)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
+- Созданы concept-заметки: [[PyTorch/Reading GitHub ML Projects|Reading GitHub ML Projects]], [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]], [[PyTorch/model.py как отдельная ответственность|model.py как отдельная ответственность]], [[PyTorch/train.py как центр обучения|train.py как центр обучения]], [[PyTorch/config.py|config.py]], [[PyTorch/Separation of Concerns|Separation of Concerns]], [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]].
+- Обновлены существующие концепции: [[PyTorch/Чтение архитектуры PyTorch-проектов|Чтение архитектуры PyTorch-проектов]], [[PyTorch/nn.Module|nn.Module]], [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]], [[PyTorch/Dataset|Dataset]], [[PyTorch/DataLoader|DataLoader]], [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]].
+- Тема "Гиперпараметры vs параметры датасета" не вынесена в отдельную concept-заметку; знание слито в [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]] и связано с [[PyTorch/config.py|config.py]].
+
+### 🧠 Weak spots
+
+- Пока нет практического опыта чтения крупных репозиториев.
+- Требуется больше практики анализа архитектуры без подсказок.
+- Пока не сформирована интуиция выбора значений `hidden_size`.
+
+### Следующий шаг
+
+- Изучить внутреннюю реализацию CrossEntropyLoss, Adam, `backward()` и DataLoader; продолжить разбор реальных GitHub-файлов: train_utils.py, predict.py и inference pipeline.
+
 ## 2026-06-30 (KNOWLEDGE_EXPORT sync: PyTorch Foundations III)
 
 ### ✅ Синхронизировано

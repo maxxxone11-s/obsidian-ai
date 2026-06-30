@@ -39,14 +39,18 @@ updated: 2026-06-30
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 209 |
-| Изучено | 147 |
+| Всего концепций | 232 |
+| Изучено | 174 |
 | В процессе | 0 |
 | Требует повтора | 6 |
-| Черновики | 56 |
+| Черновики | 52 |
 
 ## 🔄 Последние обновления
 
+- **2026-06-30** — Синхронизация PyTorch Engineering Mindset & GitHub Project Analysis: чтение репозиториев, интерфейсы, модель как функция и словарь терминов
+- **2026-06-30** — Синхронизация PyTorch GitHub File Analysis & Inference Pipeline: predict.py, load_model, preprocess_image, top_k и weighted loss
+- **2026-06-30** — Синхронизация PyTorch Loss, Optimization & Autograd: CrossEntropyLoss, model.parameters(), Adam, backward, no_grad и DataLoader internals
+- **2026-06-30** — Синхронизация PyTorch GitHub Projects & ML Architecture: структура проекта, model.py, train.py, config.py и data pipeline
 - **2026-06-30** — Синхронизация PyTorch Foundations III: dataset split, nn.Module, многослойные сети, ReLU, train/eval и анализ архитектуры
 - **2026-06-29** — Синхронизация Graph Theory Foundations I: graph basics, paths, trees, cycles, DAG и список смежности
 - **2026-06-29** — Синхронизация рекурсии на деревьях: DFS, return из поддерева, count nodes и max depth

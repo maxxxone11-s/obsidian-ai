@@ -2,7 +2,7 @@
 type: index
 area: Machine Learning
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-06-30
 tags:
   - index
   - system
@@ -59,6 +59,7 @@ tags:
 - [[Machine Learning/Mathematics/MSE|MSE]] — средняя квадратичная ошибка
 - [[Machine Learning/Mathematics/MAE|MAE]] — средняя абсолютная ошибка
 - [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]] — loss для классификации
+- [[PyTorch/CrossEntropyLoss|CrossEntropyLoss]] — PyTorch-реализация cross entropy для multi-class classification
 
 ### Гиперпараметры
 - Grid Search

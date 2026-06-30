@@ -8,7 +8,7 @@ tags:
   - pytorch
   - architecture
   - code-reading
-confidence: 0.92
+confidence: 0.98
 difficulty: medium
 ---
 
@@ -16,25 +16,28 @@ difficulty: medium
 
 ## Простое объяснение
 
-При чтении модели важно анализировать не синтаксис, а смысл архитектуры и назначение каждого параметра.
+При чтении PyTorch-проекта важно анализировать не синтаксис, а смысл архитектуры, назначение файлов и параметры модели.
 
 ## Зачем это нужно
 
-По `input_size`, `hidden_size` и `num_classes` можно понять устройство модели еще до запуска кода и быстрее ориентироваться в реальных GitHub-проектах.
+Такой подход помогает быстро ориентироваться в реальных GitHub-проектах: сначала понять структуру, потом поток данных и только после этого читать реализацию.
 
 ## Как это работает
 
-- `input_size` определяется данными.
-- `hidden_size` выбирается инженером как гиперпараметр.
-- `num_classes` определяется задачей.
-- Последний слой связывается с типом ответа и функцией потерь.
+- Сначала посмотреть структуру проекта.
+- Определить ответственность файлов.
+- Понять поток данных.
+- Затем анализировать `input_size`, `hidden_size`, `num_classes` и код модели.
 
 ## Пример
 
 ```text
-input_size: 784
-hidden_size: 500
-num_classes: 10
+project/
+model.py
+dataset.py
+train.py
+predict.py
+config.py
 ```
 
 ## Типичные ошибки
@@ -42,18 +45,22 @@ num_classes: 10
 - Не понимать происхождение `input_size`.
 - Считать `hidden_size` фиксированным значением.
 - Не сразу связывать последний слой с типом ML-задачи.
+- Читать `train.py` сверху вниз без понимания структуры проекта.
+- Пытаться понять каждую строку до понимания архитектуры.
 
 ## Вопросы для проверки
 
 - Откуда берется `input_size`?
 - Почему `hidden_size` является гиперпараметром?
 - Что можно понять по `num_classes`?
+- Почему не рекомендуется начинать изучение проекта с `train.py`?
+- Что нужно понять до чтения кода?
 
 ## Следующие темы
 
-- [[Machine Learning/Loss Function|Loss Functions]]
-- GitHub Projects
+- [[Reading GitHub ML Projects]]
+- [[Архитектура ML-проекта]]
 
 ## Связанные темы
 
-- [[Machine Learning/Parameters и Hyperparameters|Hyperparameters]] · [[nn.Module]] · [[Анализ архитектуры модели по слоям]] · [[Neural Networks/Output|Output]]
+- [[Machine Learning/Parameters и Hyperparameters|Hyperparameters]] · [[nn.Module]] · [[Анализ архитектуры модели по слоям]] · [[Neural Networks/Output|Output]] · [[Reading GitHub ML Projects]]

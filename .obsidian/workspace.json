@@ -10,6 +10,7 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,8 +18,23 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Сообщение для сбора конспектов"
+            }
+          },
+          {
+            "id": "c6108020fb8899c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Roadmap/Roadmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Roadmap"
             }
           }
         ]
@@ -188,32 +204,32 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "PyTorch/Чтение архитектуры PyTorch-проектов.md",
-    "PyTorch/Анализ архитектуры модели по слоям.md",
-    "PyTorch/Многослойная нейронная сеть.md",
-    "PyTorch/Shape.md",
-    "PyTorch/Tensor.md",
-    "Algorithms/Graph Theory/Basics/Список смежности.md",
-    "Сообщение для сбора конспектов.md",
-    "Algorithms/Recursion/Trees/Поиск максимальной глубины дерева.md",
-    "Algorithms/Recursion/Trees/Подсчет количества узлов дерева.md",
-    "Algorithms/Recursion/Trees/Рекурсия с возвратом результата из поддерева.md",
-    "Algorithms/Recursion/Trees/Дерево как рекурсивная структура данных.md",
-    "Algorithms/Recursion/Trees/DFS на дереве.md",
+    "PyTorch/Повторение терминов PyTorch Foundations.md",
+    "PyTorch/Интерфейс важнее реализации.md",
+    "PyTorch/Модель как универсальная функция.md",
+    "PyTorch/Как анализировать неизвестный код.md",
+    "PyTorch/Tuple Unpacking.md",
+    "PyTorch/Weighted Average Loss.md",
+    "PyTorch/loss.item().md",
+    "PyTorch/top_k.md",
+    "PyTorch/predict().md",
+    "PyTorch/preprocess_image().md",
+    "PyTorch/load_model().md",
+    "PyTorch/Inference Pipeline.md",
+    "PyTorch/predict.py.md",
+    "PyTorch/train_utils.py.md",
+    "PyTorch/model.parameters().md",
+    "PyTorch/CrossEntropyLoss.md",
+    "PyTorch/Интерфейс Dataset DataLoader Model.md",
+    "PyTorch/Separation of Concerns.md",
+    "PyTorch/config.py.md",
+    "PyTorch/train.py как центр обучения.md",
+    "PyTorch/model.py как отдельная ответственность.md",
+    "PyTorch/Архитектура ML-проекта.md",
+    "PyTorch/Reading GitHub ML Projects.md",
     "01 Roadmap/Roadmap.md",
-    "PyTorch/Broadcasting.md",
-    "PyTorch/Reshape.md",
-    "PyTorch/PyTorch Training Loop.md",
-    "PyTorch/nn.Linear.md",
-    "PyTorch/Matrix Multiplication in PyTorch (matmul).md",
-    "Neural Networks/Gradient.md",
-    "PyTorch/Autograd.md",
-    "Machine Learning/Linear Regression.md",
-    "Machine Learning/Regression.md",
-    "Machine Learning/Loss Function.md",
-    "Neural Networks/Backpropagation.md",
-    "Machine Learning/Mathematics/MAE.md",
-    "Machine Learning/Scaling и Tree-Based Models.md",
+    "PyTorch/Чтение архитектуры PyTorch-проектов.md",
+    "Python Backend/SQLAlchemy.md",
     "Algorithms/Recursion/Trees",
     "Algorithms/Recursion/Patterns",
     "Algorithms/Recursion/Internals",

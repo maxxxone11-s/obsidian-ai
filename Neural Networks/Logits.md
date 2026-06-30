@@ -3,13 +3,14 @@ type: concept
 area: Machine Learning
 status: learned
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-06-30
 tags:
   - machine-learning
   - mathematics
   - probability
   - neural-networks
 confidence: 0.95
+difficulty: medium
 ---
 
 # Logits
@@ -20,42 +21,50 @@ Logits — сырые выходные значения нейросети.
 
 ## Простое объяснение
 
-Stub-заметка для связанной темы из импорта [[Feature]] и [[Activation Function]].
-
-Это еще не вероятности.
+Logits — это сырые числа, которые показывают уверенность модели до преобразования в вероятности. Это еще не вероятности.
 
 ## Зачем это нужно
 
-Эта тема помогает связать фундамент нейросетей с обучением модели и forward/backward pass.
-
-Logits являются входом для Softmax.
+Большинство PyTorch loss-функций для классификации ожидают именно logits. Например, [[PyTorch/CrossEntropyLoss|CrossEntropyLoss]] сам применяет LogSoftmax внутри.
 
 ## Как это работает
 
-Пока не раскрыто.
+Последний Linear возвращает сырые оценки:
 
-Модель выдаёт logits до нормализации в вероятности. После Softmax их можно интерпретировать как распределение по классам.
+```text
+[2.3, 5.1, -0.7]
+```
+
+Это еще не вероятности. После Softmax их можно интерпретировать как распределение по классам:
+
+```text
+[0.05, 0.92, 0.03]
+```
 
 ## Пример
 
-Пока не добавлен.
-
-`[8, 3, 1]`.
+```python
+outputs = model(x)
+# outputs — logits
+```
 
 ## Типичные ошибки
 
-- Пока не добавлены.
+- Считать logits вероятностями.
+- Использовать argmax до понимания роли Softmax.
+- Передавать probabilities в loss, который ожидает logits.
 
 ## Вопросы для проверки
 
 - Что такое logits?
+- Чем logits отличаются от вероятностей?
+- Почему модель возвращает logits?
 
 ## Следующие темы
 
 - [[Neural Networks/Softmax|Softmax]]
+- [[PyTorch/CrossEntropyLoss|CrossEntropyLoss]]
 
 ## Связанные темы
 
-- [[Feature]] · [[Activation Function]] · [[Model]]
-
-- [[Neural Networks/Softmax|Softmax]]
+- [[Feature]] · [[Activation Function]] · [[Model]] · [[Neural Networks/Softmax|Softmax]] · [[PyTorch/CrossEntropyLoss|CrossEntropyLoss]]
