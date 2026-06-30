@@ -9,6 +9,28 @@ updated: 2026-06-30
 
 # 📊 Журнал прогресса обучения
 
+## 2026-06-30 (KNOWLEDGE_EXPORT sync: Transformer Foundations II)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]].
+- Созданы concept-заметки: [[Transformers/Transformer Block|Transformer Block]], [[Transformers/Residual Connection|Residual Connection]], [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]], [[Transformers/Feed Forward Network|Feed Forward Network]], [[Transformers/Module и Functional в PyTorch|Module и Functional в PyTorch]], [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]], [[Transformers/LayerNorm|LayerNorm]].
+- Обновлены существующие концепции: [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] и [[Transformers/Embedding Space|Embedding Space]].
+- Тема реализации QKV через объединенную матрицу весов не вынесена в отдельную concept-заметку; знание слито в [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]].
+
+### 🧠 Weak spots
+
+- Математическая природа LayerNorm.
+- Статистический смысл нормализации.
+- Полный цикл вычислений внутри LayerNorm.
+
+### Следующий шаг
+
+- Изучить модуль статистики: Mean, Variance, Standard Deviation, Normalization и Z-score.
+- Вернуться к Transformer и полностью разобрать LayerNorm.
+- Продолжить чтение исходного кода MultiHeadAttention из PyTorch.
+- Перейти к Multi-Head Attention и полной реализации Transformer Block.
+
 ## 2026-06-30 (KNOWLEDGE_EXPORT sync: Transformer Foundations I)
 
 ### ✅ Синхронизировано

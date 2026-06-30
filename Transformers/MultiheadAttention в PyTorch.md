@@ -7,7 +7,7 @@ created: 2026-06-30
 updated: 2026-06-30
 tags:
   - transformers
-confidence: medium
+confidence: high
 difficulty: hard
 aliases:
   - in_proj_weight
@@ -26,7 +26,7 @@ aliases:
 
 ## Зачем это нужно
 
-Современные библиотеки часто реализуют математически одинаковые операции значительно эффективнее.
+Современные библиотеки часто реализуют математически одинаковые операции значительно эффективнее. Одно большое матричное умножение обычно быстрее трех отдельных операций.
 
 ## Как это работает
 
@@ -54,6 +54,8 @@ chunk()
 Q, K, V
 ```
 
+Учебная реализация Self-Attention использует три независимых Linear слоя. В реализации PyTorch Q, K и V не исчезают: они получаются после одной большой операции и последующего `chunk`.
+
 ## Пример
 
 ```python
@@ -64,17 +66,20 @@ q, k, v = _in_projection_packed(...)
 
 - Считать packed projection новым алгоритмом.
 - Путать оптимизацию реализации с изменением математики.
+- Думать, что QKV исчезли.
 
 ## Вопросы для проверки
 
 - Почему используется одна большая матрица?
 - Почему это быстрее?
+- Как из `in_proj_weight` получают Q, K и V?
 
 ## Следующие темы
 
 - Multi Head Attention Source Code
-- Transformer Block
+- [[Transformer Block]]
+- [[Batch Matrix Multiplication]]
 
 ## Связанные темы
 
-- [[Query Key Value]] · [[PyTorch/nn.Linear|nn.Linear]] · [[Attention Scores]]
+- [[Query Key Value]] · [[PyTorch/nn.Linear|nn.Linear]] · [[Attention Scores]] · [[Module и Functional в PyTorch]]

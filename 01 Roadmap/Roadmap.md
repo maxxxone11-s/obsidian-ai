@@ -103,6 +103,20 @@ updated: 2026-06-30
 **Требует повторения:** геометрическая интерпретация embedding space, интуиция изменения embedding после каждого слоя, связь Scores → Softmax → Weighted Sum и постепенное уточнение embedding в нескольких Transformer Block.
 **Следующий шаг:** изучить полный Transformer Block: Residual Connection, LayerNorm, FeedForward и ручную реализацию SelfAttention на PyTorch.
 
+**Модуль Transformer Foundations II синхронизирован:**
+- [[Transformers/Transformer Block|Transformer Block]] ✅ — базовая строительная единица Transformer
+- [[Transformers/Residual Connection|Residual Connection]] ✅ — сохранение исходного embedding через `x + attention(x)`
+- [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]] ✅ — итеративное уточнение представлений
+- [[Transformers/Feed Forward Network|Feed Forward Network]] ✅ — обработка собранной контекстной информации
+- [[Transformers/Module и Functional в PyTorch|Module и Functional в PyTorch]] ✅ — разделение хранения параметров и вычислений
+- [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] ✅ — packed QKV через `in_proj_weight`
+- [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]] ✅ — пакетное вычисление attention scores
+- [[Transformers/LayerNorm|LayerNorm]] 🔁 — требует статистической базы
+
+**Прогресс модуля Transformer Foundations II:** 7/8 ключевых тем learned, 1 тема needs_review.
+**Требует повторения:** математическая природа LayerNorm, статистический смысл нормализации и полный цикл вычислений внутри LayerNorm.
+**Следующий шаг:** изучить Mean, Variance, Standard Deviation, Normalization и Z-score, затем вернуться к LayerNorm и полной реализации Transformer Block.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

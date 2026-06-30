@@ -30,7 +30,7 @@ Attention не делает embedding "больше" или "меньше". Он
 
 ## Как это работает
 
-Self Attention постепенно смещает embedding в область пространства, соответствующую текущему контексту.
+Self Attention постепенно смещает embedding в область пространства, соответствующую текущему контексту. Несколько Transformer Block делают это итеративно: каждый блок немного уточняет представление, а не сразу создает финальный смысл токена.
 
 ```text
 Начальный embedding
@@ -67,8 +67,9 @@ bank(river)
 ## Следующие темы
 
 - [[MultiheadAttention в PyTorch]]
-- Transformer Block
+- [[Transformer Block]]
+- [[Постепенное уточнение embedding]]
 
 ## Связанные темы
 
-- [[Embedding Layer]] · [[Статический и контекстный Embedding]] · [[Attention Output]]
+- [[Embedding Layer]] · [[Статический и контекстный Embedding]] · [[Attention Output]] · [[Постепенное уточнение embedding]]

@@ -158,12 +158,20 @@ updated: 2026-06-30
 - [[Transformers/Attention Output|Attention Output]]
 - [[Transformers/Embedding Space|Embedding Space]]
 - [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]]
+- [[Transformers/Transformer Block|Transformer Block]]
+- [[Transformers/Residual Connection|Residual Connection]]
+- [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]]
+- [[Transformers/Feed Forward Network|Feed Forward Network]]
+- [[Transformers/Module и Functional в PyTorch|Module и Functional в PyTorch]]
+- [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]]
+- [[Transformers/LayerNorm|LayerNorm]]
 
 ### Связи Transformers
 
 - [[Transformers/Attention Weights|Attention Weights]] → [[Neural Networks/Softmax|Softmax]]
 - [[Transformers/Query Key Value|Query Key Value]] → [[PyTorch/nn.Linear|nn.Linear]]
 - [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] → [[PyTorch/nn.Linear|nn.Linear]]
+- [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]] → [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
 
 ## PyTorch
 

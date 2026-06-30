@@ -25,7 +25,18 @@ tags:
 - [[Transformers/Embedding Space|Embedding Space]]
 - [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]]
 
+## Transformer Foundations II
+
+- [[Transformers/Transformer Block|Transformer Block]]
+- [[Transformers/Residual Connection|Residual Connection]]
+- [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]]
+- [[Transformers/Feed Forward Network|Feed Forward Network]]
+- [[Transformers/Module и Functional в PyTorch|Module и Functional в PyTorch]]
+- [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]]
+- [[Transformers/LayerNorm|LayerNorm]]
+
 ## Связанные области
 
 - [[Neural Networks/Softmax|Softmax]]
 - [[PyTorch/nn.Linear|nn.Linear]]
+- [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
