@@ -42,13 +42,14 @@ updated: 2026-07-01
 | Метрика | Значение |
 |---------|----------|
 | Всего концепций | 256 |
-| Изучено | 196 |
+| Изучено | 197 |
 | В процессе | 0 |
-| Требует повтора | 8 |
+| Требует повтора | 7 |
 | Черновики | 52 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-01** — Синхронизация Transformer Foundations III: LayerNorm engineering, порядок Residual → LayerNorm и FeedForward как position-wise MLP
 - **2026-07-01** — Синхронизация Statistics Formula Update: формулы Mean, Variance, Standard Deviation, Min-Max Normalization, Standardization, Z-score и Normal Distribution
 - **2026-07-01** — Синхронизация Statistics Foundations for Machine Learning: Mean, Variance, Standard Deviation, Z-score, Normal Distribution и statistical scaling
 - **2026-06-30** — Синхронизация Transformer Foundations II: Transformer Block, Residual Connection, Feed Forward, LayerNorm, Module/Functional и batch matrix multiplication

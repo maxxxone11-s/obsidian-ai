@@ -35,6 +35,12 @@ tags:
 - [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]]
 - [[Transformers/LayerNorm|LayerNorm]]
 
+## Transformer Foundations III
+
+- [[Transformers/LayerNorm|LayerNorm]] — LayerNorm engineering, `γ` и `β`
+- [[Transformers/Residual Connection|Residual Connection]] — порядок `x + F(x) → LayerNorm`
+- [[Transformers/Feed Forward Network|Feed Forward Network]] — position-wise MLP
+
 ## Связанные области
 
 - [[Neural Networks/Softmax|Softmax]]

@@ -9,6 +9,28 @@ updated: 2026-07-01
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-01 (KNOWLEDGE_EXPORT sync: Transformer Foundations III)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]].
+- Обновлены существующие concept-заметки по Knowledge Synchronization Protocol 2.1: [[Transformers/LayerNorm|LayerNorm]], [[Transformers/Residual Connection|Residual Connection]], [[Transformers/Feed Forward Network|Feed Forward Network]].
+- Тема "Причина расположения LayerNorm после Residual Connection" не вынесена в отдельную concept-заметку; знание слито в [[Transformers/LayerNorm|LayerNorm]] и [[Transformers/Residual Connection|Residual Connection]].
+- [[Transformers/LayerNorm|LayerNorm]] переведен из `needs_review` в `learned`, так как learning_state указывает понимание математической связи LayerNorm и z-score, назначения `γ` и `β`, а также инженерной причины применения LayerNorm после Residual.
+
+### 🧠 Weak spots
+
+- Различия между Post-LN и Pre-LN архитектурами.
+- Внутренняя реализация LayerNorm в PyTorch.
+- Практическое влияние `γ` и `β` во время обучения.
+
+### Следующий шаг
+
+- Изучить Multi-Head Attention.
+- Разобрать реализацию MultiHeadAttention в исходном коде PyTorch.
+- Изучить различия между Single Head и Multi-Head Attention.
+- Начать анализ полного Transformer Block в современных LLM.
+
 ## 2026-07-01 (KNOWLEDGE_EXPORT sync: Statistics Foundations for Machine Learning — Formula Update)
 
 ### ✅ Синхронизировано

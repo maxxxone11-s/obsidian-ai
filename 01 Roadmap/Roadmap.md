@@ -135,6 +135,15 @@ updated: 2026-06-30
 **Требует повторения:** математическая природа LayerNorm, статистический смысл нормализации и полный цикл вычислений внутри LayerNorm.
 **Следующий шаг:** изучить Mean, Variance, Standard Deviation, Normalization и Z-score, затем вернуться к LayerNorm и полной реализации Transformer Block.
 
+**Модуль Transformer Foundations III синхронизирован:**
+- [[Transformers/LayerNorm|LayerNorm]] ✅ — стандартизация embedding внутри Transformer Block
+- [[Transformers/Residual Connection|Residual Connection]] ✅ — порядок `x + F(x) → LayerNorm`
+- [[Transformers/Feed Forward Network|Feed Forward Network]] ✅ — FeedForward как position-wise MLP
+
+**Прогресс модуля Transformer Foundations III:** 3/3 ключевых тем learned.
+**Требует повторения:** различия между Post-LN и Pre-LN архитектурами, внутренняя реализация LayerNorm в PyTorch, практическое влияние `γ` и `β` во время обучения.
+**Следующий шаг:** изучить Multi-Head Attention, различия Single Head и Multi-Head Attention, затем анализировать полный Transformer Block в современных LLM.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

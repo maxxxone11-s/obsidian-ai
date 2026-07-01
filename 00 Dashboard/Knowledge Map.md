@@ -198,6 +198,8 @@ updated: 2026-07-01
 - [[Transformers/Query Key Value|Query Key Value]] → [[PyTorch/nn.Linear|nn.Linear]]
 - [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] → [[PyTorch/nn.Linear|nn.Linear]]
 - [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]] → [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
+- [[Transformers/LayerNorm|LayerNorm]] → [[Statistics/Z-score|Z-score]]
+- [[Transformers/Feed Forward Network|Feed Forward Network]] → [[PyTorch/nn.Linear|nn.Linear]]
 
 ## PyTorch
 
