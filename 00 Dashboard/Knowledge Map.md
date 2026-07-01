@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-01
 ---
 
 # 🧠 Knowledge Map
@@ -107,6 +107,12 @@ updated: 2026-06-30
 - [[Statistics/Standardization|Standardization]] → [[Machine Learning/Standardization|Standardization]]
 - [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]] → [[Machine Learning/Mathematics/MSE|MSE]]
 - [[Statistics/Standard Deviation|Standard Deviation]] → [[Transformers/LayerNorm|LayerNorm]]
+
+### Формулы Statistics
+
+- [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Standard Deviation|Standard Deviation]]
+- [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Standardization|Standardization]], [[Statistics/Z-score|Z-score]]
+- [[Statistics/Normal Distribution|Normal Distribution]]
 
 ## Neural Networks
 

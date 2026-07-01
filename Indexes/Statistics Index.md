@@ -26,6 +26,16 @@ tags:
 - [[Statistics/Normal Distribution|Normal Distribution]]
 - [[Statistics/Связь основных статистических понятий|Связь основных статистических понятий]]
 
+## Formula Update
+
+- [[Statistics/Mean|Mean]] — arithmetic mean
+- [[Statistics/Variance|Variance]] — population variance
+- [[Statistics/Standard Deviation|Standard Deviation]] — square root of variance
+- [[Statistics/Min-Max Normalization|Min-Max Normalization]] — min-max scaling
+- [[Statistics/Standardization|Standardization]] — z-score standardization
+- [[Statistics/Z-score|Z-score]] — standard score
+- [[Statistics/Normal Distribution|Normal Distribution]] — empirical rule
+
 ## Связанные области
 
 - [[Machine Learning/Feature Scaling|Feature Scaling]]

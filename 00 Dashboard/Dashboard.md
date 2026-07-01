@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-01
 ---
 
 # 🧠 AI Second Brain Dashboard
@@ -49,6 +49,7 @@ updated: 2026-06-30
 
 ## 🔄 Последние обновления
 
+- **2026-07-01** — Синхронизация Statistics Formula Update: формулы Mean, Variance, Standard Deviation, Min-Max Normalization, Standardization, Z-score и Normal Distribution
 - **2026-07-01** — Синхронизация Statistics Foundations for Machine Learning: Mean, Variance, Standard Deviation, Z-score, Normal Distribution и statistical scaling
 - **2026-06-30** — Синхронизация Transformer Foundations II: Transformer Block, Residual Connection, Feed Forward, LayerNorm, Module/Functional и batch matrix multiplication
 - **2026-06-30** — Синхронизация Transformer Foundations I: embeddings, QKV, attention scores, attention weights, weighted sum, embedding space и MultiheadAttention

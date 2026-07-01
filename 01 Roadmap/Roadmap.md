@@ -86,6 +86,7 @@ updated: 2026-06-30
 - [[Statistics/Связь основных статистических понятий|Связь основных статистических понятий]] ✅ — связка Mean → Variance → Std → Z-score
 
 **Прогресс модуля:** 9/9 ключевых тем learned.
+**Formula Update:** добавлены формулы для [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Standardization|Standardization]], [[Statistics/Z-score|Z-score]] и [[Statistics/Normal Distribution|Normal Distribution]].
 **Требует повторения:** различие между Standardization и Normalization в терминологии, интерпретация Standard Deviation как возврата к исходным единицам измерения.
 **Следующий шаг:** изучить поиск выбросов с помощью Z-score и статистическую подготовку данных в NumPy, pandas и scikit-learn.
 

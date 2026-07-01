@@ -29,26 +29,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Dashboard/Dashboard.md",
+                "file": "Statistics/Variance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
-            }
-          },
-          {
-            "id": "e39cbed5d46b03a1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Variance"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#algorithms",
+                "query": "tag:#nonlinearity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -213,22 +202,26 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e39cbed5d46b03a1",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Сообщение для сбора конспектов.md",
+    "Statistics/Variance.md",
     "Indexes/Statistics Index.md",
-    "Statistics/Index.md",
-    "Statistics/Связь основных статистических понятий.md",
-    "Statistics/Normal Distribution.md",
     "Statistics/Z-score.md",
-    "Statistics/Standardization.md",
-    "Statistics/Min-Max Normalization.md",
+    "Statistics/Normal Distribution.md",
+    "00 Dashboard/Dashboard.md",
     "Statistics/Standard Deviation.md",
     "Statistics/Причина использования квадратов в статистике.md",
-    "Statistics/Variance.md",
+    "00 Dashboard/Graph Groups.md",
     "Statistics/Mean.md",
+    "Neural Networks/Optimizer.md",
+    "Machine Learning/Train Test Split.md",
+    "Machine Learning/Scaling и Tree-Based Models.md",
+    "Сообщение для сбора конспектов.md",
+    "Statistics/Index.md",
+    "Statistics/Связь основных статистических понятий.md",
+    "Statistics/Standardization.md",
+    "Statistics/Min-Max Normalization.md",
     "Statistics",
-    "00 Dashboard/Dashboard.md",
     "02 Progress/Learning Log.md",
     "01 Roadmap/Roadmap.md",
     "Indexes/Index.md",
@@ -238,10 +231,6 @@
     "00 Dashboard/Knowledge Map.md",
     "Transformers/LayerNorm.md",
     "Transformers/Batch Matrix Multiplication.md",
-    "Transformers/Module и Functional в PyTorch.md",
-    "Transformers/Feed Forward Network.md",
-    "Transformers/Постепенное уточнение embedding.md",
-    "Transformers/Residual Connection.md",
     "Transformers",
     "Algorithms/Recursion/Trees",
     "Algorithms/Recursion/Patterns",

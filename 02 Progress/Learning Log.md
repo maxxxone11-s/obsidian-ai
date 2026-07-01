@@ -4,10 +4,22 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-01
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-01 (KNOWLEDGE_EXPORT sync: Statistics Foundations for Machine Learning — Formula Update)
+
+### ✅ Синхронизировано
+
+- Формулы добавлены в существующие concept-заметки области [[Statistics/Index|Statistics]] без создания дублей.
+- Обновлены заметки: [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Standardization|Standardization]], [[Statistics/Z-score|Z-score]], [[Statistics/Normal Distribution|Normal Distribution]].
+- `Math Statistic` не создавался как новая Knowledge Area; обновление применено к подтвержденной области [[Statistics/Index|Statistics]].
+
+### Следующий шаг
+
+- Использовать формулы Statistics при разборе [[Transformers/LayerNorm|LayerNorm]], Z-score outlier detection и preprocessing в NumPy, pandas и scikit-learn.
 
 ## 2026-07-01 (KNOWLEDGE_EXPORT sync: Statistics Foundations for Machine Learning)
 
