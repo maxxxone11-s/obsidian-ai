@@ -26,6 +26,13 @@ updated: 2026-06-30
 - Классификация и регрессия
 - Кластеризация
 
+### [[Statistics/Index|📊 Statistics]]
+Статистический фундамент для Machine Learning
+
+- [[Indexes/Statistics Index|Statistics Index]]
+- Mean, Variance и Standard Deviation
+- Z-score, Normal Distribution и статистический scaling
+
 ### [[Neural Networks/Index|🧠 Neural Networks]]
 Нейронные сети и глубокое обучение
 

@@ -88,6 +88,26 @@ updated: 2026-06-30
 - [[Machine Learning/Mathematics/Скалярное произведение|Скалярное произведение]]
 - [[Machine Learning/Mathematics/Частная производная|Частная производная]]
 
+## Statistics
+
+- [[Statistics/Index|Statistics Index]]
+- [[Statistics/Mean|Mean]]
+- [[Statistics/Variance|Variance]]
+- [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]]
+- [[Statistics/Standard Deviation|Standard Deviation]]
+- [[Statistics/Min-Max Normalization|Min-Max Normalization]]
+- [[Statistics/Standardization|Standardization]]
+- [[Statistics/Z-score|Z-score]]
+- [[Statistics/Normal Distribution|Normal Distribution]]
+- [[Statistics/Связь основных статистических понятий|Связь основных статистических понятий]]
+
+### Связи Statistics
+
+- [[Statistics/Min-Max Normalization|Min-Max Normalization]] → [[Machine Learning/Normalization|Normalization]]
+- [[Statistics/Standardization|Standardization]] → [[Machine Learning/Standardization|Standardization]]
+- [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]] → [[Machine Learning/Mathematics/MSE|MSE]]
+- [[Statistics/Standard Deviation|Standard Deviation]] → [[Transformers/LayerNorm|LayerNorm]]
+
 ## Neural Networks
 
 - [[Neural Networks/Activation Function|Activation Function]]

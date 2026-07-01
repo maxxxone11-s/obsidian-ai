@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-01
 ---
 
 # Graph Groups
@@ -22,6 +22,7 @@ updated: 2026-06-30
 
 - `tag:#python-backend` — синий
 - `tag:#machine-learning` — зелёный
+- `tag:#statistics` — голубой
 - `tag:#neural-networks` — оранжевый
 - `tag:#transformers` — сине-фиолетовый
 - `tag:#pytorch` — фиолетовый
@@ -30,8 +31,6 @@ updated: 2026-06-30
 - `tag:#llm-engineering` — жёлтый
 - `tag:#ai-agents` — розовый
 - `tag:#algorithms` — голубой
-- `tag:#transformers` - малиновый
-
 
 ## Как скрыть служебные файлы
 

@@ -9,6 +9,27 @@ updated: 2026-06-30
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-01 (KNOWLEDGE_EXPORT sync: Statistics Foundations for Machine Learning)
+
+### ✅ Синхронизировано
+
+- Создана новая Knowledge Area [[Statistics/Index|Statistics]] по явному подтверждению пользователя.
+- Модуль синхронизирован в `Statistics`, не в `Math Statistic`.
+- Созданы concept-заметки: [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Standardization|Standardization]], [[Statistics/Z-score|Z-score]], [[Statistics/Normal Distribution|Normal Distribution]], [[Statistics/Связь основных статистических понятий|Связь основных статистических понятий]].
+- Созданы обзорные индексы: [[Statistics/Index|Statistics Index]] и [[Indexes/Statistics Index|Statistics Index]].
+- Связи проставлены на существующие темы [[Machine Learning/Feature Scaling|Feature Scaling]], [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Standardization|Standardization]], [[Machine Learning/Mathematics/MSE|MSE]] и [[Transformers/LayerNorm|LayerNorm]].
+
+### 🧠 Weak spots
+
+- Различие между Standardization и Normalization в терминологии.
+- Интерпретация Standard Deviation как возврата к исходным единицам измерения.
+
+### Следующий шаг
+
+- Изучить поиск выбросов с помощью Z-score.
+- Разобрать статистическую подготовку данных в NumPy, pandas и scikit-learn.
+- Закрепить знания на практических задачах с реальными датасетами.
+
 ## 2026-06-30 (KNOWLEDGE_EXPORT sync: Transformer Foundations II)
 
 ### ✅ Синхронизировано

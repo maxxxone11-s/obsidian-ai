@@ -72,6 +72,23 @@ updated: 2026-06-30
 **Прогресс модуля:** 22/23 ключевых тем learned, 1 тема needs_review.
 **Статус:** Machine Learning Fundamentals пройден. Следующий практический шаг после PyTorch: pandas → sklearn → train/test split → Logistic Regression → Decision Tree → Random Forest → XGBoost.
 
+## Фаза 2.5: Statistics ✅
+
+**Модуль Statistics Foundations for Machine Learning синхронизирован в отдельную область [[Statistics/Index|Statistics]]:**
+- [[Statistics/Mean|Mean]] ✅ — центр данных
+- [[Statistics/Variance|Variance]] ✅ — разброс вокруг среднего
+- [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]] ✅ — усиление больших ошибок
+- [[Statistics/Standard Deviation|Standard Deviation]] ✅ — разброс в исходных единицах
+- [[Statistics/Min-Max Normalization|Min-Max Normalization]] ✅ — scaling к диапазону 0..1
+- [[Statistics/Standardization|Standardization]] ✅ — mean 0 и standard deviation 1
+- [[Statistics/Z-score|Z-score]] ✅ — расстояние от среднего в единицах standard deviation
+- [[Statistics/Normal Distribution|Normal Distribution]] ✅ — normal distribution и правило 68-95-99.7
+- [[Statistics/Связь основных статистических понятий|Связь основных статистических понятий]] ✅ — связка Mean → Variance → Std → Z-score
+
+**Прогресс модуля:** 9/9 ключевых тем learned.
+**Требует повторения:** различие между Standardization и Normalization в терминологии, интерпретация Standard Deviation как возврата к исходным единицам измерения.
+**Следующий шаг:** изучить поиск выбросов с помощью Z-score и статистическую подготовку данных в NumPy, pandas и scikit-learn.
+
 ## Фаза 3: Neural Networks ✅ Completed
 
 **Модуль завершён:**

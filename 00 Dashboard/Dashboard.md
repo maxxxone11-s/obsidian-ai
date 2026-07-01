@@ -25,6 +25,7 @@ updated: 2026-06-30
 ### Основные темы
 - [[Indexes/Python Backend Index|🐍 Python Backend]]
 - [[Indexes/Machine Learning Index|🤖 Machine Learning]]
+- [[Indexes/Statistics Index|📊 Statistics]]
 - [[Indexes/Transformers Index|🧠 Transformers]]
 - [[Indexes/PyTorch Index|⚡ PyTorch]]
 - [[Indexes/LLM Engineering Index|✨ LLM Engineering]]
@@ -40,14 +41,15 @@ updated: 2026-06-30
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 247 |
-| Изучено | 187 |
+| Всего концепций | 256 |
+| Изучено | 196 |
 | В процессе | 0 |
 | Требует повтора | 8 |
 | Черновики | 52 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-01** — Синхронизация Statistics Foundations for Machine Learning: Mean, Variance, Standard Deviation, Z-score, Normal Distribution и statistical scaling
 - **2026-06-30** — Синхронизация Transformer Foundations II: Transformer Block, Residual Connection, Feed Forward, LayerNorm, Module/Functional и batch matrix multiplication
 - **2026-06-30** — Синхронизация Transformer Foundations I: embeddings, QKV, attention scores, attention weights, weighted sum, embedding space и MultiheadAttention
 - **2026-06-30** — Синхронизация PyTorch Engineering Mindset & GitHub Project Analysis: чтение репозиториев, интерфейсы, модель как функция и словарь терминов

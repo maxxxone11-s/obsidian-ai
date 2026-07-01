@@ -47,6 +47,7 @@ Obsidian Vault
 ├── 02 Progress/
 ├── Python Backend/
 ├── Machine Learning/
+├── Statistics/
 ├── Neural Networks/
 ├── Transformers/
 ├── PyTorch/
@@ -104,6 +105,7 @@ Knowledge Areas считаются стабильными доменами ве�
 
 - Python Backend
 - Machine Learning
+- Statistics
 - Neural Networks
 - Transformers
 - PyTorch
@@ -532,6 +534,7 @@ SYNC_PACKAGE интегрируется с системой Knowledge Sync:
 
 - `Python Backend`
 - `Machine Learning`
+- `Statistics`
 - `Neural Networks`
 - `Transformers`
 - `PyTorch`
