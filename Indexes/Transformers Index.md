@@ -12,45 +12,107 @@ tags:
 
 # Transformers Index
 
-Указатель по отдельной области Transformers.
+Указатель области Transformers организован по знаниям, а не по урокам. История курса сохранена отдельно в разделе Course Progress.
 
-## Transformer Foundations I
+## Core Concepts
 
 - [[Transformers/Embedding Layer|Embedding Layer]]
 - [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]]
+- [[Transformers/Embedding Space|Embedding Space]]
 - [[Transformers/Query Key Value|Query Key Value]]
 - [[Transformers/Attention Scores|Attention Scores]]
 - [[Transformers/Attention Weights|Attention Weights]]
 - [[Transformers/Attention Output|Attention Output]]
-- [[Transformers/Embedding Space|Embedding Space]]
 - [[Transformers/Multi-Head Attention|Multi-Head Attention]]
-- [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]]
 
-## Transformer Foundations II
+## Transformer Architecture
 
 - [[Transformers/Transformer Block|Transformer Block]]
 - [[Transformers/Residual Connection|Residual Connection]]
-- [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]]
+- [[Transformers/LayerNorm|LayerNorm]]
 - [[Transformers/Feed Forward Network|Feed Forward Network]]
+- [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]]
+
+## PyTorch Implementation
+
+- [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]]
 - [[Transformers/Module и Functional в PyTorch|Module и Functional в PyTorch]]
 - [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]]
-- [[Transformers/LayerNorm|LayerNorm]]
 
-## Transformer Foundations III
+## Related Knowledge
 
-- [[Transformers/LayerNorm|LayerNorm]] — LayerNorm engineering, `γ` и `β`
-- [[Transformers/Residual Connection|Residual Connection]] — порядок `x + F(x) → LayerNorm`
-- [[Transformers/Feed Forward Network|Feed Forward Network]] — position-wise MLP
+### PyTorch
 
-## Transformer Foundations IV
-
-- [[Transformers/Multi-Head Attention|Multi-Head Attention]]
-- [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] — tensor reshaping, packed QKV и output projection
-- [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]] — объединение `batch × heads`
-- [[Transformers/Query Key Value|Query Key Value]] — head projection
-
-## Связанные области
-
-- [[Neural Networks/Softmax|Softmax]]
 - [[PyTorch/nn.Linear|nn.Linear]]
 - [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
+
+### Neural Networks
+
+- [[Neural Networks/Softmax|Softmax]]
+
+### Statistics
+
+- [[Statistics/Z-score|Z-score]]
+
+## Course Progress
+
+### Transformer Foundations I
+
+New Concepts:
+- Embedding Layer
+- Статический и контекстный Embedding
+- Query Key Value
+- Attention Scores
+- Attention Weights
+- Attention Output
+- Embedding Space
+- MultiheadAttention в PyTorch
+
+Updated Concepts:
+- none
+
+Learning Goal:
+Понять путь от token id к contextual embedding: как embedding table, QKV, attention scores, softmax weights и weighted sum превращают исходный токен в контекстное представление. Увидеть связь между математикой Self-Attention и инженерной реализацией PyTorch.
+
+### Transformer Foundations II
+
+New Concepts:
+- Transformer Block
+- Residual Connection
+- Постепенное уточнение embedding
+- Feed Forward Network
+- Module и Functional в PyTorch
+- Batch Matrix Multiplication
+- LayerNorm
+
+Updated Concepts:
+- MultiheadAttention в PyTorch
+
+Learning Goal:
+Понять Transformer Block как инженерную единицу архитектуры: Attention собирает контекст, Residual сохраняет исходное представление, LayerNorm стабилизирует масштаб, а FeedForward строит новые признаки. Разобрать, почему PyTorch реализует эти операции через эффективные tensor operations.
+
+### Transformer Foundations III
+
+New Concepts:
+- none
+
+Updated Concepts:
+- LayerNorm
+- Residual Connection
+- Feed Forward Network
+
+Learning Goal:
+Уточнить инженерный смысл LayerNorm, порядок Residual → LayerNorm и роль FeedForward как position-wise MLP. Связать статистическую нормализацию с устойчивостью глубокого Transformer Block.
+
+### Transformer Foundations IV
+
+New Concepts:
+- Multi-Head Attention
+
+Updated Concepts:
+- Query Key Value
+- MultiheadAttention в PyTorch
+- Batch Matrix Multiplication
+
+Learning Goal:
+Понять Multi-Head Attention как параллельный набор independent attention heads и увидеть, как head projection, output projection, tensor reshaping и объединение batch × heads превращают идею в эффективную PyTorch-реализацию.

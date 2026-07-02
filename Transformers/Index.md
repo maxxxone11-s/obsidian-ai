@@ -12,57 +12,107 @@ tags:
 
 # Transformers
 
-Материал разнесен по отдельным заметкам. Этот index ведет по модулям Transformer Foundations: embeddings, self-attention, Transformer Block и чтение инженерной реализации PyTorch.
+Индекс области Transformers организован по знаниям, а не по урокам. История курса сохранена отдельно в разделе Course Progress.
 
-## Transformer Foundations I
+## Core Concepts
 
 - [[Embedding Layer]]
 - [[Статический и контекстный Embedding]]
+- [[Embedding Space]]
 - [[Query Key Value]]
 - [[Attention Scores]]
 - [[Attention Weights]]
 - [[Attention Output]]
-- [[Embedding Space]]
 - [[Multi-Head Attention]]
-- [[MultiheadAttention в PyTorch]]
 
-## Transformer Foundations II
+## Transformer Architecture
 
 - [[Transformer Block]]
 - [[Residual Connection]]
-- [[Постепенное уточнение embedding]]
+- [[LayerNorm]]
 - [[Feed Forward Network]]
+- [[Постепенное уточнение embedding]]
+
+## PyTorch Implementation
+
+- [[MultiheadAttention в PyTorch]]
 - [[Module и Functional в PyTorch]]
 - [[Batch Matrix Multiplication]]
-- [[LayerNorm]]
 
-## Transformer Foundations IV
+## Related Knowledge
 
-- [[Multi-Head Attention]]
-- [[MultiheadAttention в PyTorch]]
-- [[Batch Matrix Multiplication]]
-- [[Query Key Value]]
+### PyTorch
 
-## Маршрут чтения
-
-1. [[Embedding Layer]]
-2. [[Статический и контекстный Embedding]]
-3. [[Query Key Value]]
-4. [[Attention Scores]]
-5. [[Attention Weights]]
-6. [[Attention Output]]
-7. [[Embedding Space]]
-8. [[Multi-Head Attention]]
-9. [[MultiheadAttention в PyTorch]]
-10. [[Transformer Block]]
-11. [[Residual Connection]]
-12. [[Feed Forward Network]]
-13. [[LayerNorm]]
-14. [[Batch Matrix Multiplication]]
-15. [[Module и Functional в PyTorch]]
-
-## Связи с другими областями
-
-- [[Neural Networks/Softmax|Softmax]]
 - [[PyTorch/nn.Linear|nn.Linear]]
 - [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
+
+### Neural Networks
+
+- [[Neural Networks/Softmax|Softmax]]
+
+### Statistics
+
+- [[Statistics/Z-score|Z-score]]
+
+## Course Progress
+
+### Transformer Foundations I
+
+New Concepts:
+- Embedding Layer
+- Статический и контекстный Embedding
+- Query Key Value
+- Attention Scores
+- Attention Weights
+- Attention Output
+- Embedding Space
+- MultiheadAttention в PyTorch
+
+Updated Concepts:
+- none
+
+Learning Goal:
+Понять путь от token id к contextual embedding: как embedding table, QKV, attention scores, softmax weights и weighted sum превращают исходный токен в контекстное представление. Увидеть связь между математикой Self-Attention и инженерной реализацией PyTorch.
+
+### Transformer Foundations II
+
+New Concepts:
+- Transformer Block
+- Residual Connection
+- Постепенное уточнение embedding
+- Feed Forward Network
+- Module и Functional в PyTorch
+- Batch Matrix Multiplication
+- LayerNorm
+
+Updated Concepts:
+- MultiheadAttention в PyTorch
+
+Learning Goal:
+Понять Transformer Block как инженерную единицу архитектуры: Attention собирает контекст, Residual сохраняет исходное представление, LayerNorm стабилизирует масштаб, а FeedForward строит новые признаки. Разобрать, почему PyTorch реализует эти операции через эффективные tensor operations.
+
+### Transformer Foundations III
+
+New Concepts:
+- none
+
+Updated Concepts:
+- LayerNorm
+- Residual Connection
+- Feed Forward Network
+
+Learning Goal:
+Уточнить инженерный смысл LayerNorm, порядок Residual → LayerNorm и роль FeedForward как position-wise MLP. Связать статистическую нормализацию с устойчивостью глубокого Transformer Block.
+
+### Transformer Foundations IV
+
+New Concepts:
+- Multi-Head Attention
+
+Updated Concepts:
+- Query Key Value
+- MultiheadAttention в PyTorch
+- Batch Matrix Multiplication
+
+Learning Goal:
+Понять Multi-Head Attention как параллельный набор independent attention heads и увидеть, как head projection, output projection, tensor reshaping и объединение batch × heads превращают идею в эффективную PyTorch-реализацию.
