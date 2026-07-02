@@ -144,6 +144,16 @@ updated: 2026-06-30
 **Требует повторения:** различия между Post-LN и Pre-LN архитектурами, внутренняя реализация LayerNorm в PyTorch, практическое влияние `γ` и `β` во время обучения.
 **Следующий шаг:** изучить Multi-Head Attention, различия Single Head и Multi-Head Attention, затем анализировать полный Transformer Block в современных LLM.
 
+**Модуль Transformer Foundations IV синхронизирован:**
+- [[Transformers/Multi-Head Attention|Multi-Head Attention]] ✅ — несколько независимых attention heads
+- [[Transformers/Query Key Value|Query Key Value]] ✅ — head projection через разные `Wq`, `Wk`, `Wv`
+- [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] ✅ — tensor reshaping, output projection и реализация heads
+- [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]] ✅ — объединение `batch × heads` для `torch.bmm`
+
+**Прогресс модуля Transformer Foundations IV:** 4/4 ключевых тем learned.
+**Требует повторения:** полная реализация `multi_head_attention_forward()`, Attention Mask, Padding Mask и Decoder Self-Attention.
+**Следующий шаг:** разобрать исходный код `multi_head_attention_forward()`, изучить Causal Mask и перейти к различиям Encoder и Decoder.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

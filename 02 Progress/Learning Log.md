@@ -4,10 +4,31 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-01
+updated: 2026-07-02
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-02 (KNOWLEDGE_EXPORT sync: Transformer Foundations IV)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]].
+- Concept Test выполнен: создана только самостоятельная concept-заметка [[Transformers/Multi-Head Attention|Multi-Head Attention]].
+- Head Projection, Output Projection, Tensor Reshaping и объединение `batch × heads` не вынесены в отдельные concept-заметки; материал слит в [[Transformers/Multi-Head Attention|Multi-Head Attention]], [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]], [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]] и [[Transformers/Query Key Value|Query Key Value]].
+
+### 🧠 Weak spots
+
+- Полная реализация `multi_head_attention_forward()`.
+- Работа Attention Mask.
+- Работа Padding Mask.
+- Decoder Self-Attention.
+
+### Следующий шаг
+
+- Разобрать исходный код `multi_head_attention_forward()` полностью.
+- Изучить Attention Mask, Causal Mask и Padding Mask.
+- Перейти к архитектурным различиям Encoder и Decoder.
 
 ## 2026-07-01 (KNOWLEDGE_EXPORT sync: Transformer Foundations III)
 

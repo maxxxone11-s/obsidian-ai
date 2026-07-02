@@ -3,7 +3,7 @@ type: index
 area: Transformers
 knowledge_area: Transformers
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-02
 tags:
   - index
   - system
@@ -23,6 +23,7 @@ tags:
 - [[Transformers/Attention Weights|Attention Weights]]
 - [[Transformers/Attention Output|Attention Output]]
 - [[Transformers/Embedding Space|Embedding Space]]
+- [[Transformers/Multi-Head Attention|Multi-Head Attention]]
 - [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]]
 
 ## Transformer Foundations II
@@ -40,6 +41,13 @@ tags:
 - [[Transformers/LayerNorm|LayerNorm]] — LayerNorm engineering, `γ` и `β`
 - [[Transformers/Residual Connection|Residual Connection]] — порядок `x + F(x) → LayerNorm`
 - [[Transformers/Feed Forward Network|Feed Forward Network]] — position-wise MLP
+
+## Transformer Foundations IV
+
+- [[Transformers/Multi-Head Attention|Multi-Head Attention]]
+- [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] — tensor reshaping, packed QKV и output projection
+- [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]] — объединение `batch × heads`
+- [[Transformers/Query Key Value|Query Key Value]] — head projection
 
 ## Связанные области
 

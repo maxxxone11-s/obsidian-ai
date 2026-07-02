@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-01
+updated: 2026-07-02
 ---
 
 # 🧠 Knowledge Map
@@ -183,6 +183,7 @@ updated: 2026-07-01
 - [[Transformers/Attention Weights|Attention Weights]]
 - [[Transformers/Attention Output|Attention Output]]
 - [[Transformers/Embedding Space|Embedding Space]]
+- [[Transformers/Multi-Head Attention|Multi-Head Attention]]
 - [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]]
 - [[Transformers/Transformer Block|Transformer Block]]
 - [[Transformers/Residual Connection|Residual Connection]]
@@ -197,6 +198,8 @@ updated: 2026-07-01
 - [[Transformers/Attention Weights|Attention Weights]] → [[Neural Networks/Softmax|Softmax]]
 - [[Transformers/Query Key Value|Query Key Value]] → [[PyTorch/nn.Linear|nn.Linear]]
 - [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] → [[PyTorch/nn.Linear|nn.Linear]]
+- [[Transformers/Multi-Head Attention|Multi-Head Attention]] → [[Transformers/Query Key Value|Query Key Value]]
+- [[Transformers/Multi-Head Attention|Multi-Head Attention]] → [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]]
 - [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]] → [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
 - [[Transformers/LayerNorm|LayerNorm]] → [[Statistics/Z-score|Z-score]]
 - [[Transformers/Feed Forward Network|Feed Forward Network]] → [[PyTorch/nn.Linear|nn.Linear]]

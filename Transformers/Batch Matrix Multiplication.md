@@ -4,33 +4,45 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-02
 tags:
   - transformers
-confidence: medium
+confidence: high
 difficulty: medium
 aliases:
   - torch.bmm
   - Batch Matrix Multiplication
+  - Flatten Batch and Heads
+  - bmm Optimization
 ---
 
 # Batch Matrix Multiplication
 
-## Кратко
+## Академическое определение
 
-Для вычисления Scores между Q и K в Transformer используется batch matrix multiplication.
+Batch Matrix Multiplication — пакетное матричное умножение, при котором для каждого элемента batch выполняется отдельное матричное умножение.
+
+В PyTorch для этого используется `torch.bmm()` с трехмерными тензорами.
+
+## Инженерное назначение
+
+`torch.bmm()` позволяет эффективно вычислять attention scores сразу для большого количества последовательностей или heads без Python-циклов.
+
+В реализации [[MultiheadAttention в PyTorch]] batch и heads могут временно объединяться, чтобы каждая голова стала независимым элементом batch.
+
+## Причина существования
+
+Обычное `torch.mm()` работает только с двумя матрицами. В Transformer нужно одновременно обработать batch последовательностей и несколько attention heads.
+
+Объединение batch и heads позволяет использовать оптимизированное пакетное матричное умножение вместо циклов по головам.
 
 ## Простое объяснение
 
-`b` в `bmm` означает batch. Операция применяется сразу ко всем предложениям.
+`b` в `bmm` означает batch.
 
-## Зачем это нужно
-
-`torch.bmm()` позволяет эффективно вычислять Attention сразу для большого количества последовательностей.
+Для библиотеки каждая голова может временно стать отдельным элементом batch. После вычислений исходная структура восстанавливается.
 
 ## Как это работает
-
-Обычное матричное умножение `torch.mm()` работает только с двумя матрицами. В Transformer одновременно обрабатывается целый batch предложений, поэтому используется `torch.bmm()`.
 
 Если:
 
@@ -43,6 +55,26 @@ K^T имеет размер (batch, d, seq)
 
 ```text
 (batch, seq, seq)
+```
+
+В Multi-Head Attention форма может временно меняться так:
+
+```text
+(batch, heads, seq, head_dim)
+↓
+(batch × heads, seq, head_dim)
+↓
+torch.bmm()
+↓
+восстановление heads
+```
+
+Например:
+
+```text
+(32, 8, 20, 64)
+↓
+(256, 20, 64)
 ```
 
 ## Пример
@@ -58,16 +90,23 @@ attn_scores = torch.bmm(
 
 - Считать `b` обозначением bias.
 - Путать `bmm` с `mm`.
+- Считать объединение batch и heads частью математического алгоритма.
+- Считать изменение формы изменением данных.
+- Ожидать цикл по головам в реализации PyTorch.
+
+## Связанные темы
+
+[[Multi-Head Attention]] · [[MultiheadAttention в PyTorch]] · [[Attention Scores]] · [[Query Key Value]] · [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
 
 ## Вопросы для проверки
 
 - Чем `bmm` отличается от `mm`?
 - Почему Transformer использует batch matrix multiplication?
+- Почему batch и heads временно объединяются?
+- Что происходит после завершения вычислений?
 
 ## Следующие темы
 
 - [[MultiheadAttention в PyTorch]]
-
-## Связанные темы
-
-- [[Attention Scores]] · [[Query Key Value]] · [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
+- Attention Mask
+- PyTorch Source Code

@@ -3,7 +3,7 @@ type: index
 area: Transformers
 knowledge_area: Transformers
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-02
 tags:
   - index
   - system
@@ -23,6 +23,7 @@ tags:
 - [[Attention Weights]]
 - [[Attention Output]]
 - [[Embedding Space]]
+- [[Multi-Head Attention]]
 - [[MultiheadAttention в PyTorch]]
 
 ## Transformer Foundations II
@@ -35,6 +36,13 @@ tags:
 - [[Batch Matrix Multiplication]]
 - [[LayerNorm]]
 
+## Transformer Foundations IV
+
+- [[Multi-Head Attention]]
+- [[MultiheadAttention в PyTorch]]
+- [[Batch Matrix Multiplication]]
+- [[Query Key Value]]
+
 ## Маршрут чтения
 
 1. [[Embedding Layer]]
@@ -44,13 +52,14 @@ tags:
 5. [[Attention Weights]]
 6. [[Attention Output]]
 7. [[Embedding Space]]
-8. [[MultiheadAttention в PyTorch]]
-9. [[Transformer Block]]
-10. [[Residual Connection]]
-11. [[Feed Forward Network]]
-12. [[LayerNorm]]
-13. [[Batch Matrix Multiplication]]
-14. [[Module и Functional в PyTorch]]
+8. [[Multi-Head Attention]]
+9. [[MultiheadAttention в PyTorch]]
+10. [[Transformer Block]]
+11. [[Residual Connection]]
+12. [[Feed Forward Network]]
+13. [[LayerNorm]]
+14. [[Batch Matrix Multiplication]]
+15. [[Module и Functional в PyTorch]]
 
 ## Связи с другими областями
 
