@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#python-backend",
@@ -95,6 +95,6 @@
   "repelStrength": 7.40711805555556,
   "linkStrength": 1,
   "linkDistance": 146,
-  "scale": 0.4505081176757811,
+  "scale": 0.7428170103140359,
   "close": true
 }
