@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-07-03
 tags:
   - transformers
 confidence: medium
@@ -38,6 +38,8 @@ QKV разделяют роли внутри Attention:
 
 В [[Multi-Head Attention]] каждая голова имеет собственные `Wq`, `Wk` и `Wv`.
 
+В инженерной реализации эти три проекции часто оптимизируются через один большой Linear слой.
+
 ## Причина существования
 
 Если использовать один и тот же embedding без разных проекций, Attention не сможет разделить роли поиска, сопоставления и передачи информации.
@@ -70,12 +72,30 @@ d_model → head_dim
 512 → 64
 ```
 
+В nanoGPT-подобной реализации вместо трех независимых Linear-слоев может использоваться один:
+
+```text
+Linear(d_model -> 3 × d_model)
+    ↓
+split(d_model, dim=2)
+    ↓
+Q, K, V
+```
+
+Такой слой часто называется `c_attn`.
+
 ## Пример
 
 ```python
 self.query = nn.Linear(d_model, d_model)
 self.key = nn.Linear(d_model, d_model)
 self.value = nn.Linear(d_model, d_model)
+```
+
+Оптимизированный вариант:
+
+```python
+q, k, v = self.c_attn(x).split(self.n_embd, dim=2)
 ```
 
 Для одной головы:
@@ -93,10 +113,12 @@ Head2: X → Linear(512 -> 64)
 - Считать, что используется одна матрица весов.
 - Считать, что первая голова получает первые 64 признака embedding.
 - Воспринимать разделение на головы как обычное разбиение массива.
+- Считать `c_attn` полноценным Attention.
+- Считать, что при combined QKV projection создаются три независимых Linear подряд.
 
 ## Связанные темы
 
-[[Embedding Layer]] · [[Attention Scores]] · [[Multi-Head Attention]] · [[MultiheadAttention в PyTorch]] · [[PyTorch/nn.Linear|nn.Linear]]
+[[Embedding Layer]] · [[Attention Scores]] · [[Self-Attention Pipeline]] · [[Multi-Head Attention]] · [[MultiheadAttention в PyTorch]] · [[PyTorch/nn.Linear|nn.Linear]]
 
 ## Вопросы для проверки
 
@@ -104,9 +126,11 @@ Head2: X → Linear(512 -> 64)
 - Что произойдет, если использовать одну матрицу?
 - Почему головы используют линейную проекцию вместо разделения embedding?
 - Какую проблему решает head projection?
+- Почему используется один большой Linear вместо трех?
 
 ## Следующие темы
 
 - [[Attention Scores]]
+- [[Self-Attention Pipeline]]
 - [[Multi-Head Attention]]
 - [[MultiheadAttention в PyTorch]]

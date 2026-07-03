@@ -17,9 +17,11 @@ tags:
 ## Core Concepts
 
 - [[Transformers/Embedding Layer|Embedding Layer]]
+- [[Transformers/Position Embedding|Position Embedding]]
 - [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]]
 - [[Transformers/Embedding Space|Embedding Space]]
 - [[Transformers/Query Key Value|Query Key Value]]
+- [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]]
 - [[Transformers/Attention Scores|Attention Scores]]
 - [[Transformers/Attention Weights|Attention Weights]]
 - [[Transformers/Attention Output|Attention Output]]
@@ -28,8 +30,10 @@ tags:
 ## Transformer Architecture
 
 - [[Transformers/Transformer Block|Transformer Block]]
+- [[Transformers/Transformer Block Interface|Transformer Block Interface]]
 - [[Transformers/Residual Connection|Residual Connection]]
 - [[Transformers/LayerNorm|LayerNorm]]
+- [[Transformers/Pre-LayerNorm|Pre-LayerNorm]]
 - [[Transformers/Feed Forward Network|Feed Forward Network]]
 - [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]]
 
@@ -46,6 +50,7 @@ tags:
 
 - [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]]
 - [[Transformers/Module и Functional в PyTorch|Module и Functional в PyTorch]]
+- [[Transformers/nn.Module __call__|nn.Module __call__]]
 - [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]]
 
 ## Related Knowledge
@@ -141,3 +146,22 @@ Updated Concepts:
 
 Learning Goal:
 Понять инженерный путь генерации текста: как Transformer превращает final embedding в logits, как sampling управляет выбором токена, почему KV Cache ускоряет autoregressive generation и где проходят границы между context window, cache и памятью приложения.
+
+### Transformer Architecture Module
+
+New Concepts:
+- Position Embedding
+- Pre-LayerNorm
+- Transformer Block Interface
+- nn.Module __call__
+- Self-Attention Pipeline
+
+Updated Concepts:
+- Embedding Layer
+- Residual Connection
+- LayerNorm
+- Query Key Value
+- Multi-Head Attention
+
+Learning Goal:
+Понять GPT как модульную инженерную архитектуру: как token и position embeddings формируют вход, как Block скрывает внутреннюю реализацию за стабильным интерфейсом, как Pre-LN меняет порядок вычислений и как QKV, Scores, Weights и Value складываются в полный Self-Attention pipeline.

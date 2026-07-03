@@ -167,6 +167,21 @@ updated: 2026-06-30
 **Требует повторения:** различие между памятью приложения и KV Cache, создание независимых экземпляров классов в цикле Python, практическое чтение исходного кода nanoGPT.
 **Следующий шаг:** полностью разобрать `GPT.forward()` из nanoGPT строка за строкой и сопоставить каждую инструкцию с архитектурными компонентами.
 
+**Transformer architecture module синхронизирован:**
+- [[Transformers/Position Embedding|Position Embedding]] ✅ — отдельная таблица признаков позиций
+- [[Transformers/Embedding Layer|Embedding Layer]] ✅ — token embedding + position embedding
+- [[Transformers/Residual Connection|Residual Connection]] ✅ — философия постепенного улучшения представления
+- [[Transformers/Pre-LayerNorm|Pre-LayerNorm]] ✅ — порядок LayerNorm → Module → Residual
+- [[Transformers/Transformer Block Interface|Transformer Block Interface]] ✅ — Block как стабильный интерфейс `embedding -> embedding`
+- [[Transformers/nn.Module __call__|nn.Module __call__]] ✅ — почему `block(x)` запускает PyTorch module
+- [[Transformers/Query Key Value|Query Key Value]] ✅ — combined QKV projection через `c_attn`
+- [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]] ✅ — полная цепочка QKV → scores → weights → output
+- [[Transformers/Multi-Head Attention|Multi-Head Attention]] ✅ — роль output projection `c_proj`
+
+**Прогресс модуля Transformer architecture:** 9/9 ключевых тем learned.
+**Требует повторения:** перестановка размерностей `transpose`, матричное умножение по последним двум осям и shape тензоров на каждом этапе.
+**Следующий шаг:** разобрать оставшуюся реализацию `CausalSelfAttention.forward()` до конца, включая scaling, causal mask и final output projection в nanoGPT.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

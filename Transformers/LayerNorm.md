@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-06-30
-updated: 2026-07-01
+updated: 2026-07-03
 tags:
   - transformers
 confidence: high
@@ -39,6 +39,8 @@ LayerNorm(x) = γ * (x - μ) / sqrt(σ² + ε) + β
 LayerNorm приводит каждый embedding к предсказуемому статистическому масштабу перед передачей следующему [[Transformer Block]].
 
 В реальной архитектуре Transformer он отвечает за стабильность входов для следующих Linear, Attention и [[Feed Forward Network|FeedForward]] слоев.
+
+В современных GPT-подобных LLM LayerNorm часто используется в форме [[Pre-LayerNorm]], то есть до Attention или MLP.
 
 ## Причина существования
 
@@ -88,6 +90,12 @@ x = feed_forward(x)
 x = layer_norm(x + attention(x))
 ```
 
+В форме Pre-LayerNorm:
+
+```python
+x = x + self.attn(self.ln_1(x))
+```
+
 ## Типичные ошибки
 
 - Считать LayerNorm обычным делением на фиксированное число.
@@ -95,10 +103,12 @@ x = layer_norm(x + attention(x))
 - Не понимать связь LayerNorm и z-score.
 - Считать `γ` и `β` фиксированными константами.
 - Нормализовать только результат Attention и забывать про сумму `x + Attention(x)`.
+- Считать, что все Transformer используют одинаковый порядок LayerNorm.
+- Путать Pre-LN и Post-LN.
 
 ## Связанные темы
 
-[[Transformer Block]] · [[Residual Connection]] · [[Feed Forward Network]] · [[Statistics/Z-score|Z-score]] · [[Statistics/Mean|Mean]] · [[Statistics/Variance|Variance]] · [[Statistics/Standard Deviation|Standard Deviation]]
+[[Transformer Block]] · [[Residual Connection]] · [[Feed Forward Network]] · [[Pre-LayerNorm]] · [[Statistics/Z-score|Z-score]] · [[Statistics/Mean|Mean]] · [[Statistics/Variance|Variance]] · [[Statistics/Standard Deviation|Standard Deviation]]
 
 ## Вопросы для проверки
 
@@ -106,10 +116,11 @@ x = layer_norm(x + attention(x))
 - Почему `γ` и `β` являются обучаемыми параметрами?
 - Почему LayerNorm выполняется после Residual?
 - Что произошло бы, если нормализовать только `Attention(x)`, а потом прибавить старый embedding?
+- Чем Pre-LayerNorm отличается от Post-LayerNorm?
 
 ## Следующие темы
 
-- Pre-LayerNorm
+- [[Pre-LayerNorm]]
 - Post-LayerNorm
 - GPT Architecture
 - [[MultiheadAttention в PyTorch]]

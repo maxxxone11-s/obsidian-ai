@@ -9,6 +9,25 @@ updated: 2026-07-03
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-03 (KNOWLEDGE_EXPORT sync: Transformer architecture module)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]]; новая Knowledge Area `Deep Learning` не создавалась.
+- Созданы concept-заметки: [[Transformers/Position Embedding|Position Embedding]], [[Transformers/Pre-LayerNorm|Pre-LayerNorm]], [[Transformers/Transformer Block Interface|Transformer Block Interface]], [[Transformers/nn.Module __call__|nn.Module __call__]], [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]].
+- Обновлены существующие концепции: [[Transformers/Embedding Layer|Embedding Layer]], [[Transformers/Residual Connection|Residual Connection]], [[Transformers/LayerNorm|LayerNorm]], [[Transformers/Query Key Value|Query Key Value]], [[Transformers/Multi-Head Attention|Multi-Head Attention]].
+- Implementation details не вынесены в отдельные заметки: сложение вместо concat, Residual Philosophy, `c_attn`, output projection и роль `c_proj` слиты в существующие concepts.
+
+### 🧠 Weak spots
+
+- Перестановка размерностей `transpose` при переходе к Multi-Head Attention.
+- Интуитивное понимание матричного умножения по последним двум осям.
+- Размерности тензоров на каждом этапе вычислений.
+
+### Следующий шаг
+
+- Разобрать оставшуюся реализацию `CausalSelfAttention.forward()` до конца, включая масштабирование, causal mask и финальный Output Projection в исходном коде nanoGPT.
+
 ## 2026-07-03 (KNOWLEDGE_EXPORT sync: Transformers generation module)
 
 ### ✅ Синхронизировано

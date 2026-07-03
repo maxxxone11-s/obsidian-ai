@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-03
 tags:
   - transformers
 confidence: high
@@ -70,6 +70,8 @@ Linear(d_model -> d_model)
 
 После Concat результаты голов только лежат рядом. Output Projection смешивает информацию разных голов и формирует единый embedding.
 
+В nanoGPT-подобной реализации этот завершающий Linear часто называется `c_proj`.
+
 ## Пример
 
 ```text
@@ -92,6 +94,18 @@ head_dim = 64
 
 Каждая голова учится строить свое представление размерности `64`, а после Concat и Output Projection модель возвращается к `d_model = 512`.
 
+После Concat:
+
+```text
+Head1 | Head2 | ... | HeadN
+    ↓
+Concat
+    ↓
+Linear(c_proj)
+    ↓
+единый embedding
+```
+
 ## Типичные ошибки
 
 - Считать, что головы получают разные части embedding.
@@ -99,10 +113,11 @@ head_dim = 64
 - Считать Multi-Head новым математическим алгоритмом вместо параллельного выполнения нескольких Single Head Attention.
 - Путать Output Projection с [[Feed Forward Network]].
 - Считать Concat достаточным завершением Multi-Head Attention.
+- Считать, что `c_proj` строит logits.
 
 ## Связанные темы
 
-[[Query Key Value]] · [[Attention Scores]] · [[Attention Output]] · [[MultiheadAttention в PyTorch]] · [[Batch Matrix Multiplication]] · [[Feed Forward Network]] · [[PyTorch/nn.Linear|nn.Linear]]
+[[Query Key Value]] · [[Attention Scores]] · [[Attention Output]] · [[Self-Attention Pipeline]] · [[MultiheadAttention в PyTorch]] · [[Batch Matrix Multiplication]] · [[Feed Forward Network]] · [[PyTorch/nn.Linear|nn.Linear]]
 
 ## Вопросы для проверки
 
@@ -111,6 +126,7 @@ head_dim = 64
 - Почему несколько голов эффективнее одной?
 - Почему головы используют линейную проекцию вместо разделения embedding?
 - Почему одного Concat недостаточно?
+- Чем задача `c_proj` отличается от задачи MLP?
 
 ## Следующие темы
 

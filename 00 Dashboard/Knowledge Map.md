@@ -177,8 +177,10 @@ updated: 2026-07-03
 
 - [[Transformers/Index|Transformers Index]]
 - [[Transformers/Embedding Layer|Embedding Layer]]
+- [[Transformers/Position Embedding|Position Embedding]]
 - [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]]
 - [[Transformers/Query Key Value|Query Key Value]]
+- [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]]
 - [[Transformers/Attention Scores|Attention Scores]]
 - [[Transformers/Attention Weights|Attention Weights]]
 - [[Transformers/Attention Output|Attention Output]]
@@ -186,10 +188,13 @@ updated: 2026-07-03
 - [[Transformers/Multi-Head Attention|Multi-Head Attention]]
 - [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]]
 - [[Transformers/Transformer Block|Transformer Block]]
+- [[Transformers/Transformer Block Interface|Transformer Block Interface]]
 - [[Transformers/Residual Connection|Residual Connection]]
+- [[Transformers/Pre-LayerNorm|Pre-LayerNorm]]
 - [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]]
 - [[Transformers/Feed Forward Network|Feed Forward Network]]
 - [[Transformers/Module и Functional в PyTorch|Module и Functional в PyTorch]]
+- [[Transformers/nn.Module __call__|nn.Module __call__]]
 - [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]]
 - [[Transformers/LayerNorm|LayerNorm]]
 - [[Transformers/KV Cache|KV Cache]]
@@ -212,6 +217,8 @@ updated: 2026-07-03
 - [[Transformers/Language Modeling Head|Language Modeling Head]] → [[Neural Networks/Logits|Logits]]
 - [[Transformers/Temperature Sampling|Temperature Sampling]] → [[Neural Networks/Softmax|Softmax]]
 - [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]] → [[RAG/Index|RAG]]
+- [[Transformers/nn.Module __call__|nn.Module __call__]] → [[PyTorch/nn.Module|nn.Module]]
+- [[Transformers/Pre-LayerNorm|Pre-LayerNorm]] → [[Transformers/LayerNorm|LayerNorm]]
 
 ## PyTorch
 

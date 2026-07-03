@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-06-30
-updated: 2026-07-01
+updated: 2026-07-03
 tags:
   - transformers
 confidence: high
@@ -41,9 +41,13 @@ Residual Connection сохраняет исходное представлени
 
 Residual Connection позволяет каждому блоку уточнять представление постепенно: не "стереть и записать заново", а "добавить полезное изменение".
 
+Та же инженерная философия видна и в Position Embedding: Transformer часто улучшает уже существующее представление через сложение, а не создает новое представление с нуля.
+
 ## Простое объяснение
 
 Attention не переписывает embedding. Он добавляет к нему новую информацию.
+
+Это общий стиль Transformer: каждый модуль добавляет информацию к уже существующему embedding.
 
 ## Как это работает
 
@@ -76,6 +80,12 @@ LayerNorm
 
 Нормализуется уже итоговое представление, которое будет передано следующему Transformer Block.
 
+Похожая идея используется в:
+
+- [[Position Embedding|Token Embedding + Position Embedding]];
+- Residual после Attention;
+- Residual после MLP.
+
 ## Пример
 
 Вместо:
@@ -97,10 +107,11 @@ x = layer_norm(x)
 - Считать Residual Connection механизмом обучения.
 - Путать Residual Connection с Backpropagation.
 - Считать порядок `Residual → LayerNorm` случайным.
+- Считать, что каждый слой полностью заменяет embedding.
 
 ## Связанные темы
 
-[[Transformer Block]] · [[LayerNorm]] · [[Feed Forward Network]] · [[Постепенное уточнение embedding]]
+[[Transformer Block]] · [[LayerNorm]] · [[Feed Forward Network]] · [[Постепенное уточнение embedding]] · [[Position Embedding]]
 
 ## Вопросы для проверки
 
@@ -108,6 +119,7 @@ x = layer_norm(x)
 - Что сохраняет Residual Connection?
 - Почему глубокие Transformer используют Residual?
 - Почему после суммы часто применяется LayerNorm?
+- Какая общая идея объединяет Position Embedding и Residual Connection?
 
 ## Следующие темы
 

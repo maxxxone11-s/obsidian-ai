@@ -41,14 +41,15 @@ updated: 2026-07-03
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 263 |
-| Изучено | 204 |
+| Всего концепций | 268 |
+| Изучено | 209 |
 | В процессе | 0 |
 | Требует повтора | 7 |
 | Черновики | 52 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-03** — Синхронизация Transformer architecture module: Position Embedding, Pre-LayerNorm, Block interface, nn.Module __call__ и Self-Attention Pipeline
 - **2026-07-03** — Синхронизация Transformers generation module: KV Cache, attention complexity, Language Modeling Head, Temperature Sampling, context window и nanoGPT architecture
 - **2026-07-02** — Синхронизация Transformer Foundations IV: Multi-Head Attention, head projections, output projection, tensor reshaping и bmm optimization
 - **2026-07-01** — Синхронизация Transformer Foundations III: LayerNorm engineering, порядок Residual → LayerNorm и FeedForward как position-wise MLP

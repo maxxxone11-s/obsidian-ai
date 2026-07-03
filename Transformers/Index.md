@@ -17,9 +17,11 @@ tags:
 ## Core Concepts
 
 - [[Embedding Layer]]
+- [[Position Embedding]]
 - [[Статический и контекстный Embedding]]
 - [[Embedding Space]]
 - [[Query Key Value]]
+- [[Self-Attention Pipeline]]
 - [[Attention Scores]]
 - [[Attention Weights]]
 - [[Attention Output]]
@@ -28,8 +30,10 @@ tags:
 ## Transformer Architecture
 
 - [[Transformer Block]]
+- [[Transformer Block Interface]]
 - [[Residual Connection]]
 - [[LayerNorm]]
+- [[Pre-LayerNorm]]
 - [[Feed Forward Network]]
 - [[Постепенное уточнение embedding]]
 
@@ -46,6 +50,7 @@ tags:
 
 - [[MultiheadAttention в PyTorch]]
 - [[Module и Functional в PyTorch]]
+- [[nn.Module __call__]]
 - [[Batch Matrix Multiplication]]
 
 ## Related Knowledge
@@ -141,3 +146,22 @@ Updated Concepts:
 
 Learning Goal:
 Понять инженерный путь генерации текста: как Transformer превращает final embedding в logits, как sampling управляет выбором токена, почему KV Cache ускоряет autoregressive generation и где проходят границы между context window, cache и памятью приложения.
+
+### Transformer Architecture Module
+
+New Concepts:
+- Position Embedding
+- Pre-LayerNorm
+- Transformer Block Interface
+- nn.Module __call__
+- Self-Attention Pipeline
+
+Updated Concepts:
+- Embedding Layer
+- Residual Connection
+- LayerNorm
+- Query Key Value
+- Multi-Head Attention
+
+Learning Goal:
+Понять GPT как модульную инженерную архитектуру: как token и position embeddings формируют вход, как Block скрывает внутреннюю реализацию за стабильным интерфейсом, как Pre-LN меняет порядок вычислений и как QKV, Scores, Weights и Value складываются в полный Self-Attention pipeline.
