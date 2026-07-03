@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-02
+updated: 2026-07-03
 ---
 
 # 🧠 Knowledge Map
@@ -192,6 +192,12 @@ updated: 2026-07-02
 - [[Transformers/Module и Functional в PyTorch|Module и Functional в PyTorch]]
 - [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]]
 - [[Transformers/LayerNorm|LayerNorm]]
+- [[Transformers/KV Cache|KV Cache]]
+- [[Transformers/Attention Complexity During Inference|Attention Complexity During Inference]]
+- [[Transformers/Language Modeling Head|Language Modeling Head]]
+- [[Transformers/Temperature Sampling|Temperature Sampling]]
+- [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]]
+- [[Transformers/nanoGPT Architecture|nanoGPT Architecture]]
 
 ### Связи Transformers
 
@@ -203,6 +209,9 @@ updated: 2026-07-02
 - [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]] → [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
 - [[Transformers/LayerNorm|LayerNorm]] → [[Statistics/Z-score|Z-score]]
 - [[Transformers/Feed Forward Network|Feed Forward Network]] → [[PyTorch/nn.Linear|nn.Linear]]
+- [[Transformers/Language Modeling Head|Language Modeling Head]] → [[Neural Networks/Logits|Logits]]
+- [[Transformers/Temperature Sampling|Temperature Sampling]] → [[Neural Networks/Softmax|Softmax]]
+- [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]] → [[RAG/Index|RAG]]
 
 ## PyTorch
 

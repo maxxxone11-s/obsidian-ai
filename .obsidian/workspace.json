@@ -24,21 +24,20 @@
             }
           },
           {
-            "id": "e7a7b303c61786dc",
+            "id": "4d0ba87d6ada4290",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Roadmap/Roadmap.md",
+                "file": "Indexes/Transformers Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Roadmap"
+              "title": "Transformers Index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,14 +202,22 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "0a18210be86dac4b",
   "lastOpenFiles": [
+    "Transformers/Постепенное уточнение embedding.md",
+    "Transformers/nanoGPT Architecture.md",
+    "Transformers/Context Window vs KV Cache.md",
+    "Transformers/Temperature Sampling.md",
+    "Transformers/Language Modeling Head.md",
+    "Transformers/Attention Complexity During Inference.md",
+    "Transformers/KV Cache.md",
     "Indexes/Transformers Index.md",
-    "01 Roadmap/Roadmap.md",
+    "00 Dashboard/Dashboard.md",
     "Сообщение для сбора конспектов.md",
+    "Machine Learning/Mathematics/Entropy.md",
+    "01 Roadmap/Roadmap.md",
     "Transformers/Multi-Head Attention.md",
     "Transformers/Embedding Space.md",
-    "00 Dashboard/Dashboard.md",
     "Indexes/LangGraph Index.md",
     "LangGraph/Practice/Практика LangGraph 01 - Линейный граф.md",
     "Transformers/Query Key Value.md",
@@ -223,14 +230,6 @@
     "Transformers/Feed Forward Network.md",
     "Transformers/LayerNorm.md",
     "Transformers/Residual Connection.md",
-    "00 Dashboard/Knowledge Map.md",
-    "Statistics/Variance.md",
-    "Indexes/Statistics Index.md",
-    "Statistics/Z-score.md",
-    "Statistics/Normal Distribution.md",
-    "Statistics/Standard Deviation.md",
-    "Statistics/Причина использования квадратов в статистике.md",
-    "00 Dashboard/Graph Groups.md",
     "Statistics",
     "Transformers",
     "Algorithms/Recursion/Trees",

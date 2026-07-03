@@ -3,7 +3,7 @@ type: index
 area: Transformers
 knowledge_area: Transformers
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-07-03
 tags:
   - index
   - system
@@ -32,6 +32,15 @@ tags:
 - [[Transformers/LayerNorm|LayerNorm]]
 - [[Transformers/Feed Forward Network|Feed Forward Network]]
 - [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]]
+
+## Generation & Inference
+
+- [[Transformers/KV Cache|KV Cache]]
+- [[Transformers/Attention Complexity During Inference|Attention Complexity During Inference]]
+- [[Transformers/Language Modeling Head|Language Modeling Head]]
+- [[Transformers/Temperature Sampling|Temperature Sampling]]
+- [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]]
+- [[Transformers/nanoGPT Architecture|nanoGPT Architecture]]
 
 ## PyTorch Implementation
 
@@ -116,3 +125,19 @@ Updated Concepts:
 
 Learning Goal:
 Понять Multi-Head Attention как параллельный набор independent attention heads и увидеть, как head projection, output projection, tensor reshaping и объединение batch × heads превращают идею в эффективную PyTorch-реализацию.
+
+### Transformers Generation Module
+
+New Concepts:
+- KV Cache
+- Attention Complexity During Inference
+- Language Modeling Head
+- Temperature Sampling
+- Context Window vs KV Cache
+- nanoGPT Architecture
+
+Updated Concepts:
+- Постепенное уточнение embedding
+
+Learning Goal:
+Понять инженерный путь генерации текста: как Transformer превращает final embedding в logits, как sampling управляет выбором токена, почему KV Cache ускоряет autoregressive generation и где проходят границы между context window, cache и памятью приложения.

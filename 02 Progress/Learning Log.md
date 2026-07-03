@@ -4,10 +4,29 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-02
+updated: 2026-07-03
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-03 (KNOWLEDGE_EXPORT sync: Transformers generation module)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]]; новая Knowledge Area `Deep Learning` не создавалась.
+- Созданы concept-заметки: [[Transformers/KV Cache|KV Cache]], [[Transformers/Attention Complexity During Inference|Attention Complexity During Inference]], [[Transformers/Language Modeling Head|Language Modeling Head]], [[Transformers/Temperature Sampling|Temperature Sampling]], [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]], [[Transformers/nanoGPT Architecture|nanoGPT Architecture]].
+- Обновлена существующая концепция: [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]].
+- Связи добавлены с [[Neural Networks/Logits|Logits]], [[Neural Networks/Softmax|Softmax]], [[RAG/Index|RAG]], [[Transformers/Query Key Value|Query Key Value]] и [[Transformers/Transformer Block|Transformer Block]].
+
+### 🧠 Weak spots
+
+- Путаница между памятью приложения и KV Cache.
+- Представление о создании независимых экземпляров классов в цикле Python.
+- Практическое чтение исходного кода nanoGPT.
+
+### Следующий шаг
+
+- Полностью разобрать метод `GPT.forward()` из nanoGPT строка за строкой и сопоставить каждую инструкцию с изученными архитектурными компонентами.
 
 ## 2026-07-02 (KNOWLEDGE_EXPORT sync: Transformer Foundations IV)
 

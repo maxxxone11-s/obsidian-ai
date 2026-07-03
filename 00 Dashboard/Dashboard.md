@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-02
+updated: 2026-07-03
 ---
 
 # 🧠 AI Second Brain Dashboard
@@ -41,14 +41,15 @@ updated: 2026-07-02
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 257 |
-| Изучено | 198 |
+| Всего концепций | 263 |
+| Изучено | 204 |
 | В процессе | 0 |
 | Требует повтора | 7 |
 | Черновики | 52 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-03** — Синхронизация Transformers generation module: KV Cache, attention complexity, Language Modeling Head, Temperature Sampling, context window и nanoGPT architecture
 - **2026-07-02** — Синхронизация Transformer Foundations IV: Multi-Head Attention, head projections, output projection, tensor reshaping и bmm optimization
 - **2026-07-01** — Синхронизация Transformer Foundations III: LayerNorm engineering, порядок Residual → LayerNorm и FeedForward как position-wise MLP
 - **2026-07-01** — Синхронизация Statistics Formula Update: формулы Mean, Variance, Standard Deviation, Min-Max Normalization, Standardization, Z-score и Normal Distribution

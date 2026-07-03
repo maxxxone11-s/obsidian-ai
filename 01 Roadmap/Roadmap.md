@@ -154,6 +154,19 @@ updated: 2026-06-30
 **Требует повторения:** полная реализация `multi_head_attention_forward()`, Attention Mask, Padding Mask и Decoder Self-Attention.
 **Следующий шаг:** разобрать исходный код `multi_head_attention_forward()`, изучить Causal Mask и перейти к различиям Encoder и Decoder.
 
+**Transformers generation module синхронизирован:**
+- [[Transformers/KV Cache|KV Cache]] ✅ — кэширование Key и Value во время autoregressive generation
+- [[Transformers/Attention Complexity During Inference|Attention Complexity During Inference]] ✅ — почему длинный контекст остается дорогим
+- [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]] ✅ — между блоками передаются embedding, а не Q/K/V
+- [[Transformers/Language Modeling Head|Language Modeling Head]] ✅ — преобразование final embedding в logits словаря
+- [[Transformers/Temperature Sampling|Temperature Sampling]] ✅ — управление разнообразием генерации
+- [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]] ✅ — разделение памяти приложения и cache одного ответа
+- [[Transformers/nanoGPT Architecture|nanoGPT Architecture]] ✅ — структура GPT как набор модулей
+
+**Прогресс модуля Transformers generation:** 7/7 ключевых тем learned.
+**Требует повторения:** различие между памятью приложения и KV Cache, создание независимых экземпляров классов в цикле Python, практическое чтение исходного кода nanoGPT.
+**Следующий шаг:** полностью разобрать `GPT.forward()` из nanoGPT строка за строкой и сопоставить каждую инструкцию с архитектурными компонентами.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**
