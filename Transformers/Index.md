@@ -3,7 +3,7 @@ type: index
 area: Transformers
 knowledge_area: Transformers
 created: 2026-06-30
-updated: 2026-07-03
+updated: 2026-07-04
 tags:
   - index
   - system
@@ -23,6 +23,7 @@ tags:
 - [[Query Key Value]]
 - [[Self-Attention Pipeline]]
 - [[Attention Scores]]
+- [[Causal Mask]]
 - [[Attention Weights]]
 - [[Attention Output]]
 - [[Multi-Head Attention]]
@@ -40,10 +41,14 @@ tags:
 ## Generation & Inference
 
 - [[KV Cache]]
+- [[Autoregressive Generation]]
 - [[Attention Complexity During Inference]]
 - [[Language Modeling Head]]
+- [[Weight Tying]]
 - [[Temperature Sampling]]
 - [[Context Window vs KV Cache]]
+- [[Веса как долговременная память модели]]
+- [[Разделение ролей LLM и RAG]]
 - [[nanoGPT Architecture]]
 
 ## PyTorch Implementation
@@ -165,3 +170,25 @@ Updated Concepts:
 
 Learning Goal:
 Понять GPT как модульную инженерную архитектуру: как token и position embeddings формируют вход, как Block скрывает внутреннюю реализацию за стабильным интерфейсом, как Pre-LN меняет порядок вычислений и как QKV, Scores, Weights и Value складываются в полный Self-Attention pipeline.
+
+### Transformers Module
+
+New Concepts:
+- Causal Mask
+- Веса как долговременная память модели
+- Разделение ролей LLM и RAG
+- Weight Tying
+- Autoregressive Generation
+
+Updated Concepts:
+- Attention Scores
+- Query Key Value
+- Language Modeling Head
+- Embedding Layer
+- KV Cache
+- Context Window vs KV Cache
+- Постепенное уточнение embedding
+- Self-Attention Pipeline
+
+Learning Goal:
+Замкнуть архитектурную картину decoder-only Transformer: понять, как causal mask делает параллельное обучение честным, почему attention scores масштабируются, где хранятся знания модели, как LLM отличается от RAG и как autoregressive generation превращает logits в последовательный текст.

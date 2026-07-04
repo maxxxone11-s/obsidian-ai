@@ -3,7 +3,7 @@ type: index
 area: Transformers
 knowledge_area: Transformers
 created: 2026-06-30
-updated: 2026-07-03
+updated: 2026-07-04
 tags:
   - index
   - system
@@ -23,6 +23,7 @@ tags:
 - [[Transformers/Query Key Value|Query Key Value]]
 - [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]]
 - [[Transformers/Attention Scores|Attention Scores]]
+- [[Transformers/Causal Mask|Causal Mask]]
 - [[Transformers/Attention Weights|Attention Weights]]
 - [[Transformers/Attention Output|Attention Output]]
 - [[Transformers/Multi-Head Attention|Multi-Head Attention]]
@@ -40,10 +41,14 @@ tags:
 ## Generation & Inference
 
 - [[Transformers/KV Cache|KV Cache]]
+- [[Transformers/Autoregressive Generation|Autoregressive Generation]]
 - [[Transformers/Attention Complexity During Inference|Attention Complexity During Inference]]
 - [[Transformers/Language Modeling Head|Language Modeling Head]]
+- [[Transformers/Weight Tying|Weight Tying]]
 - [[Transformers/Temperature Sampling|Temperature Sampling]]
 - [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]]
+- [[Transformers/Веса как долговременная память модели|Веса как долговременная память модели]]
+- [[Transformers/Разделение ролей LLM и RAG|Разделение ролей LLM и RAG]]
 - [[Transformers/nanoGPT Architecture|nanoGPT Architecture]]
 
 ## PyTorch Implementation
@@ -165,3 +170,25 @@ Updated Concepts:
 
 Learning Goal:
 Понять GPT как модульную инженерную архитектуру: как token и position embeddings формируют вход, как Block скрывает внутреннюю реализацию за стабильным интерфейсом, как Pre-LN меняет порядок вычислений и как QKV, Scores, Weights и Value складываются в полный Self-Attention pipeline.
+
+### Transformers Module
+
+New Concepts:
+- Causal Mask
+- Веса как долговременная память модели
+- Разделение ролей LLM и RAG
+- Weight Tying
+- Autoregressive Generation
+
+Updated Concepts:
+- Attention Scores
+- Query Key Value
+- Language Modeling Head
+- Embedding Layer
+- KV Cache
+- Context Window vs KV Cache
+- Постепенное уточнение embedding
+- Self-Attention Pipeline
+
+Learning Goal:
+Замкнуть архитектурную картину decoder-only Transformer: понять, как causal mask делает параллельное обучение честным, почему attention scores масштабируются, где хранятся знания модели, как LLM отличается от RAG и как autoregressive generation превращает logits в последовательный текст.

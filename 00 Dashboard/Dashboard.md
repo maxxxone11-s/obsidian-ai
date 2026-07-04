@@ -41,14 +41,15 @@ updated: 2026-07-03
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 268 |
-| Изучено | 209 |
+| Всего концепций | 273 |
+| Изучено | 214 |
 | В процессе | 0 |
 | Требует повтора | 7 |
 | Черновики | 52 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-04** — Синхронизация Transformers module: Causal Mask, Weight Tying, Autoregressive Generation, веса как память модели и разделение LLM/RAG
 - **2026-07-03** — Синхронизация Transformer architecture module: Position Embedding, Pre-LayerNorm, Block interface, nn.Module __call__ и Self-Attention Pipeline
 - **2026-07-03** — Синхронизация Transformers generation module: KV Cache, attention complexity, Language Modeling Head, Temperature Sampling, context window и nanoGPT architecture
 - **2026-07-02** — Синхронизация Transformer Foundations IV: Multi-Head Attention, head projections, output projection, tensor reshaping и bmm optimization

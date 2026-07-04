@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-06-30
-updated: 2026-07-03
+updated: 2026-07-04
 tags:
   - transformers
 confidence: high
@@ -23,17 +23,23 @@ Embedding Layer — обучаемая таблица признаков, кот
 
 В Transformer token embedding обычно складывается с [[Position Embedding]], чтобы объединить информацию о смысле токена и его позиции.
 
+В GPT-подобных моделях token embedding matrix также может использоваться в [[Weight Tying]] вместе с [[Language Modeling Head]].
+
 ## Инженерное назначение
 
 Embedding Layer является первым этапом обработки текста в Transformer.
 
 Он переводит дискретные id токенов в непрерывное пространство признаков, с которым могут работать Linear-слои, Attention и MLP.
 
+При Weight Tying эта же матрица помогает переводить финальное представление обратно в logits по словарю.
+
 ## Причина существования
 
 Нейронная сеть не понимает номера слов как смысловые признаки. Token id — это только адрес строки в словаре.
 
 Embedding Layer нужен, чтобы заменить произвольный номер токена обучаемым представлением.
+
+Так как входные и выходные операции связаны с одним словарём токенов, одну embedding matrix можно переиспользовать и на выходе модели.
 
 ## Простое объяснение
 
@@ -69,6 +75,13 @@ x = tok_emb + pos_emb
 
 Размерность при сложении не увеличивается.
 
+При Weight Tying:
+
+```text
+token_id -> token_embedding_matrix[token_id]
+final_embedding @ token_embedding_matrix.T -> logits
+```
+
 ## Пример
 
 ```python
@@ -97,10 +110,11 @@ vectors = embedding(tokens)
 - Считать token id признаком слова.
 - Думать, что embedding фиксирован после создания слоя.
 - Путать Token Embedding и [[Position Embedding]].
+- Считать, что входная embedding matrix всегда полностью независима от [[Language Modeling Head]].
 
 ## Связанные темы
 
-[[Position Embedding]] · [[Статический и контекстный Embedding]] · [[Embedding Space]] · [[Query Key Value]] · [[nanoGPT Architecture]]
+[[Position Embedding]] · [[Статический и контекстный Embedding]] · [[Embedding Space]] · [[Query Key Value]] · [[Weight Tying]] · [[Language Modeling Head]] · [[nanoGPT Architecture]]
 
 ## Вопросы для проверки
 
@@ -108,9 +122,11 @@ vectors = embedding(tokens)
 - Что хранится внутри `nn.Embedding`?
 - Что изменяется во время обучения?
 - Зачем token embedding складывается с position embedding?
+- Как token embedding matrix может использоваться на выходе модели?
 
 ## Следующие темы
 
 - [[Position Embedding]]
+- [[Weight Tying]]
 - [[Статический и контекстный Embedding]]
 - [[Query Key Value]]

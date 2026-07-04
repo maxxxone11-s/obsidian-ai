@@ -4,10 +4,34 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-04 (KNOWLEDGE_EXPORT sync: Transformers)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]]; новая Knowledge Area `Deep Learning` не создавалась.
+- Созданы concept-заметки: [[Transformers/Causal Mask|Causal Mask]], [[Transformers/Веса как долговременная память модели|Веса как долговременная память модели]], [[Transformers/Разделение ролей LLM и RAG|Разделение ролей LLM и RAG]], [[Transformers/Weight Tying|Weight Tying]], [[Transformers/Autoregressive Generation|Autoregressive Generation]].
+- Обновлены существующие концепции: [[Transformers/Attention Scores|Attention Scores]], [[Transformers/Query Key Value|Query Key Value]], [[Transformers/Language Modeling Head|Language Modeling Head]], [[Transformers/Embedding Layer|Embedding Layer]], [[Transformers/KV Cache|KV Cache]], [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]], [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]], [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]].
+- Не созданы отдельные заметки для scaling через `sqrt(head_dim)`, семантики QKV и Transformer как последовательности преобразований представлений; материал слит в существующие concepts.
+
+### 🧠 Weak spots
+
+- Интуитивная связь математических операций: матричное умножение, Softmax, Linear и общая архитектурная логика.
+- Геометрическая интерпретация пространства embedding и переходов между пространствами.
+- Глубокое понимание того, почему Linear лучше прямого поиска ближайшего embedding.
+
+### Повторяющиеся ошибки
+
+- Иногда интерпретировать embedding как постоянное хранилище знаний модели.
+- Иногда смешивать параметры модели и embedding документов в RAG.
+
+### Следующий шаг
+
+- Перейти к механизму обучения Transformer: Teacher Forcing, Cross Entropy Loss, Backpropagation и обновлению весов, чтобы замкнуть полный цикл `данные -> Transformer -> logits -> ошибка -> изменение весов`.
 
 ## 2026-07-03 (KNOWLEDGE_EXPORT sync: Transformer architecture module)
 

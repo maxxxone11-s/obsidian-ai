@@ -182,6 +182,7 @@ updated: 2026-07-03
 - [[Transformers/Query Key Value|Query Key Value]]
 - [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]]
 - [[Transformers/Attention Scores|Attention Scores]]
+- [[Transformers/Causal Mask|Causal Mask]]
 - [[Transformers/Attention Weights|Attention Weights]]
 - [[Transformers/Attention Output|Attention Output]]
 - [[Transformers/Embedding Space|Embedding Space]]
@@ -198,10 +199,14 @@ updated: 2026-07-03
 - [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]]
 - [[Transformers/LayerNorm|LayerNorm]]
 - [[Transformers/KV Cache|KV Cache]]
+- [[Transformers/Autoregressive Generation|Autoregressive Generation]]
 - [[Transformers/Attention Complexity During Inference|Attention Complexity During Inference]]
 - [[Transformers/Language Modeling Head|Language Modeling Head]]
+- [[Transformers/Weight Tying|Weight Tying]]
 - [[Transformers/Temperature Sampling|Temperature Sampling]]
 - [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]]
+- [[Transformers/Веса как долговременная память модели|Веса как долговременная память модели]]
+- [[Transformers/Разделение ролей LLM и RAG|Разделение ролей LLM и RAG]]
 - [[Transformers/nanoGPT Architecture|nanoGPT Architecture]]
 
 ### Связи Transformers
@@ -219,6 +224,9 @@ updated: 2026-07-03
 - [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]] → [[RAG/Index|RAG]]
 - [[Transformers/nn.Module __call__|nn.Module __call__]] → [[PyTorch/nn.Module|nn.Module]]
 - [[Transformers/Pre-LayerNorm|Pre-LayerNorm]] → [[Transformers/LayerNorm|LayerNorm]]
+- [[Transformers/Causal Mask|Causal Mask]] → [[Transformers/Autoregressive Generation|Autoregressive Generation]]
+- [[Transformers/Weight Tying|Weight Tying]] → [[Transformers/Language Modeling Head|Language Modeling Head]]
+- [[Transformers/Разделение ролей LLM и RAG|Разделение ролей LLM и RAG]] → [[RAG/Index|RAG]]
 
 ## PyTorch
 

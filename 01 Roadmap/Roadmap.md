@@ -182,6 +182,20 @@ updated: 2026-06-30
 **Требует повторения:** перестановка размерностей `transpose`, матричное умножение по последним двум осям и shape тензоров на каждом этапе.
 **Следующий шаг:** разобрать оставшуюся реализацию `CausalSelfAttention.forward()` до конца, включая scaling, causal mask и final output projection в nanoGPT.
 
+**Transformers module синхронизирован:**
+- [[Transformers/Causal Mask|Causal Mask]] ✅ — честное параллельное обучение decoder через запрет будущих токенов
+- [[Transformers/Attention Scores|Attention Scores]] ✅ — scaling через `sqrt(head_dim)` перед Softmax
+- [[Transformers/Query Key Value|Query Key Value]] ✅ — семантическое разделение поиска, релевантности и передачи информации
+- [[Transformers/Веса как долговременная память модели|Веса как долговременная память модели]] ✅ — знания модели находятся в параметрах, а не во временных embedding
+- [[Transformers/Разделение ролей LLM и RAG|Разделение ролей LLM и RAG]] ✅ — LLM рассуждает, RAG приносит внешний контекст
+- [[Transformers/Weight Tying|Weight Tying]] ✅ — общая матрица Token Embedding и LM Head
+- [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]] ✅ — Transformer как последовательность переходов между пространствами представлений
+- [[Transformers/Autoregressive Generation|Autoregressive Generation]] ✅ — генерация по одному токену с обновлением контекста
+
+**Прогресс модуля Transformers:** 8/8 ключевых тем learned.
+**Требует повторения:** связь матричного умножения, Softmax и Linear с архитектурной логикой; геометрия embedding space; почему Linear лучше прямого поиска ближайшего embedding.
+**Следующий шаг:** перейти к механизму обучения Transformer: Teacher Forcing, Cross Entropy Loss, Backpropagation и обновление весов.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**
