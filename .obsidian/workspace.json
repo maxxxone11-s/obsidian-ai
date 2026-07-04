@@ -204,6 +204,7 @@
   },
   "active": "0a18210be86dac4b",
   "lastOpenFiles": [
+    "Transformers/Formula Cards.md",
     "Transformers/Autoregressive Generation.md",
     "Transformers/Weight Tying.md",
     "Transformers/Разделение ролей LLM и RAG.md",
@@ -229,7 +230,6 @@
     "Transformers/Attention Complexity During Inference.md",
     "00 Dashboard/Dashboard.md",
     "Machine Learning/Mathematics/Entropy.md",
-    "01 Roadmap/Roadmap.md",
     "Statistics",
     "Transformers",
     "Algorithms/Recursion/Trees",
