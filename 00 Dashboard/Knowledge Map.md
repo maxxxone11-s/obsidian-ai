@@ -178,6 +178,7 @@ updated: 2026-07-03
 - [[Transformers/Index|Transformers Index]]
 - [[Transformers/Embedding Layer|Embedding Layer]]
 - [[Transformers/Position Embedding|Position Embedding]]
+- [[Transformers/GPTConfig|GPTConfig]]
 - [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]]
 - [[Transformers/Query Key Value|Query Key Value]]
 - [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]]
@@ -194,6 +195,7 @@ updated: 2026-07-03
 - [[Transformers/Pre-LayerNorm|Pre-LayerNorm]]
 - [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]]
 - [[Transformers/Feed Forward Network|Feed Forward Network]]
+- [[Transformers/ModuleList|ModuleList]]
 - [[Transformers/Module и Functional в PyTorch|Module и Functional в PyTorch]]
 - [[Transformers/nn.Module __call__|nn.Module __call__]]
 - [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]]
@@ -227,6 +229,8 @@ updated: 2026-07-03
 - [[Transformers/Causal Mask|Causal Mask]] → [[Transformers/Autoregressive Generation|Autoregressive Generation]]
 - [[Transformers/Weight Tying|Weight Tying]] → [[Transformers/Language Modeling Head|Language Modeling Head]]
 - [[Transformers/Разделение ролей LLM и RAG|Разделение ролей LLM и RAG]] → [[RAG/Index|RAG]]
+- [[Transformers/GPTConfig|GPTConfig]] → [[Transformers/nanoGPT Architecture|nanoGPT Architecture]]
+- [[Transformers/ModuleList|ModuleList]] → [[Transformers/Transformer Block|Transformer Block]]
 
 ## PyTorch
 

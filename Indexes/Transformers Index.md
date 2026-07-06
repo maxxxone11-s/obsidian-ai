@@ -3,7 +3,7 @@ type: index
 area: Transformers
 knowledge_area: Transformers
 created: 2026-06-30
-updated: 2026-07-04
+updated: 2026-07-06
 tags:
   - index
   - system
@@ -18,6 +18,7 @@ tags:
 
 - [[Transformers/Embedding Layer|Embedding Layer]]
 - [[Transformers/Position Embedding|Position Embedding]]
+- [[Transformers/GPTConfig|GPTConfig]]
 - [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]]
 - [[Transformers/Embedding Space|Embedding Space]]
 - [[Transformers/Query Key Value|Query Key Value]]
@@ -32,6 +33,7 @@ tags:
 
 - [[Transformers/Transformer Block|Transformer Block]]
 - [[Transformers/Transformer Block Interface|Transformer Block Interface]]
+- [[Transformers/ModuleList|ModuleList]]
 - [[Transformers/Residual Connection|Residual Connection]]
 - [[Transformers/LayerNorm|LayerNorm]]
 - [[Transformers/Pre-LayerNorm|Pre-LayerNorm]]
@@ -192,3 +194,19 @@ Updated Concepts:
 
 Learning Goal:
 Замкнуть архитектурную картину decoder-only Transformer: понять, как causal mask делает параллельное обучение честным, почему attention scores масштабируются, где хранятся знания модели, как LLM отличается от RAG и как autoregressive generation превращает logits в последовательный текст.
+
+### Transformers nanoGPT Source Code
+
+New Concepts:
+- GPTConfig
+- ModuleList
+
+Updated Concepts:
+- Embedding Layer
+- Position Embedding
+- nanoGPT Architecture
+- Transformer Block
+- Постепенное уточнение embedding
+
+Learning Goal:
+Научиться читать `GPT.__init__` в nanoGPT как инженерную сборку модели: config задаёт размеры, `nn.Embedding` делает lookup в обучаемой таблице, WTE и WPE складываются, ModuleList регистрирует независимые blocks, а Dropout применяется перед первым Transformer Block.

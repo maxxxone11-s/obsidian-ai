@@ -4,10 +4,34 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-04
+updated: 2026-07-06
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-06 (KNOWLEDGE_EXPORT sync: Transformers nanoGPT Source Code)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]].
+- Созданы concept-заметки: [[Transformers/GPTConfig|GPTConfig]], [[Transformers/ModuleList|ModuleList]].
+- Обновлены существующие концепции: [[Transformers/Embedding Layer|Embedding Layer]], [[Transformers/Position Embedding|Position Embedding]], [[Transformers/nanoGPT Architecture|nanoGPT Architecture]], [[Transformers/Transformer Block|Transformer Block]], [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]].
+- Не созданы отдельные заметки для `nn.Embedding` lookup, отличия `nn.Embedding` от обычного Tensor, WPE, `tok_emb + pos_emb`, Dropout после embedding и независимых весов blocks; материал слит в существующие concepts.
+
+### 🧠 Weak spots
+
+- Отличие `nn.Embedding` от обычного Tensor ещё не стало полностью интуитивным.
+- Пока отсутствует уверенность в чтении кода PyTorch без объяснений.
+- Не полностью сформировано понимание жизненного цикла `nn.Module` внутри модели.
+
+### Повторяющиеся ошибки
+
+- Склонность искать сложные вычисления там, где выполняется обычный lookup по таблице.
+- Иногда воспринимать операции PyTorch как "магические", вместо анализа их инженерного назначения.
+
+### Следующий шаг
+
+- Продолжить разбор `GPT.forward()` строка за строкой, начиная с прохода через ModuleList и последующего выполнения каждого Transformer Block.
 
 ## 2026-07-04 (KNOWLEDGE_EXPORT sync: Transformers)
 

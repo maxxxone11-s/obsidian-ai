@@ -196,6 +196,19 @@ updated: 2026-06-30
 **Требует повторения:** связь матричного умножения, Softmax и Linear с архитектурной логикой; геометрия embedding space; почему Linear лучше прямого поиска ближайшего embedding.
 **Следующий шаг:** перейти к механизму обучения Transformer: Teacher Forcing, Cross Entropy Loss, Backpropagation и обновление весов.
 
+**Transformers nanoGPT Source Code синхронизирован:**
+- [[Transformers/GPTConfig|GPTConfig]] ✅ — config как чертёж архитектуры модели
+- [[Transformers/Embedding Layer|Embedding Layer]] ✅ — `nn.Embedding` как обучаемая lookup-таблица и PyTorch module
+- [[Transformers/Position Embedding|Position Embedding]] ✅ — WPE как отдельная таблица позиций
+- [[Transformers/nanoGPT Architecture|nanoGPT Architecture]] ✅ — `wte`, `wpe`, `drop`, `h`, `ln_f` и параметры config
+- [[Transformers/ModuleList|ModuleList]] ✅ — контейнер для регистрации списка Transformer Block
+- [[Transformers/Transformer Block|Transformer Block]] ✅ — одинаковая архитектура blocks, но независимые веса
+- [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]] ✅ — независимые blocks изучают разные уровни представления
+
+**Прогресс модуля Transformers nanoGPT Source Code:** 7/7 ключевых тем learned.
+**Требует повторения:** отличие `nn.Embedding` от Tensor, чтение PyTorch-кода без подсказок и жизненный цикл `nn.Module` внутри модели.
+**Следующий шаг:** продолжить разбор `GPT.forward()` через ModuleList и выполнение каждого Transformer Block.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**
