@@ -332,7 +332,29 @@ updated: 2026-07-03
 
 ## LLM Engineering
 
-- Пока нет отдельных заметок.
+- [[LLM Engineering/Index|LLM Engineering Index]]
+- [[LLM Engineering/Plan|LLM Engineering Plan]]
+
+### Learning Path
+
+- Основы LLM API
+- Prompt Engineering
+- Structured Output
+- Function Calling
+- Streaming
+- Context Engineering
+- Cost Optimization
+- Production Patterns
+- Multi-provider LLM Architecture
+- Final LLM Engineering Service
+
+### Dependencies
+
+- [[Python Backend/Index|Python Backend]]
+- [[Transformers/Index|Transformers]]
+- [[RAG/Index|RAG]]
+- [[AI Agents/Index|AI Agents]]
+- [[LangGraph/Index|LangGraph]]
 
 ## AI Agents
 

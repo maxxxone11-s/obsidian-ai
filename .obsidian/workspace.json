@@ -37,7 +37,8 @@
               "title": "nn.Linear"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,15 +203,18 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "941d604e3c5b7930",
+  "active": "cd17218d5e2b2676",
   "lastOpenFiles": [
+    "Indexes/LLM Engineering Index.md",
+    "LLM Engineering/Index.md",
+    "LLM Engineering/Plan.md",
+    "Сообщение для сбора конспектов.md",
     "Transformers/Attention Tensor Shapes.md",
     "Transformers/CausalSelfAttention.forward Pipeline.md",
     "PyTorch/nn.Linear.md",
     "Indexes/PyTorch Index.md",
     "00 Dashboard/Dashboard.md",
     "Indexes/Transformers Index.md",
-    "Сообщение для сбора конспектов.md",
     "01 Roadmap/Roadmap.md",
     "Transformers/Transformer Block.md",
     "Transformers/ModuleList.md",
@@ -227,9 +231,6 @@
     "Transformers/Transformer Block Interface.md",
     "Transformers/Pre-LayerNorm.md",
     "Transformers/Position Embedding.md",
-    "Transformers/Attention Scores.md",
-    "Transformers/Query Key Value.md",
-    "Transformers/KV Cache.md",
     "Statistics",
     "Transformers",
     "Algorithms/Recursion/Trees",

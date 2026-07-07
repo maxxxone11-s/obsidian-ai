@@ -49,6 +49,7 @@ updated: 2026-07-03
 
 ## 🔄 Последние обновления
 
+- **2026-07-07** — Создан план модуля LLM Engineering: API, prompts, structured output, tools, streaming, context, cost и production patterns
 - **2026-07-07** — Синхронизация Transformers nanoGPT Source Code: CausalSelfAttention.forward, Attention Tensor Shapes, c_proj и FeedForward expansion
 - **2026-07-06** — Синхронизация Transformers nanoGPT Source Code: GPTConfig, ModuleList, nn.Embedding lookup, WTE/WPE и независимые Transformer Blocks
 - **2026-07-04** — Синхронизация Transformers module: Causal Mask, Weight Tying, Autoregressive Generation, веса как память модели и разделение LLM/RAG

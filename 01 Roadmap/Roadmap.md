@@ -223,6 +223,27 @@ updated: 2026-06-30
 **Требует повторения:** математический смысл `QK^T`, самостоятельное восстановление pipeline и чтение исходного кода Transformer.
 **Следующий шаг:** завершить модуль Transformer на текущем уровне и перейти к LLM Engineering, RAG и AI Agents.
 
+## Фаза 3.5: LLM Engineering 🧭 Planned
+
+**План модуля создан:** [[LLM Engineering/Plan|LLM Engineering Plan]]
+
+**Цель:** научиться строить production-подобные приложения поверх LLM API: prompts, structured output, function calling, streaming, context engineering, cost optimization и production patterns.
+
+**Learning Path:**
+- Основы LLM API ⏳
+- Prompt Engineering ⏳
+- Structured Output ⏳
+- Function Calling ⏳
+- Streaming ⏳
+- Context Engineering ⏳
+- Cost Optimization ⏳
+- Production Patterns ⏳
+- Работа с несколькими провайдерами ⏳
+- Финальный production-подобный сервис ⏳
+
+**Статус:** module plan готов, concept-заметки пока не создавались.
+**Следующий шаг:** начать с блока [[LLM Engineering/Plan|Основы LLM API]].
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

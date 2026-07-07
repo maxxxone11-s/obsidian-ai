@@ -2,51 +2,111 @@
 type: index
 area: LLM Engineering
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-07-07
 tags:
   - index
   - system
+  - llm-engineering
 ---
 
-# ✨ LLM Engineering
+# LLM Engineering
 
-## Структура раздела
+Инженерные подходы к построению приложений поверх Large Language Models.
 
-Инженерные подходы к работе с Large Language Models.
+## План модуля
 
-### Основы LLM
-- Что такое LLM
-- История развития
-- Трансформеры
-- Attention механизм
+- [[LLM Engineering/Plan|LLM Engineering Plan]]
 
-### Работа с API
-- OpenAI API
-- Claude API
-- Open source модели
+## Learning Path
 
-### Промpting
-- Основные техники
-- Few-shot learning
-- Chain-of-Thought
-- Prompt engineering
+1. Основы LLM API
+2. Prompt Engineering
+3. Structured Output
+4. Function Calling
+5. Streaming
+6. Context Engineering
+7. Cost Optimization
+8. Production Patterns
+9. Работа с несколькими провайдерами
+10. Финальный production-подобный сервис
 
-### Fine-tuning
-- Адаптация моделей
-- LoRA (Low-Rank Adaptation)
-- Подготовка датасетов
+## Основные блоки
 
-### Приложения
-- Чат-боты
-- Summarization
-- Question Answering
-- Text generation
+### LLM API
 
-### Оценка и Benchmarks
-- Метрики качества
-- BLEU, ROUGE
-- Пользовательская оценка
+- Chat Completions
+- Messages и Roles
+- Parameters
+- Response structure
+- Token usage
+- Model selection
 
----
+### Prompt Engineering
 
-**Дата создания:** 2026-06-26
+- System Prompt
+- User Prompt
+- Few-shot
+- Chain of Thought
+- Prompt Templates
+- Prompt Injection
+- Prompt Versioning
+
+### Structured Output
+
+- JSON Mode
+- Structured Output
+- JSON Schema
+- Pydantic
+- Parsing
+- Validation
+- Error recovery
+
+### Function Calling
+
+- Tool schema
+- Tool loop
+- Tool errors
+- Tool retry
+
+### Streaming
+
+- Token streaming
+- SSE
+- Async streaming
+- Streaming + FastAPI
+
+### Context Engineering
+
+- Context Window
+- Token budget
+- Message history
+- Sliding window
+- Context compression
+- Conversation memory
+
+### Production Engineering
+
+- Cost optimization
+- Retry
+- Timeout
+- Rate limits
+- Logging
+- Monitoring
+- Fallback models
+- Observability
+
+## Практика
+
+- FastAPI service для LLM API.
+- Structured output endpoint.
+- Function calling loop.
+- Streaming endpoint.
+- Production-подобный финальный сервис.
+
+## Связанные области
+
+- [[Python Backend/Index|Python Backend]]
+- [[Transformers/Index|Transformers]]
+- [[RAG/Index|RAG]]
+- [[AI Agents/Index|AI Agents]]
+- [[LangGraph/Index|LangGraph]]

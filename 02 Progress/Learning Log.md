@@ -9,6 +9,31 @@ updated: 2026-07-07
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-07 (module plan: LLM Engineering)
+
+### ✅ Обновлено
+
+- Создан module plan: [[LLM Engineering/Plan|LLM Engineering Plan]].
+- Обновлены LLM Engineering indexes: [[LLM Engineering/Index|LLM Engineering Index]] и [[Indexes/LLM Engineering Index|Indexes/LLM Engineering Index]].
+- Concept-заметки не создавались, статистика concept notes не увеличивалась.
+
+### Learning Path
+
+- Основы LLM API
+- Prompt Engineering
+- Structured Output
+- Function Calling
+- Streaming
+- Context Engineering
+- Cost Optimization
+- Production Patterns
+- Работа с несколькими провайдерами
+- Финальный production-подобный сервис
+
+### Следующий шаг
+
+- Начать блок "Основы LLM API" и затем импортировать первые KNOWLEDGE_EXPORT targets как отдельные concept notes.
+
 ## 2026-07-07 (KNOWLEDGE_EXPORT sync: Transformers nanoGPT Source Code II)
 
 ### ✅ Синхронизировано
