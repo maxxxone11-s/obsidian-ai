@@ -457,3 +457,31 @@ $$
 - [[Language Modeling Head]]
 - [[Neural Networks/Softmax|Softmax]]
 - [[Autoregressive Generation]]
+
+## FeedForward Expansion
+
+**Formula**
+
+$$
+n_{embd} \rightarrow 4 \times n_{embd} \rightarrow GELU \rightarrow n_{embd}
+$$
+
+**Symbols**
+
+- `n_embd` — размерность embedding модели
+- `4 × n_embd` — расширенная внутренняя размерность FeedForward
+- `GELU` — нелинейная функция активации
+
+**Function**
+
+Временно расширяет пространство признаков внутри FeedForward, применяет нелинейность и возвращает embedding к исходной размерности.
+
+**Simple explanation**
+
+MLP сначала даёт модели больше внутреннего пространства для построения признаков, затем сжимает результат обратно до размера, совместимого с Transformer Block.
+
+**Related concepts**
+
+- [[Feed Forward Network]]
+- [[Transformer Block]]
+- [[PyTorch/nn.Linear|nn.Linear]]

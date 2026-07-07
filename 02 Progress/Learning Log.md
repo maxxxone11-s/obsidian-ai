@@ -4,10 +4,34 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-06
+updated: 2026-07-07
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-07 (KNOWLEDGE_EXPORT sync: Transformers nanoGPT Source Code II)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]].
+- Созданы concept-заметки: [[Transformers/CausalSelfAttention.forward Pipeline|CausalSelfAttention.forward Pipeline]], [[Transformers/Attention Tensor Shapes|Attention Tensor Shapes]].
+- Обновлены существующие концепции: [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]], [[Transformers/Attention Scores|Attention Scores]], [[Transformers/Multi-Head Attention|Multi-Head Attention]], [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]], [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]], [[Transformers/Feed Forward Network|Feed Forward Network]], [[Transformers/Transformer Block|Transformer Block]].
+- В [[Transformers/Formula Cards|Formula Cards]] добавлена только карточка FeedForward Expansion; существующие формулы не дублировались.
+
+### 🧠 Weak spots
+
+- Пока нет интуитивного понимания математического смысла операций внутри `QK^T` и последующих матричных преобразований.
+- Сложно самостоятельно восстанавливать весь pipeline без просмотра кода.
+- Требуется практика чтения исходного кода Transformer.
+
+### Повторяющиеся ошибки
+
+- Периодически смешиваются разные уровни кода: `GPT.forward`, `Block.forward` и `CausalSelfAttention.forward`.
+- При чтении кода внимание иногда переключается на отдельные строки без удержания общего контекста текущего метода.
+
+### Следующий шаг
+
+- Завершить модуль Transformer на текущем уровне понимания и перейти к следующим модулям: LLM Engineering, RAG, AI Agents. Возвращаться к Transformer после накопления практического опыта и чтения production-кода.
 
 ## 2026-07-06 (KNOWLEDGE_EXPORT sync: Transformers nanoGPT Source Code)
 

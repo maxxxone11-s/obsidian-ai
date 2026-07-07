@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-06-30
-updated: 2026-07-04
+updated: 2026-07-07
 tags:
   - transformers
 confidence: high
@@ -14,6 +14,7 @@ aliases:
   - Similarity Matrix
   - Scaled Dot-Product Attention
   - Attention Scaling
+  - Raw Attention Scores
 ---
 
 # Attention Scores
@@ -31,6 +32,8 @@ Scores = QK^T / sqrt(head_dim)
 ## Инженерное назначение
 
 Scores являются промежуточным сигналом релевантности до применения [[Neural Networks/Softmax|Softmax]].
+
+Raw scores появляются сразу после матричного произведения `q @ k^T`; Softmax ещё не применён.
 
 Масштабирование через `sqrt(head_dim)` удерживает значения scores в стабильном диапазоне, чтобы Softmax не становился слишком резким и обучение не теряло полезные градиенты.
 
@@ -64,11 +67,28 @@ scores = scores / sqrt(head_dim)
 
 После этого могут применяться [[Causal Mask]] и Softmax.
 
+Для Multi-Head Attention raw scores имеют форму:
+
+```text
+(B, H, T, T)
+```
+
+Каждая строка соответствует одному query token и содержит связи с key positions.
+
 ## Пример
 
 ```python
 scores = Q @ K.transpose(-2, -1)
 scores = scores / (head_dim ** 0.5)
+```
+
+Пример shape:
+
+```text
+q:   (4, 12, 128, 64)
+k^T: (4, 12, 64, 128)
+↓
+scores: (4, 12, 128, 128)
 ```
 
 Вместо слишком больших scores:
@@ -83,18 +103,20 @@ scores = scores / (head_dim ** 0.5)
 
 - Считать Scores вероятностями.
 - Считать Scores новым embedding.
+- Считать Softmax частью вычисления raw Scores.
 - Считать масштабирование случайной константой.
 - Считать, что масштабирование нужно только для численной стабильности.
 - Не связывать большие scores с поведением Softmax.
 
 ## Связанные темы
 
-[[Query Key Value]] · [[Attention Weights]] · [[Causal Mask]] · [[Self-Attention Pipeline]] · [[Neural Networks/Softmax|Softmax]] · [[Statistics/Standard Deviation|Standard Deviation]]
+[[Query Key Value]] · [[Attention Tensor Shapes]] · [[Attention Weights]] · [[Causal Mask]] · [[Self-Attention Pipeline]] · [[Neural Networks/Softmax|Softmax]] · [[Statistics/Standard Deviation|Standard Deviation]]
 
 ## Вопросы для проверки
 
 - Что означает размерность `(seq x seq)`?
 - Что показывает каждая строка матрицы?
+- Чем отличаются Scores от Attention Weights?
 - Почему большие Scores вредят обучению?
 - Почему используется именно `sqrt(head_dim)`?
 

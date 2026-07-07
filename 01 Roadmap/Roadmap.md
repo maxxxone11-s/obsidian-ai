@@ -209,6 +209,20 @@ updated: 2026-06-30
 **Требует повторения:** отличие `nn.Embedding` от Tensor, чтение PyTorch-кода без подсказок и жизненный цикл `nn.Module` внутри модели.
 **Следующий шаг:** продолжить разбор `GPT.forward()` через ModuleList и выполнение каждого Transformer Block.
 
+**Transformers nanoGPT Source Code II синхронизирован:**
+- [[Transformers/CausalSelfAttention.forward Pipeline|CausalSelfAttention.forward Pipeline]] ✅ — полный порядок операций внутри `CausalSelfAttention.forward`
+- [[Transformers/Attention Tensor Shapes|Attention Tensor Shapes]] ✅ — изменение shape Tensor на этапах Self-Attention
+- [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]] ✅ — связь теории attention с source-code pipeline
+- [[Transformers/Attention Scores|Attention Scores]] ✅ — raw scores `q @ k^T` до Softmax
+- [[Transformers/Multi-Head Attention|Multi-Head Attention]] ✅ — роль `c_proj` после concat heads
+- [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] ✅ — `split heads`, `transpose`, `view/reshape` как операции формы
+- [[Transformers/Feed Forward Network|Feed Forward Network]] ✅ — expansion `n_embd -> 4 × n_embd -> GELU -> n_embd`
+- [[Transformers/Transformer Block|Transformer Block]] ✅ — различие задач Attention и FeedForward
+
+**Прогресс модуля Transformers nanoGPT Source Code II:** 8/8 ключевых тем learned.
+**Требует повторения:** математический смысл `QK^T`, самостоятельное восстановление pipeline и чтение исходного кода Transformer.
+**Следующий шаг:** завершить модуль Transformer на текущем уровне и перейти к LLM Engineering, RAG и AI Agents.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

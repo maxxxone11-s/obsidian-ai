@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-07-02
-updated: 2026-07-03
+updated: 2026-07-07
 tags:
   - transformers
 confidence: high
@@ -72,6 +72,8 @@ Linear(d_model -> d_model)
 
 В nanoGPT-подобной реализации этот завершающий Linear часто называется `c_proj`.
 
+`c_proj` обычно имеет форму `Linear(C, C)`: он не обязан менять размерность, его задача — обучаемо смешать признаки разных heads.
+
 ## Пример
 
 ```text
@@ -106,6 +108,16 @@ Linear(c_proj)
 единый embedding
 ```
 
+Форма при output projection:
+
+```text
+(B, T, 768)
+    ↓
+Linear(768 -> 768)
+    ↓
+(B, T, 768)
+```
+
 ## Типичные ошибки
 
 - Считать, что головы получают разные части embedding.
@@ -114,10 +126,12 @@ Linear(c_proj)
 - Путать Output Projection с [[Feed Forward Network]].
 - Считать Concat достаточным завершением Multi-Head Attention.
 - Считать, что `c_proj` строит logits.
+- Считать `c_proj` изменением размерности.
+- Считать `c_proj` необязательным слоем.
 
 ## Связанные темы
 
-[[Query Key Value]] · [[Attention Scores]] · [[Attention Output]] · [[Self-Attention Pipeline]] · [[MultiheadAttention в PyTorch]] · [[Batch Matrix Multiplication]] · [[Feed Forward Network]] · [[PyTorch/nn.Linear|nn.Linear]]
+[[Query Key Value]] · [[Attention Scores]] · [[Attention Tensor Shapes]] · [[Attention Output]] · [[Self-Attention Pipeline]] · [[MultiheadAttention в PyTorch]] · [[Batch Matrix Multiplication]] · [[Feed Forward Network]] · [[PyTorch/nn.Linear|nn.Linear]]
 
 ## Вопросы для проверки
 
@@ -127,6 +141,7 @@ Linear(c_proj)
 - Почему головы используют линейную проекцию вместо разделения embedding?
 - Почему одного Concat недостаточно?
 - Чем задача `c_proj` отличается от задачи MLP?
+- Почему `c_proj` может сохранять размерность `C`?
 
 ## Следующие темы
 

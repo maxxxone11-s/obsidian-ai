@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-07-07
 tags:
   - transformers
 confidence: high
@@ -26,6 +26,8 @@ aliases:
 Эта реализация позволяет вычислять все attention heads эффективно и без Python-циклов по головам.
 
 В инженерном коде PyTorch головы обычно представлены не отдельными объектами, а дополнительными измерениями Tensor и временными изменениями shape.
+
+Поэтому чтение реализации требует отслеживать [[Attention Tensor Shapes]] на каждом шаге.
 
 ## Причина существования
 
@@ -85,6 +87,8 @@ Q, K, V
 
 После вычислений исходная структура восстанавливается, результаты heads объединяются через Concat, затем применяется output projection.
 
+`split heads`, `transpose`, `view` и `reshape` меняют форму Tensor для удобства вычислений, но не являются новыми attention-операциями сами по себе.
+
 ## Пример
 
 ```python
@@ -110,10 +114,12 @@ q, k, v = _in_projection_packed(...)
 - Думать, что QKV исчезли.
 - Ожидать отдельный Python-объект Head для каждой головы.
 - Считать `view`, `reshape` и `transpose` вычислением Attention, а не изменением формы Tensor.
+- Терять общий pipeline из-за отдельных операций изменения shape.
+- Считать появление оси heads изменением смысла данных.
 
 ## Связанные темы
 
-[[Multi-Head Attention]] · [[Query Key Value]] · [[PyTorch/nn.Linear|nn.Linear]] · [[Attention Scores]] · [[Batch Matrix Multiplication]] · [[Module и Functional в PyTorch]] · [[PyTorch/View|View]] · [[PyTorch/Reshape|Reshape]]
+[[Multi-Head Attention]] · [[Attention Tensor Shapes]] · [[CausalSelfAttention.forward Pipeline]] · [[Query Key Value]] · [[PyTorch/nn.Linear|nn.Linear]] · [[Attention Scores]] · [[Batch Matrix Multiplication]] · [[Module и Functional в PyTorch]] · [[PyTorch/View|View]] · [[PyTorch/Reshape|Reshape]]
 
 ## Вопросы для проверки
 
@@ -122,6 +128,7 @@ q, k, v = _in_projection_packed(...)
 - Почему головы представлены размерностью Tensor, а не отдельными объектами?
 - Зачем временно объединять `batch` и `heads`?
 - Что делает output projection после Concat?
+- Какие операции меняют shape, но не вычисляют Attention?
 
 ## Следующие темы
 

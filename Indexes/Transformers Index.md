@@ -3,7 +3,7 @@ type: index
 area: Transformers
 knowledge_area: Transformers
 created: 2026-06-30
-updated: 2026-07-06
+updated: 2026-07-07
 tags:
   - index
   - system
@@ -23,6 +23,8 @@ tags:
 - [[Transformers/Embedding Space|Embedding Space]]
 - [[Transformers/Query Key Value|Query Key Value]]
 - [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]]
+- [[Transformers/CausalSelfAttention.forward Pipeline|CausalSelfAttention.forward Pipeline]]
+- [[Transformers/Attention Tensor Shapes|Attention Tensor Shapes]]
 - [[Transformers/Attention Scores|Attention Scores]]
 - [[Transformers/Causal Mask|Causal Mask]]
 - [[Transformers/Attention Weights|Attention Weights]]
@@ -210,3 +212,22 @@ Updated Concepts:
 
 Learning Goal:
 Научиться читать `GPT.__init__` в nanoGPT как инженерную сборку модели: config задаёт размеры, `nn.Embedding` делает lookup в обучаемой таблице, WTE и WPE складываются, ModuleList регистрирует независимые blocks, а Dropout применяется перед первым Transformer Block.
+
+### Transformers nanoGPT Source Code II
+
+New Concepts:
+- CausalSelfAttention.forward Pipeline
+- Attention Tensor Shapes
+
+Updated Concepts:
+- Self-Attention Pipeline
+- Attention Scores
+- Multi-Head Attention
+- MultiheadAttention в PyTorch
+- Batch Matrix Multiplication
+- Feed Forward Network
+- Transformer Block
+- Formula Cards
+
+Learning Goal:
+Научиться удерживать полный контекст `CausalSelfAttention.forward`: как Tensor проходит через QKV, split heads, scores, scaling, mask, softmax, dropout, weighted sum, concat heads и `c_proj`, а также чем Attention отличается от FeedForward внутри Transformer Block.

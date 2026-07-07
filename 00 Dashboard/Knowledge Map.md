@@ -182,6 +182,8 @@ updated: 2026-07-03
 - [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]]
 - [[Transformers/Query Key Value|Query Key Value]]
 - [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]]
+- [[Transformers/CausalSelfAttention.forward Pipeline|CausalSelfAttention.forward Pipeline]]
+- [[Transformers/Attention Tensor Shapes|Attention Tensor Shapes]]
 - [[Transformers/Attention Scores|Attention Scores]]
 - [[Transformers/Causal Mask|Causal Mask]]
 - [[Transformers/Attention Weights|Attention Weights]]
@@ -231,6 +233,8 @@ updated: 2026-07-03
 - [[Transformers/Разделение ролей LLM и RAG|Разделение ролей LLM и RAG]] → [[RAG/Index|RAG]]
 - [[Transformers/GPTConfig|GPTConfig]] → [[Transformers/nanoGPT Architecture|nanoGPT Architecture]]
 - [[Transformers/ModuleList|ModuleList]] → [[Transformers/Transformer Block|Transformer Block]]
+- [[Transformers/CausalSelfAttention.forward Pipeline|CausalSelfAttention.forward Pipeline]] → [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]]
+- [[Transformers/Attention Tensor Shapes|Attention Tensor Shapes]] → [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]]
 
 ## PyTorch
 

@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-07-07
 tags:
   - transformers
 confidence: high
@@ -77,6 +77,17 @@ torch.bmm()
 (256, 20, 64)
 ```
 
+Для raw attention scores в multi-head форме:
+
+```text
+q:   (B, H, T, head_dim)
+k^T: (B, H, head_dim, T)
+↓
+q @ k^T
+↓
+(B, H, T, T)
+```
+
 ## Пример
 
 ```python
@@ -93,10 +104,11 @@ attn_scores = torch.bmm(
 - Считать объединение batch и heads частью математического алгоритма.
 - Считать изменение формы изменением данных.
 - Ожидать цикл по головам в реализации PyTorch.
+- Терять связь между `bmm` и формой Attention Scores `(T, T)`.
 
 ## Связанные темы
 
-[[Multi-Head Attention]] · [[MultiheadAttention в PyTorch]] · [[Attention Scores]] · [[Query Key Value]] · [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
+[[Multi-Head Attention]] · [[MultiheadAttention в PyTorch]] · [[Attention Tensor Shapes]] · [[Attention Scores]] · [[Query Key Value]] · [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch]]
 
 ## Вопросы для проверки
 
@@ -104,6 +116,7 @@ attn_scores = torch.bmm(
 - Почему Transformer использует batch matrix multiplication?
 - Почему batch и heads временно объединяются?
 - Что происходит после завершения вычислений?
+- Почему результат `q @ k^T` имеет форму `(B, H, T, T)`?
 
 ## Следующие темы
 

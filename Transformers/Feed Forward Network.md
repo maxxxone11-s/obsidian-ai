@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-06-30
-updated: 2026-07-01
+updated: 2026-07-07
 tags:
   - transformers
 confidence: high
@@ -15,6 +15,8 @@ aliases:
   - Position-wise Feed Forward
   - Position-wise MLP
   - MLP
+  - MLP Expansion
+  - c_fc
 ---
 
 # Feed Forward Network
@@ -39,11 +41,15 @@ FeedForward не занимается взаимодействием токен�
 
 Внутри [[Transformer Block]] он идет после Attention-части и обрабатывает каждый токен отдельно.
 
+Первый Linear-слой FeedForward временно увеличивает размерность embedding для построения более сложных внутренних признаков.
+
 ## Причина существования
 
 Self-Attention отвечает за обмен информацией между токенами, но после получения контекста требуется дополнительная нелинейная обработка embedding.
 
 Именно эту задачу решает FeedForward Network: он извлекает новые признаки из уже собранной информации.
+
+Более широкое внутреннее пространство позволяет модели сформировать больше комбинаций признаков перед возвращением к исходной размерности.
 
 ## Простое объяснение
 
@@ -66,19 +72,27 @@ FeedForward отвечает:
 Обычно размерность сначала увеличивается, а затем возвращается обратно:
 
 ```text
-768 → 3072 → 768
+n_embd → 4 × n_embd → GELU → n_embd
 ```
 
 Это позволяет сети строить более сложные признаки.
+
+Attention использует информацию соседних токенов, а MLP работает только с embedding текущего токена.
 
 ## Пример
 
 ```python
 nn.Sequential(
-    nn.Linear(d_model, hidden),
+    nn.Linear(n_embd, 4 * n_embd),
     nn.GELU(),
-    nn.Linear(hidden, d_model),
+    nn.Linear(4 * n_embd, n_embd),
 )
+```
+
+Для `n_embd = 768`:
+
+```text
+768 → 3072 → GELU → 768
 ```
 
 ## Типичные ошибки
@@ -88,10 +102,12 @@ nn.Sequential(
 - Считать FeedForward частью Self-Attention.
 - Считать FeedForward механизмом общения между токенами.
 - Недостаточно различать архитектурную роль Attention и FeedForward.
+- Путать увеличение размерности MLP с QKV Projection.
+- Считать коэффициент `4` обязательным математическим требованием.
 
 ## Связанные темы
 
-[[Transformer Block]] · [[LayerNorm]] · [[Residual Connection]] · [[PyTorch/nn.Linear|nn.Linear]] · [[Neural Networks/ReLU|ReLU]]
+[[Transformer Block]] · [[Multi-Head Attention]] · [[LayerNorm]] · [[Residual Connection]] · [[PyTorch/nn.Linear|nn.Linear]] · [[Neural Networks/ReLU|ReLU]]
 
 ## Вопросы для проверки
 
@@ -99,9 +115,13 @@ nn.Sequential(
 - Чем FeedForward отличается от Self-Attention?
 - Какие задачи решает FeedForward?
 - Почему токены не взаимодействуют внутри FeedForward?
+- Почему FeedForward расширяет embedding?
+- Чем расширение MLP отличается от QKV Projection?
 
 ## Следующие темы
 
 - Multi-Head Attention
+- SwiGLU
+- GEGLU
 - Transformer Block Optimization
 - [[MultiheadAttention в PyTorch]]

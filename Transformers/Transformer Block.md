@@ -4,7 +4,7 @@ area: Transformers
 knowledge_area: Transformers
 status: learned
 created: 2026-06-30
-updated: 2026-07-06
+updated: 2026-07-07
 tags:
   - transformers
 confidence: high
@@ -35,6 +35,8 @@ Transformer Block является основной вычислительной
 
 Модель нуждается в повторяющихся этапах обработки: attention собирает контекст, residual сохраняет старое представление, normalization стабилизирует масштаб, а feed forward строит новые признаки.
 
+Внутри block Attention и FeedForward решают принципиально разные задачи: Attention обменивается информацией между токенами, а FeedForward преобразует признаки внутри каждого токена независимо.
+
 Если бы все blocks использовали общие веса, способность модели постепенно усложнять представление признаков была бы ограничена.
 
 ## Простое объяснение
@@ -42,6 +44,8 @@ Transformer Block является основной вычислительной
 Один Transformer Block — это один этап обработки embedding.
 
 Код block-ов может быть одинаковым, но веса внутри каждого экземпляра разные.
+
+Attention отвечает на вопрос: "у каких токенов взять информацию?". FeedForward отвечает: "что нового вычислить внутри этого embedding?".
 
 ## Как это работает
 
@@ -53,6 +57,8 @@ Transformer Block является основной вычислительной
 4. Feed Forward Network.
 
 После Feed Forward снова используются Residual Connection и Layer Normalization.
+
+Attention использует информацию соседних токенов. FeedForward работает только с embedding текущего токена.
 
 ```text
 x
@@ -102,10 +108,12 @@ GPT-2 использует 12 Transformer Block. GPT-3 использует де
 - Считать все Block одним объектом.
 - Путать одинаковую архитектуру с одинаковыми параметрами.
 - Думать, что повторное использование класса означает повторное использование весов.
+- Считать MLP продолжением Attention.
+- Считать FeedForward модулем взаимодействия между токенами.
 
 ## Связанные темы
 
-[[MultiheadAttention в PyTorch]] · [[Residual Connection]] · [[LayerNorm]] · [[Feed Forward Network]] · [[ModuleList]] · [[Постепенное уточнение embedding]] · [[GPTConfig]]
+[[MultiheadAttention в PyTorch]] · [[Multi-Head Attention]] · [[Residual Connection]] · [[LayerNorm]] · [[Feed Forward Network]] · [[ModuleList]] · [[Постепенное уточнение embedding]] · [[GPTConfig]]
 
 ## Вопросы для проверки
 
@@ -114,6 +122,8 @@ GPT-2 использует 12 Transformer Block. GPT-3 использует де
 - Что происходит между двумя соседними Attention?
 - Почему каждый Block имеет собственные веса?
 - Что произошло бы при использовании одного объекта Block несколько раз?
+- Какие задачи решает Attention?
+- Какие задачи решает FeedForward?
 
 ## Следующие темы
 
