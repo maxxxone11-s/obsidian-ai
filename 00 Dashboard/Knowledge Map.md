@@ -334,6 +334,11 @@ updated: 2026-07-03
 
 - [[LLM Engineering/Index|LLM Engineering Index]]
 - [[LLM Engineering/Plan|LLM Engineering Plan]]
+- [[LLM Engineering/OpenRouter через OpenAI SDK|OpenRouter через OpenAI SDK]]
+- [[LLM Engineering/Архитектура OpenAI SDK|Архитектура OpenAI SDK]]
+- [[LLM Engineering/Цепочка выполнения chat.completions.create|Цепочка выполнения chat.completions.create]]
+- [[LLM Engineering/Messages как источник контекста модели|Messages как источник контекста модели]]
+- [[LLM Engineering/Top-p (Nucleus Sampling)|Top-p (Nucleus Sampling)]]
 
 ### Learning Path
 
@@ -355,6 +360,7 @@ updated: 2026-07-03
 - [[RAG/Index|RAG]]
 - [[AI Agents/Index|AI Agents]]
 - [[LangGraph/Index|LangGraph]]
+- [[Transformers/Temperature Sampling|Temperature Sampling]]
 
 ## AI Agents
 

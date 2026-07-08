@@ -2,7 +2,7 @@
 type: index
 area: LLM Engineering
 created: 2026-06-26
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - index
   - system
@@ -34,6 +34,11 @@ tags:
 
 ### Основы LLM API
 
+- [[LLM Engineering/OpenRouter через OpenAI SDK|OpenRouter через OpenAI SDK]]
+- [[LLM Engineering/Архитектура OpenAI SDK|Архитектура OpenAI SDK]]
+- [[LLM Engineering/Цепочка выполнения chat.completions.create|Цепочка выполнения chat.completions.create]]
+- [[LLM Engineering/Messages как источник контекста модели|Messages как источник контекста модели]]
+- [[LLM Engineering/Top-p (Nucleus Sampling)|Top-p (Nucleus Sampling)]]
 - Что такое LLM API
 - Chat Completions
 - Messages и Roles

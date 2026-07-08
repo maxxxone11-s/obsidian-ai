@@ -244,6 +244,18 @@ updated: 2026-06-30
 **Статус:** module plan готов, concept-заметки пока не создавались.
 **Следующий шаг:** начать с блока [[LLM Engineering/Plan|Основы LLM API]].
 
+**LLM Engineering API Integration синхронизирован:**
+- [[LLM Engineering/OpenRouter через OpenAI SDK|OpenRouter через OpenAI SDK]] ✅ — OpenAI-compatible API через `base_url`
+- [[LLM Engineering/Архитектура OpenAI SDK|Архитектура OpenAI SDK]] ✅ — структура SDK как дерево resources
+- [[LLM Engineering/Цепочка выполнения chat.completions.create|Цепочка выполнения chat.completions.create]] ✅ — request lifecycle от Python method до HTTP/JSON response
+- [[LLM Engineering/Messages как источник контекста модели|Messages как источник контекста модели]] ✅ — messages как полный контекст запроса
+- [[Transformers/Temperature Sampling|Temperature Sampling]] ✅ — temperature как API parameter для управления случайностью
+- [[LLM Engineering/Top-p (Nucleus Sampling)|Top-p (Nucleus Sampling)]] ✅ — nucleus sampling как ограничение множества кандидатов
+
+**Прогресс блока Основы LLM API:** 6 ключевых тем learned, блок в процессе.
+**Требует повторения:** отсутствует.
+**Следующий шаг:** изучить `max_tokens` и `stop`, затем перейти к Prompt Engineering.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

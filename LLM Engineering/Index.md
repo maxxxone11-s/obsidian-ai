@@ -2,7 +2,7 @@
 type: index
 area: LLM Engineering
 created: 2026-06-26
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - index
   - system
@@ -34,6 +34,11 @@ tags:
 
 ### LLM API
 
+- [[OpenRouter через OpenAI SDK]]
+- [[Архитектура OpenAI SDK]]
+- [[Цепочка выполнения chat.completions.create]]
+- [[Messages как источник контекста модели]]
+- [[Top-p (Nucleus Sampling)]]
 - Chat Completions
 - Messages и Roles
 - Parameters
@@ -107,6 +112,7 @@ tags:
 
 - [[Python Backend/Index|Python Backend]]
 - [[Transformers/Index|Transformers]]
+- [[Transformers/Temperature Sampling|Temperature Sampling]]
 - [[RAG/Index|RAG]]
 - [[AI Agents/Index|AI Agents]]
 - [[LangGraph/Index|LangGraph]]

@@ -4,10 +4,31 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-07
+updated: 2026-07-08
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-08 (KNOWLEDGE_EXPORT sync: LLM Engineering API Integration)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
+- Созданы concept-заметки: [[LLM Engineering/OpenRouter через OpenAI SDK|OpenRouter через OpenAI SDK]], [[LLM Engineering/Архитектура OpenAI SDK|Архитектура OpenAI SDK]], [[LLM Engineering/Цепочка выполнения chat.completions.create|Цепочка выполнения chat.completions.create]], [[LLM Engineering/Messages как источник контекста модели|Messages как источник контекста модели]], [[LLM Engineering/Top-p (Nucleus Sampling)|Top-p (Nucleus Sampling)]].
+- Обновлена существующая концепция: [[Transformers/Temperature Sampling|Temperature Sampling]].
+- [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: блок "Основы LLM API" переведён в `learning`, изученные темы отмечены.
+
+### 🧠 Weak spots
+
+- Отсутствуют.
+
+### Повторяющиеся ошибки
+
+- Не выявлены.
+
+### Следующий шаг
+
+- Изучить параметры `max_tokens` и `stop`, затем перейти к Prompt Engineering.
 
 ## 2026-07-07 (module plan: LLM Engineering)
 

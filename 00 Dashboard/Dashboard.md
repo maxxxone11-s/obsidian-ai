@@ -41,14 +41,15 @@ updated: 2026-07-03
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 277 |
-| Изучено | 218 |
+| Всего концепций | 282 |
+| Изучено | 223 |
 | В процессе | 0 |
 | Требует повтора | 7 |
 | Черновики | 52 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-08** — Синхронизация LLM Engineering API Integration: OpenRouter, OpenAI SDK, request lifecycle, messages, temperature и top_p
 - **2026-07-07** — Создан план модуля LLM Engineering: API, prompts, structured output, tools, streaming, context, cost и production patterns
 - **2026-07-07** — Синхронизация Transformers nanoGPT Source Code: CausalSelfAttention.forward, Attention Tensor Shapes, c_proj и FeedForward expansion
 - **2026-07-06** — Синхронизация Transformers nanoGPT Source Code: GPTConfig, ModuleList, nn.Embedding lookup, WTE/WPE и независимые Transformer Blocks

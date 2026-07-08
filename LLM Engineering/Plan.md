@@ -2,7 +2,7 @@
 type: module_plan
 area: LLM Engineering
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 tags:
   - llm-engineering
   - module-plan
@@ -31,7 +31,7 @@ tags:
 
 ### 1. Основы LLM API
 
-status: not_started
+status: learning
 
 Коротко: понять, как современные модели вызываются из кода и как устроен базовый request/response цикл.
 
@@ -40,14 +40,24 @@ Related concepts:
 - [[Transformers/Index|Transformers]]
 - [[Python Backend/FastAPI|FastAPI]]
 - [[PyTorch/Inference Pipeline|Inference Pipeline]]
+- [[OpenRouter через OpenAI SDK]]
+- [[Архитектура OpenAI SDK]]
+- [[Цепочка выполнения chat.completions.create]]
+- [[Messages как источник контекста модели]]
+- [[Transformers/Temperature Sampling|Temperature Sampling]]
+- [[Top-p (Nucleus Sampling)]]
 
 Topics:
 
 - Что такое LLM API
-- Chat Completions
-- Messages
+- OpenRouter через OpenAI SDK — learned
+- Архитектура OpenAI SDK — learned
+- Цепочка выполнения `chat.completions.create` — learned
+- Messages — learned
 - Roles
-- Parameters: temperature, top_p, max_tokens, stop, seed
+- Parameters: temperature — learned
+- Parameters: top_p — learned
+- Parameters: max_tokens, stop, seed — not_started
 - Response structure
 - Token usage
 - Model selection
@@ -284,6 +294,11 @@ Related concepts:
 - Response Structure
 - Token Usage
 - Model Selection
+- OpenRouter через OpenAI SDK
+- Архитектура OpenAI SDK
+- Цепочка выполнения chat.completions.create
+- Messages как источник контекста модели
+- Top-p (Nucleus Sampling)
 - System Prompt
 - User Prompt
 - Few-shot Prompting

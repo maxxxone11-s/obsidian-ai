@@ -37,8 +37,7 @@
               "title": "nn.Linear"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,15 +202,20 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "cd17218d5e2b2676",
+  "active": "941d604e3c5b7930",
   "lastOpenFiles": [
+    "LLM Engineering/Top-p (Nucleus Sampling).md",
+    "LLM Engineering/Messages как источник контекста модели.md",
+    "LLM Engineering/Цепочка выполнения chat.completions.create.md",
+    "LLM Engineering/Архитектура OpenAI SDK.md",
+    "LLM Engineering/OpenRouter через OpenAI SDK.md",
+    "PyTorch/nn.Linear.md",
     "Indexes/LLM Engineering Index.md",
     "LLM Engineering/Index.md",
     "LLM Engineering/Plan.md",
     "Сообщение для сбора конспектов.md",
     "Transformers/Attention Tensor Shapes.md",
     "Transformers/CausalSelfAttention.forward Pipeline.md",
-    "PyTorch/nn.Linear.md",
     "Indexes/PyTorch Index.md",
     "00 Dashboard/Dashboard.md",
     "Indexes/Transformers Index.md",
@@ -226,11 +230,6 @@
     "Transformers/Разделение ролей LLM и RAG.md",
     "Transformers/Веса как долговременная память модели.md",
     "Transformers/Causal Mask.md",
-    "Transformers/Self-Attention Pipeline.md",
-    "Transformers/nn.Module __call__.md",
-    "Transformers/Transformer Block Interface.md",
-    "Transformers/Pre-LayerNorm.md",
-    "Transformers/Position Embedding.md",
     "Statistics",
     "Transformers",
     "Algorithms/Recursion/Trees",
