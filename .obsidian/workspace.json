@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Сообщение для сбора конспектов"
             }
-          },
-          {
-            "id": "0f263965ed21982e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Indexes/RAG Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RAG Index"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,10 +186,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "0f263965ed21982e",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "RAG/Plan.md",
+    "RAG/Recursive Chunking.md",
+    "RAG/Chunk Overlap.md",
+    "RAG/Fixed-size Chunking.md",
+    "RAG/Chunk.md",
+    "Machine Learning/Mathematics/Cosine Similarity.md",
+    "AI Engineering/Embeddings.md",
     "Indexes/RAG Index.md",
+    "RAG/Plan.md",
     "RAG/Index.md",
     "00 Dashboard/Dashboard.md",
     "Сообщение для сбора конспектов.md",
@@ -223,12 +214,6 @@
     "LLM Engineering/Исключение ненужных вызовов LLM.md",
     "LLM Engineering/Cost Optimization.md",
     "LLM Engineering/Стоимость LLM-запросов.md",
-    "LLM Engineering/Memory Management.md",
-    "LLM Engineering/Conversation State.md",
-    "LLM Engineering/Conversation Memory.md",
-    "LLM Engineering/Token Counting.md",
-    "LLM Engineering/Переполнение Context Window.md",
-    "LLM Engineering/Context Window.md",
     "Statistics",
     "Transformers",
     "Algorithms/Recursion/Trees",

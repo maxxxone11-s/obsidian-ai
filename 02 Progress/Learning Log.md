@@ -4,10 +4,36 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-10
+updated: 2026-07-11
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Retrieval Pipeline)
+
+### ✅ Синхронизировано
+
+- Экспорт `Retrieval Augmented Generation` синхронизирован в подтверждённую canonical Knowledge Area [[RAG/Index|RAG]]; новая область не создавалась.
+- Обновлены существующие concept-заметки: [[AI Engineering/RAG|Retrieval-Augmented Generation (RAG)]], [[AI Engineering/Embeddings|Embedding]], [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]].
+- Созданы concept-заметки: [[RAG/Chunk|Chunk]], [[RAG/Fixed-size Chunking|Fixed-size Chunking]], [[RAG/Chunk Overlap|Chunk Overlap]], [[RAG/Recursive Chunking|Recursive Chunking]].
+- [[RAG/Plan|RAG Plan]] переведён в `learning`; первые три этапа отмечены как частично изученные.
+- Обновлены RAG Index, внешний RAG Index, Dashboard, Knowledge Map и Roadmap.
+- Отсутствующие related-термины сохранены как unresolved wikilinks; пустые stub-файлы не создавались.
+
+### 🧠 Weak spots
+
+- Различие между внутренним Embedding Layer LLM и отдельной Embedding Model.
+- Причины, по которым слишком большой overlap ухудшает систему.
+- Почему мелкие единицы являются последним уровнем разделения в Recursive Chunking.
+
+### Повторяющиеся ошибки
+
+- Иногда смешивается работа Transformer внутри LLM и отдельных компонентов RAG.
+- Иногда инженерные определения заменяются слишком общими формулировками вместо точного описания смысловой единицы.
+
+### Следующий шаг
+
+- Изучить Semantic Chunking и сравнить его с Recursive Chunking на реальных документах.
 
 ## 2026-07-10 (module plan: RAG)
 

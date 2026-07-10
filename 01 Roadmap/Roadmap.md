@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-10
+updated: 2026-07-11
 ---
 
 # 🗺️ Дорожная карта обучения
@@ -310,7 +310,7 @@ updated: 2026-07-10
 **Требует практического повторения:** Semantic Cache, сложный Model Router и мониторинг стоимости.
 **Следующий шаг:** перейти к [[RAG/Index|RAG]], используя знания о Context Window, Memory Management, Tool Calling и Production Pipeline.
 
-## Фаза 3.6: RAG 🧭 Planned
+## Фаза 3.6: RAG 🚧 In progress
 
 **План модуля создан:** [[RAG/Plan|RAG Plan]]
 
@@ -318,9 +318,9 @@ updated: 2026-07-10
 
 **Learning Path:**
 
-- Почему появился RAG ⏳
-- Embeddings ⏳
-- Chunking ⏳
+- Почему появился RAG 🚧
+- Embeddings 🚧
+- Chunking 🚧
 - Vector Database ⏳
 - Retrieval ⏳
 - Hybrid Search ⏳
@@ -331,9 +331,20 @@ updated: 2026-07-10
 - Advanced RAG ⏳
 - Финальный проект ⏳
 
-**Статус:** `not_started`; создана структура модуля без concept-заметок.
+**RAG Retrieval Pipeline синхронизирован:**
+
+- [[AI Engineering/RAG|Retrieval-Augmented Generation (RAG)]] ✅ — внешний retrieval перед генерацией
+- [[AI Engineering/Embeddings|Embedding]] ✅ — семантическое векторное представление
+- [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]] ✅ — сравнение направлений embeddings
+- [[RAG/Chunk|Chunk]] ✅ — смысловая единица индексирования и поиска
+- [[RAG/Fixed-size Chunking|Fixed-size Chunking]] ✅ — простой baseline разбиения
+- [[RAG/Chunk Overlap|Chunk Overlap]] ✅ — сохранение контекста на границах
+- [[RAG/Recursive Chunking|Recursive Chunking]] ✅ — иерархическое разбиение по естественным границам
+
+**Статус:** `learning`; основы RAG, embeddings и базовый chunking изучены, остальные темы этапов остаются в работе.
 **Предварительные знания:** [[LLM Engineering/Index|LLM Engineering]], [[Transformers/Index|Transformers]], [[Machine Learning/Index|Machine Learning]], [[Python Backend/Index|Python Backend]], [[AI Agents/Index|AI Agents]].
-**Следующий шаг:** начать с причин появления RAG, hallucinations, сравнения Fine-tuning и RAG и общей архитектуры retrieval-augmented generation.
+**Требует повторения:** различие Embedding Model и внутреннего Embedding Layer, влияние большого overlap, последний уровень разделения Recursive Chunking.
+**Следующий шаг:** изучить Semantic Chunking и сравнить его с Recursive Chunking на реальных документах.
 
 ## Фаза 4: PyTorch 🚀 Active
 

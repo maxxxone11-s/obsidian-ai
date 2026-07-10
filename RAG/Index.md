@@ -2,7 +2,7 @@
 type: index
 area: RAG
 created: 2026-06-26
-updated: 2026-07-10
+updated: 2026-07-11
 tags:
   - index
   - system
@@ -16,6 +16,16 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 ## План модуля
 
 - [[RAG/Plan|RAG Plan]]
+
+## Изученные концепции
+
+- [[AI Engineering/RAG|Retrieval-Augmented Generation (RAG)]]
+- [[AI Engineering/Embeddings|Embedding]]
+- [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]]
+- [[RAG/Chunk|Chunk]]
+- [[RAG/Fixed-size Chunking|Fixed-size Chunking]]
+- [[RAG/Chunk Overlap|Chunk Overlap]]
+- [[RAG/Recursive Chunking|Recursive Chunking]]
 
 ## Learning Path
 

@@ -1,7 +1,7 @@
 ---
 type: module_plan
 area: RAG
-status: not_started
+status: learning
 tags:
   - rag
   - module-plan
@@ -32,7 +32,7 @@ tags:
 
 ### 1. Почему появился RAG
 
-status: not_started
+status: learning
 
 Коротко: понять ограничения знаний LLM, причины hallucinations и место RAG среди способов адаптации модели.
 
@@ -45,6 +45,7 @@ Related concepts:
 
 Topics:
 
+- [[AI Engineering/RAG|Retrieval-Augmented Generation (RAG)]] — learned
 - Почему LLM забывают знания
 - Контекстное окно
 - Hallucinations
@@ -54,7 +55,7 @@ Topics:
 
 ### 2. Embeddings
 
-status: not_started
+status: learning
 
 Коротко: понять, как смысл представляется в векторном пространстве и используется для поиска похожих документов.
 
@@ -72,10 +73,10 @@ Related concepts:
 
 Topics:
 
-- Что такое embedding
-- Почему embedding — это не просто вектор
+- [[AI Engineering/Embeddings|Embedding]] — learned
+- Почему embedding — это не просто вектор — learned
 - Семантическое пространство
-- Косинусное сходство
+- [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]] — learned
 - Euclidean Distance
 - Dot Product
 - Почему похожие предложения оказываются рядом
@@ -84,7 +85,7 @@ Topics:
 
 ### 3. Chunking
 
-status: not_started
+status: learning
 
 Коротко: научиться делить документы на поисковые единицы с учётом структуры, смысла и ограничений retrieval.
 
@@ -99,11 +100,13 @@ Related concepts:
 
 Topics:
 
-- Почему нельзя хранить документ целиком
+- [[RAG/Chunk|Chunk]] — learned
+- Почему нельзя хранить документ целиком — learned
 - Chunk Size
-- Chunk Overlap
+- [[RAG/Fixed-size Chunking|Fixed-size Chunking]] — learned
+- [[RAG/Chunk Overlap|Chunk Overlap]] — learned
 - Sliding Window
-- Recursive Chunking
+- [[RAG/Recursive Chunking|Recursive Chunking]] — learned
 - Semantic Chunking
 - Markdown Chunking
 - Code Chunking

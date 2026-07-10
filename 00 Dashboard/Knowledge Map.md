@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-10
+updated: 2026-07-11
 ---
 
 # 🧠 Knowledge Map
@@ -330,6 +330,13 @@ updated: 2026-07-10
 
 - [[RAG/Index|RAG Index]]
 - [[RAG/Plan|RAG Plan]]
+- [[AI Engineering/RAG|Retrieval-Augmented Generation (RAG)]]
+- [[AI Engineering/Embeddings|Embedding]]
+- [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]]
+- [[RAG/Chunk|Chunk]]
+- [[RAG/Fixed-size Chunking|Fixed-size Chunking]]
+- [[RAG/Chunk Overlap|Chunk Overlap]]
+- [[RAG/Recursive Chunking|Recursive Chunking]]
 
 ### Планируемые блоки
 
@@ -340,7 +347,7 @@ updated: 2026-07-10
 - Generation и Evaluation
 - Production RAG и Advanced RAG
 
-Concept-заметки пока не создавались.
+Основы RAG, embeddings и базовые стратегии chunking находятся в изучении.
 
 ## LLM Engineering
 
