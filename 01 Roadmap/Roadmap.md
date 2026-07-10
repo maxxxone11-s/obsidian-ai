@@ -310,6 +310,31 @@ updated: 2026-07-10
 **Требует практического повторения:** Semantic Cache, сложный Model Router и мониторинг стоимости.
 **Следующий шаг:** перейти к [[RAG/Index|RAG]], используя знания о Context Window, Memory Management, Tool Calling и Production Pipeline.
 
+## Фаза 3.6: RAG 🧭 Planned
+
+**План модуля создан:** [[RAG/Plan|RAG Plan]]
+
+**Цель:** научиться проектировать, реализовывать и оценивать production-подобные RAG-системы от ingestion и embeddings до retrieval, generation, evaluation и monitoring.
+
+**Learning Path:**
+
+- Почему появился RAG ⏳
+- Embeddings ⏳
+- Chunking ⏳
+- Vector Database ⏳
+- Retrieval ⏳
+- Hybrid Search ⏳
+- Reranking ⏳
+- Generation ⏳
+- Evaluation ⏳
+- Production RAG ⏳
+- Advanced RAG ⏳
+- Финальный проект ⏳
+
+**Статус:** `not_started`; создана структура модуля без concept-заметок.
+**Предварительные знания:** [[LLM Engineering/Index|LLM Engineering]], [[Transformers/Index|Transformers]], [[Machine Learning/Index|Machine Learning]], [[Python Backend/Index|Python Backend]], [[AI Agents/Index|AI Agents]].
+**Следующий шаг:** начать с причин появления RAG, hallucinations, сравнения Fine-tuning и RAG и общей архитектуры retrieval-augmented generation.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

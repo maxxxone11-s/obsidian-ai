@@ -328,7 +328,19 @@ updated: 2026-07-10
 
 ## RAG
 
-- Пока нет отдельных заметок.
+- [[RAG/Index|RAG Index]]
+- [[RAG/Plan|RAG Plan]]
+
+### Планируемые блоки
+
+- Foundations и архитектура RAG
+- Embeddings и Chunking
+- Vector Database и Retrieval
+- Hybrid Search и Reranking
+- Generation и Evaluation
+- Production RAG и Advanced RAG
+
+Concept-заметки пока не создавались.
 
 ## LLM Engineering
 

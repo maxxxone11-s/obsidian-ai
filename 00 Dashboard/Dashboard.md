@@ -29,6 +29,7 @@ updated: 2026-07-10
 - [[Indexes/Transformers Index|🧠 Transformers]]
 - [[Indexes/PyTorch Index|⚡ PyTorch]]
 - [[Indexes/LLM Engineering Index|✨ LLM Engineering]]
+- [[Indexes/RAG Index|📚 RAG]]
 - [[Indexes/LangGraph Index|🔗 LangGraph]]
 - [[Indexes/Algorithms Index|🧩 Algorithms & Data Structures]]
 
@@ -49,6 +50,7 @@ updated: 2026-07-10
 
 ## 🔄 Последние обновления
 
+- **2026-07-10** — Инициализирован модуль RAG: создан module plan, внутренний и внешний индексы; concept-заметки не создавались
 - **2026-07-10** — Синхронизация LLM Engineering Cost Optimization & Production Architecture: token cost, LLM bypass, model routing, prompt caching и production pipeline
 - **2026-07-10** — Синхронизация LLM Engineering Context Window & Memory Management: context limits, token counting, conversation memory/state и memory management
 - **2026-07-10** — Синхронизация LLM Engineering Function Calling & Streaming: schemas, tool selection, tool loop, multiple calls, streaming API и streaming tool calls

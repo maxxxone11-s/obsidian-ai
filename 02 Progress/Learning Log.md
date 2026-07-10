@@ -9,6 +9,36 @@ updated: 2026-07-10
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-10 (module plan: RAG)
+
+### ✅ Обновлено
+
+- Стабильная Knowledge Area [[RAG/Index|RAG]] инициализирована для обучения.
+- Создан [[RAG/Plan|RAG Plan]] с 11 учебными блоками и финальным production-подобным проектом.
+- Создан внешний [[Indexes/RAG Index|RAG Index]], обновлены Dashboard, Knowledge Map и Roadmap.
+- `tag:#rag` уже присутствовал в Graph Groups; дублирующая группа не добавлялась.
+- Concept-заметки и stub-файлы не создавались.
+- Статистика concept notes не изменилась: всего 317, learned 258, needs_review 7, draft 52.
+
+### Learning Path
+
+- Почему появился RAG
+- Embeddings
+- Chunking
+- Vector Database
+- Retrieval
+- Hybrid Search
+- Reranking
+- Generation
+- Evaluation
+- Production RAG
+- Advanced RAG
+- Финальный проект
+
+### Следующий шаг
+
+- Начать с проблемы, которую решает RAG: ограничений знаний LLM, hallucinations, Fine-tuning vs RAG и общей архитектуры системы.
+
 ## 2026-07-10 (KNOWLEDGE_EXPORT sync: LLM Engineering — Cost Optimization & Production Architecture)
 
 ### ✅ Синхронизировано
