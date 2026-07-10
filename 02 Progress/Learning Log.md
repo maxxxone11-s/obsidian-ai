@@ -9,6 +9,29 @@ updated: 2026-07-10
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-10 (KNOWLEDGE_EXPORT sync: LLM Engineering — Context Window & Memory Management)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
+- Созданы concept-заметки: [[LLM Engineering/Context Window|Context Window]], [[LLM Engineering/Переполнение Context Window|Переполнение Context Window]], [[LLM Engineering/Token Counting|Token Counting]], [[LLM Engineering/Conversation Memory|Conversation Memory]], [[LLM Engineering/Conversation State|Conversation State]], [[LLM Engineering/Memory Management|Memory Management]].
+- [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: блок Context Engineering переведён в `learned` по изученным ключевым темам.
+- Отсутствующие related-термины сохранены как unresolved wikilinks; автоматические stub-заметки не создавались.
+- Обновлены Dashboard, Knowledge Map, Roadmap и оба индекса LLM Engineering.
+
+### 🧠 Weak spots
+
+- Практический расчёт токенов для сложных запросов.
+- Реализация Summary и Sliding Window в production-коде.
+
+### Повторяющиеся ошибки
+
+- Не выявлены.
+
+### Следующий шаг
+
+- Перейти к блоку Cost Optimization, начиная с факторов, влияющих на стоимость запросов, и инженерных стратегий уменьшения расходов на использование LLM.
+
 ## 2026-07-10 (KNOWLEDGE_EXPORT sync: LLM Engineering — Function Calling & Streaming)
 
 ### ✅ Синхронизировано

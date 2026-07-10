@@ -235,7 +235,7 @@ updated: 2026-07-10
 - Structured Output ⏳
 - Function Calling ✅
 - Streaming ✅
-- Context Engineering ⏳
+- Context Engineering ✅
 - Cost Optimization ⏳
 - Production Patterns ⏳
 - Работа с несколькими провайдерами ⏳
@@ -287,7 +287,18 @@ updated: 2026-07-10
 - [[LLM Engineering/Streaming при Function Calling|Streaming при Function Calling]] ✅ — сборка потоковых tool calls
 
 **Прогресс LLM Engineering:** изучены ключевые темы блоков “Основы LLM API”, “Prompt Engineering”, “Structured Output”, “Function Calling” и “Streaming”; модуль остаётся в процессе.
-**Следующий шаг:** перейти к Context Engineering: Context Window, ограничения токенов и управление историей диалога.
+
+**LLM Engineering Context Window & Memory Management синхронизирован:**
+- [[LLM Engineering/Context Window|Context Window]] ✅ — общий бюджет входных и выходных токенов
+- [[LLM Engineering/Переполнение Context Window|Переполнение Context Window]] ✅ — обнаружение и сокращение слишком большого запроса
+- [[LLM Engineering/Token Counting|Token Counting]] ✅ — контроль лимита и стоимости в токенах
+- [[LLM Engineering/Conversation Memory|Conversation Memory]] ✅ — история хранится и передаётся backend
+- [[LLM Engineering/Conversation State|Conversation State]] ✅ — полное состояние текущего диалога
+- [[LLM Engineering/Memory Management|Memory Management]] ✅ — отбор релевантного контекста
+
+**Требует практического повторения:** расчёт токенов для сложных запросов, production-реализация Summary и Sliding Window.
+**Прогресс LLM Engineering:** изучены ключевые темы блоков от “Основы LLM API” до “Context Engineering”; модуль остаётся в процессе.
+**Следующий шаг:** перейти к Cost Optimization: факторы стоимости и инженерные стратегии снижения расходов.
 
 ## Фаза 4: PyTorch 🚀 Active
 

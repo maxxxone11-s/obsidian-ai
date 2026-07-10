@@ -184,7 +184,7 @@ Topics:
 
 ### 6. Context Engineering
 
-status: not_started
+status: learned
 
 Коротко: научиться управлять context window, историей сообщений и token budget.
 
@@ -194,17 +194,27 @@ Related concepts:
 - [[Transformers/KV Cache|KV Cache]]
 - [[RAG/Index|RAG]]
 - [[AI Agents/Index|AI Agents]]
+- [[Context Window]]
+- [[Переполнение Context Window]]
+- [[Token Counting]]
+- [[Conversation Memory]]
+- [[Conversation State]]
+- [[Memory Management]]
 
 Topics:
 
-- Context Window
-- Token budget
-- Message history
+- Context Window — learned
+- Context overflow — learned
+- Token counting — learned
+- Token budget — learned
+- Message history — learned
 - Sliding window
 - Truncation
 - Context compression
 - Context prioritization
-- Conversation memory
+- Conversation memory — learned
+- Conversation state — learned
+- Memory management — learned
 
 ### 7. Cost Optimization
 
