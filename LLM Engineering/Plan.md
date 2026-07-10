@@ -128,7 +128,7 @@ Topics:
 
 ### 4. Function Calling
 
-status: not_started
+status: learned
 
 Коротко: понять, как модель выбирает tools/functions и как приложение выполняет tool loop.
 
@@ -138,21 +138,28 @@ Related concepts:
 - [[LangGraph/Tool|Tool]]
 - [[LangGraph/Tool Node|Tool Node]]
 - [[AI Agents/Index|AI Agents]]
+- [[Function Calling]]
+- [[Function Schema]]
+- [[Tool Selection]]
+- [[Tool Loop]]
+- [[Multiple Tool Calls]]
+- [[Tool Calling]]
 
 Topics:
 
-- Зачем функции нужны модели
-- Tool schema
-- Аргументы
-- Multiple tools
-- Tool loop
+- Зачем функции нужны модели — learned
+- Tool schema — learned
+- Аргументы — learned
+- Multiple tools — learned
+- Tool selection — learned
+- Tool loop — learned
 - Tool errors
-- Tool results
+- Tool results — learned
 - Tool retry
 
 ### 5. Streaming
 
-status: not_started
+status: learned
 
 Коротко: научиться отдавать ответ модели постепенно для лучшего UX.
 
@@ -160,11 +167,16 @@ Related concepts:
 
 - [[Python Backend/FastAPI|FastAPI]]
 - [[PyTorch/Inference Pipeline|Inference Pipeline]]
+- [[Streaming]]
+- [[Streaming API в OpenAI SDK]]
+- [[Streaming при Function Calling]]
 
 Topics:
 
-- Почему streaming лучше UX
-- Token streaming
+- Почему streaming лучше UX — learned
+- Token streaming — learned
+- Streaming API в OpenAI SDK — learned
+- Streaming при Function Calling — learned
 - SSE
 - Async streaming
 - Streaming + FastAPI

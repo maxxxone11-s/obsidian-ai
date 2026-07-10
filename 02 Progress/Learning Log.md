@@ -9,6 +9,27 @@ updated: 2026-07-10
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-10 (KNOWLEDGE_EXPORT sync: LLM Engineering — Function Calling & Streaming)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
+- Созданы concept-заметки: [[LLM Engineering/Function Calling|Function Calling]], [[LLM Engineering/Function Schema|Function Schema]], [[LLM Engineering/Tool Selection|Tool Selection]], [[LLM Engineering/Tool Loop|Tool Loop]], [[LLM Engineering/Multiple Tool Calls|Multiple Tool Calls]], [[LLM Engineering/Tool Calling|Tool Calling]], [[LLM Engineering/Streaming|Streaming]], [[LLM Engineering/Streaming API в OpenAI SDK|Streaming API в OpenAI SDK]], [[LLM Engineering/Streaming при Function Calling|Streaming при Function Calling]].
+- [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: блоки Function Calling и Streaming переведены в `learned` по изученным ключевым темам.
+- Обновлены Dashboard, Knowledge Map, Roadmap и оба индекса LLM Engineering.
+
+### 🧠 Weak spots
+
+- Не выявлены.
+
+### Повторяющиеся ошибки
+
+- Не выявлены.
+
+### Следующий шаг
+
+- Перейти к блоку Context Window, начиная с устройства окна контекста, ограничения количества токенов и управления историей диалога.
+
 ## 2026-07-10 (KNOWLEDGE_EXPORT sync: LLM Engineering Prompt Engineering & Structured Output)
 
 ### ✅ Синхронизировано

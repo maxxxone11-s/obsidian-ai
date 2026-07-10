@@ -74,14 +74,19 @@ tags:
 
 ### Function Calling
 
-- Function Calling
-- Tool Schema
-- Tool Loop
+- [[LLM Engineering/Function Calling|Function Calling]]
+- [[LLM Engineering/Function Schema|Function Schema]]
+- [[LLM Engineering/Tool Selection|Tool Selection]]
+- [[LLM Engineering/Tool Loop|Tool Loop]]
+- [[LLM Engineering/Multiple Tool Calls|Multiple Tool Calls]]
+- [[LLM Engineering/Tool Calling|Tool Calling]]
 - Tool Errors and Retry
 
 ### Streaming
 
-- Token Streaming
+- [[LLM Engineering/Streaming|Streaming]]
+- [[LLM Engineering/Streaming API в OpenAI SDK|Streaming API в OpenAI SDK]]
+- [[LLM Engineering/Streaming при Function Calling|Streaming при Function Calling]]
 - SSE
 - Async Streaming
 - Streaming with FastAPI

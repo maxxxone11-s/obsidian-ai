@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-03
+updated: 2026-07-10
 ---
 
 # 🧠 Knowledge Map
@@ -353,6 +353,15 @@ updated: 2026-07-03
 - [[LLM Engineering/Pydantic в Structured Output|Pydantic в Structured Output]]
 - [[LLM Engineering/Validation|Validation]]
 - [[LLM Engineering/Error Recovery|Error Recovery]]
+- [[LLM Engineering/Function Calling|Function Calling]]
+- [[LLM Engineering/Function Schema|Function Schema]]
+- [[LLM Engineering/Tool Selection|Tool Selection]]
+- [[LLM Engineering/Tool Loop|Tool Loop]]
+- [[LLM Engineering/Multiple Tool Calls|Multiple Tool Calls]]
+- [[LLM Engineering/Tool Calling|Tool Calling]]
+- [[LLM Engineering/Streaming|Streaming]]
+- [[LLM Engineering/Streaming API в OpenAI SDK|Streaming API в OpenAI SDK]]
+- [[LLM Engineering/Streaming при Function Calling|Streaming при Function Calling]]
 
 ### Learning Path
 

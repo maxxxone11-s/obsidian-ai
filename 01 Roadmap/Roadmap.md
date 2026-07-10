@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-10
 ---
 
 # 🗺️ Дорожная карта обучения
@@ -223,7 +223,7 @@ updated: 2026-06-30
 **Требует повторения:** математический смысл `QK^T`, самостоятельное восстановление pipeline и чтение исходного кода Transformer.
 **Следующий шаг:** завершить модуль Transformer на текущем уровне и перейти к LLM Engineering, RAG и AI Agents.
 
-## Фаза 3.5: LLM Engineering 🧭 Planned
+## Фаза 3.5: LLM Engineering 🚧 In progress
 
 **План модуля создан:** [[LLM Engineering/Plan|LLM Engineering Plan]]
 
@@ -233,8 +233,8 @@ updated: 2026-06-30
 - Основы LLM API ⏳
 - Prompt Engineering ⏳
 - Structured Output ⏳
-- Function Calling ⏳
-- Streaming ⏳
+- Function Calling ✅
+- Streaming ✅
 - Context Engineering ⏳
 - Cost Optimization ⏳
 - Production Patterns ⏳
@@ -274,7 +274,20 @@ updated: 2026-06-30
 
 **Прогресс LLM Engineering:** блоки “Основы LLM API”, “Prompt Engineering” и “Structured Output” имеют изученные ключевые темы.
 **Требует повторения:** отсутствует.
-**Следующий шаг:** перейти к Function Calling, начиная с архитектуры вызова функций и роли модели в принятии решения о необходимости вызова инструмента.
+
+**LLM Engineering Function Calling & Streaming синхронизирован:**
+- [[LLM Engineering/Function Calling|Function Calling]] ✅ — модель формирует запрос, backend выполняет функцию
+- [[LLM Engineering/Function Schema|Function Schema]] ✅ — контракт инструмента для модели
+- [[LLM Engineering/Tool Selection|Tool Selection]] ✅ — семантический выбор инструмента
+- [[LLM Engineering/Tool Loop|Tool Loop]] ✅ — управляемый backend цикл вызова и возврата результата
+- [[LLM Engineering/Multiple Tool Calls|Multiple Tool Calls]] ✅ — несколько вызовов и выбор стратегии выполнения
+- [[LLM Engineering/Tool Calling|Tool Calling]] ✅ — обобщённый интерфейс внешних возможностей
+- [[LLM Engineering/Streaming|Streaming]] ✅ — постепенная передача ответа
+- [[LLM Engineering/Streaming API в OpenAI SDK|Streaming API в OpenAI SDK]] ✅ — итератор chunks и `delta.content`
+- [[LLM Engineering/Streaming при Function Calling|Streaming при Function Calling]] ✅ — сборка потоковых tool calls
+
+**Прогресс LLM Engineering:** изучены ключевые темы блоков “Основы LLM API”, “Prompt Engineering”, “Structured Output”, “Function Calling” и “Streaming”; модуль остаётся в процессе.
+**Следующий шаг:** перейти к Context Engineering: Context Window, ограничения токенов и управление историей диалога.
 
 ## Фаза 4: PyTorch 🚀 Active
 

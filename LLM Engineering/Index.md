@@ -73,14 +73,20 @@ tags:
 
 ### Function Calling
 
-- Tool schema
-- Tool loop
+- [[Function Calling]]
+- [[Function Schema]]
+- [[Tool Selection]]
+- [[Tool Loop]]
+- [[Multiple Tool Calls]]
+- [[Tool Calling]]
 - Tool errors
 - Tool retry
 
 ### Streaming
 
-- Token streaming
+- [[Streaming]]
+- [[Streaming API в OpenAI SDK]]
+- [[Streaming при Function Calling]]
 - SSE
 - Async streaming
 - Streaming + FastAPI

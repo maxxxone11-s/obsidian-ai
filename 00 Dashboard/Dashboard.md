@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-03
+updated: 2026-07-10
 ---
 
 # 🧠 AI Second Brain Dashboard
@@ -41,14 +41,15 @@ updated: 2026-07-03
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 296 |
-| Изучено | 237 |
+| Всего концепций | 305 |
+| Изучено | 246 |
 | В процессе | 0 |
 | Требует повтора | 7 |
 | Черновики | 52 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-10** — Синхронизация LLM Engineering Function Calling & Streaming: schemas, tool selection, tool loop, multiple calls, streaming API и streaming tool calls
 - **2026-07-10** — Синхронизация LLM Engineering Prompt Engineering & Structured Output: max_tokens, stop, prompts, few-shot, delimiters, JSON Schema, Pydantic и validation
 - **2026-07-08** — Синхронизация LLM Engineering API Integration: OpenRouter, OpenAI SDK, request lifecycle, messages, temperature и top_p
 - **2026-07-07** — Создан план модуля LLM Engineering: API, prompts, structured output, tools, streaming, context, cost и production patterns

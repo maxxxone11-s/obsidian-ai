@@ -4,9 +4,9 @@ tags:
   - template
   - system
 name: "Sync Package Format"
-version: "1.0"
+version: "1.1"
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-07-10
 ---
 
 # 📦 Sync Package — Формат синхронизации знаний
@@ -27,7 +27,7 @@ updated: 2026-06-26
 {
   "sync_package": {
     "metadata": {
-      "version": "1.0",
+      "version": "1.1",
       "timestamp": "2026-06-26T12:00:00Z",
       "source": "chatgpt|claude|custom",
       "source_session_id": "unique-session-id",
@@ -61,6 +61,7 @@ updated: 2026-06-26
           "concept-id-1",
           "concept-id-2"
         ],
+        "create_stub": false,
         "tags": ["тег1", "тег2"],
         "confidence_level": 0,
         "status": "draft|learning|needs_review|learned",
@@ -96,7 +97,7 @@ updated: 2026-06-26
 
 | Поле | Тип | Обязательное | Описание |
 |------|-----|-------------|---------|
-| `version` | string | ✅ | Версия формата (1.0) |
+| `version` | string | ✅ | Версия формата (1.1) |
 | `timestamp` | ISO8601 | ✅ | Время создания пакета |
 | `source` | enum | ✅ | Источник данных |
 | `source_session_id` | string | ✅ | ID сессии источника |
@@ -115,10 +116,13 @@ updated: 2026-06-26
 | `examples` | array | ✅ | Примеры кода |
 | `typical_errors` | array | ✅ | Типичные ошибки |
 | `related_concepts` | array | ❌ | ID связанных концепций |
+| `create_stub` | boolean | ❌ | Разрешает создание отсутствующих stub-заметок; по умолчанию `false` |
 | `tags` | array | ❌ | Теги для категоризации |
 | `confidence_level` | number | ❌ | Уровень уверенности (0-100) |
 | `status` | enum | ❌ | Статус изучения |
 | `review_schedule` | enum | ❌ | График повторения |
+
+`related_concepts` описывает связи между концепциями, а не список файлов для автоматического создания. Если связанная концепция отсутствует, используется unresolved wikilink. Stub-файл создаётся только при явном `create_stub: true`.
 
 ### Example
 
@@ -203,7 +207,7 @@ updated: 2026-06-26
 {
   "sync_package": {
     "metadata": {
-      "version": "1.0",
+      "version": "1.1",
       "timestamp": "2026-06-26T12:00:00Z",
       "source": "chatgpt",
       "source_session_id": "sess-123",
@@ -253,6 +257,6 @@ updated: 2026-06-26
 
 ---
 
-**Версия:** 1.0
+**Версия:** 1.1
 **Дата создания:** 2026-06-26
 **Статус:** Готов к использованию
