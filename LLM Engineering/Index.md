@@ -2,7 +2,7 @@
 type: index
 area: LLM Engineering
 created: 2026-06-26
-updated: 2026-07-08
+updated: 2026-07-10
 tags:
   - index
   - system
@@ -39,6 +39,8 @@ tags:
 - [[Цепочка выполнения chat.completions.create]]
 - [[Messages как источник контекста модели]]
 - [[Top-p (Nucleus Sampling)]]
+- [[Max Tokens]]
+- [[Stop Sequence]]
 - Chat Completions
 - Messages и Roles
 - Parameters
@@ -48,23 +50,26 @@ tags:
 
 ### Prompt Engineering
 
-- System Prompt
-- User Prompt
-- Few-shot
+- [[Prompt Engineering]]
+- [[System Prompt]]
+- [[User Prompt]]
+- [[Few-shot Prompting]]
 - Chain of Thought
-- Prompt Templates
+- [[Prompt Templates]]
+- [[Delimiters]]
+- [[Output Formatting]]
 - Prompt Injection
 - Prompt Versioning
 
 ### Structured Output
 
 - JSON Mode
-- Structured Output
-- JSON Schema
-- Pydantic
+- [[Structured Output]]
+- [[JSON Schema]]
+- [[Pydantic в Structured Output]]
 - Parsing
-- Validation
-- Error recovery
+- [[Validation]]
+- [[Error Recovery]]
 
 ### Function Calling
 

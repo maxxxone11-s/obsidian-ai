@@ -256,6 +256,26 @@ updated: 2026-06-30
 **Требует повторения:** отсутствует.
 **Следующий шаг:** изучить `max_tokens` и `stop`, затем перейти к Prompt Engineering.
 
+**LLM Engineering Prompt Engineering & Structured Output синхронизирован:**
+- [[LLM Engineering/Max Tokens|Max Tokens]] ✅ — ограничение длины ответа, стоимости и latency
+- [[LLM Engineering/Stop Sequence|Stop Sequence]] ✅ — остановка генерации по маркеру
+- [[LLM Engineering/Prompt Engineering|Prompt Engineering]] ✅ — проектирование входного контекста
+- [[LLM Engineering/System Prompt|System Prompt]] ✅ — постоянные правила поведения модели
+- [[LLM Engineering/User Prompt|User Prompt]] ✅ — runtime context текущего запроса
+- [[LLM Engineering/Prompt Templates|Prompt Templates]] ✅ — шаблоны prompts с подстановкой данных
+- [[LLM Engineering/Few-shot Prompting|Few-shot Prompting]] ✅ — in-context examples без обучения модели
+- [[LLM Engineering/Delimiters|Delimiters]] ✅ — явные границы блоков prompt
+- [[LLM Engineering/Output Formatting|Output Formatting]] ✅ — контракт формата ответа
+- [[LLM Engineering/Structured Output|Structured Output]] ✅ — API-механизм структурированного ответа
+- [[LLM Engineering/JSON Schema|JSON Schema]] ✅ — контракт структуры JSON
+- [[LLM Engineering/Pydantic в Structured Output|Pydantic в Structured Output]] ✅ — single source of truth для структуры
+- [[LLM Engineering/Validation|Validation]] ✅ — проверка структуры ответа
+- [[LLM Engineering/Error Recovery|Error Recovery]] ✅ — восстановление после ошибок generation/validation
+
+**Прогресс LLM Engineering:** блоки “Основы LLM API”, “Prompt Engineering” и “Structured Output” имеют изученные ключевые темы.
+**Требует повторения:** отсутствует.
+**Следующий шаг:** перейти к Function Calling, начиная с архитектуры вызова функций и роли модели в принятии решения о необходимости вызова инструмента.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

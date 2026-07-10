@@ -4,10 +4,30 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-08
+updated: 2026-07-10
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-10 (KNOWLEDGE_EXPORT sync: LLM Engineering Prompt Engineering & Structured Output)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
+- Созданы concept-заметки: [[LLM Engineering/Max Tokens|Max Tokens]], [[LLM Engineering/Stop Sequence|Stop Sequence]], [[LLM Engineering/Prompt Engineering|Prompt Engineering]], [[LLM Engineering/System Prompt|System Prompt]], [[LLM Engineering/User Prompt|User Prompt]], [[LLM Engineering/Prompt Templates|Prompt Templates]], [[LLM Engineering/Few-shot Prompting|Few-shot Prompting]], [[LLM Engineering/Delimiters|Delimiters]], [[LLM Engineering/Output Formatting|Output Formatting]], [[LLM Engineering/Structured Output|Structured Output]], [[LLM Engineering/JSON Schema|JSON Schema]], [[LLM Engineering/Pydantic в Structured Output|Pydantic в Structured Output]], [[LLM Engineering/Validation|Validation]], [[LLM Engineering/Error Recovery|Error Recovery]].
+- [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: `max_tokens` и `stop` отмечены как learned; блоки Prompt Engineering и Structured Output переведены в learned по изученным темам.
+
+### 🧠 Weak spots
+
+- Отсутствуют.
+
+### Повторяющиеся ошибки
+
+- Отсутствуют.
+
+### Следующий шаг
+
+- Перейти к блоку Function Calling, начиная с архитектуры вызова функций и роли модели в принятии решения о необходимости вызова инструмента.
 
 ## 2026-07-08 (KNOWLEDGE_EXPORT sync: LLM Engineering API Integration)
 

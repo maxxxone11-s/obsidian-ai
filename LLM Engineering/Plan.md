@@ -2,7 +2,7 @@
 type: module_plan
 area: LLM Engineering
 created: 2026-07-07
-updated: 2026-07-08
+updated: 2026-07-10
 tags:
   - llm-engineering
   - module-plan
@@ -31,7 +31,7 @@ tags:
 
 ### 1. Основы LLM API
 
-status: learning
+status: learned
 
 Коротко: понять, как современные модели вызываются из кода и как устроен базовый request/response цикл.
 
@@ -46,6 +46,8 @@ Related concepts:
 - [[Messages как источник контекста модели]]
 - [[Transformers/Temperature Sampling|Temperature Sampling]]
 - [[Top-p (Nucleus Sampling)]]
+- [[Max Tokens]]
+- [[Stop Sequence]]
 
 Topics:
 
@@ -57,14 +59,16 @@ Topics:
 - Roles
 - Parameters: temperature — learned
 - Parameters: top_p — learned
-- Parameters: max_tokens, stop, seed — not_started
+- Parameters: max_tokens — learned
+- Parameters: stop — learned
+- Parameters: seed — not_started
 - Response structure
 - Token usage
 - Model selection
 
 ### 2. Prompt Engineering
 
-status: not_started
+status: learned
 
 Коротко: научиться проектировать prompts так, чтобы модель стабильно понимала задачу, формат ответа и ограничения.
 
@@ -73,24 +77,31 @@ Related concepts:
 - [[Transformers/Language Modeling Head|Language Modeling Head]]
 - [[Transformers/Temperature Sampling|Temperature Sampling]]
 - [[AI Agents/Index|AI Agents]]
+- [[Prompt Engineering]]
+- [[System Prompt]]
+- [[User Prompt]]
+- [[Prompt Templates]]
+- [[Few-shot Prompting]]
+- [[Delimiters]]
+- [[Output Formatting]]
 
 Topics:
 
 - Как модель читает промпт
-- System Prompt
-- User Prompt
+- System Prompt — learned
+- User Prompt — learned
 - Assistant Messages
-- Few-shot
+- Few-shot — learned
 - Chain of Thought
-- Prompt Templates
-- Delimiters
-- Output formatting
+- Prompt Templates — learned
+- Delimiters — learned
+- Output formatting — learned
 - Prompt Injection
 - Prompt Versioning
 
 ### 3. Structured Output
 
-status: not_started
+status: learned
 
 Коротко: научиться получать от модели валидные структуры данных вместо свободного текста.
 
@@ -98,17 +109,22 @@ Related concepts:
 
 - [[Python Backend/FastAPI|FastAPI]]
 - [[PyTorch/Inference Pipeline|Inference Pipeline]]
+- [[Structured Output]]
+- [[JSON Schema]]
+- [[Pydantic в Structured Output]]
+- [[Validation]]
+- [[Error Recovery]]
 
 Topics:
 
 - Почему JSON ломается
 - JSON Mode
-- Structured Output
-- JSON Schema
-- Pydantic
+- Structured Output — learned
+- JSON Schema — learned
+- Pydantic — learned
 - Parsing
-- Validation
-- Error recovery
+- Validation — learned
+- Error recovery — learned
 
 ### 4. Function Calling
 
@@ -294,6 +310,8 @@ Related concepts:
 - Response Structure
 - Token Usage
 - Model Selection
+- Max Tokens
+- Stop Sequence
 - OpenRouter через OpenAI SDK
 - Архитектура OpenAI SDK
 - Цепочка выполнения chat.completions.create
@@ -312,7 +330,9 @@ Related concepts:
 - Structured Output
 - JSON Schema
 - Pydantic Validation
-- Parsing and Error Recovery
+- Validation
+- Error Recovery
+- Parsing
 - Function Calling
 - Tool Schema
 - Tool Loop
