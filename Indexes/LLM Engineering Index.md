@@ -108,11 +108,16 @@ tags:
 
 ### Cost Optimization
 
-- Token Counting
+- [[LLM Engineering/Стоимость LLM-запросов|Стоимость LLM-запросов]]
+- [[LLM Engineering/Cost Optimization|Cost Optimization]]
+- [[LLM Engineering/Исключение ненужных вызовов LLM|Исключение ненужных вызовов LLM]]
+- [[LLM Engineering/Model Routing|Model Routing]]
+- [[LLM Engineering/Prompt Caching|Prompt Caching]]
+- [[LLM Engineering/Production Pipeline LLM-приложения|Production Pipeline LLM-приложения]]
+- [[LLM Engineering/Token Counting|Token Counting]]
 - Prompt Optimization
 - LLM Caching
 - Batch Requests
-- Model Routing
 - Latency Optimization
 
 ### Production Patterns

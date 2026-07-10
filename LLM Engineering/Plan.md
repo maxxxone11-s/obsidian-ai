@@ -218,7 +218,7 @@ Topics:
 
 ### 7. Cost Optimization
 
-status: not_started
+status: learned
 
 Коротко: научиться снижать стоимость и latency LLM-приложений без потери качества.
 
@@ -227,14 +227,22 @@ Related concepts:
 - [[Transformers/Attention Complexity During Inference|Attention Complexity During Inference]]
 - [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]]
 - [[Python Backend/Redis|Redis]]
+- [[Стоимость LLM-запросов]]
+- [[Cost Optimization]]
+- [[Исключение ненужных вызовов LLM]]
+- [[Model Routing]]
+- [[Prompt Caching]]
+- [[Production Pipeline LLM-приложения]]
 
 Topics:
 
-- Token counting
+- Token counting — learned
 - Prompt optimization
-- Caching
+- Cost structure — learned
+- Avoid unnecessary LLM calls — learned
+- Prompt caching — learned
 - Batch requests
-- Model routing
+- Model routing — learned
 - Cheap vs expensive models
 - Latency optimization
 
@@ -249,6 +257,7 @@ Related concepts:
 - [[Python Backend/FastAPI|FastAPI]]
 - [[Python Backend/Redis|Redis]]
 - [[Python Backend/Docker|Docker]]
+- [[Production Pipeline LLM-приложения]]
 
 Topics:
 

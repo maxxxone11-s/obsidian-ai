@@ -106,7 +106,12 @@ tags:
 
 ### Production Engineering
 
-- Cost optimization
+- [[Стоимость LLM-запросов]]
+- [[Cost Optimization]]
+- [[Исключение ненужных вызовов LLM]]
+- [[Model Routing]]
+- [[Prompt Caching]]
+- [[Production Pipeline LLM-приложения]]
 - Retry
 - Timeout
 - Rate limits

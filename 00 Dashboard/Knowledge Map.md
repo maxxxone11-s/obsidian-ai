@@ -368,6 +368,12 @@ updated: 2026-07-10
 - [[LLM Engineering/Conversation Memory|Conversation Memory]]
 - [[LLM Engineering/Conversation State|Conversation State]]
 - [[LLM Engineering/Memory Management|Memory Management]]
+- [[LLM Engineering/Стоимость LLM-запросов|Стоимость LLM-запросов]]
+- [[LLM Engineering/Cost Optimization|Cost Optimization]]
+- [[LLM Engineering/Исключение ненужных вызовов LLM|Исключение ненужных вызовов LLM]]
+- [[LLM Engineering/Model Routing|Model Routing]]
+- [[LLM Engineering/Prompt Caching|Prompt Caching]]
+- [[LLM Engineering/Production Pipeline LLM-приложения|Production Pipeline LLM-приложения]]
 
 ### Learning Path
 

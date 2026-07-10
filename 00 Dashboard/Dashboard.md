@@ -41,14 +41,15 @@ updated: 2026-07-10
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 311 |
-| Изучено | 252 |
+| Всего концепций | 317 |
+| Изучено | 258 |
 | В процессе | 0 |
 | Требует повтора | 7 |
 | Черновики | 52 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-10** — Синхронизация LLM Engineering Cost Optimization & Production Architecture: token cost, LLM bypass, model routing, prompt caching и production pipeline
 - **2026-07-10** — Синхронизация LLM Engineering Context Window & Memory Management: context limits, token counting, conversation memory/state и memory management
 - **2026-07-10** — Синхронизация LLM Engineering Function Calling & Streaming: schemas, tool selection, tool loop, multiple calls, streaming API и streaming tool calls
 - **2026-07-10** — Синхронизация LLM Engineering Prompt Engineering & Structured Output: max_tokens, stop, prompts, few-shot, delimiters, JSON Schema, Pydantic и validation

@@ -9,6 +9,31 @@ updated: 2026-07-10
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-10 (KNOWLEDGE_EXPORT sync: LLM Engineering — Cost Optimization & Production Architecture)
+
+### ✅ Синхронизировано
+
+- Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
+- Созданы concept-заметки: [[LLM Engineering/Стоимость LLM-запросов|Стоимость LLM-запросов]], [[LLM Engineering/Cost Optimization|Cost Optimization]], [[LLM Engineering/Исключение ненужных вызовов LLM|Исключение ненужных вызовов LLM]], [[LLM Engineering/Model Routing|Model Routing]], [[LLM Engineering/Prompt Caching|Prompt Caching]], [[LLM Engineering/Production Pipeline LLM-приложения|Production Pipeline LLM-приложения]].
+- [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: блок Cost Optimization переведён в `learned`, Production Pipeline добавлен в production architecture.
+- LLM Engineering отмечен в Roadmap как `Foundation Completed`; следующим модулем выбран [[RAG/Index|RAG]].
+- Отсутствующие related-термины сохранены как unresolved wikilinks; автоматические stub-заметки не создавались.
+- Обновлены Dashboard, Knowledge Map, Roadmap и оба индекса LLM Engineering.
+
+### 🧠 Weak spots
+
+- Практическая реализация Semantic Cache.
+- Реализация Model Router для сложных production-сценариев.
+- Практические инструменты мониторинга стоимости запросов.
+
+### Повторяющиеся ошибки
+
+- Не выявлены.
+
+### Следующий шаг
+
+- Завершить LLM Engineering как Foundation Completed и перейти к модулю [[RAG/Index|RAG]], где будут использоваться знания о Context Window, Memory Management, Tool Calling и Production Pipeline.
+
 ## 2026-07-10 (KNOWLEDGE_EXPORT sync: LLM Engineering — Context Window & Memory Management)
 
 ### ✅ Синхронизировано

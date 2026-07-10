@@ -223,26 +223,25 @@ updated: 2026-07-10
 **Требует повторения:** математический смысл `QK^T`, самостоятельное восстановление pipeline и чтение исходного кода Transformer.
 **Следующий шаг:** завершить модуль Transformer на текущем уровне и перейти к LLM Engineering, RAG и AI Agents.
 
-## Фаза 3.5: LLM Engineering 🚧 In progress
+## Фаза 3.5: LLM Engineering ✅ Foundation Completed
 
 **План модуля создан:** [[LLM Engineering/Plan|LLM Engineering Plan]]
 
 **Цель:** научиться строить production-подобные приложения поверх LLM API: prompts, structured output, function calling, streaming, context engineering, cost optimization и production patterns.
 
 **Learning Path:**
-- Основы LLM API ⏳
-- Prompt Engineering ⏳
-- Structured Output ⏳
+- Основы LLM API ✅
+- Prompt Engineering ✅
+- Structured Output ✅
 - Function Calling ✅
 - Streaming ✅
 - Context Engineering ✅
-- Cost Optimization ⏳
+- Cost Optimization ✅
 - Production Patterns ⏳
 - Работа с несколькими провайдерами ⏳
 - Финальный production-подобный сервис ⏳
 
-**Статус:** module plan готов, concept-заметки пока не создавались.
-**Следующий шаг:** начать с блока [[LLM Engineering/Plan|Основы LLM API]].
+**Статус:** фундамент LLM Engineering пройден; расширенные production patterns остаются в roadmap для последующего углубления.
 
 **LLM Engineering API Integration синхронизирован:**
 - [[LLM Engineering/OpenRouter через OpenAI SDK|OpenRouter через OpenAI SDK]] ✅ — OpenAI-compatible API через `base_url`
@@ -298,7 +297,18 @@ updated: 2026-07-10
 
 **Требует практического повторения:** расчёт токенов для сложных запросов, production-реализация Summary и Sliding Window.
 **Прогресс LLM Engineering:** изучены ключевые темы блоков от “Основы LLM API” до “Context Engineering”; модуль остаётся в процессе.
-**Следующий шаг:** перейти к Cost Optimization: факторы стоимости и инженерные стратегии снижения расходов.
+
+**LLM Engineering Cost Optimization & Production Architecture синхронизирован:**
+- [[LLM Engineering/Стоимость LLM-запросов|Стоимость LLM-запросов]] ✅ — input/output tokens и тарифы модели
+- [[LLM Engineering/Cost Optimization|Cost Optimization]] ✅ — системное снижение стоимости без потери качества
+- [[LLM Engineering/Исключение ненужных вызовов LLM|Исключение ненужных вызовов LLM]] ✅ — обработка простых задач backend-кодом
+- [[LLM Engineering/Model Routing|Model Routing]] ✅ — выбор минимально достаточной модели
+- [[LLM Engineering/Prompt Caching|Prompt Caching]] ✅ — повторное использование стабильного prompt-префикса
+- [[LLM Engineering/Production Pipeline LLM-приложения|Production Pipeline LLM-приложения]] ✅ — LLM как один из сервисов backend
+
+**Статус LLM Engineering:** Foundation Completed. Ключевые основы API, prompts, structured output, tools, streaming, context management, cost optimization и production pipeline изучены.
+**Требует практического повторения:** Semantic Cache, сложный Model Router и мониторинг стоимости.
+**Следующий шаг:** перейти к [[RAG/Index|RAG]], используя знания о Context Window, Memory Management, Tool Calling и Production Pipeline.
 
 ## Фаза 4: PyTorch 🚀 Active
 
