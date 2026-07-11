@@ -142,7 +142,7 @@ Topics:
 
 ### 5. Retrieval
 
-status: not_started
+status: learning
 
 Коротко: научиться извлекать релевантные документы и управлять полнотой, точностью и ограничениями выдачи.
 
@@ -158,8 +158,9 @@ Related concepts:
 
 Topics:
 
+- [[RAG/Retrieval|Retrieval]] — learned
 - Similarity Search
-- Top-K
+- [[RAG/Top-K Retrieval|Top-K Retrieval]] — learned
 - Threshold
 - Metadata Filtering
 - Dense Retrieval
@@ -170,7 +171,7 @@ Topics:
 
 ### 6. Hybrid Search
 
-status: not_started
+status: learning
 
 Коротко: объединить семантический и лексический поиск, когда одного embedding-поиска недостаточно.
 
@@ -183,13 +184,13 @@ Topics:
 - Dense Search
 - Sparse Search
 - BM25
-- Hybrid Search
+- [[RAG/Hybrid Search|Hybrid Search]] — learned
 - Reciprocal Rank Fusion (RRF)
 - Когда использовать каждый подход
 
 ### 7. Reranking
 
-status: not_started
+status: learning
 
 Коротко: научиться повторно ранжировать найденные документы более точной моделью перед передачей контекста LLM.
 
@@ -206,7 +207,7 @@ Topics:
 
 - Cross Encoder
 - Bi Encoder
-- Reranker
+- [[RAG/Reranking|Reranking]] — learned
 - Late Interaction
 - ColBERT
 - Top-K → Rerank → Top-N

@@ -26,6 +26,10 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 - [[RAG/Fixed-size Chunking|Fixed-size Chunking]]
 - [[RAG/Chunk Overlap|Chunk Overlap]]
 - [[RAG/Recursive Chunking|Recursive Chunking]]
+- [[RAG/Retrieval|Retrieval]]
+- [[RAG/Top-K Retrieval|Top-K Retrieval]]
+- [[RAG/Reranking|Reranking]]
+- [[RAG/Hybrid Search|Hybrid Search]]
 
 ## Learning Path
 

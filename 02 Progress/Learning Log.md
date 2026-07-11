@@ -9,6 +9,29 @@ updated: 2026-07-11
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Retrieval Pipeline II)
+
+### ✅ Синхронизировано
+
+- Экспорт `Retrieval Augmented Generation` синхронизирован в ранее подтверждённую canonical Knowledge Area [[RAG/Index|RAG]]; новая область не создавалась.
+- Созданы concept-заметки: [[RAG/Retrieval|Retrieval]], [[RAG/Top-K Retrieval|Top-K Retrieval]], [[RAG/Reranking|Reranking]], [[RAG/Hybrid Search|Hybrid Search]].
+- [[RAG/Plan|RAG Plan]] обновлён: этапы Retrieval, Hybrid Search и Reranking переведены в `learning`.
+- Обновлены RAG Index, внешний RAG Index, Dashboard, Knowledge Map и Roadmap.
+- Отсутствующие related-термины сохранены как unresolved wikilinks; пустые stub-файлы не создавались.
+
+### 🧠 Weak spots
+
+- Пока отсутствует понимание конкретного алгоритма объединения результатов Hybrid Search через RRF.
+- Требуется изучение метрик оценки качества Retrieval.
+
+### Повторяющиеся ошибки
+
+- Периодически используется термин «Top-K embeddings», хотя в LLM передаются найденные chunks, а embeddings используются только для поиска.
+
+### Следующий шаг
+
+- Изучить Reciprocal Rank Fusion (RRF), затем перейти к метрикам Evaluation: Recall, Precision, Hit Rate, MRR и NDCG.
+
 ## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Retrieval Pipeline)
 
 ### ✅ Синхронизировано

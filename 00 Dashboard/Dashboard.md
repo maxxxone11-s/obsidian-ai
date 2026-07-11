@@ -42,14 +42,15 @@ updated: 2026-07-11
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 321 |
-| Изучено | 264 |
+| Всего концепций | 325 |
+| Изучено | 268 |
 | В процессе | 0 |
 | Требует повтора | 7 |
 | Черновики | 50 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-11** — Синхронизация RAG Retrieval Pipeline II: Retrieval, Top-K Retrieval, Reranking и Hybrid Search
 - **2026-07-11** — Синхронизация RAG Retrieval Pipeline: архитектура RAG, Embedding, Cosine Similarity, Chunk, Fixed-size Chunking, Chunk Overlap и Recursive Chunking
 - **2026-07-10** — Инициализирован модуль RAG: создан module plan, внутренний и внешний индексы; concept-заметки не создавались
 - **2026-07-10** — Синхронизация LLM Engineering Cost Optimization & Production Architecture: token cost, LLM bypass, model routing, prompt caching и production pipeline

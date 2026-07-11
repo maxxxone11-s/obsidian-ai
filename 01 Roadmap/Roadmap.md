@@ -322,9 +322,9 @@ updated: 2026-07-11
 - Embeddings 🚧
 - Chunking 🚧
 - Vector Database ⏳
-- Retrieval ⏳
-- Hybrid Search ⏳
-- Reranking ⏳
+- Retrieval 🚧
+- Hybrid Search 🚧
+- Reranking 🚧
 - Generation ⏳
 - Evaluation ⏳
 - Production RAG ⏳
@@ -341,10 +341,17 @@ updated: 2026-07-11
 - [[RAG/Chunk Overlap|Chunk Overlap]] ✅ — сохранение контекста на границах
 - [[RAG/Recursive Chunking|Recursive Chunking]] ✅ — иерархическое разбиение по естественным границам
 
-**Статус:** `learning`; основы RAG, embeddings и базовый chunking изучены, остальные темы этапов остаются в работе.
+**RAG Retrieval Pipeline II синхронизирован:**
+
+- [[RAG/Retrieval|Retrieval]] ✅ — быстрый отбор релевантных chunks
+- [[RAG/Top-K Retrieval|Top-K Retrieval]] ✅ — ограничение числа кандидатов
+- [[RAG/Reranking|Reranking]] ✅ — точная повторная оценка найденных документов
+- [[RAG/Hybrid Search|Hybrid Search]] ✅ — объединение semantic и keyword search
+
+**Статус:** `learning`; основы RAG, embeddings, базовый chunking и базовая retrieval-архитектура изучены, расширенные алгоритмы остаются в работе.
 **Предварительные знания:** [[LLM Engineering/Index|LLM Engineering]], [[Transformers/Index|Transformers]], [[Machine Learning/Index|Machine Learning]], [[Python Backend/Index|Python Backend]], [[AI Agents/Index|AI Agents]].
-**Требует повторения:** различие Embedding Model и внутреннего Embedding Layer, влияние большого overlap, последний уровень разделения Recursive Chunking.
-**Следующий шаг:** изучить Semantic Chunking и сравнить его с Recursive Chunking на реальных документах.
+**Требует повторения:** алгоритм объединения результатов Hybrid Search через RRF и метрики оценки retrieval.
+**Следующий шаг:** изучить Reciprocal Rank Fusion (RRF), затем Recall, Precision, Hit Rate, MRR и NDCG.
 
 ## Фаза 4: PyTorch 🚀 Active
 

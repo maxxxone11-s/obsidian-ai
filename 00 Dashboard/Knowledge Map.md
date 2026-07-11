@@ -337,6 +337,10 @@ updated: 2026-07-11
 - [[RAG/Fixed-size Chunking|Fixed-size Chunking]]
 - [[RAG/Chunk Overlap|Chunk Overlap]]
 - [[RAG/Recursive Chunking|Recursive Chunking]]
+- [[RAG/Retrieval|Retrieval]]
+- [[RAG/Top-K Retrieval|Top-K Retrieval]]
+- [[RAG/Reranking|Reranking]]
+- [[RAG/Hybrid Search|Hybrid Search]]
 
 ### Планируемые блоки
 
@@ -347,7 +351,7 @@ updated: 2026-07-11
 - Generation и Evaluation
 - Production RAG и Advanced RAG
 
-Основы RAG, embeddings и базовые стратегии chunking находятся в изучении.
+Основы RAG, embeddings, chunking, retrieval, reranking и hybrid search находятся в изучении.
 
 ## LLM Engineering
 
