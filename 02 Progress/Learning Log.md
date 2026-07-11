@@ -9,6 +9,32 @@ updated: 2026-07-11
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Evaluation)
+
+### ✅ Синхронизировано
+
+- Экспорт `Retrieval Augmented Generation` синхронизирован в canonical Knowledge Area [[RAG/Index|RAG]]; новая область не создавалась.
+- Созданы concept-заметки: [[RAG/Evaluation|Evaluation]], [[RAG/Ground Truth|Ground Truth]], [[RAG/Mean Reciprocal Rank (MRR)|Mean Reciprocal Rank (MRR)]], [[RAG/Hit Rate|Hit Rate]], [[RAG/Normalized Discounted Cumulative Gain (NDCG)|NDCG]].
+- Обновлена существующая [[Machine Learning/Accuracy Precision Recall и F1|Accuracy, Precision, Recall и F1]]: добавлены retrieval-интерпретации Precision и Recall без создания дубликатов.
+- [[RAG/Plan|RAG Plan]] обновлён: этап Evaluation переведён в `learning`.
+- Обновлены RAG Index, внешний RAG Index, Dashboard, Knowledge Map и Roadmap.
+- Related-термины без собственного материала сохранены как unresolved wikilinks; пустые stub-файлы не создавались.
+
+### 🧠 Weak spots
+
+- Требуется более глубокое понимание математической формулы NDCG.
+- Требуется изучить Generation Evaluation без Ground Truth.
+- Требуется изучить применение Retrieval Metrics к оценке reranker.
+
+### Повторяющиеся ошибки
+
+- Иногда используется слово «ответ» вместо «релевантный документ».
+- Иногда путаются Rank и Reciprocal Rank.
+
+### Следующий шаг
+
+- Перейти к Generation Evaluation: Faithfulness, Answer Relevancy, Context Precision, Context Recall, LLM-as-a-Judge и Human Evaluation.
+
 ## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Retrieval Pipeline II)
 
 ### ✅ Синхронизировано

@@ -341,6 +341,12 @@ updated: 2026-07-11
 - [[RAG/Top-K Retrieval|Top-K Retrieval]]
 - [[RAG/Reranking|Reranking]]
 - [[RAG/Hybrid Search|Hybrid Search]]
+- [[RAG/Evaluation|Evaluation]]
+- [[RAG/Ground Truth|Ground Truth]]
+- [[Machine Learning/Accuracy Precision Recall и F1|Precision и Recall]]
+- [[RAG/Mean Reciprocal Rank (MRR)|Mean Reciprocal Rank (MRR)]]
+- [[RAG/Hit Rate|Hit Rate]]
+- [[RAG/Normalized Discounted Cumulative Gain (NDCG)|NDCG]]
 
 ### Планируемые блоки
 
@@ -351,7 +357,7 @@ updated: 2026-07-11
 - Generation и Evaluation
 - Production RAG и Advanced RAG
 
-Основы RAG, embeddings, chunking, retrieval, reranking и hybrid search находятся в изучении.
+Основы RAG, embeddings, chunking, retrieval, reranking, hybrid search и retrieval evaluation находятся в изучении.
 
 ## LLM Engineering
 

@@ -326,7 +326,7 @@ updated: 2026-07-11
 - Hybrid Search 🚧
 - Reranking 🚧
 - Generation ⏳
-- Evaluation ⏳
+- Evaluation 🚧
 - Production RAG ⏳
 - Advanced RAG ⏳
 - Финальный проект ⏳
@@ -348,10 +348,19 @@ updated: 2026-07-11
 - [[RAG/Reranking|Reranking]] ✅ — точная повторная оценка найденных документов
 - [[RAG/Hybrid Search|Hybrid Search]] ✅ — объединение semantic и keyword search
 
-**Статус:** `learning`; основы RAG, embeddings, базовый chunking и базовая retrieval-архитектура изучены, расширенные алгоритмы остаются в работе.
+**RAG Evaluation синхронизирован:**
+
+- [[RAG/Evaluation|Evaluation]] ✅ — количественное сравнение изменений RAG
+- [[RAG/Ground Truth|Ground Truth]] ✅ — эталон релевантных документов
+- [[Machine Learning/Accuracy Precision Recall и F1|Precision и Recall]] ✅ — чистота и полнота retrieval
+- [[RAG/Mean Reciprocal Rank (MRR)|Mean Reciprocal Rank (MRR)]] ✅ — позиция первого релевантного документа
+- [[RAG/Hit Rate|Hit Rate]] ✅ — наличие хотя бы одного релевантного документа в Top-K
+- [[RAG/Normalized Discounted Cumulative Gain (NDCG)|NDCG]] ✅ — качество всего ранжированного списка
+
+**Статус:** `learning`; основы retrieval evaluation изучены, Generation Evaluation и расширенные алгоритмы остаются в работе.
 **Предварительные знания:** [[LLM Engineering/Index|LLM Engineering]], [[Transformers/Index|Transformers]], [[Machine Learning/Index|Machine Learning]], [[Python Backend/Index|Python Backend]], [[AI Agents/Index|AI Agents]].
-**Требует повторения:** алгоритм объединения результатов Hybrid Search через RRF и метрики оценки retrieval.
-**Следующий шаг:** изучить Reciprocal Rank Fusion (RRF), затем Recall, Precision, Hit Rate, MRR и NDCG.
+**Требует повторения:** математическая формула NDCG, применение retrieval-метрик к reranker и Generation Evaluation без Ground Truth.
+**Следующий шаг:** перейти к Generation Evaluation: Faithfulness, Answer Relevancy, Context Precision, Context Recall, LLM-as-a-Judge и Human Evaluation.
 
 ## Фаза 4: PyTorch 🚀 Active
 

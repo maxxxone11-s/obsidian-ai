@@ -242,7 +242,7 @@ Topics:
 
 ### 9. Evaluation
 
-status: not_started
+status: learning
 
 Коротко: измерять качество retrieval и ответа, отделяя нахождение документов от генерации по найденному контексту.
 
@@ -257,11 +257,13 @@ Related concepts:
 
 Topics:
 
-- Recall
-- Precision
-- MRR
-- NDCG
-- Hit Rate
+- [[RAG/Evaluation|Evaluation]] — learned
+- [[RAG/Ground Truth|Ground Truth]] — learned
+- [[Machine Learning/Accuracy Precision Recall и F1|Recall]] — learned
+- [[Machine Learning/Accuracy Precision Recall и F1|Precision]] — learned
+- [[RAG/Mean Reciprocal Rank (MRR)|Mean Reciprocal Rank (MRR)]] — learned
+- [[RAG/Normalized Discounted Cumulative Gain (NDCG)|NDCG]] — learned
+- [[RAG/Hit Rate|Hit Rate]] — learned
 - Faithfulness
 - Groundedness
 - Answer Relevancy

@@ -31,6 +31,12 @@ tags:
 - [[RAG/Top-K Retrieval|Top-K Retrieval]]
 - [[RAG/Reranking|Reranking]]
 - [[RAG/Hybrid Search|Hybrid Search]]
+- [[RAG/Evaluation|Evaluation]]
+- [[RAG/Ground Truth|Ground Truth]]
+- [[Machine Learning/Accuracy Precision Recall и F1|Precision и Recall]]
+- [[RAG/Mean Reciprocal Rank (MRR)|Mean Reciprocal Rank (MRR)]]
+- [[RAG/Hit Rate|Hit Rate]]
+- [[RAG/Normalized Discounted Cumulative Gain (NDCG)|NDCG]]
 
 ## Learning Path
 
