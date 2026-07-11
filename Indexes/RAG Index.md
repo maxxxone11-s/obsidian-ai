@@ -37,6 +37,11 @@ tags:
 - [[RAG/Mean Reciprocal Rank (MRR)|Mean Reciprocal Rank (MRR)]]
 - [[RAG/Hit Rate|Hit Rate]]
 - [[RAG/Normalized Discounted Cumulative Gain (NDCG)|NDCG]]
+- [[RAG/Faithfulness|Faithfulness]]
+- [[RAG/Answer Relevancy|Answer Relevancy]]
+- [[RAG/Context Precision|Context Precision]]
+- [[RAG/Context Recall|Context Recall]]
+- [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]]
 
 ## Learning Path
 

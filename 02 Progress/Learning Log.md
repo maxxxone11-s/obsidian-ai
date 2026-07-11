@@ -9,6 +9,32 @@ updated: 2026-07-11
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Generation Evaluation)
+
+### ✅ Синхронизировано
+
+- Экспорт `Retrieval Augmented Generation` синхронизирован в canonical Knowledge Area [[RAG/Index|RAG]]; новая область не создавалась.
+- Созданы concept-заметки: [[RAG/Faithfulness|Faithfulness]], [[RAG/Answer Relevancy|Answer Relevancy]], [[RAG/Context Precision|Context Precision]], [[RAG/Context Recall|Context Recall]], [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]].
+- Groundedness объединён с [[RAG/Faithfulness|Faithfulness]] как алиас; отдельная дублирующая заметка не создавалась.
+- [[RAG/Plan|RAG Plan]] обновлён: этап Evaluation переведён в `learned`.
+- Обновлены RAG Index, внешний RAG Index, Dashboard, Knowledge Map и Roadmap.
+- Related-термины без учебного материала сохранены как unresolved wikilinks; пустые stubs не создавались.
+
+### 🧠 Weak spots
+
+- Требуется практическое понимание реализации LLM-as-a-Judge.
+- Требуется изучение evaluation-фреймворков Ragas, DeepEval и LangSmith.
+- Требуется изучение полного Production RAG Pipeline.
+
+### Повторяющиеся ошибки
+
+- Иногда используется термин «ответ» вместо «контекст» при объяснении Retrieval и Context Metrics.
+- Иногда смешиваются уровни оценки Retrieval, Context и Generation.
+
+### Следующий шаг
+
+- Перейти к Production RAG Pipeline: Documents → Chunking → Embeddings → Vector Database → Retriever → Reranker → Prompt Construction → LLM → Answer, затем разобрать реализацию на Python и современных RAG-фреймворках.
+
 ## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Evaluation)
 
 ### ✅ Синхронизировано

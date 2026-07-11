@@ -326,7 +326,7 @@ updated: 2026-07-11
 - Hybrid Search 🚧
 - Reranking 🚧
 - Generation ⏳
-- Evaluation 🚧
+- Evaluation ✅
 - Production RAG ⏳
 - Advanced RAG ⏳
 - Финальный проект ⏳
@@ -357,10 +357,18 @@ updated: 2026-07-11
 - [[RAG/Hit Rate|Hit Rate]] ✅ — наличие хотя бы одного релевантного документа в Top-K
 - [[RAG/Normalized Discounted Cumulative Gain (NDCG)|NDCG]] ✅ — качество всего ранжированного списка
 
-**Статус:** `learning`; основы retrieval evaluation изучены, Generation Evaluation и расширенные алгоритмы остаются в работе.
+**RAG Generation Evaluation синхронизирован:**
+
+- [[RAG/Faithfulness|Faithfulness]] ✅ — подтверждение claims переданным контекстом
+- [[RAG/Answer Relevancy|Answer Relevancy]] ✅ — соответствие ответа вопросу
+- [[RAG/Context Precision|Context Precision]] ✅ — чистота итогового контекста
+- [[RAG/Context Recall|Context Recall]] ✅ — полнота информации для ответа
+- [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]] ✅ — автоматизированная оценка сложных свойств ответа
+
+**Статус:** `learning`; блок Evaluation изучен, остальные этапы RAG остаются в работе.
 **Предварительные знания:** [[LLM Engineering/Index|LLM Engineering]], [[Transformers/Index|Transformers]], [[Machine Learning/Index|Machine Learning]], [[Python Backend/Index|Python Backend]], [[AI Agents/Index|AI Agents]].
-**Требует повторения:** математическая формула NDCG, применение retrieval-метрик к reranker и Generation Evaluation без Ground Truth.
-**Следующий шаг:** перейти к Generation Evaluation: Faithfulness, Answer Relevancy, Context Precision, Context Recall, LLM-as-a-Judge и Human Evaluation.
+**Требует повторения:** практическая реализация LLM-as-a-Judge и выбор evaluation-фреймворка.
+**Следующий шаг:** перейти к полному Production RAG Pipeline и разобрать реализацию на Python и современных RAG-фреймворках.
 
 ## Фаза 4: PyTorch 🚀 Active
 

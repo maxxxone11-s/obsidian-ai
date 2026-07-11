@@ -42,14 +42,15 @@ updated: 2026-07-11
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 330 |
-| Изучено | 273 |
+| Всего концепций | 335 |
+| Изучено | 278 |
 | В процессе | 0 |
 | Требует повтора | 7 |
 | Черновики | 50 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-11** — Синхронизация RAG Generation Evaluation: Faithfulness, Answer Relevancy, Context Precision, Context Recall и LLM-as-a-Judge
 - **2026-07-11** — Синхронизация RAG Evaluation: Ground Truth, Precision, Recall, MRR, Hit Rate и NDCG
 - **2026-07-11** — Синхронизация RAG Retrieval Pipeline II: Retrieval, Top-K Retrieval, Reranking и Hybrid Search
 - **2026-07-11** — Синхронизация RAG Retrieval Pipeline: архитектура RAG, Embedding, Cosine Similarity, Chunk, Fixed-size Chunking, Chunk Overlap и Recursive Chunking

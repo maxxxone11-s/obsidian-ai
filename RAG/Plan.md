@@ -242,7 +242,7 @@ Topics:
 
 ### 9. Evaluation
 
-status: learning
+status: learned
 
 Коротко: измерять качество retrieval и ответа, отделяя нахождение документов от генерации по найденному контексту.
 
@@ -264,9 +264,12 @@ Topics:
 - [[RAG/Mean Reciprocal Rank (MRR)|Mean Reciprocal Rank (MRR)]] — learned
 - [[RAG/Normalized Discounted Cumulative Gain (NDCG)|NDCG]] — learned
 - [[RAG/Hit Rate|Hit Rate]] — learned
-- Faithfulness
-- Groundedness
-- Answer Relevancy
+- [[RAG/Faithfulness|Faithfulness]] — learned
+- [[RAG/Faithfulness|Groundedness]] — learned
+- [[RAG/Answer Relevancy|Answer Relevancy]] — learned
+- [[RAG/Context Precision|Context Precision]] — learned
+- [[RAG/Context Recall|Context Recall]] — learned
+- [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]] — learned
 
 ### 10. Production RAG
 
