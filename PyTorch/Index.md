@@ -2,7 +2,7 @@
 type: index
 area: PyTorch
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-11
 tags:
   - index
   - system
@@ -98,7 +98,7 @@ tags:
 - [[Архитектура ML-проекта]] — понимание проекта по структуре файлов
 - [[Модель как универсальная функция]] — модель как `features -> prediction`
 - [[train.py как центр обучения]] — независимость train loop от источника данных
-- [[Dataset]] — replaceable Dataset через стабильный интерфейс
+- [[PyTorch/PyTorch Dataset]] — replaceable Dataset через стабильный интерфейс
 - [[Интерфейс Dataset DataLoader Model]] — контракт между компонентами
 - [[Интерфейс важнее реализации]] — interface over implementation
 - [[Повторение терминов PyTorch Foundations]] — связанный словарь модуля
@@ -106,7 +106,7 @@ tags:
 ### Основы PyTorch
 - [[Autograd]] — автоматическое дифференцирование
 - Динамические графы вычислений
-- [[Dataset]] — источник данных
+- [[PyTorch/PyTorch Dataset]] — источник данных
 - [[DataLoader]] — batch-загрузка данных
 
 ### Модели и слои

@@ -57,7 +57,7 @@ properties:
 
 ## Связанные темы
 
-[[Structured Output]] · [[Pydantic в Structured Output]] · [[Validation]] · [[Python Backend/FastAPI|FastAPI]]
+[[Structured Output]] · [[Pydantic в Structured Output]] · [[LLM Engineering/Response Validation]] · [[Python Backend/FastAPI|FastAPI]]
 
 ## Вопросы для проверки
 

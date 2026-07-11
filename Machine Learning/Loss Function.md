@@ -90,4 +90,4 @@ Loss = (6 - 12)^2
 
 ## Связанные темы
 
-- [[Gradient Descent]] · [[Machine Learning/Mathematics/MSE|MSE]] · [[Machine Learning/Mathematics/MAE|MAE]] · [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]] · [[Overfitting]]
+- [[Gradient Descent]] · [[Machine Learning/Mathematics/MSE|MSE]] · [[Machine Learning/Mathematics/MAE|MAE]] · [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]] · [[Machine Learning/Overfitting]]

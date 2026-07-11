@@ -2,7 +2,7 @@
 type: index
 area: LLM Engineering
 created: 2026-06-26
-updated: 2026-07-10
+updated: 2026-07-11
 tags:
   - index
   - system
@@ -68,7 +68,7 @@ tags:
 - [[JSON Schema]]
 - [[Pydantic в Structured Output]]
 - Parsing
-- [[Validation]]
+- [[LLM Engineering/Response Validation]]
 - [[Error Recovery]]
 
 ### Function Calling

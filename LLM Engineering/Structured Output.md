@@ -56,7 +56,7 @@ User
 
 ## Связанные темы
 
-[[Output Formatting]] · [[JSON Schema]] · [[Pydantic в Structured Output]] · [[Validation]]
+[[Output Formatting]] · [[JSON Schema]] · [[Pydantic в Structured Output]] · [[LLM Engineering/Response Validation]]
 
 ## Вопросы для проверки
 

@@ -2,7 +2,7 @@
 type: index
 area: Neural Networks
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-07-11
 tags:
   - index
   - system
@@ -84,14 +84,14 @@ tags:
 - [[Adam]]
 
 ### Regularization
-- [[Overfitting]]
+- [[Machine Learning/Overfitting]]
 - [[Dropout]]
 - [[Batch Normalization]]
 
 ### Dataset, Evaluation и Inference
-- [[Dataset]]
+- [[Neural Networks/Dataset для обучения модели]]
 - [[Train Set]]
-- [[Validation]]
+- [[Neural Networks/Validation Set]]
 - [[Test Set]]
 - [[Train Validation Test]]
 - [[Inference]]

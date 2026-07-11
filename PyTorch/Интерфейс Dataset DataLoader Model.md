@@ -64,4 +64,4 @@ Dataset может читать JPEG, PNG, PostgreSQL или Amazon S3. Model о
 
 ## Связанные темы
 
-- [[Dataset]] · [[DataLoader]] · [[Separation of Concerns]] · [[Интерфейс важнее реализации]] · [[nn.Module]]
+- [[PyTorch/PyTorch Dataset]] · [[DataLoader]] · [[Separation of Concerns]] · [[Интерфейс важнее реализации]] · [[nn.Module]]

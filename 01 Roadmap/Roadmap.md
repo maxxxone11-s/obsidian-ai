@@ -66,7 +66,7 @@ updated: 2026-07-11
 
 **Data Preparation после рефакторинга:**
 - [[Feature Scaling]] превращён в overview ✅
-- [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Standardization|Standardization]], [[Fit Transform и Data Leakage]] ✅
+- [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Feature Standardization|Standardization]], [[Fit Transform и Data Leakage]] ✅
 - [[Scaling и Gradient Descent]], [[Scaling для KNN и SVM]], [[Scaling и Tree-Based Models]] ✅
 
 **Прогресс модуля:** 22/23 ключевых тем learned, 1 тема needs_review.
@@ -80,26 +80,26 @@ updated: 2026-07-11
 - [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]] ✅ — усиление больших ошибок
 - [[Statistics/Standard Deviation|Standard Deviation]] ✅ — разброс в исходных единицах
 - [[Statistics/Min-Max Normalization|Min-Max Normalization]] ✅ — scaling к диапазону 0..1
-- [[Statistics/Standardization|Standardization]] ✅ — mean 0 и standard deviation 1
+- [[Statistics/Z-score Standardization|Standardization]] ✅ — mean 0 и standard deviation 1
 - [[Statistics/Z-score|Z-score]] ✅ — расстояние от среднего в единицах standard deviation
 - [[Statistics/Normal Distribution|Normal Distribution]] ✅ — normal distribution и правило 68-95-99.7
 - [[Statistics/Связь основных статистических понятий|Связь основных статистических понятий]] ✅ — связка Mean → Variance → Std → Z-score
 
 **Прогресс модуля:** 9/9 ключевых тем learned.
-**Formula Update:** добавлены формулы для [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Standardization|Standardization]], [[Statistics/Z-score|Z-score]] и [[Statistics/Normal Distribution|Normal Distribution]].
+**Formula Update:** добавлены формулы для [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Z-score Standardization|Standardization]], [[Statistics/Z-score|Z-score]] и [[Statistics/Normal Distribution|Normal Distribution]].
 **Требует повторения:** различие между Standardization и Normalization в терминологии, интерпретация Standard Deviation как возврата к исходным единицам измерения.
 **Следующий шаг:** изучить поиск выбросов с помощью Z-score и статистическую подготовку данных в NumPy, pandas и scikit-learn.
 
 ## Фаза 3: Neural Networks ✅ Completed
 
 **Модуль завершён:**
-- [[Neural Networks/Dataset|Dataset]], [[Train Set]], [[Neural Networks/Validation|Validation Set]], [[Test Set]] ✅ — data pipeline
+- [[Neural Networks/Dataset для обучения модели|Dataset]], [[Train Set]], [[Neural Networks/Validation Set|Validation Set]], [[Test Set]] ✅ — data pipeline
 - [[Feature]], [[Weights]], [[Bias]], [[Perceptron]], [[Model]] ✅ — фундамент нейрона и модели
 - [[Score]], [[Activation Function]], [[Sigmoid]], [[Tanh]], [[ReLU]], [[Leaky ReLU]], [[Softmax]] ✅ — функции активации
 - [[Forward Pass]], [[Loss]], [[Backpropagation]], [[Gradient]], [[Machine Learning/Gradient Descent|Gradient Descent]], [[Learning Rate]] ✅ — базовый цикл обучения
 - [[Optimizer]], [[Batch Gradient Descent]], [[SGD]], [[Mini-Batch Gradient Descent]], [[Momentum]], [[Adam]] ✅ — оптимизаторы
 - [[Batch]], [[Epoch]] ✅ — организация обучения
-- [[Neural Networks/Overfitting|Overfitting]], [[Dropout]], [[Batch Normalization]] ✅ — регуляризация
+- [[Machine Learning/Overfitting|Overfitting]], [[Dropout]], [[Batch Normalization]] ✅ — регуляризация
 - [[Inference]], [[model.train() и model.eval()]], [[torch.no_grad()]] ✅ — inference и PyTorch-preview
 - [[Chain Rule]] 🔁, [[Adam]] 🔁, [[Batch Normalization]] vs [[Machine Learning/Feature Scaling|Feature Scaling]] 🔁 — зоны повторения
 
@@ -268,7 +268,7 @@ updated: 2026-07-11
 - [[LLM Engineering/Structured Output|Structured Output]] ✅ — API-механизм структурированного ответа
 - [[LLM Engineering/JSON Schema|JSON Schema]] ✅ — контракт структуры JSON
 - [[LLM Engineering/Pydantic в Structured Output|Pydantic в Structured Output]] ✅ — single source of truth для структуры
-- [[LLM Engineering/Validation|Validation]] ✅ — проверка структуры ответа
+- [[LLM Engineering/Response Validation|Validation]] ✅ — проверка структуры ответа
 - [[LLM Engineering/Error Recovery|Error Recovery]] ✅ — восстановление после ошибок generation/validation
 
 **Прогресс LLM Engineering:** блоки “Основы LLM API”, “Prompt Engineering” и “Structured Output” имеют изученные ключевые темы.
@@ -398,7 +398,7 @@ updated: 2026-07-11
 **Следующий активный блок:**
 - [[PyTorch/Tensors/Tensor Operations|Tensor Operations]]
 - [[PyTorch/Autograd|Autograd]]
-- [[PyTorch/Dataset|Dataset]] и [[PyTorch/DataLoader|DataLoader]]
+- [[PyTorch/PyTorch Dataset|Dataset]] и [[PyTorch/DataLoader|DataLoader]]
 - [[PyTorch/nn.Module|nn.Module]]
 
 **PyTorch Foundations II синхронизирован:**
@@ -429,7 +429,7 @@ updated: 2026-07-11
 - [[PyTorch/model.py как отдельная ответственность|model.py как отдельная ответственность]] ✅ — файл модели
 - [[PyTorch/train.py как центр обучения|train.py как центр обучения]] ✅ — центр обучения
 - [[PyTorch/config.py|config.py]] ✅ — настройки проекта
-- [[PyTorch/Dataset|Dataset]] ✅ и [[PyTorch/DataLoader|DataLoader]] ✅ — данные и batch-интерфейс
+- [[PyTorch/PyTorch Dataset|Dataset]] ✅ и [[PyTorch/DataLoader|DataLoader]] ✅ — данные и batch-интерфейс
 - [[PyTorch/Separation of Concerns|Separation of Concerns]] ✅ — разделение ответственности
 - [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]] ✅ — контракт передачи данных
 - [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]] 🔁 — гиперпараметры vs параметры датасета
@@ -475,7 +475,7 @@ updated: 2026-07-11
 - [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]] ✅ — понимание проекта по структуре файлов
 - [[PyTorch/Модель как универсальная функция|Модель как универсальная функция]] ✅ — модель как `features -> prediction`
 - [[PyTorch/train.py как центр обучения|train.py как центр обучения]] ✅ — независимость train loop от источника данных
-- [[PyTorch/Dataset|Dataset]] ✅ и [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]] ✅ — replaceable Dataset через стабильный интерфейс
+- [[PyTorch/PyTorch Dataset|Dataset]] ✅ и [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]] ✅ — replaceable Dataset через стабильный интерфейс
 - [[PyTorch/Интерфейс важнее реализации|Интерфейс важнее реализации]] ✅ — interface over implementation
 - [[PyTorch/Повторение терминов PyTorch Foundations|Повторение терминов PyTorch Foundations]] ✅ — связанный словарь модуля
 

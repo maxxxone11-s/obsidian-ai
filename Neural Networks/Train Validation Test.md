@@ -16,7 +16,7 @@ difficulty: easy
 
 ## Простое объяснение
 
-Train используется для изменения весов модели. Validation позволяет контролировать качество во время обучения и замечать [[Overfitting]]. Test применяется один раз после завершения обучения для честной независимой оценки.
+Train используется для изменения весов модели. Validation позволяет контролировать качество во время обучения и замечать [[Machine Learning/Overfitting]]. Test применяется один раз после завершения обучения для честной независимой оценки.
 
 ## Зачем это нужно
 
@@ -57,4 +57,4 @@ test: 1500
 
 ## Связанные темы
 
-- [[Train Set]] · [[Validation]] · [[Test Set]] · [[Overfitting]] · [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]] · [[PyTorch/Dataset|Dataset]] · [[PyTorch/DataLoader|DataLoader]]
+- [[Train Set]] · [[Neural Networks/Validation Set]] · [[Test Set]] · [[Machine Learning/Overfitting]] · [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]] · [[PyTorch/PyTorch Dataset|Dataset]] · [[PyTorch/DataLoader|DataLoader]]

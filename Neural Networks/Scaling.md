@@ -34,4 +34,4 @@ Stub-заметка для связанной темы из импорта [[Opt
 
 ## Связанные темы
 
-- [[Optimizer]] · [[Batch]] · [[Overfitting]]
+- [[Optimizer]] · [[Batch]] · [[Machine Learning/Overfitting]]

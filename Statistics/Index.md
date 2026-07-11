@@ -3,7 +3,7 @@ type: index
 area: Statistics
 knowledge_area: Statistics
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-11
 tags:
   - index
   - system
@@ -21,7 +21,7 @@ tags:
 - [[Причина использования квадратов в статистике]]
 - [[Standard Deviation]]
 - [[Min-Max Normalization]]
-- [[Standardization]]
+- [[Statistics/Z-score Standardization]]
 - [[Z-score]]
 - [[Normal Distribution]]
 - [[Связь основных статистических понятий]]
@@ -35,13 +35,13 @@ tags:
 5. [[Z-score]]
 6. [[Normal Distribution]]
 7. [[Min-Max Normalization]]
-8. [[Standardization]]
+8. [[Statistics/Z-score Standardization]]
 9. [[Связь основных статистических понятий]]
 
 ## Связи с другими областями
 
 - [[Machine Learning/Feature Scaling|Feature Scaling]]
-- [[Machine Learning/Standardization|Standardization]]
+- [[Machine Learning/Feature Standardization|Standardization]]
 - [[Machine Learning/Normalization|Normalization]]
 - [[Machine Learning/Mathematics/MSE|MSE]]
 - [[Transformers/LayerNorm|LayerNorm]]

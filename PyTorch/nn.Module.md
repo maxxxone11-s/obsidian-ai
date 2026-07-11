@@ -69,4 +69,4 @@ class MyModel(nn.Module):
 
 ## Связь с Tensor Fundamentals
 
-[[nn.Module]] получает на вход [[Tensor]], ожидает корректный [[Shape]] и обычно используется вместе с [[Dataset]] и [[DataLoader]].
+[[nn.Module]] получает на вход [[Tensor]], ожидает корректный [[Shape]] и обычно используется вместе с [[PyTorch/PyTorch Dataset]] и [[DataLoader]].

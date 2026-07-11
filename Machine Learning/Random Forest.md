@@ -67,4 +67,4 @@ Decision Tree → Random Forest → XGBoost.
 
 - [[Logistic Regression]]
 
-- [[Decision Tree]] · [[XGBoost]] · [[Overfitting]]
+- [[Decision Tree]] · [[XGBoost]] · [[Machine Learning/Overfitting]]

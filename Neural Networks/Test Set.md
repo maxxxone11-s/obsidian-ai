@@ -57,6 +57,6 @@ Finished Training → Test Set → Final Accuracy.
 
 ## Связанные темы
 
-- [[Optimizer]] · [[Batch]] · [[Overfitting]]
+- [[Optimizer]] · [[Batch]] · [[Machine Learning/Overfitting]]
 
-- [[Train Set]] · [[Validation|Validation Set]] · [[Inference]]
+- [[Train Set]] · [[Neural Networks/Validation Set|Validation Set]] · [[Inference]]

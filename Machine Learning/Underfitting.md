@@ -56,8 +56,8 @@ print(f"Test loss: {test_loss}")    # высокая
 - Использовать слишком простую модель.
 - Давать модели недостаточно признаков.
 - Делать слишком сильную регуляризацию.
-- Путать underfitting с [[Overfitting]].
+- Путать underfitting с [[Machine Learning/Overfitting]].
 
 ## Связанные темы
 
-- [[Overfitting]] · [[Train Test Split]] · [[Loss Function]] · [[Feature Engineering]] · [[Cross Validation]]
+- [[Machine Learning/Overfitting]] · [[Train Test Split]] · [[Loss Function]] · [[Feature Engineering]] · [[Cross Validation]]

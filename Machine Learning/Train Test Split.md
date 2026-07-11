@@ -79,7 +79,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 ## Связанные темы
 
 - [[Feature Scaling]] — масштабировать после split!
-- [[Overfitting]] — проверяют с test set
+- [[Machine Learning/Overfitting]] — проверяют с test set
 - [[Loss Function]] — вычисляют на обоих наборах
 
-- [[Cross Validation]] · [[Overfitting]]
+- [[Cross Validation]] · [[Machine Learning/Overfitting]]

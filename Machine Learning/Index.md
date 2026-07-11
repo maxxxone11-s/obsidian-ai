@@ -2,7 +2,7 @@
 type: index
 area: Machine Learning
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-07-11
 tags:
   - index
   - system
@@ -98,7 +98,7 @@ tags:
 
 ### Evaluation
 - [[Train Test Split]]
-- [[Overfitting]]
+- [[Machine Learning/Overfitting]]
 - [[Underfitting]]
 - [[Cross Validation]]
 
@@ -110,7 +110,7 @@ tags:
 - [[Feature Engineering]]
 - [[Feature Scaling]]
 - [[Normalization]]
-- [[Standardization]]
+- [[Machine Learning/Feature Standardization]]
 - [[Fit Transform и Data Leakage]]
 - [[Scaling и Gradient Descent]]
 - [[Scaling для KNN и SVM]]

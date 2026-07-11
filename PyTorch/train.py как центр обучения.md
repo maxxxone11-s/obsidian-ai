@@ -80,4 +80,4 @@ optimizer.step()
 
 ## Связанные темы
 
-- [[PyTorch Training Loop]] · [[Dataset]] · [[DataLoader]] · [[nn.Module]] · [[torch.optim]] · [[Machine Learning/Loss Function|Loss]] · [[train_utils.py]] · [[Интерфейс Dataset DataLoader Model]]
+- [[PyTorch Training Loop]] · [[PyTorch/PyTorch Dataset]] · [[DataLoader]] · [[nn.Module]] · [[torch.optim]] · [[Machine Learning/Loss Function|Loss]] · [[train_utils.py]] · [[Интерфейс Dataset DataLoader Model]]

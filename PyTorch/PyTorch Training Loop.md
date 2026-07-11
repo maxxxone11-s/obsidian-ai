@@ -48,7 +48,7 @@ optimizer.step()
 - обновление параметров.
 
 Training Loop автоматизирует процесс, который раньше был выполнен вручную через [[Gradient Descent]].
-В проектной структуре он соединяет [[Dataset]], [[DataLoader]], [[nn.Module|Model]], [[Machine Learning/Loss Function|Loss]] и [[torch.optim|Optimizer]].
+В проектной структуре он соединяет [[PyTorch/PyTorch Dataset]], [[DataLoader]], [[nn.Module|Model]], [[Machine Learning/Loss Function|Loss]] и [[torch.optim|Optimizer]].
 
 ## Пример
 
@@ -82,7 +82,7 @@ for x, y in dataloader:
 
 ## Следующие темы
 
-- [[Dataset]]
+- [[PyTorch/PyTorch Dataset]]
 - [[DataLoader]]
 - [[train.py как центр обучения]]
 

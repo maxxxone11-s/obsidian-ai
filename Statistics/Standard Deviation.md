@@ -65,4 +65,4 @@ Standard Deviation = 3 см
 
 ## Связанные темы
 
-- [[Variance]] · [[Z-score]] · [[Statistics/Standardization|Standardization]] · [[Transformers/LayerNorm|LayerNorm]]
+- [[Variance]] · [[Z-score]] · [[Statistics/Z-score Standardization|Standardization]] · [[Transformers/LayerNorm|LayerNorm]]

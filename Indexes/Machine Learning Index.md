@@ -2,7 +2,7 @@
 type: index
 area: Machine Learning
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-11
 tags:
   - index
   - system
@@ -25,7 +25,7 @@ tags:
 - Feature engineering
 - [[Feature Scaling]] — приведение признаков к единому масштабу
 - [[Machine Learning/Normalization|Normalization]] — масштабирование к диапазону [0, 1]
-- [[Machine Learning/Standardization|Standardization]] — z-score нормализация
+- [[Machine Learning/Feature Standardization|Standardization]] — z-score нормализация
 - [[Fit Transform и Data Leakage]] — правильный scaling train/test
 - [[Scaling и Gradient Descent]] — влияние масштаба на оптимизацию
 - [[Scaling для KNN и SVM]] — distance-based модели
@@ -101,7 +101,7 @@ tags:
 - [[Feature Engineering]]
 - [[Feature Scaling]]
 - [[Machine Learning/Normalization|Normalization]]
-- [[Machine Learning/Standardization|Standardization]]
+- [[Machine Learning/Feature Standardization|Standardization]]
 - [[Fit Transform и Data Leakage]]
 - [[Scaling и Gradient Descent]]
 - [[Scaling для KNN и SVM]]

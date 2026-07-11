@@ -51,7 +51,7 @@ x' = (x - min(x)) / (max(x) - min(x))
 
 ## Типичные ошибки
 
-- Путать с [[Statistics/Standardization|Standardization]].
+- Путать с [[Statistics/Z-score Standardization|Standardization]].
 - Не учитывать влияние выбросов.
 
 ## Вопросы для проверки
@@ -61,8 +61,8 @@ x' = (x - min(x)) / (max(x) - min(x))
 
 ## Следующие темы
 
-- [[Statistics/Standardization|Standardization]]
+- [[Statistics/Z-score Standardization|Standardization]]
 
 ## Связанные темы
 
-- [[Statistics/Standardization|Standardization]] · [[Machine Learning/Normalization|Normalization]] · [[Machine Learning/Feature Scaling|Feature Scaling]]
+- [[Statistics/Z-score Standardization|Standardization]] · [[Machine Learning/Normalization|Normalization]] · [[Machine Learning/Feature Scaling|Feature Scaling]]

@@ -9,6 +9,26 @@ updated: 2026-07-11
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-11 (concept-name remediation)
+
+### ✅ Обновлено
+
+- Устранена неоднозначность Dataset: [[Neural Networks/Dataset для обучения модели|Dataset для обучения модели]] отделён от [[PyTorch/PyTorch Dataset|PyTorch Dataset]].
+- Разделены статистическая [[Statistics/Z-score Standardization|Z-score Standardization]] и её ML-применение [[Machine Learning/Feature Standardization|Feature Standardization]].
+- Разделены [[Neural Networks/Validation Set|Validation Set]] и [[LLM Engineering/Response Validation|Response Validation]].
+- Материал из прежнего `Neural Networks/Overfitting.md` объединён с canonical [[Machine Learning/Overfitting|Overfitting]]; сохранены neural-network пример, простое объяснение и связи с Dropout, Validation Set и Test Set.
+- Все pathless links `Dataset`, `Overfitting`, `Standardization` и `Validation` заменены path-qualified wikilinks по контексту.
+- Обновлены area indexes, global Indexes, Dashboard, Knowledge Map и Roadmap.
+
+### Результат
+
+- Количество concept notes уменьшилось с 341 до 340 только за счёт объединения Overfitting.
+- Domain-specific концепции больше не конкурируют за одинаковые pathless wikilinks.
+
+### Следующий шаг
+
+- Использовать только path-qualified wikilinks для концепций, чьи термины встречаются в нескольких Knowledge Areas.
+
 ## 2026-07-11 (аудит учебного диалога: RAG)
 
 ### ✅ Синхронизировано
@@ -240,7 +260,7 @@ updated: 2026-07-11
 ### ✅ Синхронизировано
 
 - Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
-- Созданы concept-заметки: [[LLM Engineering/Max Tokens|Max Tokens]], [[LLM Engineering/Stop Sequence|Stop Sequence]], [[LLM Engineering/Prompt Engineering|Prompt Engineering]], [[LLM Engineering/System Prompt|System Prompt]], [[LLM Engineering/User Prompt|User Prompt]], [[LLM Engineering/Prompt Templates|Prompt Templates]], [[LLM Engineering/Few-shot Prompting|Few-shot Prompting]], [[LLM Engineering/Delimiters|Delimiters]], [[LLM Engineering/Output Formatting|Output Formatting]], [[LLM Engineering/Structured Output|Structured Output]], [[LLM Engineering/JSON Schema|JSON Schema]], [[LLM Engineering/Pydantic в Structured Output|Pydantic в Structured Output]], [[LLM Engineering/Validation|Validation]], [[LLM Engineering/Error Recovery|Error Recovery]].
+- Созданы concept-заметки: [[LLM Engineering/Max Tokens|Max Tokens]], [[LLM Engineering/Stop Sequence|Stop Sequence]], [[LLM Engineering/Prompt Engineering|Prompt Engineering]], [[LLM Engineering/System Prompt|System Prompt]], [[LLM Engineering/User Prompt|User Prompt]], [[LLM Engineering/Prompt Templates|Prompt Templates]], [[LLM Engineering/Few-shot Prompting|Few-shot Prompting]], [[LLM Engineering/Delimiters|Delimiters]], [[LLM Engineering/Output Formatting|Output Formatting]], [[LLM Engineering/Structured Output|Structured Output]], [[LLM Engineering/JSON Schema|JSON Schema]], [[LLM Engineering/Pydantic в Structured Output|Pydantic в Structured Output]], [[LLM Engineering/Response Validation|Validation]], [[LLM Engineering/Error Recovery|Error Recovery]].
 - [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: `max_tokens` и `stop` отмечены как learned; блоки Prompt Engineering и Structured Output переведены в learned по изученным темам.
 
 ### 🧠 Weak spots
@@ -459,7 +479,7 @@ updated: 2026-07-11
 ### ✅ Синхронизировано
 
 - Формулы добавлены в существующие concept-заметки области [[Statistics/Index|Statistics]] без создания дублей.
-- Обновлены заметки: [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Standardization|Standardization]], [[Statistics/Z-score|Z-score]], [[Statistics/Normal Distribution|Normal Distribution]].
+- Обновлены заметки: [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Z-score Standardization|Standardization]], [[Statistics/Z-score|Z-score]], [[Statistics/Normal Distribution|Normal Distribution]].
 - `Math Statistic` не создавался как новая Knowledge Area; обновление применено к подтвержденной области [[Statistics/Index|Statistics]].
 
 ### Следующий шаг
@@ -472,9 +492,9 @@ updated: 2026-07-11
 
 - Создана новая Knowledge Area [[Statistics/Index|Statistics]] по явному подтверждению пользователя.
 - Модуль синхронизирован в `Statistics`, не в `Math Statistic`.
-- Созданы concept-заметки: [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Standardization|Standardization]], [[Statistics/Z-score|Z-score]], [[Statistics/Normal Distribution|Normal Distribution]], [[Statistics/Связь основных статистических понятий|Связь основных статистических понятий]].
+- Созданы concept-заметки: [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Z-score Standardization|Standardization]], [[Statistics/Z-score|Z-score]], [[Statistics/Normal Distribution|Normal Distribution]], [[Statistics/Связь основных статистических понятий|Связь основных статистических понятий]].
 - Созданы обзорные индексы: [[Statistics/Index|Statistics Index]] и [[Indexes/Statistics Index|Statistics Index]].
-- Связи проставлены на существующие темы [[Machine Learning/Feature Scaling|Feature Scaling]], [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Standardization|Standardization]], [[Machine Learning/Mathematics/MSE|MSE]] и [[Transformers/LayerNorm|LayerNorm]].
+- Связи проставлены на существующие темы [[Machine Learning/Feature Scaling|Feature Scaling]], [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Feature Standardization|Standardization]], [[Machine Learning/Mathematics/MSE|MSE]] и [[Transformers/LayerNorm|LayerNorm]].
 
 ### 🧠 Weak spots
 
@@ -538,7 +558,7 @@ updated: 2026-07-11
 
 - Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]]; новая Knowledge Area `ML Engineering` не создавалась.
 - Созданы concept-заметки: [[PyTorch/Как анализировать неизвестный код|Как анализировать неизвестный код]], [[PyTorch/Модель как универсальная функция|Модель как универсальная функция]], [[PyTorch/Интерфейс важнее реализации|Интерфейс важнее реализации]], [[PyTorch/Повторение терминов PyTorch Foundations|Повторение терминов PyTorch Foundations]].
-- Обновлены существующие концепции: [[PyTorch/Reading GitHub ML Projects|Reading GitHub ML Projects]], [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]], [[PyTorch/train.py как центр обучения|train.py как центр обучения]], [[PyTorch/Dataset|Dataset]], [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]], [[PyTorch/Separation of Concerns|Separation of Concerns]], [[Neural Networks/Model|Model]].
+- Обновлены существующие концепции: [[PyTorch/Reading GitHub ML Projects|Reading GitHub ML Projects]], [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]], [[PyTorch/train.py как центр обучения|train.py как центр обучения]], [[PyTorch/PyTorch Dataset|Dataset]], [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]], [[PyTorch/Separation of Concerns|Separation of Concerns]], [[Neural Networks/Model|Model]].
 - Темы про независимость `train.py` от Dataset, заменяемость Dataset и interface over implementation связаны с существующими PyTorch architecture/data pipeline заметками.
 
 ### 🧠 Weak spots
@@ -598,7 +618,7 @@ updated: 2026-07-11
 
 - Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
 - Созданы concept-заметки: [[PyTorch/Reading GitHub ML Projects|Reading GitHub ML Projects]], [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]], [[PyTorch/model.py как отдельная ответственность|model.py как отдельная ответственность]], [[PyTorch/train.py как центр обучения|train.py как центр обучения]], [[PyTorch/config.py|config.py]], [[PyTorch/Separation of Concerns|Separation of Concerns]], [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]].
-- Обновлены существующие концепции: [[PyTorch/Чтение архитектуры PyTorch-проектов|Чтение архитектуры PyTorch-проектов]], [[PyTorch/nn.Module|nn.Module]], [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]], [[PyTorch/Dataset|Dataset]], [[PyTorch/DataLoader|DataLoader]], [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]].
+- Обновлены существующие концепции: [[PyTorch/Чтение архитектуры PyTorch-проектов|Чтение архитектуры PyTorch-проектов]], [[PyTorch/nn.Module|nn.Module]], [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]], [[PyTorch/PyTorch Dataset|Dataset]], [[PyTorch/DataLoader|DataLoader]], [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]].
 - Тема "Гиперпараметры vs параметры датасета" не вынесена в отдельную concept-заметку; знание слито в [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]] и связано с [[PyTorch/config.py|config.py]].
 
 ### 🧠 Weak spots
@@ -715,7 +735,7 @@ updated: 2026-07-11
 ### ✅ Обновлено
 
 - [[Machine Learning/Feature Scaling|Feature Scaling]] превращён в overview/index с пометкой, что материал разнесён по отдельным заметкам.
-- Обновлены и выделены отдельные концепции: [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Standardization|Standardization]], [[Machine Learning/Fit Transform и Data Leakage|Fit Transform и Data Leakage]], [[Machine Learning/Scaling и Gradient Descent|Scaling и Gradient Descent]], [[Machine Learning/Scaling для KNN и SVM|Scaling для KNN и SVM]], [[Machine Learning/Scaling и Tree-Based Models|Scaling и Tree-Based Models]].
+- Обновлены и выделены отдельные концепции: [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Feature Standardization|Standardization]], [[Machine Learning/Fit Transform и Data Leakage|Fit Transform и Data Leakage]], [[Machine Learning/Scaling и Gradient Descent|Scaling и Gradient Descent]], [[Machine Learning/Scaling для KNN и SVM|Scaling для KNN и SVM]], [[Machine Learning/Scaling и Tree-Based Models|Scaling и Tree-Based Models]].
 - [[Machine Learning/Loss Function|Loss Function]] превращён в overview по функциям потерь.
 - Обновлены loss-концепции: [[Machine Learning/Mathematics/MSE|MSE]], [[Machine Learning/Mathematics/MAE|MAE]], [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]].
 - [[AI Agents/Index|AI Agents Index]] очищен от полного импорта LangGraph и оставлен как короткий overview со ссылкой на [[LangGraph/Index]].
@@ -754,7 +774,7 @@ updated: 2026-07-11
 - Создана внутренняя структура [[PyTorch/Tensors/Index|PyTorch/Tensors]].
 - Обновлены концепции: [[PyTorch/Tensor|Tensor]], [[PyTorch/Shape|Tensor Shape]], [[PyTorch/Reshape|Reshape]], [[PyTorch/View|View]], [[PyTorch/Unsqueeze|Unsqueeze]], [[PyTorch/Squeeze|Squeeze]], [[PyTorch/Broadcasting|Broadcasting]].
 - Созданы концепции: [[PyTorch/Tensors/Tensor Dimensions (ndim)|Tensor Dimensions (ndim)]], [[PyTorch/Tensors/Tensor Creation|Tensor Creation]], [[PyTorch/Tensors/Tensor Dtype|Tensor Dtype]], [[PyTorch/Tensors/Tensor Indexing and Slicing|Tensor Indexing and Slicing]].
-- Созданы stub-заметки: [[PyTorch/Tensors/Tensor Operations|Tensor Operations]], [[PyTorch/Dataset|Dataset]], [[PyTorch/DataLoader|DataLoader]].
+- Созданы stub-заметки: [[PyTorch/Tensors/Tensor Operations|Tensor Operations]], [[PyTorch/PyTorch Dataset|Dataset]], [[PyTorch/DataLoader|DataLoader]].
 
 ### 🧠 Weak spots
 
@@ -854,7 +874,7 @@ updated: 2026-07-11
 
 ### ✅ Импортировано
 
-- Созданы и обновлены темы: [[Neural Networks/Dataset|Dataset]], [[Train Set]], [[Neural Networks/Validation|Validation Set]], [[Test Set]], [[Inference]].
+- Созданы и обновлены темы: [[Neural Networks/Dataset для обучения модели|Dataset]], [[Train Set]], [[Neural Networks/Validation Set|Validation Set]], [[Test Set]], [[Inference]].
 - Добавлены PyTorch-preview темы: [[model.train() и model.eval()]], [[torch.no_grad()]].
 - Созданы мосты к PyTorch: [[PyTorch/nn.Module|nn.Module]], [[PyTorch/torch.optim|torch.optim]], [[PyTorch/model.eval()|model.eval()]].
 - Создано оглавление модуля: [[Neural Networks/README|Neural Networks README]].
@@ -876,8 +896,8 @@ updated: 2026-07-11
 
 - Обновлены stub-заметки [[Optimizer]], [[Batch]], [[Epoch]] и [[Adam]].
 - Созданы темы оптимизации: [[Batch Gradient Descent]], [[SGD]], [[Mini-Batch Gradient Descent]], [[Momentum]].
-- Созданы темы регуляризации: [[Neural Networks/Overfitting|Overfitting]], [[Dropout]], [[Batch Normalization]].
-- Добавлены stub-связи для [[Train Set]], [[Neural Networks/Validation|Validation]], [[Test Set]], [[Scaling]], [[Train Validation Test]] и [[Regularization]].
+- Созданы темы регуляризации: [[Machine Learning/Overfitting|Overfitting]], [[Dropout]], [[Batch Normalization]].
+- Добавлены stub-связи для [[Train Set]], [[Neural Networks/Validation Set|Validation]], [[Test Set]], [[Scaling]], [[Train Validation Test]] и [[Regularization]].
 
 ### 🧠 Уровень понимания
 
@@ -991,7 +1011,7 @@ updated: 2026-07-11
 **Knowledge Sync: Feature Scaling:**
 - ✅ [[Feature Scaling]] — полная концепция (confidence: 80%, status: learned)
 - ✅ [[Machine Learning/Normalization|Normalization]] — stub заметка
-- ✅ [[Machine Learning/Standardization|Standardization]] — stub заметка
+- ✅ [[Machine Learning/Feature Standardization|Standardization]] — stub заметка
 - ✅ [[Gradient Descent]] — stub заметка
 - ✅ [[KNN]] — stub заметка
 - ✅ [[SVM]] — stub заметка

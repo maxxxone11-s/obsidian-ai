@@ -66,4 +66,4 @@ utils.py
 
 ## Связанные темы
 
-- [[Reading GitHub ML Projects]] · [[Как анализировать неизвестный код]] · [[model.py как отдельная ответственность]] · [[train.py как центр обучения]] · [[config.py]] · [[Dataset]]
+- [[Reading GitHub ML Projects]] · [[Как анализировать неизвестный код]] · [[model.py как отдельная ответственность]] · [[train.py как центр обучения]] · [[config.py]] · [[PyTorch/PyTorch Dataset]]

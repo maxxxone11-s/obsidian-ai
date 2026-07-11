@@ -19,4 +19,4 @@ confidence: 0
 ## Связанные темы
 
 - [[Feature Scaling]] — рекомендуется для SVM
-- [[Standardization]] — часто используется для SVM
+- [[Machine Learning/Feature Standardization]] — часто используется для SVM

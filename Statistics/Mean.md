@@ -66,4 +66,4 @@ Mean используется практически во всех статис�
 
 ## Связанные темы
 
-- [[Variance]] · [[Standard Deviation]] · [[Z-score]] · [[Statistics/Standardization|Standardization]] · [[Machine Learning/Mathematics/Распределения и Mean|Распределения и Mean]]
+- [[Variance]] · [[Standard Deviation]] · [[Z-score]] · [[Statistics/Z-score Standardization|Standardization]] · [[Machine Learning/Mathematics/Распределения и Mean|Распределения и Mean]]

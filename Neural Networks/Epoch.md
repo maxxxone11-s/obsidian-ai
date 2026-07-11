@@ -52,7 +52,7 @@ Dataset = 1000, Batch = 100, Epoch = 10 Batch.
 
 ## Следующие темы
 
-- [[Validation]]
+- [[Neural Networks/Validation Set]]
 
 ## Связанные темы
 

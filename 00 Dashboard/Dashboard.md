@@ -42,14 +42,15 @@ updated: 2026-07-11
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 341 |
-| Изучено | 280 |
+| Всего концепций | 340 |
+| Изучено | 279 |
 | В процессе | 5 |
 | Требует повтора | 7 |
 | Черновики | 49 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-11** — Устранены неоднозначные concept names: Dataset, Standardization и Validation получили domain-specific canonical names; Overfitting объединён в одну Machine Learning-концепцию
 - **2026-07-11** — Аудит учебного диалога RAG: восстановлены Semantic Chunking и RRF; начат Production RAG Pipeline с Loader, Indexing Pipeline и Query Pipeline
 - **2026-07-11** — Синхронизация RAG Generation Evaluation: Faithfulness, Answer Relevancy, Context Precision, Context Recall и LLM-as-a-Judge
 - **2026-07-11** — Синхронизация RAG Evaluation: Ground Truth, Precision, Recall, MRR, Hit Rate и NDCG

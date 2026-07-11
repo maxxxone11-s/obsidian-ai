@@ -73,4 +73,4 @@ Inference
 
 ## Связанные темы
 
-- [[Dataset]] · [[DataLoader]] · [[CrossEntropyLoss]] · [[Neural Networks/Adam|Adam]] · [[Inference Pipeline]] · [[Separation of Concerns]] · [[Интерфейс важнее реализации]]
+- [[PyTorch/PyTorch Dataset]] · [[DataLoader]] · [[CrossEntropyLoss]] · [[Neural Networks/Adam|Adam]] · [[Inference Pipeline]] · [[Separation of Concerns]] · [[Интерфейс важнее реализации]]

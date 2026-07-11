@@ -18,7 +18,7 @@ Stub-заметка для PyTorch DataLoader.
 
 ## Простое объяснение
 
-DataLoader берет отдельные элементы из [[Dataset]] и собирает из них batch, который затем передается модели.
+DataLoader берет отдельные элементы из [[PyTorch/PyTorch Dataset]] и собирает из них batch, который затем передается модели.
 
 ## Зачем это нужно
 
@@ -66,4 +66,4 @@ for x, y in loader:
 
 ## Связанные темы
 
-- [[Dataset]] · [[Tensor]] · [[Shape]] · [[nn.Module]] · [[Neural Networks/Batch|Batch]] · [[PyTorch Training Loop]] · [[Интерфейс Dataset DataLoader Model]]
+- [[PyTorch/PyTorch Dataset]] · [[Tensor]] · [[Shape]] · [[nn.Module]] · [[Neural Networks/Batch|Batch]] · [[PyTorch Training Loop]] · [[Интерфейс Dataset DataLoader Model]]

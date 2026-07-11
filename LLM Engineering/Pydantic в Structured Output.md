@@ -61,7 +61,7 @@ class User(BaseModel):
 
 ## Связанные темы
 
-[[Structured Output]] · [[JSON Schema]] · [[Validation]] · [[Python Backend/FastAPI|FastAPI]]
+[[Structured Output]] · [[JSON Schema]] · [[LLM Engineering/Response Validation]] · [[Python Backend/FastAPI|FastAPI]]
 
 ## Вопросы для проверки
 
@@ -70,4 +70,4 @@ class User(BaseModel):
 
 ## Следующие темы
 
-- [[Validation]]
+- [[LLM Engineering/Response Validation]]

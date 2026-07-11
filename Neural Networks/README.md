@@ -14,9 +14,9 @@ tags:
 
 ## Быстрый маршрут
 
-- [[Dataset]] → [[Train Set]] → [[Validation|Validation Set]] → [[Test Set]]
+- [[Neural Networks/Dataset для обучения модели]] → [[Train Set]] → [[Neural Networks/Validation Set|Validation Set]] → [[Test Set]]
 - [[Forward Pass]] → [[Loss]] → [[Backpropagation]] → [[Gradient]] → [[Optimizer]]
-- [[Overfitting]] → [[Dropout]] → [[Batch Normalization]]
+- [[Machine Learning/Overfitting]] → [[Dropout]] → [[Batch Normalization]]
 - [[Inference]] → [[PyTorch/Index|PyTorch]]
 
 ## Все концепции
@@ -29,7 +29,7 @@ tags:
 - [[Batch Normalization]]
 - [[Bias]]
 - [[Chain Rule]]
-- [[Dataset]]
+- [[Neural Networks/Dataset для обучения модели]]
 - [[Dead Neuron]]
 - [[Deep Learning]]
 - [[Derivative]]
@@ -51,7 +51,7 @@ tags:
 - [[Momentum]]
 - [[Optimizer]]
 - [[Output]]
-- [[Overfitting]]
+- [[Machine Learning/Overfitting]]
 - [[Perceptron]]
 - [[Regularization]]
 - [[ReLU]]
@@ -65,7 +65,7 @@ tags:
 - [[torch.no_grad()]]
 - [[Train Set]]
 - [[Train Validation Test]]
-- [[Validation]]
+- [[Neural Networks/Validation Set]]
 - [[Vanishing Gradient]]
 - [[Weights]]
 

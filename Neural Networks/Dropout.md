@@ -43,4 +43,4 @@ Dropout помогает модели искать общие закономер
 
 ## Связанные темы
 
-- [[Overfitting]] · [[Batch Normalization]]
+- [[Machine Learning/Overfitting]] · [[Batch Normalization]]

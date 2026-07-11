@@ -30,9 +30,19 @@
               "icon": "lucide-file",
               "title": "RAG Index"
             }
+          },
+          {
+            "id": "a10a207ca66e9084",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,9 +207,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "dd9d982e628f8262",
+  "active": "a10a207ca66e9084",
   "lastOpenFiles": [
     "Indexes/RAG Index.md",
+    "LLM Engineering/Response Validation.md",
+    "Neural Networks/Validation Set.md",
+    "Machine Learning/Feature Standardization.md",
+    "Statistics/Z-score Standardization.md",
+    "PyTorch/PyTorch Dataset.md",
+    "Neural Networks/Dataset для обучения модели.md",
     "Templates/Сообщение для сбора конспектов.md",
     "RAG/Semantic Chunking.md",
     "RAG/Reciprocal Rank Fusion (RRF).md",
@@ -219,12 +235,6 @@
     "Generation Evaluation.md",
     "Reciprocal Rank Fusion (RRF).md",
     "tiktoken.md",
-    "Human Evaluation.md",
-    "Cache.md",
-    "Transformers/Attention Scores.md",
-    "AI Engineering/LLM.md",
-    "Сообщение для сбора конспектов.md",
-    "RAG/LLM-as-a-Judge.md",
     "Statistics",
     "Transformers",
     "Algorithms/Recursion/Trees",

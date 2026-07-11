@@ -33,7 +33,7 @@ tags:
 - [[PyTorch/Tensors/Tensor Operations|Tensor Operations]]
 - [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch (matmul)]]
 - [[PyTorch/Autograd|Autograd]]
-- [[PyTorch/Dataset|Dataset]]
+- [[PyTorch/PyTorch Dataset|Dataset]]
 - [[PyTorch/DataLoader|DataLoader]]
 - [[PyTorch/nn.Module|nn.Module]]
 

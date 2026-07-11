@@ -61,4 +61,4 @@ EPOCHS = 10
 
 ## Связанные темы
 
-- [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]] · [[train.py как центр обучения]] · [[Dataset]]
+- [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]] · [[train.py как центр обучения]] · [[PyTorch/PyTorch Dataset]]

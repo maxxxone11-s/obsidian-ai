@@ -52,10 +52,10 @@ print(X_normalized)
 
 ## Типичные ошибки
 
-- Путать Normalization и [[Standardization]].
+- Путать Normalization и [[Machine Learning/Feature Standardization]].
 - Использовать normalization, не понимая диапазон данных.
 - Делать scaling до [[Train Test Split]].
 
 ## Связанные темы
 
-- [[Feature Scaling]] · [[Standardization]] · [[Fit Transform и Data Leakage]] · [[KNN]] · [[SVM]]
+- [[Feature Scaling]] · [[Machine Learning/Feature Standardization]] · [[Fit Transform и Data Leakage]] · [[KNN]] · [[SVM]]

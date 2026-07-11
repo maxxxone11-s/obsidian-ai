@@ -59,7 +59,7 @@ Validation
 
 ## Связанные темы
 
-[[Validation]] · [[Structured Output]] · [[Python Backend/FastAPI|FastAPI]]
+[[LLM Engineering/Response Validation]] · [[Structured Output]] · [[Python Backend/FastAPI|FastAPI]]
 
 ## Вопросы для проверки
 

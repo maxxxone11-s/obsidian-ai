@@ -64,4 +64,4 @@ print(f"Accuracy: {accuracy:.2f}")
 
 ## Связанные темы
 
-- [[Feature Scaling]] · [[Normalization]] · [[Standardization]] · [[KNN]] · [[SVM]]
+- [[Feature Scaling]] · [[Normalization]] · [[Machine Learning/Feature Standardization]] · [[KNN]] · [[SVM]]

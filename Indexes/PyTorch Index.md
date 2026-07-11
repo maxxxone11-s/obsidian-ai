@@ -2,7 +2,7 @@
 type: index
 area: PyTorch
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-11
 tags:
   - index
   - system
@@ -98,7 +98,7 @@ tags:
 - [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]] — понимание проекта по структуре файлов
 - [[PyTorch/Модель как универсальная функция|Модель как универсальная функция]] — модель как `features -> prediction`
 - [[PyTorch/train.py как центр обучения|train.py как центр обучения]] — train loop не зависит от источника данных
-- [[PyTorch/Dataset|Dataset]] — replaceable Dataset через стабильный интерфейс
+- [[PyTorch/PyTorch Dataset|Dataset]] — replaceable Dataset через стабильный интерфейс
 - [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]] — контракт между компонентами
 - [[PyTorch/Интерфейс важнее реализации|Интерфейс важнее реализации]] — interface over implementation
 - [[PyTorch/Повторение терминов PyTorch Foundations|Повторение терминов PyTorch Foundations]] — связанный словарь модуля
@@ -110,7 +110,7 @@ tags:
 - [[PyTorch/nn.Linear|nn.Linear]] — линейный слой
 - [[PyTorch/torch.optim|torch.optim]] — оптимизаторы
 - [[PyTorch/model.eval()|model.eval()]] — режим inference
-- [[PyTorch/Dataset|Dataset]] — источник данных
+- [[PyTorch/PyTorch Dataset|Dataset]] — источник данных
 - [[PyTorch/DataLoader|DataLoader]] — batch-загрузка данных
 
 ## Модели и слои

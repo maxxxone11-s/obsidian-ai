@@ -56,7 +56,7 @@ z = 2
 ## Типичные ошибки
 
 - Считать, что z-score измеряется в исходных единицах.
-- Путать z-score со [[Statistics/Standardization|Standardization]] как процессом.
+- Путать z-score со [[Statistics/Z-score Standardization|Standardization]] как процессом.
 
 ## Вопросы для проверки
 
@@ -70,4 +70,4 @@ z = 2
 
 ## Связанные темы
 
-- [[Statistics/Standardization|Standardization]] · [[Standard Deviation]] · [[Normal Distribution]] · [[Machine Learning/Feature Scaling|Feature Scaling]]
+- [[Statistics/Z-score Standardization|Standardization]] · [[Standard Deviation]] · [[Normal Distribution]] · [[Machine Learning/Feature Scaling|Feature Scaling]]

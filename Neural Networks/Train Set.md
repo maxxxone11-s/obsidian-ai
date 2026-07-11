@@ -52,10 +52,10 @@ Train → Forward → Loss → Backpropagation → Optimizer.
 
 ## Следующие темы
 
-- [[Validation|Validation Set]]
+- [[Neural Networks/Validation Set|Validation Set]]
 
 ## Связанные темы
 
-- [[Optimizer]] · [[Batch]] · [[Overfitting]]
+- [[Optimizer]] · [[Batch]] · [[Machine Learning/Overfitting]]
 
-- [[Dataset]] · [[Validation|Validation Set]] · [[Batch]]
+- [[Neural Networks/Dataset для обучения модели]] · [[Neural Networks/Validation Set|Validation Set]] · [[Batch]]

@@ -53,4 +53,4 @@ X_test_scaled = scaler.transform(X_test)
 
 ## Связанные темы
 
-- [[Feature Scaling]] · [[Data Leakage]] · [[Train Test Split]] · [[Standardization]] · [[Normalization]]
+- [[Feature Scaling]] · [[Data Leakage]] · [[Train Test Split]] · [[Machine Learning/Feature Standardization]] · [[Normalization]]

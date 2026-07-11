@@ -2,7 +2,7 @@
 type: index
 area: LLM Engineering
 created: 2026-06-26
-updated: 2026-07-10
+updated: 2026-07-11
 tags:
   - index
   - system
@@ -68,7 +68,7 @@ tags:
 - [[LLM Engineering/Structured Output|Structured Output]]
 - [[LLM Engineering/JSON Schema|JSON Schema]]
 - [[LLM Engineering/Pydantic в Structured Output|Pydantic в Structured Output]]
-- [[LLM Engineering/Validation|Validation]]
+- [[LLM Engineering/Response Validation|Validation]]
 - [[LLM Engineering/Error Recovery|Error Recovery]]
 - Parsing
 

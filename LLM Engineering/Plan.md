@@ -112,7 +112,7 @@ Related concepts:
 - [[Structured Output]]
 - [[JSON Schema]]
 - [[Pydantic в Structured Output]]
-- [[Validation]]
+- [[LLM Engineering/Response Validation]]
 - [[Error Recovery]]
 
 Topics:

@@ -59,4 +59,4 @@ input_size, num_classes -> параметры датасета
 
 ## Связанные темы
 
-- [[Gradient Descent]] · [[PyTorch/config.py|config.py]] · [[PyTorch/Dataset|Dataset]]
+- [[Gradient Descent]] · [[PyTorch/config.py|config.py]] · [[PyTorch/PyTorch Dataset|Dataset]]

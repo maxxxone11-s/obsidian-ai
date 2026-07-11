@@ -36,7 +36,7 @@ Feature Scaling нужен, чтобы все признаки "говорили
 Основные способы и связанные темы:
 
 - [[Normalization]] — приведение значений к диапазону `[0, 1]`.
-- [[Standardization]] — преобразование признаков так, чтобы среднее было `0`, а стандартное отклонение `1`.
+- [[Machine Learning/Feature Standardization]] — преобразование признаков так, чтобы среднее было `0`, а стандартное отклонение `1`.
 - [[Fit Transform и Data Leakage]] — как масштабировать train/test без утечки данных.
 - [[Scaling и Gradient Descent]] — почему масштабирование помогает оптимизации.
 - [[Scaling для KNN и SVM]] — почему расстояния чувствительны к масштабу.
@@ -57,11 +57,11 @@ X_test_scaled = scaler.transform(X_test)
 - Масштабировать test через `fit_transform`.
 - Масштабировать данные до [[Train Test Split]].
 - Не понимать, почему [[Decision Tree]], [[Random Forest]] и [[XGBoost]] почти не требуют scaling.
-- Не различать [[Normalization]] и [[Standardization]].
+- Не различать [[Normalization]] и [[Machine Learning/Feature Standardization]].
 
 ## Что повторить позже
 
-- [ ] Понять разницу между [[Normalization]] и [[Standardization]].
+- [ ] Понять разницу между [[Normalization]] и [[Machine Learning/Feature Standardization]].
 - [ ] Отработать `fit_transform` на train и `transform` на test.
 - [ ] Понять, почему масштабирование помогает [[Gradient Descent]].
 - [ ] Запомнить, для каких алгоритмов scaling критичен.
@@ -70,4 +70,4 @@ X_test_scaled = scaler.transform(X_test)
 
 ## Связанные темы
 
-- [[Normalization]] · [[Standardization]] · [[Fit Transform и Data Leakage]] · [[Scaling и Gradient Descent]] · [[Scaling для KNN и SVM]] · [[Scaling и Tree-Based Models]]
+- [[Normalization]] · [[Machine Learning/Feature Standardization]] · [[Fit Transform и Data Leakage]] · [[Scaling и Gradient Descent]] · [[Scaling для KNN и SVM]] · [[Scaling и Tree-Based Models]]
