@@ -9,6 +9,32 @@ updated: 2026-07-11
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Query Transformation)
+
+### ✅ Синхронизировано
+
+- Экспорт `Retrieval Augmented Generation` синхронизирован в подтверждённую Knowledge Area [[RAG/Index|RAG]].
+- Созданы concept notes: [[RAG/Query Rewrite|Query Rewrite]], [[RAG/Query Expansion|Query Expansion]], [[RAG/HyDE|HyDE]], [[RAG/Multi Query Retrieval|Multi Query Retrieval]] и [[RAG/Step-back Prompting|Step-back Prompting]].
+- [[RAG/Query Transformation|Query Transformation]] обновлён path-qualified ссылками на изученные техники.
+- Зафиксировано различие responsibilities: embedding-модель строит vectors, а similarity search выполняет [[RAG/Retrieval|Retriever]].
+- Related-термины без самостоятельного материала не превращались в stub-файлы.
+- Обновлены Dashboard, Knowledge Map, Roadmap, RAG Plan и оба RAG Index.
+
+### 🧠 Weak spots
+
+- Требуется практическая реализация техник Query Transformation.
+- Требуется научиться выбирать технику под конкретный тип запроса.
+- Требуется увидеть взаимодействие техник в production-коде.
+
+### Повторяющиеся ошибки
+
+- Иногда embedding-модели ошибочно приписывается выполнение similarity search.
+- Иногда Step-back создаёт описание технологии вместо вопроса о более фундаментальной концепции.
+
+### Следующий шаг
+
+- Реализовать Production RAG Pipeline с Query Transformation, Retrieval, Reranking и Prompt Construction без углубления во внутреннее устройство Vector Database.
+
 ## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Production Architecture)
 
 ### ✅ Синхронизировано

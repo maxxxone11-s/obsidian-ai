@@ -5,7 +5,7 @@ status: learned
 created: 2026-07-11
 updated: 2026-07-11
 tags: [rag, retrieval, query-transformation]
-aliases: [Query Reformulation, Query Processing, Преобразование запроса]
+aliases: [Query Processing, Преобразование запроса]
 confidence: high
 difficulty: intermediate
 ---
@@ -49,7 +49,7 @@ Query Transformation делает вопрос понятнее для поис�
 
 ## Связанные темы
 
-[[RAG/Query Pipeline|Query Pipeline]] · [[RAG/Orchestrator|Orchestrator]] · [[AI Engineering/Embeddings|Embedding]] · [[RAG/Retrieval|Retriever]] · [[Query Rewrite]] · [[Query Expansion]] · [[HyDE]] · [[Multi Query]] · [[Step-back Prompting]]
+[[RAG/Query Pipeline|Query Pipeline]] · [[RAG/Orchestrator|Orchestrator]] · [[AI Engineering/Embeddings|Embedding]] · [[RAG/Retrieval|Retriever]] · [[RAG/Query Rewrite|Query Rewrite]] · [[RAG/Query Expansion|Query Expansion]] · [[RAG/HyDE|HyDE]] · [[RAG/Multi Query Retrieval|Multi Query Retrieval]] · [[RAG/Step-back Prompting|Step-back Prompting]]
 
 ## Вопросы для проверки
 
@@ -60,4 +60,4 @@ Query Transformation делает вопрос понятнее для поис�
 
 ## Следующие темы
 
-[[Query Rewrite]] · [[Query Expansion]] · [[HyDE]] · [[Multi Query]] · [[Step-back Prompting]]
+[[RAG/Query Rewrite|Query Rewrite]] · [[RAG/Query Expansion|Query Expansion]] · [[RAG/HyDE|HyDE]] · [[RAG/Multi Query Retrieval|Multi Query Retrieval]] · [[RAG/Step-back Prompting|Step-back Prompting]]

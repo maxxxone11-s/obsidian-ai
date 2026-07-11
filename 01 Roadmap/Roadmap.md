@@ -358,6 +358,11 @@ updated: 2026-07-11
 - [[RAG/Query Pipeline|Query Pipeline]] ✅ — online retrieval, reranking и generation для каждого вопроса
 - [[RAG/Orchestrator|Orchestrator]] ✅ — управление порядком вызова независимых компонентов
 - [[RAG/Query Transformation|Query Transformation]] ✅ — улучшение поискового запроса до построения embedding
+- [[RAG/Query Rewrite|Query Rewrite]] ✅ — формирование самостоятельного вопроса с учётом истории
+- [[RAG/Query Expansion|Query Expansion]] ✅ — дополнение запроса связанными терминами
+- [[RAG/HyDE|HyDE]] ✅ — retrieval по embedding гипотетического документа
+- [[RAG/Multi Query Retrieval|Multi Query Retrieval]] ✅ — несколько независимых поисков с fusion результатов
+- [[RAG/Step-back Prompting|Step-back Prompting]] ✅ — переход от частного вопроса к фундаментальной концепции
 - [[RAG/Production RAG Pipeline|Production RAG Pipeline]] 🚧 — разделение жизненного цикла на indexing и query stages
 
 **RAG Evaluation синхронизирован:**
@@ -377,10 +382,10 @@ updated: 2026-07-11
 - [[RAG/Context Recall|Context Recall]] ✅ — полнота информации для ответа
 - [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]] ✅ — автоматизированная оценка сложных свойств ответа
 
-**Статус:** `learning`; блок Evaluation изучен, а в Production RAG закреплены Loader, Indexing Pipeline, Query Pipeline, Orchestrator и Query Transformation.
+**Статус:** `learning`; блок Evaluation и пять основных техник Query Transformation изучены, практическая реализация Production RAG продолжается.
 **Предварительные знания:** [[LLM Engineering/Index|LLM Engineering]], [[Transformers/Index|Transformers]], [[Machine Learning/Index|Machine Learning]], [[Python Backend/Index|Python Backend]], [[AI Agents/Index|AI Agents]].
-**Требует повторения:** конкретные техники Query Transformation, практическая реализация Prompt Builder, LLM-as-a-Judge и полного pipeline на Python.
-**Следующий шаг:** изучить Query Rewrite, Query Expansion, HyDE, Multi Query и Step-back Prompting, затем реализовать Production RAG Pipeline на Python.
+**Требует повторения:** практическая реализация техник Query Transformation, стратегия выбора техники под тип запроса, Prompt Builder и полный pipeline на Python.
+**Следующий шаг:** реализовать взаимодействие Query Transformation, Retrieval, Reranking и Prompt Construction в Production RAG Pipeline.
 
 ## Фаза 4: PyTorch 🚀 Active
 

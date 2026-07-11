@@ -47,6 +47,11 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 - [[RAG/Query Pipeline|Query Pipeline]]
 - [[RAG/Orchestrator|Orchestrator]]
 - [[RAG/Query Transformation|Query Transformation]]
+- [[RAG/Query Rewrite|Query Rewrite]]
+- [[RAG/Query Expansion|Query Expansion]]
+- [[RAG/HyDE|HyDE]]
+- [[RAG/Multi Query Retrieval|Multi Query Retrieval]]
+- [[RAG/Step-back Prompting|Step-back Prompting]]
 
 ## Концепции в процессе изучения
 
@@ -100,7 +105,7 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 
 - Dense и Sparse Retrieval
 - BM25
-- Query Expansion и Multi Query Retrieval
+- [[RAG/Query Expansion|Query Expansion]] и [[RAG/Multi Query Retrieval|Multi Query Retrieval]]
 
 ### Hybrid Search
 
@@ -129,6 +134,7 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 
 - [[RAG/Indexing Pipeline|Indexing Pipeline]] и Ingestion Pipeline
 - [[RAG/Query Pipeline|Query Pipeline]], [[RAG/Orchestrator|Orchestrator]] и [[RAG/Query Transformation|Query Transformation]]
+- [[RAG/Query Rewrite|Query Rewrite]], [[RAG/Query Expansion|Query Expansion]], [[RAG/HyDE|HyDE]], [[RAG/Multi Query Retrieval|Multi Query Retrieval]] и [[RAG/Step-back Prompting|Step-back Prompting]]
 - Cache, versioning и incremental updates
 - Monitoring и Cost Optimization
 

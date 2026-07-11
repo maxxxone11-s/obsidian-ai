@@ -49,6 +49,11 @@ tags:
 - [[RAG/Query Pipeline|Query Pipeline]]
 - [[RAG/Orchestrator|Orchestrator]]
 - [[RAG/Query Transformation|Query Transformation]]
+- [[RAG/Query Rewrite|Query Rewrite]]
+- [[RAG/Query Expansion|Query Expansion]]
+- [[RAG/HyDE|HyDE]]
+- [[RAG/Multi Query Retrieval|Multi Query Retrieval]]
+- [[RAG/Step-back Prompting|Step-back Prompting]]
 
 ## Концепции в процессе изучения
 

@@ -360,6 +360,11 @@ updated: 2026-07-11
 - [[RAG/Query Pipeline|Query Pipeline]]
 - [[RAG/Orchestrator|Orchestrator]]
 - [[RAG/Query Transformation|Query Transformation]]
+- [[RAG/Query Rewrite|Query Rewrite]]
+- [[RAG/Query Expansion|Query Expansion]]
+- [[RAG/HyDE|HyDE]]
+- [[RAG/Multi Query Retrieval|Multi Query Retrieval]]
+- [[RAG/Step-back Prompting|Step-back Prompting]]
 - [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
 
 ### Планируемые блоки
@@ -371,7 +376,7 @@ updated: 2026-07-11
 - Generation и Evaluation
 - Production RAG и Advanced RAG
 
-Основы RAG, embeddings, chunking, retrieval, reranking и hybrid search находятся в изучении; блок Evaluation изучен; в Production RAG закреплены Loader, Indexing Pipeline, Query Pipeline, Orchestrator и Query Transformation.
+Основы RAG, embeddings, chunking, retrieval, reranking и hybrid search находятся в изучении; блок Evaluation изучен; в Production RAG закреплены архитектура pipeline и пять техник Query Transformation.
 
 ## LLM Engineering
 

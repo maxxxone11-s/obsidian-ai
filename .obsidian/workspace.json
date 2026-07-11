@@ -41,10 +41,14 @@
             "id": "a10a207ca66e9084",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "RAG/Reciprocal Rank Fusion (RRF).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reciprocal Rank Fusion (RRF)"
             }
           }
         ]
@@ -214,9 +218,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "RAG/Step-back Prompting.md",
+    "RAG/Multi Query Retrieval.md",
+    "RAG/HyDE.md",
+    "RAG/Query Expansion.md",
+    "RAG/Query Rewrite.md",
+    "RAG/Reciprocal Rank Fusion (RRF).md",
+    "Indexes/RAG Index.md",
+    "Templates/Сообщение для сбора конспектов.md",
     "RAG/Query Transformation.md",
     "RAG/Orchestrator.md",
-    "Indexes/RAG Index.md",
     "Citation.md",
     "Human Evaluation.md",
     "LLM Engineering/Response Validation.md",
@@ -225,9 +236,7 @@
     "Statistics/Z-score Standardization.md",
     "PyTorch/PyTorch Dataset.md",
     "Neural Networks/Dataset для обучения модели.md",
-    "Templates/Сообщение для сбора конспектов.md",
     "RAG/Semantic Chunking.md",
-    "RAG/Reciprocal Rank Fusion (RRF).md",
     "Keyword Search.md",
     "RAG/Production RAG Pipeline.md",
     "RAG/Query Pipeline.md",
@@ -235,11 +244,6 @@
     "RAG/Document Loader.md",
     "RAG/Hybrid Search.md",
     "Top-K Search.md",
-    "RAG/Recursive Chunking.md",
-    "Machine Learning/Accuracy Precision Recall и F1.md",
-    "Semantic Chunking.md",
-    "RAG/Chunk.md",
-    "Chunking.md",
     "Statistics",
     "Transformers",
     "Algorithms/Recursion/Trees",

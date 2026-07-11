@@ -42,14 +42,15 @@ updated: 2026-07-11
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 342 |
-| Изучено | 284 |
+| Всего концепций | 347 |
+| Изучено | 289 |
 | В процессе | 2 |
 | Требует повтора | 7 |
 | Черновики | 49 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-11** — Синхронизация RAG Query Transformation: Query Rewrite, Query Expansion, HyDE, Multi Query Retrieval и Step-back Prompting
 - **2026-07-11** — Синхронизация RAG Production Architecture: Indexing Pipeline, Query Pipeline, Document Loader, Orchestrator и Query Transformation
 - **2026-07-11** — Устранены неоднозначные concept names: Dataset, Standardization и Validation получили domain-specific canonical names; Overfitting объединён в одну Machine Learning-концепцию
 - **2026-07-11** — Аудит учебного диалога RAG: восстановлены Semantic Chunking и RRF; начат Production RAG Pipeline с Loader, Indexing Pipeline и Query Pipeline

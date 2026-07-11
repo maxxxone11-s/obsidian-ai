@@ -167,8 +167,8 @@ Topics:
 - Dense Retrieval
 - Sparse Retrieval
 - BM25
-- Query Expansion
-- Multi Query Retrieval
+- [[RAG/Query Expansion|Query Expansion]] — learned
+- [[RAG/Multi Query Retrieval|Multi Query Retrieval]] — learned
 
 ### 6. Hybrid Search
 
@@ -300,6 +300,11 @@ Topics:
 - [[RAG/Query Pipeline|Query Pipeline]] — learned
 - [[RAG/Orchestrator|Orchestrator]] — learned
 - [[RAG/Query Transformation|Query Transformation]] — learned
+- [[RAG/Query Rewrite|Query Rewrite]] — learned
+- [[RAG/Query Expansion|Query Expansion]] — learned
+- [[RAG/HyDE|HyDE]] — learned
+- [[RAG/Multi Query Retrieval|Multi Query Retrieval]] — learned
+- [[RAG/Step-back Prompting|Step-back Prompting]] — learned
 - [[RAG/Production RAG Pipeline|Production RAG Pipeline]] — learning
 - Ingestion Pipeline
 - Embedding Cache
@@ -397,8 +402,8 @@ Prerequisites:
 - Dense Retrieval
 - Sparse Retrieval
 - BM25
-- Query Expansion
-- Multi Query Retrieval
+- [[RAG/Query Expansion|Query Expansion]]
+- [[RAG/Multi Query Retrieval|Multi Query Retrieval]]
 - Hybrid Search
 - Cross Encoder
 - Bi Encoder
