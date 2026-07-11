@@ -3,10 +3,10 @@ type: concept
 area: PyTorch
 status: learned
 created: 2026-06-28
-updated: 2026-06-30
+updated: 2026-07-11
 tags:
   - pytorch
-  - neural-networks
+  - neural-network-related
   - linear-layer
   - layer
 confidence: 0.95

@@ -3,11 +3,11 @@ type: concept
 area: Machine Learning
 status: learned
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-07-11
 tags:
   - machine-learning
   - mathematics
-  - statistics
+  - descriptive-statistics
 confidence: 0.95
 ---
 

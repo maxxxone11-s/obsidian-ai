@@ -26,10 +26,12 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 - [[RAG/Fixed-size Chunking|Fixed-size Chunking]]
 - [[RAG/Chunk Overlap|Chunk Overlap]]
 - [[RAG/Recursive Chunking|Recursive Chunking]]
+- [[Semantic Chunking]]
 - [[RAG/Retrieval|Retrieval]]
 - [[RAG/Top-K Retrieval|Top-K Retrieval]]
 - [[RAG/Reranking|Reranking]]
 - [[RAG/Hybrid Search|Hybrid Search]]
+- [[Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]]
 - [[RAG/Evaluation|Evaluation]]
 - [[RAG/Ground Truth|Ground Truth]]
 - [[RAG/Mean Reciprocal Rank (MRR)|Mean Reciprocal Rank (MRR)]]
@@ -40,6 +42,14 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 - [[RAG/Context Precision|Context Precision]]
 - [[RAG/Context Recall|Context Recall]]
 - [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]]
+
+## Концепции в процессе изучения
+
+- [[AI Engineering/Vector Database|Vector Database]]
+- [[RAG/Document Loader|Document Loader]]
+- [[RAG/Indexing Pipeline|Indexing Pipeline]]
+- [[RAG/Query Pipeline|Query Pipeline]]
+- [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
 
 ## Learning Path
 
@@ -75,7 +85,7 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 ### Chunking
 
 - Размер и overlap chunks
-- Структурные и семантические стратегии
+- Структурные стратегии и [[Semantic Chunking]]
 - Markdown, code, tables и PDF
 
 ### Vector Database
@@ -93,7 +103,7 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 ### Hybrid Search
 
 - Dense Search + Sparse Search
-- Reciprocal Rank Fusion
+- [[Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion]]
 
 ### Reranking
 

@@ -27,10 +27,12 @@ tags:
 - [[RAG/Fixed-size Chunking|Fixed-size Chunking]]
 - [[RAG/Chunk Overlap|Chunk Overlap]]
 - [[RAG/Recursive Chunking|Recursive Chunking]]
+- [[Semantic Chunking]]
 - [[RAG/Retrieval|Retrieval]]
 - [[RAG/Top-K Retrieval|Top-K Retrieval]]
 - [[RAG/Reranking|Reranking]]
 - [[RAG/Hybrid Search|Hybrid Search]]
+- [[Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]]
 - [[RAG/Evaluation|Evaluation]]
 - [[RAG/Ground Truth|Ground Truth]]
 - [[Machine Learning/Accuracy Precision Recall и F1|Precision и Recall]]
@@ -42,6 +44,14 @@ tags:
 - [[RAG/Context Precision|Context Precision]]
 - [[RAG/Context Recall|Context Recall]]
 - [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]]
+
+## Концепции в процессе изучения
+
+- [[AI Engineering/Vector Database|Vector Database]]
+- [[RAG/Document Loader|Document Loader]]
+- [[RAG/Indexing Pipeline|Indexing Pipeline]]
+- [[RAG/Query Pipeline|Query Pipeline]]
+- [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
 
 ## Learning Path
 

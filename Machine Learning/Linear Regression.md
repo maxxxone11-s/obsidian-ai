@@ -3,19 +3,16 @@ type: concept
 area: Machine Learning
 status: learned
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-07-11
 tags:
   - machine-learning
-  - algorithms
   - algorithm
-  - ensemble
-  - gradient-boosting
+  - regression
+  - linear-model
 confidence: 0.95
 ---
 
-# XGBoost
-
-Extreme Gradient Boosting — продвинутый алгоритм ансамбля деревьев. Не требует масштабирования.
+# Linear Regression
 
 ## Кратко
 
@@ -23,25 +20,17 @@ Linear Regression — линейная модель y = wx + b. Модель и�
 
 ## Простое объяснение
 
-Каждый Feature умножается на свой вес.
-
 Каждый Feature умножается на свой вес, затем добавляется bias, и модель получает числовой прогноз.
 
 ## Зачем это нужно
-
-На Linear Regression удобно объяснять обучение нейронных сетей.
 
 Linear Regression помогает понять базовую идею обучения модели и служит мостом к нейронным сетям.
 
 ## Как это работает
 
-Модель подбирает weight и bias так, чтобы predictions были ближе к правильным labels. Ошибка измеряется через loss, а параметры можно обновлять через gradient descent.
-
 Модель использует формулу `y = wx + b`, сравнивает прогноз с правильным ответом через [[Loss Function]] и подбирает веса так, чтобы ошибка уменьшалась.
 
 ## Пример
-
-`y = wx + b`.
 
 `y = wx + b` для прогноза цены квартиры по площади.
 
@@ -61,11 +50,5 @@ Linear Regression помогает понять базовую идею обуч
 - [[Loss Function]]
 
 ## Связанные темы
-
-- [[Feature Scaling]] — не критично для XGBoost
-- [[Random Forest]] — похожая идея ансамбля
-- [[Decision Tree]] — базовый алгоритм
-
-- [[Gradient Descent]] · [[Loss Function]]
 
 - [[Regression]] · [[Gradient Descent]] · [[Loss Function]]

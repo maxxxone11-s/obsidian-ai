@@ -1,14 +1,13 @@
 ---
 type: concept
-area: Machine Learning
+area: Neural Networks
 status: learned
 created: 2026-06-26
-updated: 2026-06-27
+updated: 2026-07-11
 tags:
-  - machine-learning
+  - neural-networks
   - mathematics
   - optimization
-  - neural-networks
   - learning
 confidence: 0.95
 ---

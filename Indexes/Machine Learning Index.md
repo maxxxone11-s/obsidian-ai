@@ -24,8 +24,8 @@ tags:
 - Data cleaning
 - Feature engineering
 - [[Feature Scaling]] — приведение признаков к единому масштабу
-- [[Normalization]] — масштабирование к диапазону [0, 1]
-- [[Standardization]] — z-score нормализация
+- [[Machine Learning/Normalization|Normalization]] — масштабирование к диапазону [0, 1]
+- [[Machine Learning/Standardization|Standardization]] — z-score нормализация
 - [[Fit Transform и Data Leakage]] — правильный scaling train/test
 - [[Scaling и Gradient Descent]] — влияние масштаба на оптимизацию
 - [[Scaling для KNN и SVM]] — distance-based модели
@@ -89,7 +89,7 @@ tags:
 
 ### Evaluation
 - [[Train Test Split]]
-- [[Overfitting]]
+- [[Machine Learning/Overfitting|Overfitting]]
 - [[Underfitting]]
 - [[Cross Validation]]
 
@@ -100,8 +100,8 @@ tags:
 ### Data Preparation
 - [[Feature Engineering]]
 - [[Feature Scaling]]
-- [[Normalization]]
-- [[Standardization]]
+- [[Machine Learning/Normalization|Normalization]]
+- [[Machine Learning/Standardization|Standardization]]
 - [[Fit Transform и Data Leakage]]
 - [[Scaling и Gradient Descent]]
 - [[Scaling для KNN и SVM]]

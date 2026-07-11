@@ -34,8 +34,19 @@
               "icon": "lucide-file",
               "title": "RAG Index"
             }
+          },
+          {
+            "id": "80814e7dcd3a3742",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,34 +211,34 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "dd9d982e628f8262",
   "lastOpenFiles": [
+    "Keyword Search.md",
+    "Indexes/RAG Index.md",
+    "RAG/Production RAG Pipeline.md",
+    "RAG/Query Pipeline.md",
+    "RAG/Indexing Pipeline.md",
+    "RAG/Document Loader.md",
+    "RAG/Hybrid Search.md",
+    "Top-K Search.md",
+    "RAG/Recursive Chunking.md",
+    "Machine Learning/Accuracy Precision Recall и F1.md",
+    "Semantic Chunking.md",
+    "RAG/Chunk.md",
+    "Chunking.md",
+    "RAG/Plan.md",
+    "Generation Evaluation.md",
+    "Reciprocal Rank Fusion (RRF).md",
+    "tiktoken.md",
+    "Human Evaluation.md",
+    "Cache.md",
+    "Transformers/Attention Scores.md",
+    "AI Engineering/LLM.md",
+    "Сообщение для сбора конспектов.md",
     "RAG/LLM-as-a-Judge.md",
     "RAG/Context Recall.md",
     "RAG/Context Precision.md",
     "RAG/Answer Relevancy.md",
-    "RAG/Faithfulness.md",
-    "Indexes/RAG Index.md",
-    "RAG/Chunk Overlap.md",
-    "RAG/Plan.md",
-    "RAG/Hybrid Search.md",
-    "Machine Learning/Accuracy Precision Recall и F1.md",
-    "00 Dashboard/Dashboard.md",
-    "Сообщение для сбора конспектов.md",
-    "RAG/Retrieval.md",
-    "RAG/Normalized Discounted Cumulative Gain (NDCG).md",
-    "RAG/Hit Rate.md",
-    "RAG/Mean Reciprocal Rank (MRR).md",
-    "RAG/Ground Truth.md",
-    "RAG/Evaluation.md",
-    "RAG/Reranking.md",
-    "RAG/Top-K Retrieval.md",
-    "RAG/Recursive Chunking.md",
-    "RAG/Fixed-size Chunking.md",
-    "RAG/Chunk.md",
-    "Machine Learning/Mathematics/Cosine Similarity.md",
-    "AI Engineering/Embeddings.md",
-    "RAG/Index.md",
     "Statistics",
     "Transformers",
     "Algorithms/Recursion/Trees",

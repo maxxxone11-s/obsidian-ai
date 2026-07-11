@@ -3,10 +3,10 @@ type: concept
 area: Neural Networks
 status: learned
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-11
 tags:
   - neural-networks
-  - pytorch
+  - pytorch-related
   - dataset
 confidence: 0.95
 difficulty: easy

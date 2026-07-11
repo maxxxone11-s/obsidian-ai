@@ -4,7 +4,7 @@ area: Machine Learning
 status: learned
 created: 2026-06-26
 updated: 2026-07-11
-tags: [machine-learning, metrics, rag, evaluation]
+tags: [machine-learning, metrics, rag-evaluation, evaluation]
 aliases: [Classification Metrics, Precision Metric, Recall Metric]
 confidence: high
 ---

@@ -1,14 +1,13 @@
 ---
 type: concept
-area: Machine Learning
+area: Neural Networks
 status: learned
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-11
 tags:
-  - machine-learning
+  - neural-networks
   - mathematics
   - probability
-  - neural-networks
 confidence: 0.95
 difficulty: medium
 ---

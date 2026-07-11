@@ -66,7 +66,7 @@ updated: 2026-07-11
 
 **Data Preparation после рефакторинга:**
 - [[Feature Scaling]] превращён в overview ✅
-- [[Normalization]], [[Standardization]], [[Fit Transform и Data Leakage]] ✅
+- [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Standardization|Standardization]], [[Fit Transform и Data Leakage]] ✅
 - [[Scaling и Gradient Descent]], [[Scaling для KNN и SVM]], [[Scaling и Tree-Based Models]] ✅
 
 **Прогресс модуля:** 22/23 ключевых тем learned, 1 тема needs_review.
@@ -93,13 +93,13 @@ updated: 2026-07-11
 ## Фаза 3: Neural Networks ✅ Completed
 
 **Модуль завершён:**
-- [[Dataset]], [[Train Set]], [[Validation|Validation Set]], [[Test Set]] ✅ — data pipeline
+- [[Neural Networks/Dataset|Dataset]], [[Train Set]], [[Neural Networks/Validation|Validation Set]], [[Test Set]] ✅ — data pipeline
 - [[Feature]], [[Weights]], [[Bias]], [[Perceptron]], [[Model]] ✅ — фундамент нейрона и модели
 - [[Score]], [[Activation Function]], [[Sigmoid]], [[Tanh]], [[ReLU]], [[Leaky ReLU]], [[Softmax]] ✅ — функции активации
 - [[Forward Pass]], [[Loss]], [[Backpropagation]], [[Gradient]], [[Machine Learning/Gradient Descent|Gradient Descent]], [[Learning Rate]] ✅ — базовый цикл обучения
 - [[Optimizer]], [[Batch Gradient Descent]], [[SGD]], [[Mini-Batch Gradient Descent]], [[Momentum]], [[Adam]] ✅ — оптимизаторы
 - [[Batch]], [[Epoch]] ✅ — организация обучения
-- [[Overfitting]], [[Dropout]], [[Batch Normalization]] ✅ — регуляризация
+- [[Neural Networks/Overfitting|Overfitting]], [[Dropout]], [[Batch Normalization]] ✅ — регуляризация
 - [[Inference]], [[model.train() и model.eval()]], [[torch.no_grad()]] ✅ — inference и PyTorch-preview
 - [[Chain Rule]] 🔁, [[Adam]] 🔁, [[Batch Normalization]] vs [[Machine Learning/Feature Scaling|Feature Scaling]] 🔁 — зоны повторения
 
@@ -321,13 +321,13 @@ updated: 2026-07-11
 - Почему появился RAG 🚧
 - Embeddings 🚧
 - Chunking 🚧
-- Vector Database ⏳
+- Vector Database 🚧
 - Retrieval 🚧
 - Hybrid Search 🚧
 - Reranking 🚧
 - Generation ⏳
 - Evaluation ✅
-- Production RAG ⏳
+- Production RAG 🚧
 - Advanced RAG ⏳
 - Финальный проект ⏳
 
@@ -340,6 +340,7 @@ updated: 2026-07-11
 - [[RAG/Fixed-size Chunking|Fixed-size Chunking]] ✅ — простой baseline разбиения
 - [[RAG/Chunk Overlap|Chunk Overlap]] ✅ — сохранение контекста на границах
 - [[RAG/Recursive Chunking|Recursive Chunking]] ✅ — иерархическое разбиение по естественным границам
+- [[Semantic Chunking]] ✅ — разбиение по изменениям смысла между соседними фрагментами
 
 **RAG Retrieval Pipeline II синхронизирован:**
 
@@ -347,6 +348,15 @@ updated: 2026-07-11
 - [[RAG/Top-K Retrieval|Top-K Retrieval]] ✅ — ограничение числа кандидатов
 - [[RAG/Reranking|Reranking]] ✅ — точная повторная оценка найденных документов
 - [[RAG/Hybrid Search|Hybrid Search]] ✅ — объединение semantic и keyword search
+- [[Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]] ✅ — объединение ранжированных списков без сравнения несовместимых raw scores
+
+**Production RAG Pipeline начат:**
+
+- [[AI Engineering/Vector Database|Vector Database]] 🚧 — хранение готовых embeddings и поиск chunks по query embedding
+- [[RAG/Document Loader|Document Loader]] 🚧 — извлечение текста из внешнего источника
+- [[RAG/Indexing Pipeline|Indexing Pipeline]] 🚧 — предварительная подготовка и сохранение индекса документов
+- [[RAG/Query Pipeline|Query Pipeline]] 🚧 — online retrieval, reranking и generation для каждого вопроса
+- [[RAG/Production RAG Pipeline|Production RAG Pipeline]] 🚧 — разделение жизненного цикла на indexing и query stages
 
 **RAG Evaluation синхронизирован:**
 
@@ -365,10 +375,10 @@ updated: 2026-07-11
 - [[RAG/Context Recall|Context Recall]] ✅ — полнота информации для ответа
 - [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]] ✅ — автоматизированная оценка сложных свойств ответа
 
-**Статус:** `learning`; блок Evaluation изучен, остальные этапы RAG остаются в работе.
+**Статус:** `learning`; блок Evaluation изучен, Semantic Chunking и RRF восстановлены из учебного диалога, Production RAG начат.
 **Предварительные знания:** [[LLM Engineering/Index|LLM Engineering]], [[Transformers/Index|Transformers]], [[Machine Learning/Index|Machine Learning]], [[Python Backend/Index|Python Backend]], [[AI Agents/Index|AI Agents]].
-**Требует повторения:** практическая реализация LLM-as-a-Judge и выбор evaluation-фреймворка.
-**Следующий шаг:** перейти к полному Production RAG Pipeline и разобрать реализацию на Python и современных RAG-фреймворках.
+**Требует повторения:** отличие offline Indexing Pipeline от online Query Pipeline, практическая реализация LLM-as-a-Judge и выбор evaluation-фреймворка.
+**Следующий шаг:** завершить Production RAG Pipeline, уточнить роль LLM на каждом этапе и перейти к реализации на Python.
 
 ## Фаза 4: PyTorch 🚀 Active
 

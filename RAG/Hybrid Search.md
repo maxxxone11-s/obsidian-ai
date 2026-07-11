@@ -48,7 +48,7 @@ Embeddings хорошо отражают естественный язык, но
 
 ## Связанные темы
 
-[[Semantic Search]] · [[Keyword Search]] · [[RAG/Retrieval|Retrieval]] · [[Reciprocal Rank Fusion (RRF)]]
+[[Semantic Search]] · [[Keyword Search]] · [[RAG/Retrieval|Retrieval]] · [[Reciprocal Rank Fusion (RRF)|RRF]]
 
 ## Вопросы для проверки
 
@@ -58,4 +58,4 @@ Embeddings хорошо отражают естественный язык, но
 
 ## Следующие темы
 
-[[Reciprocal Rank Fusion (RRF)]] · [[Evaluation]]
+[[Reciprocal Rank Fusion (RRF)|RRF]] · [[RAG/Evaluation|Evaluation]]

@@ -9,6 +9,32 @@ updated: 2026-07-11
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-11 (аудит учебного диалога: RAG)
+
+### ✅ Синхронизировано
+
+- Полный учебный диалог RAG сопоставлен с текущим Vault; повторно уже синхронизированные концепции не создавались.
+- Восстановлены пропущенные learned-концепции: [[Semantic Chunking]] и [[Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]].
+- [[RAG/Retrieval|Retrieval]] дополнен как подсистема, включающая semantic search, keyword search, fusion и Top-K в hybrid-сценарии.
+- Начат блок Production RAG: созданы [[RAG/Document Loader|Document Loader]], [[RAG/Indexing Pipeline|Indexing Pipeline]], [[RAG/Query Pipeline|Query Pipeline]] и [[RAG/Production RAG Pipeline|Production RAG Pipeline]] со статусом `learning`, поскольку последний урок в диалоге не был завершён проверкой понимания.
+- [[AI Engineering/Vector Database|Vector Database]] переведена из `draft` в `learning` и дополнена её ролью между indexing и query pipelines.
+- Обновлены Dashboard, Knowledge Map, Roadmap, RAG Plan и оба RAG Index.
+- Новые пустые stubs для упомянутых терминов не создавались.
+
+### 🧠 Weak spots
+
+- Не завершена проверка понимания различий между Indexing Pipeline и Query Pipeline.
+- Требуется закрепить, что embedding объединённого текста не равен простому усреднению embeddings его частей.
+
+### Повторяющиеся ошибки
+
+- RRF сначала воспринимался как усреднение результатов, хотя он суммирует вклады, зависящие от rank.
+- Ранее смешивались этапы предварительной индексации документов и обработки пользовательского запроса.
+
+### Следующий шаг
+
+- Завершить урок о Production RAG Pipeline, ответить на вопросы по Loader, индексации и участию LLM, затем перейти к практической реализации на Python.
+
 ## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Generation Evaluation)
 
 ### ✅ Синхронизировано
@@ -828,7 +854,7 @@ updated: 2026-07-11
 
 ### ✅ Импортировано
 
-- Созданы и обновлены темы: [[Dataset]], [[Train Set]], [[Validation|Validation Set]], [[Test Set]], [[Inference]].
+- Созданы и обновлены темы: [[Neural Networks/Dataset|Dataset]], [[Train Set]], [[Neural Networks/Validation|Validation Set]], [[Test Set]], [[Inference]].
 - Добавлены PyTorch-preview темы: [[model.train() и model.eval()]], [[torch.no_grad()]].
 - Созданы мосты к PyTorch: [[PyTorch/nn.Module|nn.Module]], [[PyTorch/torch.optim|torch.optim]], [[PyTorch/model.eval()|model.eval()]].
 - Создано оглавление модуля: [[Neural Networks/README|Neural Networks README]].
@@ -850,8 +876,8 @@ updated: 2026-07-11
 
 - Обновлены stub-заметки [[Optimizer]], [[Batch]], [[Epoch]] и [[Adam]].
 - Созданы темы оптимизации: [[Batch Gradient Descent]], [[SGD]], [[Mini-Batch Gradient Descent]], [[Momentum]].
-- Созданы темы регуляризации: [[Overfitting]], [[Dropout]], [[Batch Normalization]].
-- Добавлены stub-связи для [[Train Set]], [[Validation]], [[Test Set]], [[Scaling]], [[Train Validation Test]] и [[Regularization]].
+- Созданы темы регуляризации: [[Neural Networks/Overfitting|Overfitting]], [[Dropout]], [[Batch Normalization]].
+- Добавлены stub-связи для [[Train Set]], [[Neural Networks/Validation|Validation]], [[Test Set]], [[Scaling]], [[Train Validation Test]] и [[Regularization]].
 
 ### 🧠 Уровень понимания
 
@@ -964,8 +990,8 @@ updated: 2026-07-11
 
 **Knowledge Sync: Feature Scaling:**
 - ✅ [[Feature Scaling]] — полная концепция (confidence: 80%, status: learned)
-- ✅ [[Normalization]] — stub заметка
-- ✅ [[Standardization]] — stub заметка
+- ✅ [[Machine Learning/Normalization|Normalization]] — stub заметка
+- ✅ [[Machine Learning/Standardization|Standardization]] — stub заметка
 - ✅ [[Gradient Descent]] — stub заметка
 - ✅ [[KNN]] — stub заметка
 - ✅ [[SVM]] — stub заметка

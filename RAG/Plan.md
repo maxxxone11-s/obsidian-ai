@@ -107,7 +107,7 @@ Topics:
 - [[RAG/Chunk Overlap|Chunk Overlap]] — learned
 - Sliding Window
 - [[RAG/Recursive Chunking|Recursive Chunking]] — learned
-- Semantic Chunking
+- [[Semantic Chunking]] — learned
 - Markdown Chunking
 - Code Chunking
 - Таблицы
@@ -116,7 +116,7 @@ Topics:
 
 ### 4. Vector Database
 
-status: not_started
+status: learning
 
 Коротко: изучить минимально необходимую для RAG часть хранения embeddings и приближённого поиска ближайших соседей.
 
@@ -132,6 +132,7 @@ Related concepts:
 
 Topics:
 
+- [[AI Engineering/Vector Database|Vector Database]] — learning
 - Почему обычного SQL недостаточно для векторного поиска
 - ANN Search
 - HNSW
@@ -185,7 +186,7 @@ Topics:
 - Sparse Search
 - BM25
 - [[RAG/Hybrid Search|Hybrid Search]] — learned
-- Reciprocal Rank Fusion (RRF)
+- [[Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]] — learned
 - Когда использовать каждый подход
 
 ### 7. Reranking
@@ -273,7 +274,7 @@ Topics:
 
 ### 10. Production RAG
 
-status: not_started
+status: learning
 
 Коротко: построить надёжные ingestion, indexing и query pipelines с обновлениями, cache, monitoring и контролем стоимости.
 
@@ -294,7 +295,10 @@ Related concepts:
 
 Topics:
 
-- Indexing Pipeline
+- [[RAG/Document Loader|Document Loader]] — learning
+- [[RAG/Indexing Pipeline|Indexing Pipeline]] — learning
+- [[RAG/Query Pipeline|Query Pipeline]] — learning
+- [[RAG/Production RAG Pipeline|Production RAG Pipeline]] — learning
 - Ingestion Pipeline
 - Embedding Cache
 - Query Cache
@@ -377,7 +381,6 @@ Prerequisites:
 - Chunk Size
 - Chunk Overlap
 - Recursive Chunking
-- Semantic Chunking
 - Markdown Chunking
 - Code Chunking
 - ANN Search
@@ -395,7 +398,6 @@ Prerequisites:
 - Query Expansion
 - Multi Query Retrieval
 - Hybrid Search
-- Reciprocal Rank Fusion
 - Cross Encoder
 - Bi Encoder
 - Reranker
@@ -413,7 +415,6 @@ Prerequisites:
 - Faithfulness
 - Groundedness
 - Answer Relevancy
-- Indexing Pipeline
 - Ingestion Pipeline
 - Embedding Cache
 - Query Cache

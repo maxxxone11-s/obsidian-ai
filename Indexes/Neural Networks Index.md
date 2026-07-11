@@ -57,15 +57,15 @@ tags:
 
 ## Regularization
 
-- [[Overfitting]]
+- [[Neural Networks/Overfitting|Overfitting]]
 - [[Dropout]]
 - [[Batch Normalization]]
 
 ## Dataset, Evaluation и Inference
 
-- [[Dataset]]
+- [[Neural Networks/Dataset|Dataset]]
 - [[Train Set]]
-- [[Validation]]
+- [[Neural Networks/Validation|Validation]]
 - [[Test Set]]
 - [[Train Validation Test]]
 - [[Inference]]

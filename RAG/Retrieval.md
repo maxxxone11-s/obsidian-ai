@@ -14,7 +14,7 @@ difficulty: beginner
 
 ## Академическое определение
 
-Retrieval — этап RAG, на котором представление пользовательского запроса сопоставляется с индексом документов для поиска и отбора наиболее релевантных кандидатов.
+Retrieval — подсистема RAG, которая сопоставляет пользовательский запрос с индексом документов и формирует ранжированный набор наиболее релевантных кандидатов. В hybrid-архитектуре это не одна функция, а последовательность semantic search, keyword search, fusion и отбора Top-K.
 
 ## Инженерное назначение
 
@@ -33,8 +33,10 @@ Retriever превращает вопрос в embedding, сравнивает �
 1. Запрос преобразуется той же embedding-моделью, которой индексировались документы.
 2. Вектор запроса сравнивается с векторами документов.
 3. Кандидаты получают similarity scores.
-4. Результаты сортируются и фильтруются.
-5. [[RAG/Top-K Retrieval|Top-K Retrieval]] возвращает ограниченный набор chunks для следующего этапа.
+4. При Hybrid Search параллельно формируется keyword-выдача.
+5. [[Reciprocal Rank Fusion (RRF)|RRF]] или другой fusion-алгоритм объединяет ранжированные списки.
+6. Результаты сортируются и фильтруются.
+7. [[RAG/Top-K Retrieval|Top-K Retrieval]] возвращает ограниченный набор chunks для следующего этапа.
 
 ## Пример
 
@@ -44,17 +46,19 @@ Retriever превращает вопрос в embedding, сравнивает �
 
 - Использовать разные embedding-модели для документов и запросов.
 - Считать, что retriever отвечает на вопрос пользователя.
+- Сводить Retrieval к одной операции vector similarity search, игнорируя остальные компоненты hybrid pipeline.
 - Передавать в LLM все найденные документы без отбора.
 - Называть результатом поиска «Top-K embeddings», хотя дальше передаются соответствующие chunks.
 
 ## Связанные темы
 
-[[AI Engineering/Embeddings|Embedding]] · [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]] · [[RAG/Top-K Retrieval|Top-K Retrieval]] · [[RAG/Reranking|Reranking]]
+[[AI Engineering/Embeddings|Embedding]] · [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]] · [[RAG/Hybrid Search|Hybrid Search]] · [[Reciprocal Rank Fusion (RRF)|RRF]] · [[RAG/Top-K Retrieval|Top-K Retrieval]] · [[RAG/Reranking|Reranking]]
 
 ## Вопросы для проверки
 
 - Почему запрос и документы должны использовать совместимое embedding-пространство?
 - Что делает retriever после вычисления similarity?
+- Из каких этапов может состоять hybrid retrieval pipeline?
 - Почему retriever не генерирует ответ?
 
 ## Следующие темы

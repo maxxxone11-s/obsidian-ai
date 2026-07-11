@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-01
+updated: 2026-07-11
 ---
 
 # Graph Groups
@@ -31,6 +31,12 @@ updated: 2026-07-01
 - `tag:#llm-engineering` — жёлтый
 - `tag:#ai-agents` — розовый
 - `tag:#algorithms` — голубой
+
+Каждая concept-заметка должна содержать только один тег верхнеуровневой цветовой группы — тег её canonical Knowledge Area. Междисциплинарные связи лучше обозначать обычными тематическими тегами и wikilinks, иначе цвет зависит от порядка групп.
+
+## Неразрешённые ссылки
+
+Unresolved wikilinks не имеют Markdown-файла и YAML frontmatter, поэтому Obsidian не может назначить им цвет по тегу. В глобальном Graph View включён параметр `Existing files only` (`hideUnresolved: true`), чтобы такие плановые темы не отображались серыми узлами до появления полноценной concept-заметки.
 
 ## Как скрыть служебные файлы
 

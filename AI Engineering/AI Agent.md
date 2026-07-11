@@ -1,10 +1,10 @@
 ---
 type: concept
-area: ai-agents
+area: AI Agents
 status: draft
 created: 2026-06-26
-updated: 2026-06-27
-tags: [ai-agent, autonomous, reasoning]
+updated: 2026-07-11
+tags: [ai-agents, ai-agent, autonomous, reasoning]
 confidence: 0
 ---
 

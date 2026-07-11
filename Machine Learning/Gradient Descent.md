@@ -3,12 +3,12 @@ type: concept
 area: Machine Learning
 status: learned
 created: 2026-06-26
-updated: 2026-06-28
+updated: 2026-07-11
 tags:
   - machine-learning
   - optimization
   - mathematics
-  - neural-networks
+  - neural-network-related
   - ml
 confidence: 0.95
 ---

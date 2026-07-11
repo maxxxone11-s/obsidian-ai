@@ -1,10 +1,10 @@
 ---
 type: concept
-area: llm-engineering
+area: LLM Engineering
 status: draft
 created: 2026-06-26
-updated: 2026-06-27
-tags: [llm, language-model, transformer]
+updated: 2026-07-11
+tags: [llm-engineering, llm, language-model, transformer]
 confidence: 0
 ---
 
