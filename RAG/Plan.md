@@ -107,7 +107,7 @@ Topics:
 - [[RAG/Chunk Overlap|Chunk Overlap]] — learned
 - Sliding Window
 - [[RAG/Recursive Chunking|Recursive Chunking]] — learned
-- [[Semantic Chunking]] — learned
+- [[RAG/Semantic Chunking]] — learned
 - Markdown Chunking
 - Code Chunking
 - Таблицы
@@ -186,7 +186,7 @@ Topics:
 - Sparse Search
 - BM25
 - [[RAG/Hybrid Search|Hybrid Search]] — learned
-- [[Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]] — learned
+- [[RAG/Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]] — learned
 - Когда использовать каждый подход
 
 ### 7. Reranking

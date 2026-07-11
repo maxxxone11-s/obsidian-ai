@@ -340,7 +340,7 @@ updated: 2026-07-11
 - [[RAG/Fixed-size Chunking|Fixed-size Chunking]] ✅ — простой baseline разбиения
 - [[RAG/Chunk Overlap|Chunk Overlap]] ✅ — сохранение контекста на границах
 - [[RAG/Recursive Chunking|Recursive Chunking]] ✅ — иерархическое разбиение по естественным границам
-- [[Semantic Chunking]] ✅ — разбиение по изменениям смысла между соседними фрагментами
+- [[RAG/Semantic Chunking]] ✅ — разбиение по изменениям смысла между соседними фрагментами
 
 **RAG Retrieval Pipeline II синхронизирован:**
 
@@ -348,7 +348,7 @@ updated: 2026-07-11
 - [[RAG/Top-K Retrieval|Top-K Retrieval]] ✅ — ограничение числа кандидатов
 - [[RAG/Reranking|Reranking]] ✅ — точная повторная оценка найденных документов
 - [[RAG/Hybrid Search|Hybrid Search]] ✅ — объединение semantic и keyword search
-- [[Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]] ✅ — объединение ранжированных списков без сравнения несовместимых raw scores
+- [[RAG/Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]] ✅ — объединение ранжированных списков без сравнения несовместимых raw scores
 
 **Production RAG Pipeline начат:**
 

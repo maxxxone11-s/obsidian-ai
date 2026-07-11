@@ -62,4 +62,4 @@ $$
 
 ## Следующие темы
 
-[[Retrieval]] · [[Top-K Search]]
+[[Retrieval]] · [[RAG/Top-K Retrieval|Top-K Search]]

@@ -48,7 +48,7 @@ Recursive Chunking — алгоритм разбиения текста, кот�
 
 ## Связанные темы
 
-[[RAG/Chunk|Chunk]] · [[RAG/Fixed-size Chunking|Fixed-size Chunking]] · [[Semantic Chunking]]
+[[RAG/Chunk|Chunk]] · [[RAG/Fixed-size Chunking|Fixed-size Chunking]] · [[RAG/Semantic Chunking]]
 
 ## Вопросы для проверки
 
@@ -58,4 +58,4 @@ Recursive Chunking — алгоритм разбиения текста, кот�
 
 ## Следующие темы
 
-[[Semantic Chunking]]
+[[RAG/Semantic Chunking]]

@@ -14,7 +14,7 @@ updated: 2026-07-11
 ### ✅ Синхронизировано
 
 - Полный учебный диалог RAG сопоставлен с текущим Vault; повторно уже синхронизированные концепции не создавались.
-- Восстановлены пропущенные learned-концепции: [[Semantic Chunking]] и [[Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]].
+- Восстановлены пропущенные learned-концепции: [[RAG/Semantic Chunking]] и [[RAG/Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]].
 - [[RAG/Retrieval|Retrieval]] дополнен как подсистема, включающая semantic search, keyword search, fusion и Top-K в hybrid-сценарии.
 - Начат блок Production RAG: созданы [[RAG/Document Loader|Document Loader]], [[RAG/Indexing Pipeline|Indexing Pipeline]], [[RAG/Query Pipeline|Query Pipeline]] и [[RAG/Production RAG Pipeline|Production RAG Pipeline]] со статусом `learning`, поскольку последний урок в диалоге не был завершён проверкой понимания.
 - [[AI Engineering/Vector Database|Vector Database]] переведена из `draft` в `learning` и дополнена её ролью между indexing и query pipelines.

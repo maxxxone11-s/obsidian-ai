@@ -59,4 +59,4 @@ Evaluation отвечает на вопрос: «Стала ли система 
 
 ## Следующие темы
 
-[[RAG/Ground Truth|Ground Truth]] · [[Machine Learning/Accuracy Precision Recall и F1|Recall]] · [[Generation Evaluation]]
+[[RAG/Ground Truth|Ground Truth]] · [[Machine Learning/Accuracy Precision Recall и F1|Recall]] · [[RAG/Faithfulness|Faithfulness]] · [[RAG/Answer Relevancy|Answer Relevancy]]

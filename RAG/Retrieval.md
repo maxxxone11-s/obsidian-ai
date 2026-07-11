@@ -34,7 +34,7 @@ Retriever превращает вопрос в embedding, сравнивает �
 2. Вектор запроса сравнивается с векторами документов.
 3. Кандидаты получают similarity scores.
 4. При Hybrid Search параллельно формируется keyword-выдача.
-5. [[Reciprocal Rank Fusion (RRF)|RRF]] или другой fusion-алгоритм объединяет ранжированные списки.
+5. [[RAG/Reciprocal Rank Fusion (RRF)|RRF]] или другой fusion-алгоритм объединяет ранжированные списки.
 6. Результаты сортируются и фильтруются.
 7. [[RAG/Top-K Retrieval|Top-K Retrieval]] возвращает ограниченный набор chunks для следующего этапа.
 
@@ -52,7 +52,7 @@ Retriever превращает вопрос в embedding, сравнивает �
 
 ## Связанные темы
 
-[[AI Engineering/Embeddings|Embedding]] · [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]] · [[RAG/Hybrid Search|Hybrid Search]] · [[Reciprocal Rank Fusion (RRF)|RRF]] · [[RAG/Top-K Retrieval|Top-K Retrieval]] · [[RAG/Reranking|Reranking]]
+[[AI Engineering/Embeddings|Embedding]] · [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]] · [[RAG/Hybrid Search|Hybrid Search]] · [[RAG/Reciprocal Rank Fusion (RRF)|RRF]] · [[RAG/Top-K Retrieval|Top-K Retrieval]] · [[RAG/Reranking|Reranking]]
 
 ## Вопросы для проверки
 

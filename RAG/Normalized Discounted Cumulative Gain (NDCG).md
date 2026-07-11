@@ -62,4 +62,4 @@ MRR учитывает только первый релевантный доку
 
 ## Следующие темы
 
-[[Generation Evaluation]]
+[[RAG/Faithfulness|Faithfulness]]
