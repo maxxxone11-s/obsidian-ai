@@ -44,13 +44,15 @@ tags:
 - [[RAG/Context Precision|Context Precision]]
 - [[RAG/Context Recall|Context Recall]]
 - [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]]
+- [[RAG/Document Loader|Document Loader]]
+- [[RAG/Indexing Pipeline|Indexing Pipeline]]
+- [[RAG/Query Pipeline|Query Pipeline]]
+- [[RAG/Orchestrator|Orchestrator]]
+- [[RAG/Query Transformation|Query Transformation]]
 
 ## Концепции в процессе изучения
 
 - [[AI Engineering/Vector Database|Vector Database]]
-- [[RAG/Document Loader|Document Loader]]
-- [[RAG/Indexing Pipeline|Indexing Pipeline]]
-- [[RAG/Query Pipeline|Query Pipeline]]
 - [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
 
 ## Learning Path

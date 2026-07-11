@@ -42,13 +42,15 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 - [[RAG/Context Precision|Context Precision]]
 - [[RAG/Context Recall|Context Recall]]
 - [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]]
+- [[RAG/Document Loader|Document Loader]]
+- [[RAG/Indexing Pipeline|Indexing Pipeline]]
+- [[RAG/Query Pipeline|Query Pipeline]]
+- [[RAG/Orchestrator|Orchestrator]]
+- [[RAG/Query Transformation|Query Transformation]]
 
 ## Концепции в процессе изучения
 
 - [[AI Engineering/Vector Database|Vector Database]]
-- [[RAG/Document Loader|Document Loader]]
-- [[RAG/Indexing Pipeline|Indexing Pipeline]]
-- [[RAG/Query Pipeline|Query Pipeline]]
 - [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
 
 ## Learning Path
@@ -125,7 +127,8 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 
 ### Production RAG
 
-- Indexing и Ingestion Pipelines
+- [[RAG/Indexing Pipeline|Indexing Pipeline]] и Ingestion Pipeline
+- [[RAG/Query Pipeline|Query Pipeline]], [[RAG/Orchestrator|Orchestrator]] и [[RAG/Query Transformation|Query Transformation]]
 - Cache, versioning и incremental updates
 - Monitoring и Cost Optimization
 

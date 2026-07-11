@@ -358,6 +358,8 @@ updated: 2026-07-11
 - [[RAG/Document Loader|Document Loader]]
 - [[RAG/Indexing Pipeline|Indexing Pipeline]]
 - [[RAG/Query Pipeline|Query Pipeline]]
+- [[RAG/Orchestrator|Orchestrator]]
+- [[RAG/Query Transformation|Query Transformation]]
 - [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
 
 ### Планируемые блоки
@@ -369,7 +371,7 @@ updated: 2026-07-11
 - Generation и Evaluation
 - Production RAG и Advanced RAG
 
-Основы RAG, embeddings, chunking, retrieval, reranking и hybrid search находятся в изучении; блок Evaluation изучен; начат Production RAG Pipeline.
+Основы RAG, embeddings, chunking, retrieval, reranking и hybrid search находятся в изучении; блок Evaluation изучен; в Production RAG закреплены Loader, Indexing Pipeline, Query Pipeline, Orchestrator и Query Transformation.
 
 ## LLM Engineering
 

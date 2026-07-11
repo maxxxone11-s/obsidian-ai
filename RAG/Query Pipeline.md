@@ -1,13 +1,13 @@
 ---
 type: concept
 area: RAG
-status: learning
+status: learned
 created: 2026-07-11
 updated: 2026-07-11
 tags: [rag, query-pipeline, retrieval, generation]
-aliases: [Пайплайн запроса, Online RAG Pipeline]
-confidence: medium
-difficulty: intermediate
+aliases: [Пайплайн запроса, Online RAG Pipeline, Online Pipeline, RAG Query Pipeline]
+confidence: high
+difficulty: beginner
 ---
 
 # Query Pipeline
@@ -31,11 +31,13 @@ Query Pipeline — онлайн-этап RAG, который обрабатыв�
 ## Как это работает
 
 1. Пользователь задаёт вопрос.
-2. Embedding-модель вычисляет embedding вопроса.
-3. [[RAG/Retrieval|Retriever]] ищет похожие chunks в готовом индексе.
-4. [[RAG/Reranking|Reranker]] уточняет порядок кандидатов.
-5. Лучшие chunks формируют контекст.
-6. LLM получает вопрос и контекст и генерирует ответ.
+2. [[RAG/Orchestrator|Orchestrator]] запускает последовательность обработки.
+3. При необходимости [[RAG/Query Transformation|Query Transformation]] уточняет формулировку до построения embedding.
+4. Embedding-модель вычисляет embedding итогового запроса.
+5. [[RAG/Retrieval|Retriever]] ищет похожие chunks в готовом индексе.
+6. [[RAG/Reranking|Reranker]] уточняет порядок кандидатов.
+7. Лучшие chunks формируют контекст.
+8. LLM получает вопрос и контекст и генерирует ответ.
 
 ## Пример
 
@@ -47,10 +49,11 @@ Query Pipeline — онлайн-этап RAG, который обрабатыв�
 - Передавать LLM embeddings вместо текста найденных chunks.
 - Считать, что RAG во время запроса заново открывает исходный PDF.
 - Путать этап retrieval с генерацией ответа.
+- Выполнять Query Transformation после построения embedding.
 
 ## Связанные темы
 
-[[RAG/Indexing Pipeline|Indexing Pipeline]] · [[AI Engineering/Embeddings|Embedding]] · [[RAG/Retrieval|Retrieval]] · [[RAG/Reranking|Reranking]] · [[RAG/Faithfulness|Faithfulness]]
+[[RAG/Indexing Pipeline|Indexing Pipeline]] · [[RAG/Orchestrator|Orchestrator]] · [[RAG/Query Transformation|Query Transformation]] · [[AI Engineering/Embeddings|Embedding]] · [[RAG/Retrieval|Retriever]] · [[RAG/Reranking|Reranker]] · [[RAG/Faithfulness|Faithfulness]]
 
 ## Вопросы для проверки
 
@@ -58,7 +61,8 @@ Query Pipeline — онлайн-этап RAG, который обрабатыв�
 - Почему документы не embedding-ируются заново?
 - Что передаётся LLM после retrieval и reranking?
 - На каком этапе появляется генерация?
+- Почему Query Transformation выполняется до embedding?
 
 ## Следующие темы
 
-[[RAG/Production RAG Pipeline|Production RAG Pipeline]] · [[RAG/Evaluation|Evaluation]]
+[[RAG/Orchestrator|Orchestrator]] · [[RAG/Query Transformation|Query Transformation]] · [[RAG/Production RAG Pipeline|Production RAG Pipeline]] · [[RAG/Evaluation|Evaluation]]

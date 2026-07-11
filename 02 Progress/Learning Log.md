@@ -9,6 +9,33 @@ updated: 2026-07-11
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Production Architecture)
+
+### ✅ Синхронизировано
+
+- Экспорт `Retrieval Augmented Generation` синхронизирован в ранее подтверждённую Knowledge Area [[RAG/Index|RAG]]; новая область не создавалась.
+- Обновлены существующие concept notes: [[RAG/Indexing Pipeline|Indexing Pipeline]], [[RAG/Query Pipeline|Query Pipeline]] и [[RAG/Document Loader|Document Loader]].
+- Созданы полноценные concept notes: [[RAG/Orchestrator|Orchestrator]] и [[RAG/Query Transformation|Query Transformation]].
+- Зафиксировано требование полной переиндексации при смене embedding-модели.
+- Общие aliases `Workflow`, `Chain`, `Graph` и конфликтующий `Inference Pipeline` не добавлены; их смысл сохранён без создания неоднозначной навигации.
+- Упомянутые техники Query Rewrite, Query Expansion, HyDE, Multi Query и Step-back Prompting оставлены unresolved wikilinks; пустые stubs не создавались.
+- Обновлены Dashboard, Knowledge Map, Roadmap, RAG Plan и оба RAG Index.
+
+### 🧠 Weak spots
+
+- Требуется изучить конкретные техники Query Transformation.
+- Требуется практическое понимание Prompt Builder.
+- Требуется реализация полного Production RAG Pipeline на Python.
+
+### Повторяющиеся ошибки
+
+- Иногда смешиваются понятия текста, символов и результата работы Loader.
+- Иногда объектом оценки называется документ вместо информации или контекста.
+
+### Следующий шаг
+
+- Изучить Query Rewrite, Query Expansion, HyDE, Multi Query и Step-back Prompting, затем реализовать полный Production RAG Pipeline в коде.
+
 ## 2026-07-11 (concept-name remediation)
 
 ### ✅ Обновлено

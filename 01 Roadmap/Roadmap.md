@@ -353,9 +353,11 @@ updated: 2026-07-11
 **Production RAG Pipeline начат:**
 
 - [[AI Engineering/Vector Database|Vector Database]] 🚧 — хранение готовых embeddings и поиск chunks по query embedding
-- [[RAG/Document Loader|Document Loader]] 🚧 — извлечение текста из внешнего источника
-- [[RAG/Indexing Pipeline|Indexing Pipeline]] 🚧 — предварительная подготовка и сохранение индекса документов
-- [[RAG/Query Pipeline|Query Pipeline]] 🚧 — online retrieval, reranking и generation для каждого вопроса
+- [[RAG/Document Loader|Document Loader]] ✅ — извлечение текста из внешнего источника
+- [[RAG/Indexing Pipeline|Indexing Pipeline]] ✅ — предварительная подготовка и сохранение индекса документов
+- [[RAG/Query Pipeline|Query Pipeline]] ✅ — online retrieval, reranking и generation для каждого вопроса
+- [[RAG/Orchestrator|Orchestrator]] ✅ — управление порядком вызова независимых компонентов
+- [[RAG/Query Transformation|Query Transformation]] ✅ — улучшение поискового запроса до построения embedding
 - [[RAG/Production RAG Pipeline|Production RAG Pipeline]] 🚧 — разделение жизненного цикла на indexing и query stages
 
 **RAG Evaluation синхронизирован:**
@@ -375,10 +377,10 @@ updated: 2026-07-11
 - [[RAG/Context Recall|Context Recall]] ✅ — полнота информации для ответа
 - [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]] ✅ — автоматизированная оценка сложных свойств ответа
 
-**Статус:** `learning`; блок Evaluation изучен, Semantic Chunking и RRF восстановлены из учебного диалога, Production RAG начат.
+**Статус:** `learning`; блок Evaluation изучен, а в Production RAG закреплены Loader, Indexing Pipeline, Query Pipeline, Orchestrator и Query Transformation.
 **Предварительные знания:** [[LLM Engineering/Index|LLM Engineering]], [[Transformers/Index|Transformers]], [[Machine Learning/Index|Machine Learning]], [[Python Backend/Index|Python Backend]], [[AI Agents/Index|AI Agents]].
-**Требует повторения:** отличие offline Indexing Pipeline от online Query Pipeline, практическая реализация LLM-as-a-Judge и выбор evaluation-фреймворка.
-**Следующий шаг:** завершить Production RAG Pipeline, уточнить роль LLM на каждом этапе и перейти к реализации на Python.
+**Требует повторения:** конкретные техники Query Transformation, практическая реализация Prompt Builder, LLM-as-a-Judge и полного pipeline на Python.
+**Следующий шаг:** изучить Query Rewrite, Query Expansion, HyDE, Multi Query и Step-back Prompting, затем реализовать Production RAG Pipeline на Python.
 
 ## Фаза 4: PyTorch 🚀 Active
 

@@ -36,7 +36,7 @@ Production RAG Pipeline — архитектура полного жизненн
 
 Вторая стадия — [[RAG/Query Pipeline|Query Pipeline]]:
 
-`Question → Query Embedding → Retriever → Reranker → Context → LLM → Answer`
+`Question → Orchestrator → Query Transformation → Query Embedding → Retriever → Reranker → Context → LLM → Answer`
 
 Документные embeddings создаются во время индексации, а query embedding — для каждого нового вопроса.
 
@@ -53,7 +53,7 @@ Production RAG Pipeline — архитектура полного жизненн
 
 ## Связанные темы
 
-[[RAG/Indexing Pipeline|Indexing Pipeline]] · [[RAG/Query Pipeline|Query Pipeline]] · [[RAG/Document Loader|Document Loader]] · [[AI Engineering/Vector Database|Vector Database]] · [[RAG/Evaluation|Evaluation]]
+[[RAG/Indexing Pipeline|Indexing Pipeline]] · [[RAG/Query Pipeline|Query Pipeline]] · [[RAG/Document Loader|Document Loader]] · [[RAG/Orchestrator|Orchestrator]] · [[RAG/Query Transformation|Query Transformation]] · [[AI Engineering/Vector Database|Vector Database]] · [[RAG/Evaluation|Evaluation]]
 
 ## Вопросы для проверки
 
@@ -64,4 +64,4 @@ Production RAG Pipeline — архитектура полного жизненн
 
 ## Следующие темы
 
-[[Prompt Construction]] · [[Context Injection]] · [[Citation]] · [[Monitoring]]
+[[RAG/Orchestrator|Orchestrator]] · [[RAG/Query Transformation|Query Transformation]] · [[Prompt Construction]] · [[Context Injection]] · [[Citation]] · [[Monitoring]]

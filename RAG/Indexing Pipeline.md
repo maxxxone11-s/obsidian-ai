@@ -1,13 +1,13 @@
 ---
 type: concept
 area: RAG
-status: learning
+status: learned
 created: 2026-07-11
 updated: 2026-07-11
 tags: [rag, indexing, ingestion]
-aliases: [Пайплайн индексации, Document Indexing Pipeline]
-confidence: medium
-difficulty: intermediate
+aliases: [Пайплайн индексации, Document Indexing Pipeline, Offline Pipeline]
+confidence: high
+difficulty: beginner
 ---
 
 # Indexing Pipeline
@@ -35,6 +35,7 @@ Indexing Pipeline — офлайн-этап RAG, который преобраз
 3. Embedding-модель вычисляет вектор для каждого chunk.
 4. [[AI Engineering/Vector Database|Vector Database]] сохраняет vectors, chunks и метаданные.
 5. При добавлении или изменении документов соответствующая часть индекса обновляется.
+6. При смене embedding-модели весь индекс должен быть перестроен, потому что старые и новые vectors находятся в несовместимых embedding-пространствах.
 
 LLM-генератор в этой последовательности не участвует.
 
@@ -48,6 +49,7 @@ LLM-генератор в этой последовательности не у�
 - Считать индексацию этапом генерации ответа.
 - Создавать один embedding для большого документа вместо его chunks.
 - Не обновлять индекс после изменения источника.
+- Менять embedding-модель без полной переиндексации существующих chunks.
 
 ## Связанные темы
 
@@ -59,6 +61,7 @@ LLM-генератор в этой последовательности не у�
 - Почему индексация выполняется заранее?
 - Участвует ли LLM-генератор в индексации?
 - Когда embeddings документов нужно пересчитывать?
+- Почему смена embedding-модели требует полной переиндексации?
 
 ## Следующие темы
 

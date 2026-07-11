@@ -295,9 +295,11 @@ Related concepts:
 
 Topics:
 
-- [[RAG/Document Loader|Document Loader]] — learning
-- [[RAG/Indexing Pipeline|Indexing Pipeline]] — learning
-- [[RAG/Query Pipeline|Query Pipeline]] — learning
+- [[RAG/Document Loader|Document Loader]] — learned
+- [[RAG/Indexing Pipeline|Indexing Pipeline]] — learned
+- [[RAG/Query Pipeline|Query Pipeline]] — learned
+- [[RAG/Orchestrator|Orchestrator]] — learned
+- [[RAG/Query Transformation|Query Transformation]] — learned
 - [[RAG/Production RAG Pipeline|Production RAG Pipeline]] — learning
 - Ingestion Pipeline
 - Embedding Cache

@@ -10,11 +10,17 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Сообщение для сбора конспектов.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Сообщение для сбора конспектов"
             }
           },
           {
@@ -35,14 +41,13 @@
             "id": "a10a207ca66e9084",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,9 +212,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "a10a207ca66e9084",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "RAG/Query Transformation.md",
+    "RAG/Orchestrator.md",
     "Indexes/RAG Index.md",
+    "Citation.md",
+    "Human Evaluation.md",
     "LLM Engineering/Response Validation.md",
     "Neural Networks/Validation Set.md",
     "Machine Learning/Feature Standardization.md",
@@ -231,10 +240,6 @@
     "Semantic Chunking.md",
     "RAG/Chunk.md",
     "Chunking.md",
-    "RAG/Plan.md",
-    "Generation Evaluation.md",
-    "Reciprocal Rank Fusion (RRF).md",
-    "tiktoken.md",
     "Statistics",
     "Transformers",
     "Algorithms/Recursion/Trees",
