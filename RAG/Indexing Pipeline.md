@@ -53,7 +53,7 @@ LLM-генератор в этой последовательности не у�
 
 ## Связанные темы
 
-[[RAG/Document Loader|Document Loader]] · [[RAG/Chunk|Chunk]] · [[AI Engineering/Embeddings|Embedding]] · [[AI Engineering/Vector Database|Vector Database]] · [[RAG/Query Pipeline|Query Pipeline]]
+[[RAG/Ingestion Pipeline|Ingestion Pipeline]] · [[RAG/Document Loader|Document Loader]] · [[RAG/Chunk|Chunk]] · [[AI Engineering/Embeddings|Embedding]] · [[AI Engineering/Vector Database|Vector Database]] · [[RAG/Query Pipeline|Query Pipeline]]
 
 ## Вопросы для проверки
 

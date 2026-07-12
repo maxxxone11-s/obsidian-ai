@@ -215,7 +215,7 @@ Topics:
 
 ### 8. Generation
 
-status: not_started
+status: learning
 
 Коротко: соединить retrieval с LLM, сформировать контекст и обеспечить проверяемые ссылки на источники.
 
@@ -233,12 +233,13 @@ Related concepts:
 
 Topics:
 
-- Prompt Construction
+- [[RAG/Prompt Construction|Prompt Construction]] — learned
+- [[RAG/Context Construction|Context Construction]] — learned
 - Context Injection
 - Citation
 - Source Attribution
 - Context Compression
-- Lost in the Middle
+- [[RAG/Lost in the Middle|Lost in the Middle]] — learned
 - Long Context
 
 ### 9. Evaluation
@@ -305,8 +306,9 @@ Topics:
 - [[RAG/HyDE|HyDE]] — learned
 - [[RAG/Multi Query Retrieval|Multi Query Retrieval]] — learned
 - [[RAG/Step-back Prompting|Step-back Prompting]] — learned
-- [[RAG/Production RAG Pipeline|Production RAG Pipeline]] — learning
-- Ingestion Pipeline
+- [[RAG/Production RAG Pipeline|Production RAG Pipeline]] — learned
+- [[RAG/Ingestion Pipeline|Ingestion Pipeline]] — learned
+- [[RAG/SearchResult|SearchResult]] — learned
 - Embedding Cache
 - Query Cache
 - Versioning

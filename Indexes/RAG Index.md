@@ -2,7 +2,7 @@
 type: index
 area: RAG
 created: 2026-07-10
-updated: 2026-07-11
+updated: 2026-07-12
 tags:
   - index
   - system
@@ -54,11 +54,16 @@ tags:
 - [[RAG/HyDE|HyDE]]
 - [[RAG/Multi Query Retrieval|Multi Query Retrieval]]
 - [[RAG/Step-back Prompting|Step-back Prompting]]
+- [[RAG/Prompt Construction|Prompt Construction]]
+- [[RAG/Context Construction|Context Construction]]
+- [[RAG/Lost in the Middle|Lost in the Middle]]
+- [[RAG/Ingestion Pipeline|Ingestion Pipeline]]
+- [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
+- [[RAG/SearchResult|SearchResult]]
 
 ## Концепции в процессе изучения
 
 - [[AI Engineering/Vector Database|Vector Database]]
-- [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
 
 ## Learning Path
 

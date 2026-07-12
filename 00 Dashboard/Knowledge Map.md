@@ -365,6 +365,11 @@ updated: 2026-07-11
 - [[RAG/HyDE|HyDE]]
 - [[RAG/Multi Query Retrieval|Multi Query Retrieval]]
 - [[RAG/Step-back Prompting|Step-back Prompting]]
+- [[RAG/Prompt Construction|Prompt Construction]]
+- [[RAG/Context Construction|Context Construction]]
+- [[RAG/Lost in the Middle|Lost in the Middle]]
+- [[RAG/Ingestion Pipeline|Ingestion Pipeline]]
+- [[RAG/SearchResult|SearchResult]]
 - [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
 
 ### Планируемые блоки
@@ -376,7 +381,7 @@ updated: 2026-07-11
 - Generation и Evaluation
 - Production RAG и Advanced RAG
 
-Основы RAG, embeddings, chunking, retrieval, reranking и hybrid search находятся в изучении; блок Evaluation изучен; в Production RAG закреплены архитектура pipeline и пять техник Query Transformation.
+Основы RAG, embeddings, chunking, retrieval, reranking и hybrid search находятся в изучении; блок Evaluation изучен; Generation и Production RAG дополнены Context/Prompt Construction, Lost in the Middle, Ingestion Pipeline и SearchResult.
 
 ## LLM Engineering
 

@@ -36,8 +36,9 @@ Query Pipeline — онлайн-этап RAG, который обрабатыв�
 4. Embedding-модель вычисляет embedding итогового запроса.
 5. [[RAG/Retrieval|Retriever]] ищет похожие chunks в готовом индексе.
 6. [[RAG/Reranking|Reranker]] уточняет порядок кандидатов.
-7. Лучшие chunks формируют контекст.
-8. LLM получает вопрос и контекст и генерирует ответ.
+7. [[RAG/Context Construction|Context Builder]] формирует Final Context из SearchResult.
+8. [[RAG/Prompt Construction|Prompt Builder]] объединяет инструкции, контекст и вопрос.
+9. LLM получает prompt и генерирует ответ.
 
 ## Пример
 
@@ -53,7 +54,7 @@ Query Pipeline — онлайн-этап RAG, который обрабатыв�
 
 ## Связанные темы
 
-[[RAG/Indexing Pipeline|Indexing Pipeline]] · [[RAG/Orchestrator|Orchestrator]] · [[RAG/Query Transformation|Query Transformation]] · [[AI Engineering/Embeddings|Embedding]] · [[RAG/Retrieval|Retriever]] · [[RAG/Reranking|Reranker]] · [[RAG/Faithfulness|Faithfulness]]
+[[RAG/Indexing Pipeline|Indexing Pipeline]] · [[RAG/Orchestrator|Orchestrator]] · [[RAG/Query Transformation|Query Transformation]] · [[AI Engineering/Embeddings|Embedding]] · [[RAG/Retrieval|Retriever]] · [[RAG/Reranking|Reranker]] · [[RAG/SearchResult|SearchResult]] · [[RAG/Context Construction|Context Builder]] · [[RAG/Prompt Construction|Prompt Builder]]
 
 ## Вопросы для проверки
 

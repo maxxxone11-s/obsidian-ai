@@ -2,7 +2,7 @@
 type: index
 area: RAG
 created: 2026-06-26
-updated: 2026-07-11
+updated: 2026-07-12
 tags:
   - index
   - system
@@ -52,11 +52,16 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 - [[RAG/HyDE|HyDE]]
 - [[RAG/Multi Query Retrieval|Multi Query Retrieval]]
 - [[RAG/Step-back Prompting|Step-back Prompting]]
+- [[RAG/Prompt Construction|Prompt Construction]]
+- [[RAG/Context Construction|Context Construction]]
+- [[RAG/Lost in the Middle|Lost in the Middle]]
+- [[RAG/Ingestion Pipeline|Ingestion Pipeline]]
+- [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
+- [[RAG/SearchResult|SearchResult]]
 
 ## Концепции в процессе изучения
 
 - [[AI Engineering/Vector Database|Vector Database]]
-- [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
 
 ## Learning Path
 
@@ -120,10 +125,11 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 
 ### Generation
 
-- Prompt Construction
+- [[RAG/Prompt Construction|Prompt Construction]]
+- [[RAG/Context Construction|Context Construction]]
 - Context Injection
 - Citation и Source Attribution
-- Context Compression и Long Context
+- Context Compression, Long Context и [[RAG/Lost in the Middle|Lost in the Middle]]
 
 ### Evaluation
 
@@ -132,7 +138,8 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 
 ### Production RAG
 
-- [[RAG/Indexing Pipeline|Indexing Pipeline]] и Ingestion Pipeline
+- [[RAG/Document Loader|Document Loader]] и [[RAG/Indexing Pipeline|Indexing Pipeline]]
+- [[RAG/Ingestion Pipeline|Ingestion Pipeline]] и [[RAG/SearchResult|SearchResult]]
 - [[RAG/Query Pipeline|Query Pipeline]], [[RAG/Orchestrator|Orchestrator]] и [[RAG/Query Transformation|Query Transformation]]
 - [[RAG/Query Rewrite|Query Rewrite]], [[RAG/Query Expansion|Query Expansion]], [[RAG/HyDE|HyDE]], [[RAG/Multi Query Retrieval|Multi Query Retrieval]] и [[RAG/Step-back Prompting|Step-back Prompting]]
 - Cache, versioning и incremental updates

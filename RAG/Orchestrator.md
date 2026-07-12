@@ -5,7 +5,7 @@ status: learned
 created: 2026-07-11
 updated: 2026-07-11
 tags: [rag, production, orchestration, architecture]
-aliases: [RAG Orchestrator, Pipeline Controller]
+aliases: [RAG Orchestrator, Pipeline Controller, Query Orchestrator]
 confidence: high
 difficulty: intermediate
 ---
@@ -34,8 +34,9 @@ Orchestrator координирует Query Transformation, embedding-модел
 2. Вызывает [[RAG/Query Transformation|Query Transformation]], если запрос нужно уточнить.
 3. Передаёт итоговый запрос embedding-модели.
 4. Запускает [[RAG/Retrieval|Retriever]] и [[RAG/Reranking|Reranker]].
-5. Передаёт выбранный контекст prompt builder.
-6. Вызывает LLM и возвращает итоговый ответ.
+5. Передаёт SearchResult в [[RAG/Context Construction|Context Builder]].
+6. Передаёт Final Context в [[RAG/Prompt Construction|Prompt Builder]].
+7. Вызывает LLM и возвращает итоговый ответ.
 
 Оркестрация может быть реализована как последовательный workflow, chain или graph, но эти термины не являются синонимами самого компонента.
 
@@ -52,7 +53,7 @@ Orchestrator принимает вопрос, вызывает embedding-мод�
 
 ## Связанные темы
 
-[[RAG/Query Pipeline|Query Pipeline]] · [[RAG/Query Transformation|Query Transformation]] · [[RAG/Retrieval|Retriever]] · [[RAG/Reranking|Reranker]] · [[Prompt Builder]] · [[LLM Engineering/Production Pipeline LLM-приложения|Production Pipeline LLM-приложения]]
+[[RAG/Query Pipeline|Query Pipeline]] · [[RAG/Query Transformation|Query Transformation]] · [[RAG/Retrieval|Retriever]] · [[RAG/Reranking|Reranker]] · [[RAG/Context Construction|Context Builder]] · [[RAG/Prompt Construction|Prompt Builder]] · [[LLM Engineering/Production Pipeline LLM-приложения|Production Pipeline LLM-приложения]]
 
 ## Вопросы для проверки
 
@@ -62,4 +63,4 @@ Orchestrator принимает вопрос, вызывает embedding-мод�
 
 ## Следующие темы
 
-[[RAG/Query Transformation|Query Transformation]] · [[Prompt Builder]]
+[[RAG/Query Transformation|Query Transformation]] · [[RAG/Context Construction|Context Construction]] · [[RAG/Prompt Construction|Prompt Construction]]

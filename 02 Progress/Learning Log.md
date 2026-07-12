@@ -4,10 +4,36 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-11
+updated: 2026-07-12
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-12 (KNOWLEDGE_EXPORT sync: RAG — Architecture & Implementation)
+
+### ✅ Синхронизировано
+
+- Созданы concept notes: [[RAG/Prompt Construction|Prompt Construction]], [[RAG/Context Construction|Context Construction]], [[RAG/Lost in the Middle|Lost in the Middle]], [[RAG/Ingestion Pipeline|Ingestion Pipeline]] и [[RAG/SearchResult|SearchResult]].
+- `Production RAG Pipeline Architecture` объединён с существующей canonical [[RAG/Production RAG Pipeline|Production RAG Pipeline]]; дублирующий файл не создавался.
+- Обновлены [[RAG/Orchestrator|Orchestrator]], [[RAG/Query Pipeline|Query Pipeline]] и [[RAG/Indexing Pipeline|Indexing Pipeline]].
+- Ingestion Pipeline отделён от Indexing Pipeline: ingestion охватывает loading, cleaning, chunking, metadata и embeddings, а indexing отвечает за запись и обновление поискового индекса.
+- Alias `Indexing Pipeline` не добавлялся Ingestion Pipeline; `Query Orchestrator` закреплён за Orchestrator.
+- Обновлены Dashboard, Knowledge Map, Roadmap, RAG Plan и оба RAG Index.
+
+### 🧠 Weak spots
+
+- Требуется больше практики чтения полной архитектуры RAG в коде.
+- Требуется интеграция реальной Embedding Model.
+- Требуется закрепить различия между Document, SearchResult и VectorRecord.
+
+### Повторяющиеся ошибки
+
+- Иногда смешиваются обязанности компонентов Pipeline.
+- Иногда metadata приписывается LLM, хотя обычно используется инфраструктурой RAG.
+
+### Следующий шаг
+
+- Перейти к интеграции реальной Embedding Model и production-примеру RAG Pipeline с настоящим API.
 
 ## 2026-07-11 (KNOWLEDGE_EXPORT sync: RAG — Query Transformation)
 
