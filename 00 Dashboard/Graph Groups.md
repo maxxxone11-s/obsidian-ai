@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-11
+updated: 2026-07-13
 ---
 
 # Graph Groups
@@ -28,6 +28,7 @@ updated: 2026-07-11
 - `tag:#pytorch` — фиолетовый
 - `tag:#langgraph` — красный
 - `tag:#rag` — бирюзовый
+- `tag:#vector-databases` — тёмно-синий
 - `tag:#llm-engineering` — жёлтый
 - `tag:#ai-agents` — розовый
 - `tag:#algorithms` — голубой

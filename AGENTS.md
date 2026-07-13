@@ -53,6 +53,7 @@ Obsidian Vault
 ├── PyTorch/
 ├── LangGraph/
 ├── RAG/
+├── Vector Databases/
 ├── LLM Engineering/
 ├── AI Agents/
 ├── Algorithms/
@@ -149,6 +150,7 @@ Knowledge Areas считаются стабильными доменами ве�
 - PyTorch
 - LangGraph
 - RAG
+- Vector Databases
 - LLM Engineering
 - AI Agents
 - Algorithms & Data Structures
@@ -717,6 +719,7 @@ SYNC_PACKAGE интегрируется с системой Knowledge Sync:
 - `PyTorch`
 - `LangGraph`
 - `RAG`
+- `Vector Databases`
 - `LLM Engineering`
 - `AI Agents`
 - `Algorithms & Data Structures`

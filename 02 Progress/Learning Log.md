@@ -4,10 +4,37 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-12
+updated: 2026-07-13
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-13 (KNOWLEDGE_EXPORT sync: Vector Databases — Similarity Search и HNSW)
+
+### ✅ Синхронизировано
+
+- `knowledge_area: AI Infrastructure` нормализовано в явно подтверждённую стабильную область [[Vector Databases/Index|Vector Databases]]; область AI Infrastructure не создавалась.
+- Созданы concept notes: [[Vector Databases/Exact Search|Exact Search]], [[Vector Databases/Approximate Nearest Neighbor (ANN)|Approximate Nearest Neighbor (ANN)]], [[Vector Databases/Recall в Approximate Nearest Neighbor|Recall в ANN]], [[Vector Databases/HNSW|HNSW]], [[Vector Databases/Greedy Search в HNSW|Greedy Search в HNSW]], [[Vector Databases/Local Maximum в HNSW|Local Maximum в HNSW]] и [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels в HNSW]].
+- Материал «HNSW как граф поиска» синхронизирован в расширяемую canonical-концепцию HNSW, чтобы будущие параметры индекса дополняли одну заметку.
+- Alias `Retrieval Recall` не добавлялся к ANN Recall, поскольку он неоднозначен относительно Retrieval Evaluation в RAG.
+- Существующие общие концепции RAG, Machine Learning, LLM Engineering и Python Backend сохранены в своих областях и связаны path-qualified wikilinks.
+- Упомянутые будущие темы не материализованы как пустые stubs.
+
+### 🧠 Weak spots
+
+- Механизм выбора Entry Point.
+- Одновременное исследование нескольких кандидатов.
+- Параметры `M`, `efConstruction` и `efSearch`.
+- Вероятностное распределение embeddings по уровням HNSW.
+
+### Повторяющиеся ошибки
+
+- Поиск HNSW иногда представляется движением только по одному лучшему пути, хотя алгоритм поддерживает множество перспективных кандидатов.
+- Верхний уровень ошибочно воспринимается как область полного перебора вместо навигации от Entry Point.
+
+### Следующий шаг
+
+- Изучить параметры `M`, `efConstruction` и `efSearch`, реализовать небольшой HNSW-подобный граф на Python и визуализировать влияние параметров на Recall и скорость.
 
 ## 2026-07-12 (module plan: Vector Databases)
 

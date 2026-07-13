@@ -4,7 +4,7 @@ tags:
   - index
   - system
 created: 2026-06-26
-updated: 2026-07-12
+updated: 2026-07-13
 ---
 
 # 📑 Главный индекс Vault
@@ -66,8 +66,8 @@ Retrieval-Augmented Generation
 ### [[Vector Databases/Index|🗄️ Vector Databases]]
 Векторный поиск и инфраструктура хранения embeddings
 
-- Exact Search и ANN
-- HNSW и IVF
+- [[Vector Databases/Exact Search|Exact Search]] и [[Vector Databases/Approximate Nearest Neighbor (ANN)|ANN]]
+- [[Vector Databases/HNSW|HNSW]] и IVF
 - pgvector, Qdrant и Pinecone
 - Performance и production operations
 
@@ -113,4 +113,4 @@ Retrieval-Augmented Generation
 ---
 
 **Дата создания:** 2026-06-26
-**Последнее обновление:** 2026-07-12
+**Последнее обновление:** 2026-07-13

@@ -2,7 +2,7 @@
 type: index
 area: Vector Databases
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-13
 tags: [index, system, vector-databases]
 ---
 
@@ -18,8 +18,8 @@ tags: [index, system, vector-databases]
 ## Основные блоки
 
 - Vector Search Fundamentals
-- Exact Search и ANN
-- HNSW и IVF
+- [[Vector Databases/Exact Search|Exact Search]] и [[Vector Databases/Approximate Nearest Neighbor (ANN)|ANN]]
+- [[Vector Databases/HNSW|HNSW]] и IVF
 - pgvector
 - Qdrant
 - Pinecone
@@ -30,6 +30,18 @@ tags: [index, system, vector-databases]
 
 ## Существующие связанные концепции
 
+### Изученные концепции модуля
+
+- [[Vector Databases/Exact Search|Exact Search]]
+- [[Vector Databases/Approximate Nearest Neighbor (ANN)|Approximate Nearest Neighbor (ANN)]]
+- [[Vector Databases/Recall в Approximate Nearest Neighbor|Recall в ANN]]
+- [[Vector Databases/HNSW|HNSW]]
+- [[Vector Databases/Greedy Search в HNSW|Greedy Search в HNSW]]
+- [[Vector Databases/Local Maximum в HNSW|Local Maximum в HNSW]]
+- [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels в HNSW]]
+
+### Межобластные связи
+
 - [[AI Engineering/Vector Database|Vector Database]]
 - [[AI Engineering/Embeddings|Embedding]]
 - [[Machine Learning/Mathematics/Вектор|Вектор]]
@@ -38,4 +50,4 @@ tags: [index, system, vector-databases]
 - [[RAG/Reranking|Reranking]]
 - [[RAG/Context Construction|Context Construction]]
 
-Новые concept notes будут добавляться только после появления реального учебного материала.
+Новые concept notes добавляются только после появления реального учебного материала.

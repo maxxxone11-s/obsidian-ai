@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-11
+updated: 2026-07-13
 ---
 
 # 🧠 Knowledge Map
@@ -515,6 +515,13 @@ updated: 2026-07-11
 
 - [[Vector Databases/Index|Vector Databases Index]]
 - [[Vector Databases/Plan|Vector Databases Plan]]
+- [[Vector Databases/Exact Search|Exact Search]]
+- [[Vector Databases/Approximate Nearest Neighbor (ANN)|Approximate Nearest Neighbor (ANN)]]
+- [[Vector Databases/Recall в Approximate Nearest Neighbor|Recall в ANN]]
+- [[Vector Databases/HNSW|HNSW]]
+- [[Vector Databases/Greedy Search в HNSW|Greedy Search в HNSW]]
+- [[Vector Databases/Local Maximum в HNSW|Local Maximum в HNSW]]
+- [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels в HNSW]]
 - [[AI Engineering/Vector Database|Vector Database в RAG]]
 - [[AI Engineering/Embeddings|Embedding]]
 - [[Machine Learning/Mathematics/Вектор|Вектор]]
@@ -537,4 +544,4 @@ updated: 2026-07-11
 - Production Operations
 - Practice
 
-Модуль инициализирован; отдельные concept notes будут появляться по мере прохождения учебного материала.
+Модуль активен: изучены Exact Search, ANN, ANN Recall и базовая архитектура HNSW. Связи с [[RAG/Index|RAG]], [[Machine Learning/Index|Machine Learning]], [[LLM Engineering/Index|LLM Engineering]] и [[Python Backend/Index|Python Backend]] сохранены.

@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-12
+updated: 2026-07-13
 ---
 
 # 🧠 AI Second Brain Dashboard
@@ -43,14 +43,15 @@ updated: 2026-07-12
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 352 |
-| Изучено | 295 |
+| Всего концепций | 359 |
+| Изучено | 302 |
 | В процессе | 1 |
 | Требует повтора | 7 |
 | Черновики | 49 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-13** — Синхронизация Vector Databases: Exact Search, ANN, ANN Recall, HNSW, Greedy Search, Local Maximum и Hierarchical Levels
 - **2026-07-12** — Инициализирован модуль Vector Databases: создан Plan, внутренний и глобальный индексы; concept notes пока не создавались
 - **2026-07-12** — Синхронизация RAG Architecture & Implementation: Prompt Construction, Context Construction, Lost in the Middle, Ingestion Pipeline, Production RAG Architecture и SearchResult
 - **2026-07-11** — Синхронизация RAG Query Transformation: Query Rewrite, Query Expansion, HyDE, Multi Query Retrieval и Step-back Prompting

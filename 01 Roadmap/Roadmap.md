@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-11
+updated: 2026-07-13
 ---
 
 # 🗺️ Дорожная карта обучения
@@ -401,8 +401,8 @@ updated: 2026-07-11
 **Learning Path:**
 
 - Основы векторного поиска ⏳
-- Similarity Search ⏳
-- HNSW и IVF ⏳
+- Similarity Search ✅ — [[Vector Databases/Exact Search|Exact Search]], [[Vector Databases/Approximate Nearest Neighbor (ANN)|ANN]] и [[Vector Databases/Recall в Approximate Nearest Neighbor|ANN Recall]]
+- HNSW и IVF 🔄 — изучены [[Vector Databases/HNSW|HNSW]], [[Vector Databases/Greedy Search в HNSW|Greedy Search]], [[Vector Databases/Local Maximum в HNSW|Local Maximum]] и [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels]]; параметры и IVF впереди
 - pgvector ⏳
 - Qdrant ⏳
 - Pinecone ⏳
@@ -413,9 +413,11 @@ updated: 2026-07-11
 
 **Связанные знания:** [[AI Engineering/Vector Database|Vector Database]], [[AI Engineering/Embeddings|Embedding]], [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]], [[RAG/Retrieval|Retrieval]].
 
-**Статус:** `learning`; создан только план и навигация, concept notes пока не создавались.
+**Статус:** `learning`; изучены Exact Search, ANN, ANN Recall и базовая графовая архитектура HNSW. Модуль остаётся активным, поскольку параметры HNSW, IVF, конкретные Vector Databases и production-практика ещё впереди.
 
-**Следующий шаг:** начать с основ vector search: embedding space, Cosine Similarity, Euclidean Distance и Dot Product.
+**Требует повторения:** Entry Point, параллельное исследование нескольких кандидатов, параметры `M`, `efConstruction`, `efSearch` и вероятностное распределение узлов по уровням.
+
+**Следующий шаг:** изучить `M`, `efConstruction` и `efSearch`, затем реализовать небольшой HNSW-подобный граф на Python и визуализировать компромисс Recall/скорость.
 
 ## Фаза 4: PyTorch 🚀 Active
 

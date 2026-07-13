@@ -2,7 +2,7 @@
 type: index
 area: Vector Databases
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-13
 tags: [index, system, vector-databases]
 ---
 
@@ -35,7 +35,20 @@ tags: [index, system, vector-databases]
 
 ## Concept notes
 
-Учебные concept notes будут добавляться по мере прохождения уроков. Пункты из Plan не материализуются как пустые файлы заранее.
+### Similarity Search
+
+- [[Vector Databases/Exact Search|Exact Search]]
+- [[Vector Databases/Approximate Nearest Neighbor (ANN)|Approximate Nearest Neighbor (ANN)]]
+- [[Vector Databases/Recall в Approximate Nearest Neighbor|Recall в ANN]]
+
+### HNSW
+
+- [[Vector Databases/HNSW|HNSW]]
+- [[Vector Databases/Greedy Search в HNSW|Greedy Search в HNSW]]
+- [[Vector Databases/Local Maximum в HNSW|Local Maximum в HNSW]]
+- [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels в HNSW]]
+
+Остальные пункты из Plan не материализуются как пустые файлы до появления реального учебного материала.
 
 ## Связанные области
 
