@@ -392,6 +392,31 @@ updated: 2026-07-11
 **Требует повторения:** чтение полной RAG-архитектуры в коде, реальная Embedding Model и различия Document, SearchResult и VectorRecord.
 **Следующий шаг:** интегрировать реальную Embedding Model и собрать Production RAG Pipeline с настоящим API.
 
+## Фаза 3.7: Vector Databases 🚀 Active
+
+**План модуля:** [[Vector Databases/Plan|Vector Databases Plan]]
+
+**Цель:** научиться проектировать и эксплуатировать vector search: от геометрии embeddings и ANN-индексов до pgvector, Qdrant, Pinecone и production lifecycle.
+
+**Learning Path:**
+
+- Основы векторного поиска ⏳
+- Similarity Search ⏳
+- HNSW и IVF ⏳
+- pgvector ⏳
+- Qdrant ⏳
+- Pinecone ⏳
+- Производительность ⏳
+- RAG Integration ⏳
+- Production ⏳
+- Практика ⏳
+
+**Связанные знания:** [[AI Engineering/Vector Database|Vector Database]], [[AI Engineering/Embeddings|Embedding]], [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]], [[RAG/Retrieval|Retrieval]].
+
+**Статус:** `learning`; создан только план и навигация, concept notes пока не создавались.
+
+**Следующий шаг:** начать с основ vector search: embedding space, Cosine Similarity, Euclidean Distance и Dot Product.
+
 ## Фаза 4: PyTorch 🚀 Active
 
 **Модуль PyTorch — Tensor Fundamentals импортирован:**

@@ -510,3 +510,31 @@ updated: 2026-07-11
 - [[Algorithms/Recursion/Trees/Рекурсия с возвратом результата из поддерева|Рекурсия с возвратом результата из поддерева]]
 - [[Algorithms/Recursion/Trees/Подсчет количества узлов дерева|Подсчет количества узлов дерева]]
 - [[Algorithms/Recursion/Trees/Поиск максимальной глубины дерева|Поиск максимальной глубины дерева]]
+
+## Vector Databases
+
+- [[Vector Databases/Index|Vector Databases Index]]
+- [[Vector Databases/Plan|Vector Databases Plan]]
+- [[AI Engineering/Vector Database|Vector Database в RAG]]
+- [[AI Engineering/Embeddings|Embedding]]
+- [[Machine Learning/Mathematics/Вектор|Вектор]]
+- [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]]
+- [[RAG/Retrieval|Retrieval]]
+- [[RAG/Top-K Retrieval|Top-K Retrieval]]
+- [[RAG/Reranking|Reranking]]
+- [[RAG/Context Construction|Context Construction]]
+
+### Learning Path
+
+- Vector Search Fundamentals
+- Exact Search и ANN
+- HNSW и IVF
+- pgvector
+- Qdrant
+- Pinecone
+- Performance
+- RAG Integration
+- Production Operations
+- Practice
+
+Модуль инициализирован; отдельные concept notes будут появляться по мере прохождения учебного материала.

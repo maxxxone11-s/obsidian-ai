@@ -4,7 +4,7 @@ tags:
   - index
   - system
 created: 2026-06-26
-updated: 2026-06-30
+updated: 2026-07-12
 ---
 
 # 📑 Главный индекс Vault
@@ -63,6 +63,14 @@ Retrieval-Augmented Generation
 - Поиск релевантных документов
 - Интеграция с LLM
 
+### [[Vector Databases/Index|🗄️ Vector Databases]]
+Векторный поиск и инфраструктура хранения embeddings
+
+- Exact Search и ANN
+- HNSW и IVF
+- pgvector, Qdrant и Pinecone
+- Performance и production operations
+
 ### [[LLM Engineering/Index|✨ LLM Engineering]]
 Работа с Large Language Models
 
@@ -105,4 +113,4 @@ Retrieval-Augmented Generation
 ---
 
 **Дата создания:** 2026-06-26
-**Последнее обновление:** 2026-06-30
+**Последнее обновление:** 2026-07-12

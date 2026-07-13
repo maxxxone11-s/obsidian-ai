@@ -9,6 +9,25 @@ updated: 2026-07-12
 
 # 📊 Журнал прогресса обучения
 
+## 2026-07-12 (module plan: Vector Databases)
+
+### ✅ Подготовлено
+
+- Создан [[Vector Databases/Plan|Vector Databases Plan]] из 10 учебных частей: fundamentals, similarity search, indexes, pgvector, Qdrant, Pinecone, performance, RAG integration, production и practice.
+- Созданы [[Vector Databases/Index|внутренний Index]] и [[Indexes/Vector Databases Index|глобальный Vector Databases Index]].
+- Модуль подключён к Dashboard, Knowledge Map, Roadmap и главному Index Vault.
+- Существующая [[AI Engineering/Vector Database|Vector Database]] сохранена в области RAG как связанная концепция; дубликат не создавался.
+- Будущие темы из плана не материализовались как пустые concept notes.
+
+### Статус
+
+- Модуль `Vector Databases` начат со статуса `learning`.
+- Concept statistics не изменились, поскольку создана только служебная навигация.
+
+### Следующий шаг
+
+- Начать часть 1: embedding space, vector similarity, Cosine Similarity, Euclidean Distance и Dot Product.
+
 ## 2026-07-12 (KNOWLEDGE_EXPORT sync: RAG — Architecture & Implementation)
 
 ### ✅ Синхронизировано

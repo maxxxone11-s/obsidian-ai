@@ -30,6 +30,7 @@ updated: 2026-07-12
 - [[Indexes/PyTorch Index|⚡ PyTorch]]
 - [[Indexes/LLM Engineering Index|✨ LLM Engineering]]
 - [[Indexes/RAG Index|📚 RAG]]
+- [[Indexes/Vector Databases Index|🗄️ Vector Databases]]
 - [[Indexes/LangGraph Index|🔗 LangGraph]]
 - [[Indexes/Algorithms Index|🧩 Algorithms & Data Structures]]
 
@@ -50,6 +51,7 @@ updated: 2026-07-12
 
 ## 🔄 Последние обновления
 
+- **2026-07-12** — Инициализирован модуль Vector Databases: создан Plan, внутренний и глобальный индексы; concept notes пока не создавались
 - **2026-07-12** — Синхронизация RAG Architecture & Implementation: Prompt Construction, Context Construction, Lost in the Middle, Ingestion Pipeline, Production RAG Architecture и SearchResult
 - **2026-07-11** — Синхронизация RAG Query Transformation: Query Rewrite, Query Expansion, HyDE, Multi Query Retrieval и Step-back Prompting
 - **2026-07-11** — Синхронизация RAG Production Architecture: Indexing Pipeline, Query Pipeline, Document Loader, Orchestrator и Query Transformation
