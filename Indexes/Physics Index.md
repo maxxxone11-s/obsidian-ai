@@ -14,3 +14,7 @@ tags:
 ## Canonical Knowledge Area
 
 - [[Physics/Physics|Physics]]
+
+## Module Navigation
+
+- [[Physics/Plan|Physics Plan]]

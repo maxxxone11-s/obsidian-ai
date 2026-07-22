@@ -15,11 +15,19 @@ Build a technical understanding of physical models, quantities, laws and their p
 
 ## Learning Path
 
-The learning path remains flexible and will be developed from the modules supplied by the user.
+The learning path remains flexible and will be developed from the modules supplied by the user. Первый изученный блок охватывает физические величины, единицы, размерность, векторы, математический анализ и численное описание динамических систем.
 
 ## Current Modules
 
-Physics modules and their learning statuses will be added here as they are supplied.
+### Математический аппарат физики
+
+status: learning
+
+- Физические величины, размерность и SI — `learning`.
+- Скалярные и векторные величины, координаты и компоненты — `learning`.
+- Различие `Δ` и `d`, производная и интеграл — `needs_review`.
+- Дифференциальные уравнения и численное накопление состояния — `needs_review`.
+- [[Physics/Формулы — математический аппарат физики|Карточка формул Module 0]] — `learning`.
 
 ## Practical Work
 
