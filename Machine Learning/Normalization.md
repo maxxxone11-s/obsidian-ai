@@ -14,6 +14,8 @@ confidence: 0.95
 
 # Normalization
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Normalization — это минмакс масштабирование признаков к диапазону `[0, 1]`.
 
 ## Простое объяснение

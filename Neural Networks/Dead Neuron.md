@@ -12,6 +12,8 @@ confidence: 0.9
 
 # Dead Neuron
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Нейрон перестает передавать сигнал и фактически выключается.

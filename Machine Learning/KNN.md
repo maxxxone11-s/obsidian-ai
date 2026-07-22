@@ -14,6 +14,8 @@ confidence: 0
 
 # KNN (K-Nearest Neighbors)
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Алгоритм машинного обучения, основанный на поиске k ближайших соседей. Требует масштабирования, так как основан на расстояниях между точками.
 
 ## Связанные темы

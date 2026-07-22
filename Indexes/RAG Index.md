@@ -1,123 +1,16 @@
 ---
 type: index
 area: RAG
-created: 2026-07-10
-updated: 2026-07-12
+updated: 2026-07-15
 tags:
   - index
   - system
-  - rag
 ---
 
-# RAG Index
+# Глобальная навигация: RAG
 
-Указатель стабильной Knowledge Area RAG.
+Retrieval-Augmented Generation: retrieval, context и evaluation.
 
-## Навигация
+## Canonical Knowledge Area
 
-- [[RAG/Index|RAG]]
-- [[RAG/Plan|RAG Plan]]
-
-## Изученные концепции
-
-- [[AI Engineering/RAG|Retrieval-Augmented Generation (RAG)]]
-- [[AI Engineering/Embeddings|Embedding]]
-- [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]]
-- [[RAG/Chunk|Chunk]]
-- [[RAG/Fixed-size Chunking|Fixed-size Chunking]]
-- [[RAG/Chunk Overlap|Chunk Overlap]]
-- [[RAG/Recursive Chunking|Recursive Chunking]]
-- [[RAG/Semantic Chunking]]
-- [[RAG/Retrieval|Retrieval]]
-- [[RAG/Top-K Retrieval|Top-K Retrieval]]
-- [[RAG/Reranking|Reranking]]
-- [[RAG/Hybrid Search|Hybrid Search]]
-- [[RAG/Reciprocal Rank Fusion (RRF)|Reciprocal Rank Fusion (RRF)]]
-- [[RAG/Evaluation|Evaluation]]
-- [[RAG/Ground Truth|Ground Truth]]
-- [[Machine Learning/Accuracy Precision Recall и F1|Precision и Recall]]
-- [[RAG/Mean Reciprocal Rank (MRR)|Mean Reciprocal Rank (MRR)]]
-- [[RAG/Hit Rate|Hit Rate]]
-- [[RAG/Normalized Discounted Cumulative Gain (NDCG)|NDCG]]
-- [[RAG/Faithfulness|Faithfulness]]
-- [[RAG/Answer Relevancy|Answer Relevancy]]
-- [[RAG/Context Precision|Context Precision]]
-- [[RAG/Context Recall|Context Recall]]
-- [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]]
-- [[RAG/Document Loader|Document Loader]]
-- [[RAG/Indexing Pipeline|Indexing Pipeline]]
-- [[RAG/Query Pipeline|Query Pipeline]]
-- [[RAG/Orchestrator|Orchestrator]]
-- [[RAG/Query Transformation|Query Transformation]]
-- [[RAG/Query Rewrite|Query Rewrite]]
-- [[RAG/Query Expansion|Query Expansion]]
-- [[RAG/HyDE|HyDE]]
-- [[RAG/Multi Query Retrieval|Multi Query Retrieval]]
-- [[RAG/Step-back Prompting|Step-back Prompting]]
-- [[RAG/Prompt Construction|Prompt Construction]]
-- [[RAG/Context Construction|Context Construction]]
-- [[RAG/Lost in the Middle|Lost in the Middle]]
-- [[RAG/Ingestion Pipeline|Ingestion Pipeline]]
-- [[RAG/Production RAG Pipeline|Production RAG Pipeline]]
-- [[RAG/SearchResult|SearchResult]]
-
-## Концепции в процессе изучения
-
-- [[AI Engineering/Vector Database|Vector Database]]
-
-## Learning Path
-
-1. Почему появился RAG
-2. Embeddings
-3. Chunking
-4. Vector Database
-5. Retrieval
-6. Hybrid Search
-7. Reranking
-8. Generation
-9. Evaluation
-10. Production RAG
-11. Advanced RAG
-12. Финальный проект
-
-## Будущие блоки
-
-### Foundations
-
-- RAG и архитектура RAG
-- Hallucinations
-- Fine-tuning vs RAG
-
-### Retrieval Pipeline
-
-- Embeddings
-- Chunking
-- Vector Database
-- Retrieval
-- Hybrid Search
-- Reranking
-
-### Generation and Quality
-
-- Prompt Construction
-- Context Injection
-- Citation и Source Attribution
-- Evaluation
-
-### Production and Advanced
-
-- Production RAG
-- Graph RAG
-- Agentic RAG
-- RAPTOR
-- Contextual Retrieval
-
-Эти пункты являются навигационным планом, а не ссылками на созданные concept-заметки.
-
-## Dependencies
-
-- [[LLM Engineering/Index|LLM Engineering]]
-- [[Transformers/Index|Transformers]]
-- [[Machine Learning/Index|Machine Learning]]
-- [[Python Backend/Index|Python Backend]]
-- [[AI Agents/Index|AI Agents]]
+- [[RAG/RAG|RAG]]

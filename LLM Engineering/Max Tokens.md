@@ -16,6 +16,8 @@ aliases:
 
 # Max Tokens
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Max Tokens — параметр генерации, задающий максимальное количество токенов, которое модель может сгенерировать в ответе.

@@ -13,6 +13,8 @@ difficulty: easy
 
 # Base Case
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Base Case — это условие, при котором рекурсия прекращается. Это самая маленькая версия задачи, где ответ уже известен сразу.

@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Query Transformation
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Query Transformation — этап предварительной обработки пользовательского запроса, который изменяет его форму без изменения исходного намерения перед построением embedding и retrieval.

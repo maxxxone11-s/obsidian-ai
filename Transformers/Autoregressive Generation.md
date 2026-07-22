@@ -17,6 +17,8 @@ aliases:
 
 # Autoregressive Generation
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Autoregressive Generation — способ генерации, при котором модель предсказывает следующий токен на основе уже существующего контекста, добавляет его к последовательности и повторяет процесс.

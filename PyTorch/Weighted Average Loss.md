@@ -14,6 +14,8 @@ difficulty: medium
 
 # Weighted Average Loss
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 Средний loss нужно считать с учетом размера каждого batch.

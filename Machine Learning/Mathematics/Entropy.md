@@ -13,6 +13,8 @@ confidence: 0.95
 
 # Entropy
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Чем равномернее вероятности, тем выше Entropy.

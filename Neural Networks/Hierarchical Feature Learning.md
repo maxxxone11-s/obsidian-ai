@@ -12,6 +12,8 @@ confidence: 0.96
 
 # Hierarchical Feature Learning
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Нейросеть не видит сразу кошку: она постепенно собирает пиксели → линии → формы → глаза → морда → кошка.

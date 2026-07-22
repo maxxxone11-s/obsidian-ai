@@ -14,6 +14,8 @@ difficulty: easy
 
 # Повторение терминов PyTorch Foundations
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 Это связанный словарь ключевых терминов, необходимых для чтения современных PyTorch-проектов.
@@ -69,7 +71,7 @@ Inference
 - Transformers
 - Hugging Face
 - Production ML
-- [[LLM Engineering/Index|LLM Engineering]]
+- [[LLM Engineering/LLM Engineering|LLM Engineering]]
 
 ## Связанные темы
 

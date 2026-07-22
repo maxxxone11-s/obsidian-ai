@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Batch Normalization
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Каждый следующий слой получает данные примерно одинакового масштаба, поэтому ему легче обучаться.

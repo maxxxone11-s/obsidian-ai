@@ -14,6 +14,8 @@ confidence: 0
 
 # SVM (Support Vector Machine)
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Алгоритм машинного обучения для классификации и регрессии. Требует масштабирования для получения лучших результатов.
 
 ## Связанные темы

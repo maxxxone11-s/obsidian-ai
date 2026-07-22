@@ -11,6 +11,8 @@ confidence: 0.91
 
 # Multi-Agent, Supervisor и Subgraph
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 Supervisor распределяет задачи, Subgraph инкапсулирует сложные процессы.

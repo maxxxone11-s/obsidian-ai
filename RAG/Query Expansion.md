@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Query Expansion
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Query Expansion — техника [[RAG/Query Transformation|Query Transformation]], расширяющая исходный запрос связанными терминами, синонимами и расшифровками без удаления первоначальной формулировки.

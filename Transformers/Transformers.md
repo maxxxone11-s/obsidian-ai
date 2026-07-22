@@ -1,13 +1,11 @@
 ---
-type: index
+type: area_index
 area: Transformers
-knowledge_area: Transformers
-created: 2026-06-30
-updated: 2026-07-07
+aliases:
+  - Transformers
 tags:
-  - index
-  - system
   - transformers
+  - area-index
 ---
 
 # Transformers

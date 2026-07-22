@@ -12,6 +12,8 @@ confidence: 0.92
 
 # Leaky ReLU
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Вместо полного отключения нейрон продолжает немного работать.

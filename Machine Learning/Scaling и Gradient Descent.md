@@ -14,6 +14,8 @@ confidence: 0.95
 
 # Scaling и Gradient Descent
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Scaling помогает алгоритмам на основе [[Gradient Descent]] быстрее и стабильнее сходиться.
 
 ## Простое объяснение

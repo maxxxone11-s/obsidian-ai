@@ -11,6 +11,8 @@ confidence: high
 
 # Accuracy, Precision, Recall и F1
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Академическое определение
 
 Accuracy, Precision, Recall и F1 — метрики качества, вычисляемые из true positive, false positive, true negative и false negative. В retrieval роль positive обычно выполняет релевантный документ из [[RAG/Ground Truth|Ground Truth]].

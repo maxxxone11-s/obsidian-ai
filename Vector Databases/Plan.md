@@ -3,7 +3,7 @@ type: module_plan
 area: Vector Databases
 status: learning
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-17
 tags: [vector-databases, module-plan]
 ---
 
@@ -55,14 +55,14 @@ status: not_started
 
 ## Часть 2. Similarity Search
 
-status: not_started
+status: learned
 
 Цель: понять различие точного и приближённого поиска и компромисс между качеством, скоростью и стоимостью.
 
 Темы:
 
-- Exact Search
-- Approximate Nearest Neighbor (ANN)
+- [[Vector Databases/Exact Search|Exact Search]]
+- [[Vector Databases/Approximate Nearest Neighbor (ANN)|Approximate Nearest Neighbor (ANN)]]
 - Почему полный перебор плохо масштабируется
 - [[RAG/Top-K Retrieval|Top-K Search]]
 - Radius Search
@@ -71,19 +71,20 @@ status: not_started
 
 ## Часть 3. Индексы
 
-status: not_started
+status: learning
 
 Цель: понять, как индекс сокращает пространство поиска и какие параметры управляют качеством ANN.
 
 Темы:
 
 - Зачем нужен vector index
-- HNSW
+- [[Vector Databases/HNSW|HNSW]]
 - Граф ближайших соседей
 - Построение HNSW
-- `efConstruction`
-- `efSearch`
-- параметр `M`
+- [[Vector Databases/Параметр efConstruction|efConstruction]]
+- [[Vector Databases/Параметр efSearch|efSearch]]
+- [[Vector Databases/Параметр M в HNSW|параметр M]]
+- [[Vector Databases/Жизненный цикл параметров HNSW|Жизненный цикл параметров HNSW]]
 - IVF
 - Почему HNSW часто выбирают для современных систем
 
@@ -195,7 +196,7 @@ status: not_started
 
 ## Часть 10. Практика
 
-status: not_started
+status: learning
 
 Цель: реализовать полный путь от создания embeddings до работающего retrieval и мини-RAG.
 

@@ -14,6 +14,8 @@ confidence: 0.58
 
 # Broadcasting
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Broadcasting позволяет выполнять операции между Tensor разной формы без явного копирования данных.
 
 ## Простое объяснение

@@ -13,6 +13,8 @@ confidence: 0.98
 
 # State
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 Состояние графа в LangGraph.
 
 ## Интуитивное объяснение

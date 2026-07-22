@@ -14,6 +14,8 @@ difficulty: medium
 
 # preprocess_image()
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 `preprocess_image()` подготавливает изображение для подачи в нейронную сеть.

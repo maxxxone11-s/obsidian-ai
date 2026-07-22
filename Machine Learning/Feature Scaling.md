@@ -16,6 +16,8 @@ next_review: 2026-07-10
 
 # Feature Scaling
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Feature Scaling — это приведение признаков к сопоставимому масштабу.
 
 Материал разнесён по отдельным заметкам.

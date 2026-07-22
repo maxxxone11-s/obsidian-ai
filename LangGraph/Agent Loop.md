@@ -11,6 +11,8 @@ confidence: 0.95
 
 # Agent Loop
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 Agent Loop — это повторяющийся цикл: User → Reasoning → Tool → Observation → Reasoning → Answer.

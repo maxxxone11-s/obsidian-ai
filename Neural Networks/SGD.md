@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Stochastic Gradient Descent (SGD)
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Одно изображение — один Gradient — одно обновление.

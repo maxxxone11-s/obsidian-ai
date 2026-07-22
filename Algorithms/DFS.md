@@ -11,6 +11,8 @@ confidence: 0
 
 # DFS
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 DFS — обход графа или дерева в глубину.

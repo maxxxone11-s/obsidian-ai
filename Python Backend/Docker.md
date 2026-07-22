@@ -14,6 +14,8 @@ confidence: 0
 
 # Docker
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 Инструмент для контейнеризации приложений.
 
 ## Простое объяснение

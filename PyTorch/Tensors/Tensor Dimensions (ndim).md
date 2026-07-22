@@ -13,6 +13,8 @@ confidence: 0.88
 
 # Tensor Dimensions (ndim)
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 `ndim` показывает количество осей Tensor.
 
 ## Простое объяснение

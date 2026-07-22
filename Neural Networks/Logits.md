@@ -14,6 +14,8 @@ difficulty: medium
 
 # Logits
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Logits — сырые выходные значения нейросети.

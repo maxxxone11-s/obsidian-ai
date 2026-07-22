@@ -13,6 +13,8 @@ difficulty: hard
 
 # torch.optim
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 `torch.optim` — модуль PyTorch с оптимизаторами. Optimizer получает параметры модели и обновляет их после `loss.backward()`.

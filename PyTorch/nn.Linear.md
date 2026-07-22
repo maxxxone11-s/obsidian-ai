@@ -15,6 +15,8 @@ difficulty: easy
 
 # nn.Linear
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Кратко
 
 Изучено устройство Linear Layer и его связь с формулой персептрона.

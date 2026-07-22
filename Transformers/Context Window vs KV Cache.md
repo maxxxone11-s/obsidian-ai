@@ -15,6 +15,8 @@ aliases:
 
 # Context Window vs KV Cache
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Context Window и KV Cache — независимые механизмы.
@@ -78,7 +80,7 @@ Transformer каждый раз получает всю нужную истор�
 
 ## Связанные темы
 
-[[KV Cache]] · [[Веса как долговременная память модели]] · [[Разделение ролей LLM и RAG]] · [[AI Agents/Index|AI Agents]] · [[RAG/Index|RAG]]
+[[KV Cache]] · [[Веса как долговременная память модели]] · [[Разделение ролей LLM и RAG]] · [[AI Agents/AI Agents|AI Agents]] · [[RAG/RAG|RAG]]
 
 ## Вопросы для проверки
 
@@ -90,5 +92,5 @@ Transformer каждый раз получает всю нужную истор�
 ## Следующие темы
 
 - Agent Memory
-- [[RAG/Index|RAG]]
+- [[RAG/RAG|RAG]]
 - Long-term Memory

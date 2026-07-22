@@ -12,6 +12,8 @@ confidence: 0.99
 
 # Train Set
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Train Set — часть Dataset, на которой происходит обучение модели.

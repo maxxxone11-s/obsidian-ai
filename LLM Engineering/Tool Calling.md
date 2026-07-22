@@ -12,6 +12,8 @@ difficulty: easy
 
 # Tool Calling
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Tool Calling — механизм взаимодействия LLM с внешними возможностями приложения через стандартизированные интерфейсы инструментов.
@@ -53,7 +55,7 @@ Tool
 
 ## Связанные темы
 
-[[Function Calling]] · [[LangGraph/Tool|Tool]] · [[AI Agents/Index|AI Agents]]
+[[Function Calling]] · [[LangGraph/Tool|Tool]] · [[AI Agents/AI Agents|AI Agents]]
 
 ## Вопросы для проверки
 
@@ -62,4 +64,4 @@ Tool
 
 ## Следующие темы
 
-[[AI Agents/Index|AI Agents]]
+[[AI Agents/AI Agents|AI Agents]]

@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Prompt Construction
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Prompt Construction — этап Query Pipeline, объединяющий системные инструкции, подготовленный retrieved context и пользовательский вопрос в единый вход для LLM.

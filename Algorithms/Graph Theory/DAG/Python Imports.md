@@ -13,6 +13,8 @@ confidence: 0
 
 # Python Imports
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Import graph Python-модулей как пример ориентированного графа.

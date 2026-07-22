@@ -11,6 +11,8 @@ confidence: 0.95
 
 # LangGraph Overview
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 Агент описывается как набор шагов ([[Node]]) и переходов ([[Edge]]), которые работают через общий [[State]].

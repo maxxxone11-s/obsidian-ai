@@ -13,6 +13,8 @@ tags:
 
 # Approximate Nearest Neighbor (ANN)
 
+Область: [[Vector Databases/Vector Databases|Vector Databases]]
+
 ## Академическое определение
 
 Approximate Nearest Neighbor — семейство алгоритмов приближённого поиска ближайших соседей, которые исследуют только часть пространства данных. Это значительно ускоряет поиск ценой возможной потери небольшой части точности.

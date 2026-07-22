@@ -16,6 +16,8 @@ aliases:
 
 # GPTConfig
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 GPTConfig — объект конфигурации, содержащий основные гиперпараметры архитектуры Transformer.

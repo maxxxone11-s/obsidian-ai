@@ -54,6 +54,7 @@ Obsidian Vault
 ├── LangGraph/
 ├── RAG/
 ├── Vector Databases/
+├── Physics/
 ├── LLM Engineering/
 ├── AI Agents/
 ├── Algorithms/
@@ -80,6 +81,38 @@ Vault root не является Knowledge Area и не используется
 4. Пустые Markdown-файлы размером `0 bytes` запрещены во всём Vault.
 5. Автоматическое materialization unresolved wikilinks в Obsidian stub-файлы запрещено.
 6. Служебные prompts, templates и protocol-документы должны храниться в `Templates/` либо в другом подтверждённом служебном каталоге, а не в Vault root.
+
+### Canonical Knowledge Area Graph Architecture
+
+1. Каждая стабильная Knowledge Area должна иметь ровно один canonical central node.
+2. Путь canonical node строго определяется как `[Area Folder]/[Canonical Area Name].md`, например `RAG/RAG.md`, `PyTorch/PyTorch.md`, `Vector Databases/Vector Databases.md` или `Algorithms/Algorithms & Data Structures.md`.
+3. Canonical filename, H1, frontmatter `area` и отображаемое имя graph node должны точно совпадать с canonical Knowledge Area name, без emoji и суффиксов `Index`, `Plan` или `Module Plan`.
+4. Canonical node обязан иметь frontmatter:
+
+```yaml
+type: area_index
+area: Canonical Knowledge Area
+aliases:
+  - Canonical Knowledge Area
+```
+
+5. Canonical node должен иметь high-level tag своей области и тег `area-index`; теги `system` и `index` для него запрещены, чтобы центральный узел оставался видимым в учебном Graph View.
+6. Каждая корректно размещённая заметка с `type: concept` должна содержать ровно одну прямую ссылку на canonical area index.
+7. Ссылка на область размещается сразу после H1 в формате `Область: [[Area Folder/Canonical Area Name|Canonical Knowledge Area]]`.
+8. `Plan.md` всегда является дочерним узлом canonical area index.
+9. Concept notes не должны использовать `Plan.md` как module backlink.
+10. Secondary indexes должны иметь `type: index`, не должны получать canonical area alias и не используются как backlinks для concept notes.
+11. Каждый secondary index должен ссылаться на canonical area index.
+12. Secondary indexes не должны дублировать полный каталог concept notes и конкурировать с canonical node по graph degree.
+13. Тематические sub-indexes разрешены, если они представляют реальный подраздел Knowledge Area и остаются дочерними узлами canonical area index.
+    Имя `Index.md` разрешено только для таких approved thematic sub-indexes, например `PyTorch/Tensors/Index.md`, `Algorithms/Graph Theory/Index.md` и `Algorithms/Recursion/Index.md`.
+14. После каждой синхронизации необходимо проверить:
+    - ровно один `area_index` на каждую стабильную Knowledge Area;
+    - точное соответствие H1 canonical Knowledge Area name;
+    - наличие точного canonical alias;
+    - покрытие concept notes прямыми area backlinks;
+    - дочернюю роль `Plan.md`;
+    - отсутствие competing secondary hubs.
 
 ## Структура заметки
 
@@ -151,6 +184,7 @@ Knowledge Areas считаются стабильными доменами ве�
 - LangGraph
 - RAG
 - Vector Databases
+- Physics
 - LLM Engineering
 - AI Agents
 - Algorithms & Data Structures
@@ -720,11 +754,43 @@ SYNC_PACKAGE интегрируется с системой Knowledge Sync:
 - `LangGraph`
 - `RAG`
 - `Vector Databases`
+- `Physics`
 - `LLM Engineering`
 - `AI Agents`
 - `Algorithms & Data Structures`
 
 `folder` может быть внутренней структурой существующей области. Например, для `area: Algorithms & Data Structures` допустимы вложенные пути вроде `Algorithms/Graph Theory/DAG`.
+
+### Синхронизация Physics
+
+`Physics` является стабильной Knowledge Area со следующими canonical-значениями:
+
+```yaml
+module:
+  knowledge_area: Physics
+```
+
+- итоговый frontmatter: `area: Physics`;
+- каталог области: `Physics/`;
+- canonical central node: `Physics/Physics.md`;
+- high-level tag: `physics`.
+
+Для учебных занятий по Physics действуют дополнительные правила:
+
+1. Границы занятия — `Урок начинается.` и `Урок заканчивается.`. Анализируется только материал внутри этих границ.
+2. Concept-заметки создаются только для концепций, содержащих реальные изученные знания.
+3. Одна физическая концепция соответствует одной concept-заметке; существующие заметки обновляются через merge без создания дубликатов.
+4. Пустые stubs и заметки, созданные только из названий тем, запрещены.
+5. Каждая Physics concept-заметка хранится внутри `Physics/`.
+6. Каждая Physics concept-заметка содержит ровно один прямой backlink сразу после H1:
+
+```markdown
+Область: [[Physics/Physics|Physics]]
+```
+
+7. `Physics/Plan.md` является дочерним узлом `Physics/Physics.md` и никогда не становится центральным graph node.
+8. Математические и вычислительные упражнения, решённые с помощью Python, остаются Physics knowledge, если их цель — понимание физики.
+9. Синтаксис Python не экспортируется как Physics concept, если он не изучался отдельно.
 
 ---
 

@@ -16,6 +16,8 @@ aliases:
 
 # Attention Weights
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Кратко
 
 После вычисления Scores применяется Softmax. Он превращает произвольные значения в веса внимания.

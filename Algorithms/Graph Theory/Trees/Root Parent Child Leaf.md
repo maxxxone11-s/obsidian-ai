@@ -13,6 +13,8 @@ difficulty: easy
 
 # Root Parent Child Leaf
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Root — верхняя вершина дерева, Parent — родитель, Child — потомок, Leaf — вершина без потомков.

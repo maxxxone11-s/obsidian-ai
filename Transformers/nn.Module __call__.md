@@ -15,6 +15,8 @@ aliases:
 
 # nn.Module __call__
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 `nn.Module.__call__()` — механизм PyTorch, который позволяет вызывать модуль как функцию и внутри запускает `forward()` вместе со служебной инфраструктурой PyTorch.

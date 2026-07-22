@@ -12,6 +12,8 @@ confidence: 0
 
 # Divide and Conquer
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Divide and Conquer — подход, где задача делится на несколько меньших подзадач, каждая решается отдельно, а затем результаты объединяются.

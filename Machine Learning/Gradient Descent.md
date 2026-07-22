@@ -15,6 +15,8 @@ confidence: 0.95
 
 # Gradient Descent
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Gradient Descent — метод поиска весов, минимизирующих [[Loss Function]].
 
 ## Кратко

@@ -13,6 +13,8 @@ confidence: 0.96
 
 # Conditional Edge
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 Ребро с условием выбора следующего узла.
 
 ## Интуитивное объяснение

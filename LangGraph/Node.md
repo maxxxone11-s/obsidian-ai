@@ -13,6 +13,8 @@ confidence: 0.97
 
 # Node
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 Узел в графе LangGraph, выполняющий задачу.
 
 ## Интуитивное объяснение

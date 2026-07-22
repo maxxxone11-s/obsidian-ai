@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Regression
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Если ответ — число, значит это Regression.

@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Hybrid Search
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Hybrid Search — подход, объединяющий результаты семантического dense-поиска и лексического sparse-поиска для повышения качества retrieval.

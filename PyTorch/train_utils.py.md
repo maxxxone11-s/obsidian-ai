@@ -14,6 +14,8 @@ difficulty: hard
 
 # train_utils.py
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 `train_utils.py` содержит вспомогательные функции обучения, чтобы не дублировать код в `train.py`.

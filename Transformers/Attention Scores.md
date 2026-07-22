@@ -19,6 +19,8 @@ aliases:
 
 # Attention Scores
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Attention Scores — матрица похожести между Query и Key, которая показывает, насколько каждый токен должен обратить внимание на каждый другой токен.

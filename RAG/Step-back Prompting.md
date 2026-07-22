@@ -12,6 +12,8 @@ difficulty: advanced
 
 # Step-back Prompting
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Step-back Prompting — техника Query Transformation, создающая более общий вопрос о фундаментальной концепции, лежащей в основе исходного конкретного запроса.

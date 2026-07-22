@@ -14,6 +14,8 @@ confidence: 0
 
 # Git
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 Система контроля версий для отслеживания изменений кода.
 
 ## Простое объяснение

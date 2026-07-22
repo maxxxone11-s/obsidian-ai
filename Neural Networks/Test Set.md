@@ -12,6 +12,8 @@ confidence: 0.98
 
 # Test Set
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Test Set используется для окончательной проверки модели после завершения обучения.

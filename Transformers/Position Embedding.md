@@ -17,6 +17,8 @@ aliases:
 
 # Position Embedding
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Position Embedding — отдельная обучаемая таблица embedding позиций, которая хранит информацию о порядке токенов независимо от [[Embedding Layer|Token Embedding]].

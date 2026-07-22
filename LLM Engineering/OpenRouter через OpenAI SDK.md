@@ -17,6 +17,8 @@ aliases:
 
 # OpenRouter через OpenAI SDK
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 OpenRouter предоставляет API, совместимое с OpenAI SDK.

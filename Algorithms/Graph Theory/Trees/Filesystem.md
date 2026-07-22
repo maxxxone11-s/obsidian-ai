@@ -13,6 +13,8 @@ confidence: 0
 
 # Filesystem
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Файловая система как пример дерева.

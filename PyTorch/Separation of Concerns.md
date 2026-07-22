@@ -14,6 +14,8 @@ difficulty: medium
 
 # Separation of Concerns
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 Один файл — одна ответственность.

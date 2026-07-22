@@ -16,6 +16,8 @@ aliases:
 
 # Attention Output
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Кратко
 
 После вычисления весов внимания модель строит новый embedding: взвешенную сумму Value всех токенов.

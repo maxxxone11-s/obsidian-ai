@@ -14,6 +14,8 @@ confidence: 0
 
 # SQLAlchemy
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 ORM (Object-Relational Mapping) фреймворк для Python.
 
 ## Простое объяснение

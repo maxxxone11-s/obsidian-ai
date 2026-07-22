@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Связь Machine Learning и Deep Learning
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 В классическом ML признаки часто создает человек. В Deep Learning признаки постепенно строит сама сеть.
@@ -42,4 +44,4 @@ ML ⊃ Deep Learning.
 
 ## Связанные темы
 
-- [[Neural Networks/Index|Neural Networks]]
+- [[Neural Networks/Neural Networks|Neural Networks]]

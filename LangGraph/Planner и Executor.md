@@ -11,6 +11,8 @@ confidence: 0.9
 
 # Planner и Executor
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 Planner отвечает на вопрос что делать, Executor — как выполнить шаги.

@@ -1,14 +1,14 @@
 ---
-type: index
+type: area_index
 area: AI Agents
-created: 2026-06-26
-updated: 2026-06-27
+aliases:
+  - AI Agents
 tags:
-  - index
-  - system
+  - ai-agents
+  - area-index
 ---
 
-# 🤖 AI Agents
+# AI Agents
 
 ## Структура раздела
 
@@ -53,7 +53,7 @@ tags:
 
 - AI Agents используют графовую оркестрацию.
 - LangGraph — отдельный модуль для построения agent workflows.
-- Подробности см. в [[LangGraph/Index]].
+- Подробности см. в [[LangGraph/LangGraph]].
 
 ---
 

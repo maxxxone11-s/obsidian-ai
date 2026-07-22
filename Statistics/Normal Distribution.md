@@ -17,6 +17,8 @@ aliases:
 
 # Normal Distribution
 
+Область: [[Statistics/Statistics|Statistics]]
+
 ## Кратко
 
 Normal Distribution описывает ситуацию, когда большинство значений находится около среднего, а вероятность уменьшается по мере удаления от него.

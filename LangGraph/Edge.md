@@ -13,6 +13,8 @@ confidence: 0.96
 
 # Edge
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 Соединение между узлами в LangGraph.
 
 ## Интуитивное объяснение

@@ -14,6 +14,8 @@ difficulty: medium
 
 # ReLU
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 После Linear ReLU заменяет все отрицательные значения на ноль и передает дальше только активные признаки.

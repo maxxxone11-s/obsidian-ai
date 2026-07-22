@@ -12,6 +12,8 @@ confidence: 0.9
 
 # Vanishing Gradient
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Vanishing Gradient — проблема, при которой градиенты первых слоев становятся слишком маленькими.

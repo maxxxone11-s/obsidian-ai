@@ -11,6 +11,8 @@ confidence: 0
 
 # BFS
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 BFS — обход графа или дерева в ширину.

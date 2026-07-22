@@ -12,6 +12,8 @@ confidence: 0.98
 
 # Loss
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Loss — это оценка учителя: ответ хороший или плохой.

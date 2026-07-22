@@ -17,6 +17,8 @@ aliases:
 
 # Standard Deviation
 
+Область: [[Statistics/Statistics|Statistics]]
+
 ## Кратко
 
 Standard Deviation равно квадратному корню из дисперсии и измеряет типичный разброс данных в исходных единицах.

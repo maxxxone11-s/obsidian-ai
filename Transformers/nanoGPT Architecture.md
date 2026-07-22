@@ -16,6 +16,8 @@ aliases:
 
 # nanoGPT Architecture
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 nanoGPT Architecture — минимальная реализация GPT, организующая модель как набор независимых компонентов: Token Embedding, Position Embedding, список Transformer Block и финальную LayerNorm.

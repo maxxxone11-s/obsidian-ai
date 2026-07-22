@@ -16,6 +16,8 @@ aliases:
 
 # Prompt Templates
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Prompt Template — шаблон prompt, отделяющий постоянную структуру запроса от динамически подставляемых данных.

@@ -4,12 +4,14 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-13
+updated: 2026-07-22
 ---
 
 # 🗺️ Дорожная карта обучения
 
 ## Статус: ✅ Структура завершена, начинается наполнение контентом
+
+Graph-архитектура нормализована: каждая стабильная Knowledge Area имеет один canonical central node, а concept notes напрямую связаны со своей областью.
 
 ## Фаза 0: Инфраструктура Vault ✅
 
@@ -74,7 +76,7 @@ updated: 2026-07-13
 
 ## Фаза 2.5: Statistics ✅
 
-**Модуль Statistics Foundations for Machine Learning синхронизирован в отдельную область [[Statistics/Index|Statistics]]:**
+**Модуль Statistics Foundations for Machine Learning синхронизирован в отдельную область [[Statistics/Statistics|Statistics]]:**
 - [[Statistics/Mean|Mean]] ✅ — центр данных
 - [[Statistics/Variance|Variance]] ✅ — разброс вокруг среднего
 - [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]] ✅ — усиление больших ошибок
@@ -103,11 +105,11 @@ updated: 2026-07-13
 - [[Inference]], [[model.train() и model.eval()]], [[torch.no_grad()]] ✅ — inference и PyTorch-preview
 - [[Chain Rule]] 🔁, [[Adam]] 🔁, [[Batch Normalization]] vs [[Machine Learning/Feature Scaling|Feature Scaling]] 🔁 — зоны повторения
 
-**Статус:** Completed. Следующий активный модуль — [[PyTorch/Index|PyTorch]]
+**Статус:** Completed. Следующий активный модуль — [[PyTorch/PyTorch|PyTorch]]
 
 ## Фаза 3.5: Transformers 🚀 Active
 
-**Модуль Transformer Foundations I синхронизирован в отдельную область [[Transformers/Index|Transformers]]:**
+**Модуль Transformer Foundations I синхронизирован в отдельную область [[Transformers/Transformers|Transformers]]:**
 - [[Transformers/Embedding Layer|Embedding Layer]] ✅ — обучаемая таблица признаков
 - [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]] ✅ — переход от статического представления к контекстному
 - [[Transformers/Query Key Value|Query Key Value]] ✅ — три линейных преобразования embedding
@@ -308,7 +310,7 @@ updated: 2026-07-13
 
 **Статус LLM Engineering:** Foundation Completed. Ключевые основы API, prompts, structured output, tools, streaming, context management, cost optimization и production pipeline изучены.
 **Требует практического повторения:** Semantic Cache, сложный Model Router и мониторинг стоимости.
-**Следующий шаг:** перейти к [[RAG/Index|RAG]], используя знания о Context Window, Memory Management, Tool Calling и Production Pipeline.
+**Следующий шаг:** перейти к [[RAG/RAG|RAG]], используя знания о Context Window, Memory Management, Tool Calling и Production Pipeline.
 
 ## Фаза 3.6: RAG 🚧 In progress
 
@@ -388,7 +390,7 @@ updated: 2026-07-13
 - [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]] ✅ — автоматизированная оценка сложных свойств ответа
 
 **Статус:** `learning`; Evaluation, Query Transformation и базовая Production Architecture изучены, практическая интеграция реальных компонентов продолжается.
-**Предварительные знания:** [[LLM Engineering/Index|LLM Engineering]], [[Transformers/Index|Transformers]], [[Machine Learning/Index|Machine Learning]], [[Python Backend/Index|Python Backend]], [[AI Agents/Index|AI Agents]].
+**Предварительные знания:** [[LLM Engineering/LLM Engineering|LLM Engineering]], [[Transformers/Transformers|Transformers]], [[Machine Learning/Machine Learning|Machine Learning]], [[Python Backend/Python Backend|Python Backend]], [[AI Agents/AI Agents|AI Agents]].
 **Требует повторения:** чтение полной RAG-архитектуры в коде, реальная Embedding Model и различия Document, SearchResult и VectorRecord.
 **Следующий шаг:** интегрировать реальную Embedding Model и собрать Production RAG Pipeline с настоящим API.
 
@@ -402,7 +404,7 @@ updated: 2026-07-13
 
 - Основы векторного поиска ⏳
 - Similarity Search ✅ — [[Vector Databases/Exact Search|Exact Search]], [[Vector Databases/Approximate Nearest Neighbor (ANN)|ANN]] и [[Vector Databases/Recall в Approximate Nearest Neighbor|ANN Recall]]
-- HNSW и IVF 🔄 — изучены [[Vector Databases/HNSW|HNSW]], [[Vector Databases/Greedy Search в HNSW|Greedy Search]], [[Vector Databases/Local Maximum в HNSW|Local Maximum]] и [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels]]; параметры и IVF впереди
+- HNSW и IVF 🔄 — изучены [[Vector Databases/HNSW|HNSW]], [[Vector Databases/Greedy Search в HNSW|Greedy Search]], [[Vector Databases/Local Maximum в HNSW|Local Maximum]], [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels]], [[Vector Databases/Параметр M в HNSW|M]], [[Vector Databases/Параметр efConstruction|efConstruction]], [[Vector Databases/Параметр efSearch|efSearch]] и [[Vector Databases/Жизненный цикл параметров HNSW|жизненный цикл параметров]]; IVF впереди
 - pgvector ⏳
 - Qdrant ⏳
 - Pinecone ⏳
@@ -413,11 +415,25 @@ updated: 2026-07-13
 
 **Связанные знания:** [[AI Engineering/Vector Database|Vector Database]], [[AI Engineering/Embeddings|Embedding]], [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]], [[RAG/Retrieval|Retrieval]].
 
-**Статус:** `learning`; изучены Exact Search, ANN, ANN Recall и базовая графовая архитектура HNSW. Модуль остаётся активным, поскольку параметры HNSW, IVF, конкретные Vector Databases и production-практика ещё впереди.
+**Статус:** `learning`; изучены Exact Search, ANN, ANN Recall, базовая графовая архитектура HNSW и параметры `M`, `efConstruction`, `efSearch`. Практические реализации Exact Search и упрощённого Greedy Search добавлены в существующие concepts. Модуль остаётся активным, поскольку IVF, конкретные Vector Databases и production-практика ещё впереди.
 
-**Требует повторения:** Entry Point, параллельное исследование нескольких кандидатов, параметры `M`, `efConstruction`, `efSearch` и вероятностное распределение узлов по уровням.
+**Требует повторения:** Entry Point, многокандидатный поиск, реализация аналога `efSearch` и воспроизведение локального максимума на практике.
 
-**Следующий шаг:** изучить `M`, `efConstruction` и `efSearch`, затем реализовать небольшой HNSW-подобный граф на Python и визуализировать компромисс Recall/скорость.
+**Следующий шаг:** реализовать Multi Candidate Search, добавить аналог `efSearch` и сравнить результат с Exact Search на сценарии локального максимума.
+
+## Physics 🚀 Active
+
+**Canonical Knowledge Area:** [[Physics/Physics|Physics]]
+
+**План модуля:** [[Physics/Plan|Physics Plan]]
+
+**Цель:** сформировать техническое понимание физических моделей, величин, законов и их практического смысла.
+
+**Статус:** `learning`; структура области подготовлена, а learning path остаётся гибким до получения пользовательских модулей.
+
+**Практика:** математические и вычислительные упражнения могут решаться с помощью Python, когда их цель — понимание физики.
+
+**Следующий шаг:** добавить первый пользовательский Physics module без создания concept notes из одних названий тем.
 
 ## Фаза 4: PyTorch 🚀 Active
 

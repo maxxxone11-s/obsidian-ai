@@ -14,6 +14,8 @@ difficulty: medium
 
 # Output
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Output — это ответ модели. Размер последнего слоя определяется тем, сколько выходных значений нужно для задачи.

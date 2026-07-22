@@ -14,6 +14,8 @@ difficulty: easy
 
 # Train Validation Test
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Train используется для изменения весов модели. Validation позволяет контролировать качество во время обучения и замечать [[Machine Learning/Overfitting]]. Test применяется один раз после завершения обучения для честной независимой оценки.

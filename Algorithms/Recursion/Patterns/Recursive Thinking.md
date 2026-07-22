@@ -12,6 +12,8 @@ confidence: 0
 
 # Recursive Thinking
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Recursive Thinking — это привычка видеть задачу как меньшую задачу того же типа плюс небольшое действие.

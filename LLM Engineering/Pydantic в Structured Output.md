@@ -16,6 +16,8 @@ aliases:
 
 # Pydantic в Structured Output
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Pydantic в Structured Output — использование Pydantic как единственного описания структуры данных, на основе которого создается JSON Schema, валидируется ответ модели и формируется типизированный Python-объект.

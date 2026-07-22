@@ -1,13 +1,11 @@
 ---
-type: index
+type: area_index
 area: Statistics
-knowledge_area: Statistics
-created: 2026-07-01
-updated: 2026-07-11
+aliases:
+  - Statistics
 tags:
-  - index
-  - system
   - statistics
+  - area-index
 ---
 
 # Statistics

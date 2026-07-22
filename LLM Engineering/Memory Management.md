@@ -12,6 +12,8 @@ difficulty: hard
 
 # Memory Management
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Memory Management — процесс отбора, хранения, обновления и передачи модели релевантной информации, позволяющий эффективно использовать ограниченное Context Window.
@@ -50,7 +52,7 @@ Memory Management отвечает на вопрос: «Что именно ну
 
 ## Связанные темы
 
-[[Conversation State]] · [[Context Window]] · [[RAG/Index|RAG]] · [[Summary]]
+[[Conversation State]] · [[Context Window]] · [[RAG/RAG|RAG]] · [[Summary]]
 
 ## Вопросы для проверки
 
@@ -60,4 +62,4 @@ Memory Management отвечает на вопрос: «Что именно ну
 
 ## Следующие темы
 
-[[Cost Optimization]] · [[AI Agents/Index|AI Agents]]
+[[Cost Optimization]] · [[AI Agents/AI Agents|AI Agents]]

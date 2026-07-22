@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Orchestrator
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Orchestrator — компонент RAG-системы, управляющий порядком вызова независимых pipeline-компонентов и передачей данных между ними.

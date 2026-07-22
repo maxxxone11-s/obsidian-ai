@@ -12,6 +12,8 @@ confidence: 0
 
 # Deep Learning
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Stub-заметка для связанной темы из импорта [[Forward Pass]] и [[Backpropagation]].

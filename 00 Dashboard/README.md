@@ -12,10 +12,10 @@ tags:
 
 - [[01 Roadmap/Roadmap|🗺️ Дорожная карта]] — план обучения
 - [[02 Progress/Learning Log|📊 Прогресс]] — журнал изучённого
-- [[Python Backend/Index|🐍 Python Backend]] — backend разработка
-- [[Machine Learning/Index|🤖 Machine Learning]] — основы ML
-- [[LLM Engineering/Index|✨ LLM Engineering]] — работа с LLM
-- [[AI Agents/Index|🤖 AI Agents]] — агенты и автоматизация
+- [[Python Backend/Python Backend|🐍 Python Backend]] — backend разработка
+- [[Machine Learning/Machine Learning|🤖 Machine Learning]] — основы ML
+- [[LLM Engineering/LLM Engineering|✨ LLM Engineering]] — работа с LLM
+- [[AI Agents/AI Agents|🤖 AI Agents]] — агенты и автоматизация
 
 ## 🎯 Быстрые ссылки
 

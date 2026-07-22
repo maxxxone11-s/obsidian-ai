@@ -16,6 +16,8 @@ aliases:
 
 # Few-shot Prompting
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Few-shot Prompting — техника Prompt Engineering, при которой в контекст запроса добавляются несколько эталонных примеров входных и выходных данных.

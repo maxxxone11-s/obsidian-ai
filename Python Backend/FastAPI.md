@@ -14,6 +14,8 @@ confidence: 0
 
 # FastAPI
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 Современный web фреймворк для построения API на Python.
 
 ## Простое объяснение

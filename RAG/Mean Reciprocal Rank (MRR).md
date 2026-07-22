@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Mean Reciprocal Rank (MRR)
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Mean Reciprocal Rank — метрика ранжирования, равная среднему обратному рангу первого релевантного результата по множеству запросов:

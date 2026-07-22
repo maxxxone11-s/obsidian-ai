@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Answer Relevancy
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Answer Relevancy — метрика Generation Evaluation, измеряющая соответствие ответа модели вопросу или задаче пользователя.

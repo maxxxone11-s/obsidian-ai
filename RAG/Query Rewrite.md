@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Query Rewrite
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Query Rewrite — техника [[RAG/Query Transformation|Query Transformation]], преобразующая пользовательский запрос в самостоятельную и более понятную для retrieval форму без изменения его смысла.

@@ -16,6 +16,8 @@ aliases:
 
 # Multi-Head Attention
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Multi-Head Attention — механизм, в котором несколько независимых Self-Attention голов параллельно работают над одним и тем же embedding.

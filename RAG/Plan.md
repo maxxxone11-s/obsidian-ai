@@ -202,7 +202,7 @@ Prerequisites:
 
 Related concepts:
 
-- [[Transformers/Index|Transformers]]
+- [[Transformers/Transformers|Transformers]]
 
 Topics:
 
@@ -328,7 +328,7 @@ Prerequisites:
 
 Related concepts:
 
-- [[AI Agents/Index|AI Agents]]
+- [[AI Agents/AI Agents|AI Agents]]
 
 Topics:
 
@@ -370,11 +370,11 @@ Prerequisites:
 
 ## Dependencies
 
-- [[LLM Engineering/Index|LLM Engineering]]
-- [[Transformers/Index|Transformers]]
-- [[Machine Learning/Index|Machine Learning]]
-- [[Python Backend/Index|Python Backend]]
-- [[AI Agents/Index|AI Agents]]
+- [[LLM Engineering/LLM Engineering|LLM Engineering]]
+- [[Transformers/Transformers|Transformers]]
+- [[Machine Learning/Machine Learning|Machine Learning]]
+- [[Python Backend/Python Backend|Python Backend]]
+- [[AI Agents/AI Agents|AI Agents]]
 
 ## Future KNOWLEDGE_EXPORT Targets
 

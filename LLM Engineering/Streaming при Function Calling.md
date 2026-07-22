@@ -12,6 +12,8 @@ difficulty: hard
 
 # Streaming при Function Calling
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Streaming при Function Calling — потоковый режим, в котором API передаёт не только текст, но и структурированные фрагменты tool call, которые backend собирает до полного формирования вызова.

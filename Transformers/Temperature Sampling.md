@@ -16,6 +16,8 @@ aliases:
 
 # Temperature Sampling
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Temperature — параметр алгоритма генерации, который изменяет распределение logits перед применением Softmax.

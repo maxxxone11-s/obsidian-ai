@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Confusion Matrix
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Confusion Matrix — таблица всех возможных исходов классификации.

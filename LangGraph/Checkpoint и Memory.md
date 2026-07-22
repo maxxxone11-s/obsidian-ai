@@ -11,6 +11,8 @@ confidence: 0.94
 
 # Checkpoint и Memory
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 Checkpoint = где я сейчас, Memory = что я знаю.

@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Classification
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Ответ не число, а класс.

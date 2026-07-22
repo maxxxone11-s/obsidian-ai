@@ -13,6 +13,8 @@ confidence: 0.95
 
 # Decision Tree
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Алгоритм машинного обучения на основе дерева решений. Не требует масштабирования, так как принимает решения через пороги.
 
 ## Кратко

@@ -1,9 +1,11 @@
 ---
-type: index
+type: area_index
 area: Vector Databases
-created: 2026-07-12
-updated: 2026-07-13
-tags: [index, system, vector-databases]
+aliases:
+  - Vector Databases
+tags:
+  - vector-databases
+  - area-index
 ---
 
 # Vector Databases
@@ -48,11 +50,18 @@ tags: [index, system, vector-databases]
 - [[Vector Databases/Local Maximum в HNSW|Local Maximum в HNSW]]
 - [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels в HNSW]]
 
+### Параметры HNSW
+
+- [[Vector Databases/Параметр M в HNSW|Параметр M]]
+- [[Vector Databases/Параметр efConstruction|Параметр efConstruction]]
+- [[Vector Databases/Параметр efSearch|Параметр efSearch]]
+- [[Vector Databases/Жизненный цикл параметров HNSW|Жизненный цикл параметров HNSW]]
+
 Остальные пункты из Plan не материализуются как пустые файлы до появления реального учебного материала.
 
 ## Связанные области
 
-- [[RAG/Index|RAG]]
-- [[Machine Learning/Index|Machine Learning]]
-- [[Python Backend/Index|Python Backend]]
-- [[LLM Engineering/Index|LLM Engineering]]
+- [[RAG/RAG|RAG]]
+- [[Machine Learning/Machine Learning|Machine Learning]]
+- [[Python Backend/Python Backend|Python Backend]]
+- [[LLM Engineering/LLM Engineering|LLM Engineering]]

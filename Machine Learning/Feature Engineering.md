@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Feature Engineering
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Иногда один хороший Feature лучше сотни случайных.

@@ -16,6 +16,8 @@ aliases:
 
 # Архитектура OpenAI SDK
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 OpenAI SDK организован по ресурсам API.

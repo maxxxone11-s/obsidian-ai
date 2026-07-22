@@ -13,6 +13,8 @@ confidence: 0.96
 
 # Tool Node
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 Узел для выполнения инструмента/функции в LangGraph.
 
 ## Интуитивное объяснение

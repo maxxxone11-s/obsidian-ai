@@ -13,6 +13,8 @@ difficulty: medium
 
 # model.train() и model.eval()
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 `model.train()` включает режим обучения. `model.eval()` включает режим валидации и инференса.

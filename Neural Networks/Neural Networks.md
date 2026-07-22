@@ -1,14 +1,14 @@
 ---
-type: index
+type: area_index
 area: Neural Networks
-created: 2026-06-26
-updated: 2026-07-11
+aliases:
+  - Neural Networks
 tags:
-  - index
-  - system
+  - neural-networks
+  - area-index
 ---
 
-# 🧠 Neural Networks
+# Neural Networks
 
 ## Структура раздела
 

@@ -14,6 +14,8 @@ confidence: 0
 
 # PostgreSQL
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 Мощная объектно-реляционная база данных с открытым исходным кодом.
 
 ## Простое объяснение

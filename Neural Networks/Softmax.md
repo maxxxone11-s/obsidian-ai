@@ -15,6 +15,8 @@ difficulty: medium
 
 # Softmax
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Softmax преобразует logits в вероятности.

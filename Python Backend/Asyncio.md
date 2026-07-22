@@ -14,6 +14,8 @@ confidence: 0
 
 # Asyncio
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 Асинхронное программирование в Python.
 
 ## Простое объяснение

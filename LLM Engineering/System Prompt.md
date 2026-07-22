@@ -16,6 +16,8 @@ aliases:
 
 # System Prompt
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 System Prompt — сообщение разработчика, определяющее постоянные правила поведения модели независимо от пользовательского запроса.

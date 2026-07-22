@@ -15,6 +15,8 @@ confidence: 0.95
 
 # Activation Function
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 Функция активации для введения нелинейности.
 
 ## Интуитивное объяснение

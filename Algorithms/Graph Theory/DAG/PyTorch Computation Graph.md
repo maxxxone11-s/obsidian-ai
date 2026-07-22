@@ -13,6 +13,8 @@ confidence: 0
 
 # PyTorch Computation Graph
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Связь DAG с вычислительным графом PyTorch.

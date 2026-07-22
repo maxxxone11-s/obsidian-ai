@@ -11,6 +11,8 @@ confidence: 0.9
 
 # Production Architecture
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 Не один большой агент, а система маленьких компонентов.

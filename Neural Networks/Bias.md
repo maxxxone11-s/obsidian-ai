@@ -15,6 +15,8 @@ confidence: 0.95
 
 # Bias (Смещение)
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 Параметр смещения в нейронной сети.
 
 ## Интуитивное объяснение

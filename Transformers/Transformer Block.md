@@ -17,6 +17,8 @@ aliases:
 
 # Transformer Block
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Transformer Block — повторяющийся модуль Transformer-архитектуры, который последовательно обрабатывает входные embedding и постепенно уточняет их представление.

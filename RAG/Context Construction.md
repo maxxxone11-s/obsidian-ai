@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Context Construction
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Context Construction — этап Query Pipeline, который выбирает, дедуплицирует, объединяет, упорядочивает и ограничивает найденные chunks перед их включением в prompt.

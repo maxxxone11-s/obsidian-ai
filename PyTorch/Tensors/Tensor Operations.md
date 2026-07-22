@@ -13,6 +13,8 @@ confidence: 0
 
 # Tensor Operations
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Stub-заметка для операций над Tensor.
 
 ## Простое объяснение

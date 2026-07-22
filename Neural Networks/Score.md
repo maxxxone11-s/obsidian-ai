@@ -12,6 +12,8 @@ confidence: 0.94
 
 # Score
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Score — это сырая оценка нейрона.

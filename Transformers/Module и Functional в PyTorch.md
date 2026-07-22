@@ -16,6 +16,8 @@ aliases:
 
 # Module и Functional в PyTorch
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Кратко
 
 В PyTorch вычисления и хранение параметров часто разделены: `nn.Module` хранит состояние, а функции из `torch.nn.functional` выполняют математику.

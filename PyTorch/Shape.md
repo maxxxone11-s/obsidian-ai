@@ -14,6 +14,8 @@ confidence: 0.87
 
 # Shape
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Shape показывает количество элементов вдоль каждой оси Tensor.
 
 ## Простое объяснение

@@ -12,6 +12,8 @@ difficulty: medium
 
 # Tool Selection
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Tool Selection — процесс, в котором LLM анализирует пользовательский запрос и описания доступных инструментов, выбирает подходящий инструмент и формирует аргументы для его вызова.

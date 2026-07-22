@@ -14,6 +14,8 @@ confidence: 0
 
 # Python Core
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 Основные концепции и встроенные типы данных Python.
 
 ## Простое объяснение

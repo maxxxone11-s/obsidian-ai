@@ -16,6 +16,8 @@ aliases:
 
 # Delimiters
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Delimiter — структурный разделитель внутри prompt, явно отделяющий инструкции, контекст, примеры и пользовательские данные.
@@ -65,7 +67,7 @@ Delimiter
 
 ## Связанные темы
 
-[[Prompt Engineering]] · [[Prompt Templates]] · [[RAG/Index|RAG]]
+[[Prompt Engineering]] · [[Prompt Templates]] · [[RAG/RAG|RAG]]
 
 ## Вопросы для проверки
 

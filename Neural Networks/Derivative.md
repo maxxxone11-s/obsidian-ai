@@ -12,6 +12,8 @@ confidence: 0.9
 
 # Derivative
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Производная отвечает: если я чуть-чуть поверну этот Weight, ошибка станет больше или меньше?

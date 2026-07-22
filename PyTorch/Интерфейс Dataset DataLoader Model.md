@@ -14,6 +14,8 @@ difficulty: hard
 
 # Интерфейс Dataset DataLoader Model
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 Каждая часть знает только формат входных и выходных данных следующей части.

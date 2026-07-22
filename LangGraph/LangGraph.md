@@ -1,14 +1,14 @@
 ---
-type: index
+type: area_index
 area: LangGraph
-created: 2026-06-26
-updated: 2026-06-27
+aliases:
+  - LangGraph
 tags:
-  - index
-  - system
+  - langgraph
+  - area-index
 ---
 
-# 🔗 LangGraph
+# LangGraph
 
 ## Структура раздела
 

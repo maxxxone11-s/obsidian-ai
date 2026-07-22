@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Что такое Machine Learning
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 В обычном программировании человек пишет правила. В ML правила ищет сама модель.

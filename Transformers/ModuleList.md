@@ -16,6 +16,8 @@ aliases:
 
 # ModuleList
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 ModuleList — специальный контейнер PyTorch для хранения списка обучаемых модулей.

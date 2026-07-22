@@ -14,6 +14,8 @@ confidence: 0.95
 
 # Linear Regression
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Кратко
 
 Linear Regression — линейная модель y = wx + b. Модель ищет такие веса, чтобы минимизировать ошибку.

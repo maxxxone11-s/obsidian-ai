@@ -14,6 +14,8 @@ difficulty: medium
 
 # Call Stack и размотка рекурсии
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Call Stack — это стек вызовов функций. Каждый рекурсивный вызов создает отдельный stack frame со своими аргументами, локальными переменными и местом, куда нужно вернуться после завершения следующего вызова.

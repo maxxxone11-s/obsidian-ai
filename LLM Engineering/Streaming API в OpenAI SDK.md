@@ -12,6 +12,8 @@ difficulty: medium
 
 # Streaming API в OpenAI SDK
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 В Chat Completions API параметр `stream=True` изменяет результат `chat.completions.create()` на итерируемый поток объектов `ChatCompletionChunk`, содержащих последовательные изменения ответа модели.

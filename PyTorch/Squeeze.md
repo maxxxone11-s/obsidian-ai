@@ -14,6 +14,8 @@ confidence: 0.91
 
 # Squeeze
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Squeeze удаляет оси размера `1` из Tensor.
 
 ## Простое объяснение

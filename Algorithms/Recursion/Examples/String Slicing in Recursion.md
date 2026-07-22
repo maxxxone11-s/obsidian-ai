@@ -13,6 +13,8 @@ confidence: 0
 
 # String Slicing in Recursion
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 String Slicing in Recursion — использование срезов строки, чтобы передавать в следующий рекурсивный вызов меньшую строку.

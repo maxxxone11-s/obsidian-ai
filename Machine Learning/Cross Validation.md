@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Cross Validation
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Один Test может случайно оказаться слишком простым.

@@ -3,7 +3,7 @@ type: concept
 area: Vector Databases
 status: learned
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-17
 aliases:
   - ANN Recall
 tags:
@@ -11,6 +11,8 @@ tags:
 ---
 
 # Recall в Approximate Nearest Neighbor
+
+Область: [[Vector Databases/Vector Databases|Vector Databases]]
 
 ## Академическое определение
 
@@ -58,4 +60,4 @@ Exact Search вернул `A, B, C, D, E`, а ANN — `A, B, C, D, F`. ANN по�
 
 ## Следующие темы
 
-[[efSearch]] · [[HNSW tuning]]
+[[Vector Databases/Параметр efSearch|efSearch]] · [[Vector Databases/Жизненный цикл параметров HNSW|HNSW tuning]]

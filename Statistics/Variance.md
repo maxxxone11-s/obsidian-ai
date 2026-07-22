@@ -17,6 +17,8 @@ aliases:
 
 # Variance
 
+Область: [[Statistics/Statistics|Statistics]]
+
 ## Кратко
 
 Variance измеряет разброс данных относительно среднего как среднее квадратов отклонений.

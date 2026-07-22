@@ -20,6 +20,8 @@ aliases:
 
 # Embedding Layer
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Embedding Layer — обучаемая таблица признаков, которая преобразует token id в плотный числовой вектор фиксированной размерности.

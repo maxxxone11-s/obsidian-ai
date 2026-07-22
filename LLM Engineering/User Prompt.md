@@ -16,6 +16,8 @@ aliases:
 
 # User Prompt
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 User Prompt — переменная часть входного контекста, содержащая данные конкретного запроса пользователя и дополнительный контекст, сформированный приложением.
@@ -62,7 +64,7 @@ Traceback
 
 ## Связанные темы
 
-[[System Prompt]] · [[Prompt Templates]] · [[Messages как источник контекста модели]] · [[RAG/Index|RAG]]
+[[System Prompt]] · [[Prompt Templates]] · [[Messages как источник контекста модели]] · [[RAG/RAG|RAG]]
 
 ## Вопросы для проверки
 

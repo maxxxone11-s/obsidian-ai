@@ -11,6 +11,8 @@ confidence: 0
 
 # Tree
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Tree — иерархическая структура данных без циклов.

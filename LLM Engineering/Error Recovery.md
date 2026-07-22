@@ -16,6 +16,8 @@ aliases:
 
 # Error Recovery
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Error Recovery — совокупность стратегий обработки ситуаций, при которых ответ модели не может быть безопасно использован приложением.

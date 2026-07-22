@@ -13,6 +13,8 @@ confidence: 0.90
 
 # Tensor Dtype
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Каждый Tensor имеет тип данных.
 
 ## Простое объяснение

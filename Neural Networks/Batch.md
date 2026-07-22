@@ -12,6 +12,8 @@ confidence: 0.98
 
 # Batch
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Batch — небольшая часть Train Set, которая используется за один цикл обучения.

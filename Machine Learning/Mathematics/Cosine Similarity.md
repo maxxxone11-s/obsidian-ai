@@ -12,6 +12,8 @@ difficulty: beginner
 
 # Cosine Similarity
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Академическое определение
 
 Cosine Similarity — мера сходства двух ненулевых векторов, равная косинусу угла между ними:

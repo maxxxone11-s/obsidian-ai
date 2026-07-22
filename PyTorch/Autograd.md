@@ -14,6 +14,8 @@ difficulty: hard
 
 # Autograd
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Автоматическое дифференцирование в PyTorch.
 
 ## Кратко

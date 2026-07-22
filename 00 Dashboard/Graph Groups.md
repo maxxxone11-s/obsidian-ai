@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-13
+updated: 2026-07-22
 ---
 
 # Graph Groups
@@ -29,11 +29,24 @@ updated: 2026-07-13
 - `tag:#langgraph` — красный
 - `tag:#rag` — бирюзовый
 - `tag:#vector-databases` — тёмно-синий
+- `tag:#physics` — сине-зелёный
 - `tag:#llm-engineering` — жёлтый
 - `tag:#ai-agents` — розовый
 - `tag:#algorithms` — голубой
 
 Каждая concept-заметка должна содержать только один тег верхнеуровневой цветовой группы — тег её canonical Knowledge Area. Междисциплинарные связи лучше обозначать обычными тематическими тегами и wikilinks, иначе цвет зависит от порядка групп.
+
+## Центральные узлы Knowledge Areas
+
+Каждая стабильная Knowledge Area имеет один видимый canonical node `[Area Folder]/[Canonical Area Name].md` с `type: area_index`. Filename, H1, frontmatter `area` и отображаемое имя узла совпадают с canonical Knowledge Area name. Узел использует high-level tag своей области и тег `area-index`, но не получает теги `system` или `index`.
+
+Примеры canonical paths: `RAG/RAG.md`, `PyTorch/PyTorch.md`, `Vector Databases/Vector Databases.md`, `Algorithms/Algorithms & Data Structures.md`.
+
+Concept notes напрямую связаны только со своим canonical area index. `Plan.md`, тематические sub-indexes и secondary indexes остаются дочерними навигационными узлами и не конкурируют с canonical node.
+
+Файлы `Indexes/[Area] Index.md` остаются служебной глобальной навигацией с тегами `system` и `index`, поэтому могут быть скрыты без исчезновения центральных узлов областей.
+
+Имя `Index.md` используется только approved thematic sub-indexes, а не центральными узлами Knowledge Areas.
 
 ## Неразрешённые ссылки
 
@@ -52,6 +65,8 @@ Unresolved wikilinks не имеют Markdown-файла и YAML frontmatter, п
 ```text
 -tag:#system -tag:#template -tag:#index
 ```
+
+Этот фильтр сохраняет canonical `area_index` nodes видимыми, поскольку они не имеют тегов `system` и `index`.
 
 Фильтр для чистого учебного графа без служебных и практических заметок:
 

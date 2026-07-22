@@ -11,6 +11,8 @@ confidence: 0.95
 
 # StateGraph
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 StateGraph хранит Node, Edge и маршруты.

@@ -12,6 +12,8 @@ difficulty: medium
 
 # Function Schema
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Function Schema — структурированное описание функции, содержащее её назначение и параметры и передаваемое LLM для выбора функции и формирования корректных аргументов.

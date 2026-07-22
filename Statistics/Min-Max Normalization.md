@@ -16,6 +16,8 @@ aliases:
 
 # Min-Max Normalization
 
+Область: [[Statistics/Statistics|Statistics]]
+
 ## Кратко
 
 Min-Max Normalization масштабирует значения в диапазон от 0 до 1.

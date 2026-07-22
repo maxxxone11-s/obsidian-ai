@@ -12,6 +12,8 @@ confidence: 0.98
 
 # Dropout
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Нейрон больше не может надеяться, что сосед сделает работу за него.

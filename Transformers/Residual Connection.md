@@ -17,6 +17,8 @@ aliases:
 
 # Residual Connection
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Residual Connection — архитектурная связь, при которой выход некоторого преобразования `F(x)` складывается с исходным входом `x`.

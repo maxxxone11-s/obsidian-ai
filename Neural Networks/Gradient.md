@@ -12,6 +12,8 @@ confidence: 0.97
 
 # Gradient
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Gradient — результат работы Backpropagation. Он показывает, как каждый Weight и Bias влияют на Loss.

@@ -13,6 +13,8 @@ difficulty: medium
 
 # Parameters и Hyperparameters
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Weight и Bias — Parameters. Learning Rate — Hyperparameter.

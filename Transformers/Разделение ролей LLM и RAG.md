@@ -16,6 +16,8 @@ aliases:
 
 # Разделение ролей LLM и RAG
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 LLM хранит универсальные способы обработки информации в своих весах, тогда как RAG предоставляет модели внешние актуальные данные без изменения параметров.
@@ -71,7 +73,7 @@ LLM строит ответ
 
 ## Связанные темы
 
-[[Веса как долговременная память модели]] · [[Context Window vs KV Cache]] · [[RAG/Index|RAG]] · [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]]
+[[Веса как долговременная память модели]] · [[Context Window vs KV Cache]] · [[RAG/RAG|RAG]] · [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]]
 
 ## Вопросы для проверки
 
@@ -84,4 +86,4 @@ LLM строит ответ
 
 - Vector Search
 - Retrieval Pipeline
-- [[RAG/Index|RAG]]
+- [[RAG/RAG|RAG]]

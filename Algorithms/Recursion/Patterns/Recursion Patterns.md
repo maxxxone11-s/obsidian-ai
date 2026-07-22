@@ -12,6 +12,8 @@ confidence: 0
 
 # Recursion Patterns
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Recursion Patterns — типовые формы рекурсивных решений: уменьшение на один шаг, обработка подстроки, обход дерева, DFS и divide and conquer.

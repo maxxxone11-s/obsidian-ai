@@ -14,6 +14,8 @@ difficulty: easy
 
 # config.py
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 `config.py` хранит изменяемые настройки проекта отдельно от логики обучения.

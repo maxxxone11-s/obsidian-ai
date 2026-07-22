@@ -14,6 +14,8 @@ difficulty: hard
 
 # CrossEntropyLoss
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 Модель выдает оценки классов, то есть [[Neural Networks/Logits|logits]]. `CrossEntropyLoss` внутри превращает их в логарифмическое распределение вероятностей и проверяет, насколько высока оценка правильного класса.

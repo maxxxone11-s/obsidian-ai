@@ -12,6 +12,8 @@ difficulty: beginner
 
 # Validation Set
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Академическое определение
 
 Validation Set — часть dataset, не используемая для обновления весов и предназначенная для оценки модели во время разработки, настройки гиперпараметров и обнаружения overfitting.

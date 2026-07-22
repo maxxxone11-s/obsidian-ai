@@ -17,6 +17,8 @@ aliases:
 
 # Weight Tying
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Weight Tying — приём, при котором Token Embedding и [[Language Modeling Head]] используют одну и ту же матрицу весов.

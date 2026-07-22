@@ -12,6 +12,8 @@ difficulty: hard
 
 # Production Pipeline LLM-приложения
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Production Pipeline LLM-приложения — последовательность контролируемых этапов обработки пользовательского запроса, в которой LLM является одним из сервисов общей backend-архитектуры.
@@ -74,4 +76,4 @@ FastAPI endpoint проверяет авторизацию и лимиты, ищ
 
 ## Следующие темы
 
-[[RAG/Index|RAG]] · [[AI Agents/Index|AI Agents]]
+[[RAG/RAG|RAG]] · [[AI Agents/AI Agents|AI Agents]]

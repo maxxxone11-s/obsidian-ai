@@ -15,6 +15,8 @@ difficulty: medium
 
 # Matrix Multiplication in PyTorch (matmul)
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Кратко
 
 Изучено различие между поэлементными операциями и матричным умножением. Математическая формула персептрона связана с кодом PyTorch.

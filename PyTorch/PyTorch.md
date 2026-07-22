@@ -1,14 +1,14 @@
 ---
-type: index
+type: area_index
 area: PyTorch
-created: 2026-06-26
-updated: 2026-07-11
+aliases:
+  - PyTorch
 tags:
-  - index
-  - system
+  - pytorch
+  - area-index
 ---
 
-# ⚡ PyTorch
+# PyTorch
 
 ## Структура раздела
 

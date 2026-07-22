@@ -14,6 +14,8 @@ confidence: 0.95
 
 # Scaling и Tree-Based Models
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Деревьям решений scaling почти не нужен.
 
 ## Простое объяснение

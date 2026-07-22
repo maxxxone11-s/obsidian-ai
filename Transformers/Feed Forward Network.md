@@ -21,6 +21,8 @@ aliases:
 
 # Feed Forward Network
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Feed Forward Network в Transformer — небольшая полносвязная нейронная сеть, которая применяется независимо к каждому embedding после Self-Attention.

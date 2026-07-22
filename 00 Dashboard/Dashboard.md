@@ -4,7 +4,7 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-13
+updated: 2026-07-22
 ---
 
 # 🧠 AI Second Brain Dashboard
@@ -31,6 +31,7 @@ updated: 2026-07-13
 - [[Indexes/LLM Engineering Index|✨ LLM Engineering]]
 - [[Indexes/RAG Index|📚 RAG]]
 - [[Indexes/Vector Databases Index|🗄️ Vector Databases]]
+- [[Indexes/Physics Index|⚛️ Physics]]
 - [[Indexes/LangGraph Index|🔗 LangGraph]]
 - [[Indexes/Algorithms Index|🧩 Algorithms & Data Structures]]
 
@@ -43,14 +44,18 @@ updated: 2026-07-13
 
 | Метрика | Значение |
 |---------|----------|
-| Всего концепций | 359 |
-| Изучено | 302 |
+| Всего концепций | 363 |
+| Изучено | 306 |
 | В процессе | 1 |
 | Требует повтора | 7 |
 | Черновики | 49 |
 
 ## 🔄 Последние обновления
 
+- **2026-07-22** — Создана стабильная Knowledge Area Physics: canonical area node, гибкий Plan, secondary index и graph group
+- **2026-07-17** — Синхронизация Vector Databases: параметры M, efConstruction, efSearch, их жизненный цикл и практические реализации Exact/Greedy Search
+- **2026-07-15** — Canonical area nodes переименованы из `[Area]/Index.md` в `[Area]/[Canonical Area Name].md`; все path-qualified backlinks обновлены
+- **2026-07-15** — Нормализована graph-архитектура Knowledge Areas: 12 canonical area indexes, прямые area backlinks и лёгкие secondary indexes
 - **2026-07-13** — Синхронизация Vector Databases: Exact Search, ANN, ANN Recall, HNSW, Greedy Search, Local Maximum и Hierarchical Levels
 - **2026-07-12** — Инициализирован модуль Vector Databases: создан Plan, внутренний и глобальный индексы; concept notes пока не создавались
 - **2026-07-12** — Синхронизация RAG Architecture & Implementation: Prompt Construction, Context Construction, Lost in the Middle, Ingestion Pipeline, Production RAG Architecture и SearchResult

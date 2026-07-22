@@ -13,6 +13,8 @@ difficulty: medium
 
 # DAG
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 DAG — это ориентированный граф без циклов. Можно двигаться только вперед, но невозможно вернуться обратно по циклу.

@@ -13,10 +13,12 @@ confidence: 0
 
 # Neural Networks
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Искусственные нейронные сети — математические модели, вдохновлённые биологическими нейронными сетями. Требуют масштабирования для эффективного обучения.
 
 ## Связанные темы
 
 - [[Feature Scaling]] — критично для сходимости
 - [[Gradient Descent]] — используется для обучения
-- [[PyTorch/Index|PyTorch]] — фреймворк для реализации
+- [[PyTorch/PyTorch|PyTorch]] — фреймворк для реализации

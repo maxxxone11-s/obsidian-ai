@@ -17,6 +17,8 @@ aliases:
 
 # CausalSelfAttention.forward Pipeline
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 `CausalSelfAttention.forward` — метод, который последовательно преобразует входной Tensor в выход Self-Attention через QKV-проекцию, вычисление внимания, объединение голов и выходную проекцию.

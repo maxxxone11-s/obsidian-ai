@@ -15,6 +15,8 @@ difficulty: medium
 
 # PyTorch Training Loop
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Кратко
 
 Полностью разобран цикл обучения модели.

@@ -12,6 +12,8 @@ confidence: 0.75
 
 # Chain Rule
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Weight не влияет на Loss напрямую. Он влияет через множество промежуточных вычислений, а Chain Rule объединяет всю цепочку.

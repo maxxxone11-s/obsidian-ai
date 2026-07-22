@@ -14,6 +14,8 @@ confidence: 0
 
 # Alembic
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 Инструмент для управления миграциями БД в Python.
 
 ## Простое объяснение

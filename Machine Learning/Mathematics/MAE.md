@@ -14,6 +14,8 @@ confidence: 0.95
 
 # MAE
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 MAE — функция потерь, которая усредняет абсолютную ошибку.
 
 ## Простое объяснение

@@ -14,6 +14,8 @@ difficulty: easy
 
 # loss.item()
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 `loss.item()` преобразует Tensor с одним числом в обычное число Python.

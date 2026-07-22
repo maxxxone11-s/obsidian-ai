@@ -12,6 +12,8 @@ confidence: 0.94
 
 # Sigmoid
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Sigmoid используется, когда нужно получить вероятность одного события.

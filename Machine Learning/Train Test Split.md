@@ -16,6 +16,8 @@ confidence: 0.95
 
 # Train/Test Split
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Разделение данных на обучающий и тестовый наборы.
 
 ## Интуитивное объяснение

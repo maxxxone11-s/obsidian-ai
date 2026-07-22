@@ -12,6 +12,8 @@ confidence: 0.98
 
 # Epoch
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Epoch — один полный проход по всему Train Set.

@@ -14,6 +14,8 @@ confidence: 0.95
 
 # MSE
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 MSE — функция потерь, которая возводит ошибку в квадрат.
 
 ## Простое объяснение

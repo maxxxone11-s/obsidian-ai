@@ -13,6 +13,8 @@ difficulty: medium
 
 # Inference
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Inference — использование уже обученной модели для получения предсказаний.

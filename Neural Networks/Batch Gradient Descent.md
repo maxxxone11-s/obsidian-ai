@@ -12,6 +12,8 @@ confidence: 0.94
 
 # Batch Gradient Descent
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Сначала модель смотрит весь датасет. Потом делает один шаг обучения.

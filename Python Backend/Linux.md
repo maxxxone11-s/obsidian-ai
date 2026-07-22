@@ -14,6 +14,8 @@ confidence: 0
 
 # Linux
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 Операционная система и окружение для разработки и развёртывания.
 
 ## Простое объяснение

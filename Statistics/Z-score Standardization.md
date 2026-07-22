@@ -13,6 +13,8 @@ aliases: [Standardization, Z-score Standardization, Statistical Standardization,
 
 # Z-score Standardization
 
+Область: [[Statistics/Statistics|Statistics]]
+
 ## Академическое определение
 
 Z-score Standardization — преобразование числовой переменной по формуле \(z = (x - \mu) / \sigma\), после которого её среднее становится 0, а стандартное отклонение — 1.

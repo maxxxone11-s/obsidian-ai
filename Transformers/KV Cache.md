@@ -16,6 +16,8 @@ aliases:
 
 # KV Cache
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 KV Cache — механизм кэширования матриц Key и Value для уже обработанных токенов во время авторегрессионной генерации.

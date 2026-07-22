@@ -11,6 +11,8 @@ confidence: 0
 
 # Two Pointers
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Two Pointers — техника с двумя указателями по массиву или строке.

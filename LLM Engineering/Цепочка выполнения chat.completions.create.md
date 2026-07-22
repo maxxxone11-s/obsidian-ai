@@ -16,6 +16,8 @@ aliases:
 
 # Цепочка выполнения chat.completions.create
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Вызов `create()` инициирует полный цикл взаимодействия между приложением и удаленным LLM-сервисом через HTTP.

@@ -12,6 +12,8 @@ difficulty: medium
 
 # Streaming
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Streaming — режим взаимодействия с LLM API, при котором приложение получает части ответа по мере генерации, а не после завершения всего ответа.

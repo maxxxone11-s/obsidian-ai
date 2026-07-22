@@ -16,6 +16,8 @@ aliases:
 
 # Output Formatting
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Output Formatting — проектирование ожидаемого формата ответа модели, формирующее контракт между LLM и приложением.

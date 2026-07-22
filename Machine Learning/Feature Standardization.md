@@ -12,6 +12,8 @@ difficulty: beginner
 
 # Feature Standardization
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Академическое определение
 
 Feature Standardization — preprocessing-преобразование признаков по z-score, при котором из каждого значения вычитается среднее train-признака, а результат делится на его стандартное отклонение.

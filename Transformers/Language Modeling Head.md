@@ -17,6 +17,8 @@ aliases:
 
 # Language Modeling Head
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Language Modeling Head — финальный линейный слой, который преобразует последний контекстный embedding из пространства признаков модели в пространство словаря.

@@ -15,6 +15,8 @@ aliases:
 
 # Prompt Engineering
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Prompt Engineering — процесс проектирования входного контекста LLM так, чтобы поведение модели было максимально предсказуемым, воспроизводимым и соответствовало задаче.

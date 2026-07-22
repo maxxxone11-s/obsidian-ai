@@ -1,14 +1,14 @@
 ---
-type: index
+type: area_index
 area: Machine Learning
-created: 2026-06-26
-updated: 2026-07-11
+aliases:
+  - Machine Learning
 tags:
-  - index
-  - system
+  - machine-learning
+  - area-index
 ---
 
-# 🤖 Machine Learning
+# Machine Learning
 
 ## Структура раздела
 
@@ -120,6 +120,12 @@ tags:
 - [[Decision Tree]]
 - [[Random Forest]]
 - [[XGBoost]]
+- [[Machine Learning/KNN|KNN]]
+- [[Machine Learning/SVM|SVM]]
+
+### Связь с Deep Learning
+
+- [[Machine Learning/Neural Networks|Neural Networks]]
 
 ### Mathematics
 - [[Machine Learning/Mathematics/README|Математика для Machine Learning]]

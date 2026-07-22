@@ -14,6 +14,8 @@ difficulty: medium
 
 # nn.Module
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 `nn.Module` — базовый класс PyTorch для описания модели. `__init__` строит модель, а `forward` описывает движение данных через уже созданные слои.

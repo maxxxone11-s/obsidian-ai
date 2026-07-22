@@ -13,6 +13,8 @@ difficulty: easy
 
 # Рекурсивный факториал
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Факториал естественно выражается через меньший факториал: `5! = 5 * 4!`.

@@ -11,6 +11,8 @@ confidence: 0
 
 # Dynamic Programming
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Dynamic Programming решает задачу через сохранение результатов подзадач.

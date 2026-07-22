@@ -15,6 +15,8 @@ aliases:
 
 # JSON Schema
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 JSON Schema — стандарт описания структуры JSON-документов, определяющий допустимые поля, типы, обязательность и ограничения.

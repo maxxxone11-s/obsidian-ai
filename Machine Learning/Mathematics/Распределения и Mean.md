@@ -13,6 +13,8 @@ confidence: 0.95
 
 # Распределения и Mean
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Большинство значений часто находится около среднего.

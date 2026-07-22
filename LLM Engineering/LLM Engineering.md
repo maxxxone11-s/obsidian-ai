@@ -1,12 +1,11 @@
 ---
-type: index
+type: area_index
 area: LLM Engineering
-created: 2026-06-26
-updated: 2026-07-11
+aliases:
+  - LLM Engineering
 tags:
-  - index
-  - system
   - llm-engineering
+  - area-index
 ---
 
 # LLM Engineering
@@ -130,9 +129,9 @@ tags:
 
 ## Связанные области
 
-- [[Python Backend/Index|Python Backend]]
-- [[Transformers/Index|Transformers]]
+- [[Python Backend/Python Backend|Python Backend]]
+- [[Transformers/Transformers|Transformers]]
 - [[Transformers/Temperature Sampling|Temperature Sampling]]
-- [[RAG/Index|RAG]]
-- [[AI Agents/Index|AI Agents]]
-- [[LangGraph/Index|LangGraph]]
+- [[RAG/RAG|RAG]]
+- [[AI Agents/AI Agents|AI Agents]]
+- [[LangGraph/LangGraph|LangGraph]]

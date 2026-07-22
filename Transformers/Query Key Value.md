@@ -16,6 +16,8 @@ aliases:
 
 # Query Key Value
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Query, Key и Value — три разные линейные проекции одного embedding, используемые attention-механизмом для вычисления связей между токенами и передачи информации.

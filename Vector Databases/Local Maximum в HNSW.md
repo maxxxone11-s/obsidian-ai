@@ -3,7 +3,7 @@ type: concept
 area: Vector Databases
 status: learned
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-17
 aliases:
   - Локальный максимум в HNSW
 tags:
@@ -11,6 +11,8 @@ tags:
 ---
 
 # Local Maximum в HNSW
+
+Область: [[Vector Databases/Vector Databases|Vector Databases]]
 
 ## Академическое определение
 
@@ -53,4 +55,4 @@ Local Maximum в HNSW — ситуация, когда текущий узел �
 
 ## Следующие темы
 
-[[efSearch]]
+[[Vector Databases/Параметр efSearch|efSearch]] · [[Multi Candidate Search]]

@@ -14,6 +14,8 @@ confidence: 0.95
 
 # Fit Transform и Data Leakage
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 `fit_transform` на train и `transform` на test — правило, которое помогает избежать [[Data Leakage]] при [[Feature Scaling]].
 
 ## Простое объяснение

@@ -12,6 +12,8 @@ difficulty: beginner
 
 # SearchResult
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 SearchResult — объект передачи данных, содержащий найденный документ или chunk, retrieval score и служебные metadata, необходимые следующим компонентам RAG Pipeline.

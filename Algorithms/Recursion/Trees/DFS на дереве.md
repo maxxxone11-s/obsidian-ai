@@ -15,6 +15,8 @@ difficulty: medium
 
 # DFS на дереве
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Кратко
 
 DFS выполняет обход дерева, проходя максимально глубоко по каждой ветке, прежде чем перейти к следующей.

@@ -13,6 +13,8 @@ confidence: 0.92
 
 # Tensor Creation
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Tensor Creation — это способы создать Tensor в PyTorch.
 
 ## Простое объяснение

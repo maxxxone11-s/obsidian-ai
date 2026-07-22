@@ -14,6 +14,8 @@ confidence: 0
 
 # SQL
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 Язык структурированных запросов для работы с базами данных.
 
 ## Простое объяснение

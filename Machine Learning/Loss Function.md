@@ -16,6 +16,8 @@ confidence: 0.95
 
 # Loss Function
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Loss Function — функция потерь для измерения ошибки модели.
 
 Материал разнесён по отдельным заметкам.

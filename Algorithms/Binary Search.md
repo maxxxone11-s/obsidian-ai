@@ -11,6 +11,8 @@ confidence: 0
 
 # Binary Search
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Binary Search ищет ответ, каждый раз отбрасывая половину вариантов.

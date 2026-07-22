@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Ingestion Pipeline
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Ingestion Pipeline — независимый процесс приёма, очистки, разбиения, обогащения metadata, embedding-обработки и записи документов в поисковый индекс RAG.

@@ -11,6 +11,8 @@ confidence: 0
 
 # Graphs
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Graph — структура данных из вершин и рёбер, которая описывает связи между объектами.

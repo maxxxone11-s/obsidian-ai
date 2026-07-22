@@ -15,6 +15,8 @@ confidence: 0.95
 
 # Weights (Веса)
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 Параметры нейронной сети, которые обучаются.
 
 ## Интуитивное объяснение

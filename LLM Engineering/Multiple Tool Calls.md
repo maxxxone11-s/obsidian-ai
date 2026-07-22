@@ -12,6 +12,8 @@ difficulty: medium
 
 # Multiple Tool Calls
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Multiple Tool Calls — возможность LLM сформировать несколько запросов на вызов инструментов в рамках одного ответа, после чего backend определяет порядок и стратегию их выполнения.

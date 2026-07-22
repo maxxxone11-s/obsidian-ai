@@ -16,6 +16,8 @@ aliases:
 
 # Attention Tensor Shapes
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Attention Tensor Shapes — последовательность форм Tensor внутри Self-Attention, где на каждом этапе Tensor изменяет форму в соответствии с выполняемой операцией, сохраняя согласованность размерностей.

@@ -12,6 +12,8 @@ confidence: 0
 
 # Interrupt
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 Stub-заметка для связанной темы из импорта [[LangGraph Overview]].

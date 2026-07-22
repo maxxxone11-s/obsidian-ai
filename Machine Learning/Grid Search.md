@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Grid Search
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Компьютер перебирает комбинации параметров вместо человека.

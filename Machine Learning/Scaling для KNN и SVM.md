@@ -14,6 +14,8 @@ confidence: 0.95
 
 # Scaling для KNN и SVM
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 [[KNN]] и [[SVM]] чувствительны к масштабу признаков, потому что используют расстояния в feature space.
 
 ## Простое объяснение

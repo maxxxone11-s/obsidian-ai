@@ -17,6 +17,8 @@ aliases:
 
 # MultiheadAttention в PyTorch
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 `nn.MultiheadAttention` — PyTorch-реализация [[Multi-Head Attention]], где QKV projection, разделение на головы, batch matrix multiplication и output projection выполняются через оптимизированные tensor operations.

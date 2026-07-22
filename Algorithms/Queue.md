@@ -11,6 +11,8 @@ confidence: 0
 
 # Queue
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Queue — структура FIFO: первым пришёл, первым вышел.

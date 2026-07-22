@@ -12,6 +12,8 @@ confidence: 0.99
 
 # Mini-Batch Gradient Descent
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Это компромисс между скоростью, памятью и качеством обучения.

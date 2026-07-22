@@ -12,6 +12,8 @@ difficulty: advanced
 
 # Multi Query Retrieval
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Multi Query Retrieval — техника Query Transformation, генерирующая несколько независимых вариантов пользовательского запроса и выполняющая отдельный retrieval для каждого варианта с последующим объединением результатов.

@@ -11,6 +11,8 @@ confidence: 0.96
 
 # START, END и invoke()
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 `invoke()` принимает начальный [[State]] и возвращает итоговый State.

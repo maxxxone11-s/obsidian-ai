@@ -12,6 +12,8 @@ confidence: 0.92
 
 # Momentum
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Вместо того чтобы смотреть только на текущий Gradient, модель учитывает, куда двигалась раньше.

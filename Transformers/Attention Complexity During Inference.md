@@ -15,6 +15,8 @@ aliases:
 
 # Attention Complexity During Inference
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Attention Complexity During Inference — вычислительная стоимость attention-операций при генерации новых токенов.

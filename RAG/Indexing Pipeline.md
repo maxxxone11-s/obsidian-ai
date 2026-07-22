@@ -12,6 +12,8 @@ difficulty: beginner
 
 # Indexing Pipeline
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Indexing Pipeline — офлайн-этап RAG, который преобразует исходные документы в индексированные chunks и сохраняет их embeddings для будущего поиска.

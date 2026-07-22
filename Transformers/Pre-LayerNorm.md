@@ -16,6 +16,8 @@ aliases:
 
 # Pre-LayerNorm
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Pre-LayerNorm — вариант архитектуры Transformer Block, в котором [[LayerNorm]] применяется до Attention и MLP, а не после [[Residual Connection]].

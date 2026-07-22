@@ -83,6 +83,13 @@
         "a": 1,
         "rgb": 14069084
       }
+    },
+    {
+      "query": "tag:#vector-databases  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
     }
   ],
   "collapse-display": true,
@@ -95,6 +102,6 @@
   "repelStrength": 7.40711805555556,
   "linkStrength": 1,
   "linkDistance": 146,
-  "scale": 0.46285188650554004,
+  "scale": 0.6147604495667729,
   "close": true
 }

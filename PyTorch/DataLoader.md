@@ -14,6 +14,8 @@ difficulty: medium
 
 # DataLoader
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Stub-заметка для PyTorch DataLoader.
 
 ## Простое объяснение

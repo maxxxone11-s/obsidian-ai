@@ -15,6 +15,8 @@ difficulty: hard
 
 # Cross Entropy
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Cross Entropy — функция потерь для классификации.
 
 ## Простое объяснение

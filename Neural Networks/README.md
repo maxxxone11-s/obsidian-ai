@@ -17,7 +17,7 @@ tags:
 - [[Neural Networks/Dataset для обучения модели]] → [[Train Set]] → [[Neural Networks/Validation Set|Validation Set]] → [[Test Set]]
 - [[Forward Pass]] → [[Loss]] → [[Backpropagation]] → [[Gradient]] → [[Optimizer]]
 - [[Machine Learning/Overfitting]] → [[Dropout]] → [[Batch Normalization]]
-- [[Inference]] → [[PyTorch/Index|PyTorch]]
+- [[Inference]] → [[PyTorch/PyTorch|PyTorch]]
 
 ## Все концепции
 

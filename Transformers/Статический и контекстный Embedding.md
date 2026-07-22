@@ -16,6 +16,8 @@ aliases:
 
 # Статический и контекстный Embedding
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Кратко
 
 Embedding, полученный из `nn.Embedding`, является статическим: один и тот же token id всегда возвращает один и тот же вектор.

@@ -12,6 +12,8 @@ difficulty: advanced
 
 # Production RAG Pipeline
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Production RAG Pipeline — архитектура полного жизненного цикла RAG, разделённая на независимый Ingestion Pipeline и онлайн Query Pipeline, состоящие из компонентов с одной инженерной ответственностью и координируемые orchestrator.

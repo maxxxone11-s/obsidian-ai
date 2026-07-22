@@ -14,6 +14,8 @@ confidence: 0
 
 # OOP (Object-Oriented Programming)
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 Объектно-ориентированный подход к проектированию кода.
 
 ## Простое объяснение

@@ -15,6 +15,8 @@ confidence: 0.95
 
 # Underfitting
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Underfitting — ситуация, когда модель слишком простая и не может выучить закономерности в данных.
 
 ## Простое объяснение

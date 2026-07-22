@@ -14,6 +14,8 @@ confidence: 0.72
 
 # Tensor Indexing and Slicing
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Tensor индексируется почти так же, как ndarray в NumPy.
 
 ## Простое объяснение

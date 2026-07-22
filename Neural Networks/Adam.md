@@ -13,6 +13,8 @@ difficulty: hard
 
 # Adam
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Adam объединяет Momentum и адаптивный Learning Rate.

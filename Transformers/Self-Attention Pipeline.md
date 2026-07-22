@@ -16,6 +16,8 @@ aliases:
 
 # Self-Attention Pipeline
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Self-Attention Pipeline — последовательность инженерных операций, которая преобразует embedding в новый контекстный embedding через QKV, scaled scores, optional mask, weights и weighted sum по Value.

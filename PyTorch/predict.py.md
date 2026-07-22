@@ -14,6 +14,8 @@ difficulty: medium
 
 # predict.py
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 `predict.py` отвечает за использование уже обученной модели.

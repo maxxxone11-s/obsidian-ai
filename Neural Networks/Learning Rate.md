@@ -14,6 +14,8 @@ confidence: 0.95
 
 # Learning Rate
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Learning Rate — размер шага обучения.

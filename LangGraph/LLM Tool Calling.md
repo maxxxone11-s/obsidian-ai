@@ -11,6 +11,8 @@ confidence: 0.93
 
 # LLM Tool Calling
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 Модель принимает решение, а ToolNode выполняет действие.

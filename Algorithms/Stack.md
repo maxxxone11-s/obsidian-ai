@@ -11,6 +11,8 @@ confidence: 0
 
 # Stack
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Stack — структура LIFO: последним пришёл, первым вышел.

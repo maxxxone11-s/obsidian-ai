@@ -17,6 +17,8 @@ aliases:
 
 # Causal Mask
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Causal Mask — механизм attention, который запрещает каждому токену использовать информацию из будущих токенов.

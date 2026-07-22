@@ -12,6 +12,8 @@ confidence: 0.97
 
 # Optimizer
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Optimizer — алгоритм, который обновляет Weight и Bias, используя вычисленные градиенты.

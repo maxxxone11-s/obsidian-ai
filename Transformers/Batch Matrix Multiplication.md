@@ -18,6 +18,8 @@ aliases:
 
 # Batch Matrix Multiplication
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Batch Matrix Multiplication — пакетное матричное умножение, при котором для каждого элемента batch выполняется отдельное матричное умножение.

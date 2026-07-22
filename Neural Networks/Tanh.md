@@ -12,6 +12,8 @@ confidence: 0.88
 
 # Tanh
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Tanh позволяет работать с отрицательными значениями.

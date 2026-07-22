@@ -11,6 +11,8 @@ confidence: 0
 
 # Hash Table
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Hash Table хранит пары key-value и даёт быстрый доступ по ключу.

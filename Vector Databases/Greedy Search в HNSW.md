@@ -3,14 +3,17 @@ type: concept
 area: Vector Databases
 status: learned
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-17
 aliases:
   - Жадный поиск в HNSW
+  - Simple HNSW Navigation
 tags:
   - vector-databases
 ---
 
 # Greedy Search в HNSW
+
+Область: [[Vector Databases/Vector Databases|Vector Databases]]
 
 ## Академическое определение
 
@@ -35,25 +38,34 @@ Greedy Search в HNSW — стратегия навигации, при кото
 3. Лучшие кандидаты становятся направлениями дальнейшего поиска.
 4. Процесс повторяется, пока улучшение возможно.
 
+В упрощённой реализации выбирается стартовый узел, вычисляется similarity текущего узла и его соседей, после чего переход выполняется только при строгом улучшении `neighbor_similarity > current_similarity`. Полезно сохранять пройденный путь, чтобы видеть фактическую навигацию и момент остановки.
+
 ## Пример
 
 Упрощённо путь выглядит как `текущий узел → лучший сосед → следующий лучший сосед`. В HNSW одновременно сохраняется несколько перспективных кандидатов, чтобы не зависеть от одного маршрута.
+
+Учебный путь может выглядеть как `Query → Python → FastAPI → Starlette → Stop`. Это демонстрирует графовую навигацию, но ещё не является полной реализацией HNSW.
 
 ## Типичные ошибки
 
 - Считать, что Greedy Search строит заранее известный глобально оптимальный маршрут.
 - Думать, что алгоритм заранее знает весь путь.
 - Сводить реальный HNSW к единственному лучшему соседу на каждом шаге.
+- Использовать `>=` вместо `>`, создавая риск циклических переходов между узлами с одинаковой оценкой.
+- Несколько раз вычислять одного и того же лучшего соседа вместо сохранения результата.
+- Не сохранять путь поиска и считать упрощённый алгоритм эквивалентом полного HNSW.
 
 ## Связанные темы
 
-[[Vector Databases/HNSW|HNSW]] · [[Vector Databases/Local Maximum в HNSW|Local Maximum]] · [[Vector Databases/Approximate Nearest Neighbor (ANN)|ANN]]
+[[Vector Databases/HNSW|HNSW]] · [[Vector Databases/Local Maximum в HNSW|Local Maximum]] · [[Vector Databases/Approximate Nearest Neighbor (ANN)|ANN]] · [[Vector Databases/Параметр efSearch|efSearch]]
 
 ## Вопросы для проверки
 
 - Что означает жадный поиск в HNSW?
 - Почему одного единственного Greedy-пути недостаточно?
+- Почему в учебной реализации переход лучше проверять через строгое `>`?
+- Чем такой Greedy Search отличается от полного HNSW?
 
 ## Следующие темы
 
-[[Vector Databases/Local Maximum в HNSW|Local Maximum]] · [[efSearch]]
+[[Vector Databases/Local Maximum в HNSW|Local Maximum]] · [[Vector Databases/Параметр efSearch|efSearch]] · [[Multi Candidate Search]]

@@ -12,6 +12,8 @@ difficulty: advanced
 
 # Normalized Discounted Cumulative Gain (NDCG)
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Normalized Discounted Cumulative Gain — метрика качества ранжирования, которая суммирует релевантность результатов с логарифмическим штрафом за низкую позицию и нормализует значение относительно идеального порядка:

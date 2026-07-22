@@ -13,6 +13,8 @@ confidence: 0
 
 # Binary Tree Traversal
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Binary Tree Traversal — обход бинарного дерева, где у каждого узла может быть левый и правый ребенок.

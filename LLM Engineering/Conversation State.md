@@ -12,6 +12,8 @@ difficulty: medium
 
 # Conversation State
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Conversation State — совокупность данных, необходимых приложению для продолжения диалога: истории сообщений, резюме, результатов инструментов, пользовательских настроек и временных переменных.
@@ -61,7 +63,7 @@ conversation_state = {
 
 ## Связанные темы
 
-[[Conversation Memory]] · [[Memory Management]] · [[AI Agents/Index|AI Agents]]
+[[Conversation Memory]] · [[Memory Management]] · [[AI Agents/AI Agents|AI Agents]]
 
 ## Вопросы для проверки
 

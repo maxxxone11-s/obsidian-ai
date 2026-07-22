@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Dataset, Features и Labels
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Feature — информация, по которой модель делает вывод. Label — правильный ответ.

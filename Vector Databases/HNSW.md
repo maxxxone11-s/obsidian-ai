@@ -3,7 +3,7 @@ type: concept
 area: Vector Databases
 status: learned
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-17
 aliases:
   - HNSW как граф поиска
   - Navigable Small World Graph
@@ -13,6 +13,8 @@ tags:
 ---
 
 # HNSW
+
+Область: [[Vector Databases/Vector Databases|Vector Databases]]
 
 ## Академическое определение
 
@@ -52,7 +54,7 @@ HNSW используется как ANN-индекс, который резко
 
 ## Связанные темы
 
-[[Vector Databases/Approximate Nearest Neighbor (ANN)|ANN]] · [[Vector Databases/Greedy Search в HNSW|Greedy Search]] · [[Vector Databases/Local Maximum в HNSW|Local Maximum]] · [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels]] · [[AI Engineering/Vector Database|Vector Database]]
+[[Vector Databases/Approximate Nearest Neighbor (ANN)|ANN]] · [[Vector Databases/Greedy Search в HNSW|Greedy Search]] · [[Vector Databases/Local Maximum в HNSW|Local Maximum]] · [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels]] · [[Vector Databases/Параметр M в HNSW|M]] · [[Vector Databases/Параметр efConstruction|efConstruction]] · [[Vector Databases/Параметр efSearch|efSearch]] · [[AI Engineering/Vector Database|Vector Database]]
 
 ## Вопросы для проверки
 
@@ -62,4 +64,4 @@ HNSW используется как ANN-индекс, который резко
 
 ## Следующие темы
 
-[[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels]] · [[M parameter]] · [[efConstruction]] · [[efSearch]]
+[[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels]] · [[Vector Databases/Параметр M в HNSW|M]] · [[Vector Databases/Параметр efConstruction|efConstruction]] · [[Vector Databases/Параметр efSearch|efSearch]] · [[Vector Databases/Жизненный цикл параметров HNSW|Жизненный цикл параметров HNSW]]

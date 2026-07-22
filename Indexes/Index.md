@@ -4,14 +4,14 @@ tags:
   - index
   - system
 created: 2026-06-26
-updated: 2026-07-13
+updated: 2026-07-22
 ---
 
 # 📑 Главный индекс Vault
 
 ## 📚 По категориям
 
-### [[Python Backend/Index|🐍 Python Backend]]
+### [[Python Backend/Python Backend|🐍 Python Backend]]
 Разработка backend приложений на Python
 
 - Web фреймворки (Django, FastAPI)
@@ -19,21 +19,21 @@ updated: 2026-07-13
 - Базы данных
 - Архитектура
 
-### [[Machine Learning/Index|🤖 Machine Learning]]
+### [[Machine Learning/Machine Learning|🤖 Machine Learning]]
 Основы и продвинутые техники ML
 
 - Подготовка данных
 - Классификация и регрессия
 - Кластеризация
 
-### [[Statistics/Index|📊 Statistics]]
+### [[Statistics/Statistics|📊 Statistics]]
 Статистический фундамент для Machine Learning
 
 - [[Indexes/Statistics Index|Statistics Index]]
 - Mean, Variance и Standard Deviation
 - Z-score, Normal Distribution и статистический scaling
 
-### [[Neural Networks/Index|🧠 Neural Networks]]
+### [[Neural Networks/Neural Networks|🧠 Neural Networks]]
 Нейронные сети и глубокое обучение
 
 - [[Indexes/Neural Networks Index|Neural Networks Index]]
@@ -41,7 +41,7 @@ updated: 2026-07-13
 - CNN, RNN
 - Обучение и оптимизация
 
-### [[Transformers/Index|🧠 Transformers]]
+### [[Transformers/Transformers|🧠 Transformers]]
 Архитектуры Transformer и attention-механизмы
 
 - [[Indexes/Transformers Index|Transformers Index]]
@@ -49,21 +49,21 @@ updated: 2026-07-13
 - QKV, Attention Scores и Attention Weights
 - PyTorch MultiheadAttention internals
 
-### [[PyTorch/Index|⚡ PyTorch]]
+### [[PyTorch/PyTorch|⚡ PyTorch]]
 Фреймворк для глубокого обучения
 
 - Основы PyTorch
 - Модели и слои
 - Обучение моделей
 
-### [[RAG/Index|📚 RAG]]
+### [[RAG/RAG|📚 RAG]]
 Retrieval-Augmented Generation
 
 - Embeddings и векторные БД
 - Поиск релевантных документов
 - Интеграция с LLM
 
-### [[Vector Databases/Index|🗄️ Vector Databases]]
+### [[Vector Databases/Vector Databases|🗄️ Vector Databases]]
 Векторный поиск и инфраструктура хранения embeddings
 
 - [[Vector Databases/Exact Search|Exact Search]] и [[Vector Databases/Approximate Nearest Neighbor (ANN)|ANN]]
@@ -71,28 +71,34 @@ Retrieval-Augmented Generation
 - pgvector, Qdrant и Pinecone
 - Performance и production operations
 
-### [[LLM Engineering/Index|✨ LLM Engineering]]
+### [[Physics/Physics|⚛️ Physics]]
+Физические модели, величины, законы и их практический смысл
+
+- [[Physics/Plan|Гибкий план модуля]]
+- Математические и вычислительные упражнения
+
+### [[LLM Engineering/LLM Engineering|✨ LLM Engineering]]
 Работа с Large Language Models
 
 - Основы LLM
 - Трансформеры
 - Промpting и fine-tuning
 
-### [[LangGraph/Index|🔗 LangGraph]]
+### [[LangGraph/LangGraph|🔗 LangGraph]]
 Фреймворк для построения agent workflows
 
 - Граф состояний
 - Узлы и переходы
 - Интеграция с LLM
 
-### [[AI Agents/Index|🤖 AI Agents]]
+### [[AI Agents/AI Agents|🤖 AI Agents]]
 Создание интеллектуальных агентов
 
 - Концепции агентов
 - Multi-agent системы
 - Примеры реализации
 
-### [[Algorithms/Index|🧩 Algorithms & Data Structures]]
+### [[Algorithms/Algorithms & Data Structures|🧩 Algorithms & Data Structures]]
 Алгоритмы, структуры данных и паттерны решения задач
 
 - Graphs, DFS, BFS

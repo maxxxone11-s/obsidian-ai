@@ -1,12 +1,11 @@
 ---
-type: index
+type: area_index
 area: RAG
-created: 2026-06-26
-updated: 2026-07-12
+aliases:
+  - RAG
 tags:
-  - index
-  - system
   - rag
+  - area-index
 ---
 
 # RAG
@@ -161,10 +160,10 @@ Retrieval-Augmented Generation: поиск релевантных внешних
 
 ## Связанные области
 
-- [[LLM Engineering/Index|LLM Engineering]]
-- [[Transformers/Index|Transformers]]
-- [[Machine Learning/Index|Machine Learning]]
-- [[Python Backend/Index|Python Backend]]
-- [[AI Agents/Index|AI Agents]]
+- [[LLM Engineering/LLM Engineering|LLM Engineering]]
+- [[Transformers/Transformers|Transformers]]
+- [[Machine Learning/Machine Learning|Machine Learning]]
+- [[Python Backend/Python Backend|Python Backend]]
+- [[AI Agents/AI Agents|AI Agents]]
 
 Concept-заметки будут создаваться позднее из KNOWLEDGE_EXPORT. Плановые темы не являются stub-файлами.

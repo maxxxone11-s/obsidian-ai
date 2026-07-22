@@ -15,6 +15,8 @@ aliases:
 
 # Structured Output
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Structured Output — механизм API, позволяющий получать ответ модели, соответствующий заранее определенной структуре данных.

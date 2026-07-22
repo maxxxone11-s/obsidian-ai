@@ -3,16 +3,19 @@ type: concept
 area: Vector Databases
 status: learned
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-17
 aliases:
   - Brute Force Vector Search
   - Linear Vector Search
   - Exhaustive Search
+  - Own Exact Search
 tags:
   - vector-databases
 ---
 
 # Exact Search
+
+Область: [[Vector Databases/Vector Databases|Vector Databases]]
 
 ## Академическое определение
 
@@ -39,15 +42,22 @@ Exact Search обеспечивает максимально точный рез
 
 Сложность поиска — `O(N)`, где `N` — количество embeddings в базе.
 
+В ручной реализации для каждого документа сохраняется пара `(document, similarity)`. Cosine similarity можно разложить на отдельные функции `dot_product()`, `vector_length()` и `cosine_similarity()`, после чего `exact_search()` сортирует пары по similarity и возвращает Top-K.
+
 ## Пример
 
 Если база содержит 10 000 000 embeddings, Exact Search выполнит примерно 10 000 000 вычислений similarity независимо от того, где находится правильный ответ.
+
+Минимальная реализация проходит циклом по всем документам, вычисляет similarity, сохраняет связь оценки с идентификатором документа и сортирует результат по ключу similarity.
 
 ## Типичные ошибки
 
 - Считать, что Exact Search использует ANN-индекс.
 - Думать, что полный перебор хорошо масштабируется на очень большие базы.
 - Не учитывать линейный рост времени поиска вместе с количеством embeddings.
+- Возвращать только similarity без идентификатора документа.
+- Сортировать пары без явного ключа similarity.
+- Не проверять совпадение размерностей и не обрабатывать нулевой вектор.
 
 ## Связанные темы
 

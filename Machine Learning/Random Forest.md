@@ -14,6 +14,8 @@ confidence: 0.95
 
 # Random Forest
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Ансамбль решающих деревьев. Не требует масштабирования, так как основан на деревьях.
 
 ## Кратко

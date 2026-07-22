@@ -13,6 +13,8 @@ confidence: 0.91
 
 # Reshape
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Reshape изменяет форму Tensor без изменения самих данных.
 
 ## Простое объяснение

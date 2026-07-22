@@ -14,6 +14,8 @@ difficulty: medium
 
 # model.eval()
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 `model.eval()` переводит модель в режим валидации или инференса. Он не запускает prediction сам по себе.

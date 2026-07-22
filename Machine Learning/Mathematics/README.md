@@ -43,6 +43,6 @@ tags:
 
 ## Связанные модули
 
-- [[Machine Learning/Index|Machine Learning]]
-- [[Neural Networks/Index|Neural Networks]]
+- [[Machine Learning/Machine Learning|Machine Learning]]
+- [[Neural Networks/Neural Networks|Neural Networks]]
 - [[AI Engineering/Embeddings|Embeddings]]

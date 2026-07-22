@@ -15,6 +15,8 @@ difficulty: medium
 
 # Unsqueeze
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 Unsqueeze добавляет новую ось размера `1` в Tensor.
 
 ## Простое объяснение

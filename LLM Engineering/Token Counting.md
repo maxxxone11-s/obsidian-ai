@@ -12,6 +12,8 @@ difficulty: medium
 
 # Token Counting
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Token Counting — процесс вычисления количества токенов во входном и выходном контексте модели для контроля Context Window, стоимости запросов и корректной работы приложения.

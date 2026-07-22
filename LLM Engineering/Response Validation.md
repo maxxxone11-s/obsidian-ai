@@ -13,6 +13,8 @@ aliases: [Response Validation, LLM Response Validation, Structured Output Valida
 
 # Response Validation
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Response Validation — процесс проверки того, что ответ LLM соответствует ожидаемой структуре и типам данных перед использованием приложением.

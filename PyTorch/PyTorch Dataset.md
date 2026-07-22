@@ -12,6 +12,8 @@ difficulty: medium
 
 # PyTorch Dataset
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Академическое определение
 
 PyTorch Dataset — объект, реализующий интерфейс доступа к отдельным элементам набора данных, обычно через методы `__len__` и `__getitem__` класса `torch.utils.data.Dataset`.

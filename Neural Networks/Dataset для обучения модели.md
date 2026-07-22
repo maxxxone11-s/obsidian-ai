@@ -12,6 +12,8 @@ difficulty: beginner
 
 # Dataset для обучения модели
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Академическое определение
 
 Dataset для обучения модели — полный набор примеров, используемый для обучения, настройки и итоговой оценки модели после разделения на train, validation и test subsets.

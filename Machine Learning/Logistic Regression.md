@@ -13,6 +13,8 @@ confidence: 0.95
 
 # Logistic Regression
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 Алгоритм для бинарной классификации. Использует градиентный спуск, поэтому требует масштабирования.
 
 ## Кратко

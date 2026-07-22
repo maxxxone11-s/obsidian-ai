@@ -4,10 +4,12 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-13
+updated: 2026-07-22
 ---
 
 # 🧠 Knowledge Map
+
+Каждый раздел ниже связан с единственным canonical `area_index`; Plan и глобальные secondary indexes не используются как центральные узлы областей.
 
 ## Быстрый вход
 
@@ -90,7 +92,7 @@ updated: 2026-07-13
 
 ## Statistics
 
-- [[Statistics/Index|Statistics Index]]
+- [[Statistics/Statistics|Statistics Index]]
 - [[Statistics/Mean|Mean]]
 - [[Statistics/Variance|Variance]]
 - [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]]
@@ -167,7 +169,7 @@ updated: 2026-07-13
 
 ### Связи с PyTorch
 
-- [[Neural Networks/Index|Neural Networks]] → [[PyTorch/Index|PyTorch]]
+- [[Neural Networks/Neural Networks|Neural Networks]] → [[PyTorch/PyTorch|PyTorch]]
 - [[Neural Networks/Gradient|Gradient]] → [[PyTorch/Autograd|Autograd]]
 - [[Neural Networks/Optimizer|Optimizer]] → [[PyTorch/torch.optim|torch.optim]]
 - [[Neural Networks/Forward Pass|Forward Pass]] → [[PyTorch/nn.Module|nn.Module]]
@@ -175,7 +177,7 @@ updated: 2026-07-13
 
 ## Transformers
 
-- [[Transformers/Index|Transformers Index]]
+- [[Transformers/Transformers|Transformers Index]]
 - [[Transformers/Embedding Layer|Embedding Layer]]
 - [[Transformers/Position Embedding|Position Embedding]]
 - [[Transformers/GPTConfig|GPTConfig]]
@@ -225,12 +227,12 @@ updated: 2026-07-13
 - [[Transformers/Feed Forward Network|Feed Forward Network]] → [[PyTorch/nn.Linear|nn.Linear]]
 - [[Transformers/Language Modeling Head|Language Modeling Head]] → [[Neural Networks/Logits|Logits]]
 - [[Transformers/Temperature Sampling|Temperature Sampling]] → [[Neural Networks/Softmax|Softmax]]
-- [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]] → [[RAG/Index|RAG]]
+- [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]] → [[RAG/RAG|RAG]]
 - [[Transformers/nn.Module __call__|nn.Module __call__]] → [[PyTorch/nn.Module|nn.Module]]
 - [[Transformers/Pre-LayerNorm|Pre-LayerNorm]] → [[Transformers/LayerNorm|LayerNorm]]
 - [[Transformers/Causal Mask|Causal Mask]] → [[Transformers/Autoregressive Generation|Autoregressive Generation]]
 - [[Transformers/Weight Tying|Weight Tying]] → [[Transformers/Language Modeling Head|Language Modeling Head]]
-- [[Transformers/Разделение ролей LLM и RAG|Разделение ролей LLM и RAG]] → [[RAG/Index|RAG]]
+- [[Transformers/Разделение ролей LLM и RAG|Разделение ролей LLM и RAG]] → [[RAG/RAG|RAG]]
 - [[Transformers/GPTConfig|GPTConfig]] → [[Transformers/nanoGPT Architecture|nanoGPT Architecture]]
 - [[Transformers/ModuleList|ModuleList]] → [[Transformers/Transformer Block|Transformer Block]]
 - [[Transformers/CausalSelfAttention.forward Pipeline|CausalSelfAttention.forward Pipeline]] → [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]]
@@ -328,7 +330,7 @@ updated: 2026-07-13
 
 ## RAG
 
-- [[RAG/Index|RAG Index]]
+- [[RAG/RAG|RAG Index]]
 - [[RAG/Plan|RAG Plan]]
 - [[AI Engineering/RAG|Retrieval-Augmented Generation (RAG)]]
 - [[AI Engineering/Embeddings|Embedding]]
@@ -385,7 +387,7 @@ updated: 2026-07-13
 
 ## LLM Engineering
 
-- [[LLM Engineering/Index|LLM Engineering Index]]
+- [[LLM Engineering/LLM Engineering|LLM Engineering Index]]
 - [[LLM Engineering/Plan|LLM Engineering Plan]]
 - [[LLM Engineering/OpenRouter через OpenAI SDK|OpenRouter через OpenAI SDK]]
 - [[LLM Engineering/Архитектура OpenAI SDK|Архитектура OpenAI SDK]]
@@ -443,21 +445,21 @@ updated: 2026-07-13
 
 ### Dependencies
 
-- [[Python Backend/Index|Python Backend]]
-- [[Transformers/Index|Transformers]]
-- [[RAG/Index|RAG]]
-- [[AI Agents/Index|AI Agents]]
-- [[LangGraph/Index|LangGraph]]
+- [[Python Backend/Python Backend|Python Backend]]
+- [[Transformers/Transformers|Transformers]]
+- [[RAG/RAG|RAG]]
+- [[AI Agents/AI Agents|AI Agents]]
+- [[LangGraph/LangGraph|LangGraph]]
 - [[Transformers/Temperature Sampling|Temperature Sampling]]
 
 ## AI Agents
 
-- [[AI Agents/Index|AI Agents Index]]
-- AI Agents используют графовую оркестрацию; подробности по agent workflows см. в [[LangGraph/Index]].
+- [[AI Agents/AI Agents|AI Agents Index]]
+- AI Agents используют графовую оркестрацию; подробности по agent workflows см. в [[LangGraph/LangGraph]].
 
 ## Algorithms & Data Structures
 
-- [[Algorithms/Index|Algorithms Index]]
+- [[Algorithms/Algorithms & Data Structures|Algorithms Index]]
 - [[Algorithms/Graph Theory/Index|Graph Theory Index]]
 - [[Algorithms/Recursion/Index|Recursion Index]]
 - [[Algorithms/BFS|BFS]]
@@ -513,7 +515,7 @@ updated: 2026-07-13
 
 ## Vector Databases
 
-- [[Vector Databases/Index|Vector Databases Index]]
+- [[Vector Databases/Vector Databases|Vector Databases Index]]
 - [[Vector Databases/Plan|Vector Databases Plan]]
 - [[Vector Databases/Exact Search|Exact Search]]
 - [[Vector Databases/Approximate Nearest Neighbor (ANN)|Approximate Nearest Neighbor (ANN)]]
@@ -522,6 +524,15 @@ updated: 2026-07-13
 - [[Vector Databases/Greedy Search в HNSW|Greedy Search в HNSW]]
 - [[Vector Databases/Local Maximum в HNSW|Local Maximum в HNSW]]
 - [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels в HNSW]]
+- [[Vector Databases/Параметр M в HNSW|Параметр M в HNSW]]
+- [[Vector Databases/Параметр efConstruction|Параметр efConstruction]]
+- [[Vector Databases/Параметр efSearch|Параметр efSearch]]
+- [[Vector Databases/Жизненный цикл параметров HNSW|Жизненный цикл параметров HNSW]]
+
+## Physics
+
+- [[Physics/Physics|Physics]]
+- [[Physics/Plan|Physics Plan]]
 - [[AI Engineering/Vector Database|Vector Database в RAG]]
 - [[AI Engineering/Embeddings|Embedding]]
 - [[Machine Learning/Mathematics/Вектор|Вектор]]
@@ -544,4 +555,4 @@ updated: 2026-07-13
 - Production Operations
 - Practice
 
-Модуль активен: изучены Exact Search, ANN, ANN Recall и базовая архитектура HNSW. Связи с [[RAG/Index|RAG]], [[Machine Learning/Index|Machine Learning]], [[LLM Engineering/Index|LLM Engineering]] и [[Python Backend/Index|Python Backend]] сохранены.
+Модуль активен: изучены Exact Search, ANN, ANN Recall, базовая архитектура HNSW и жизненный цикл параметров `M`, `efConstruction`, `efSearch`. Связи с [[RAG/RAG|RAG]], [[Machine Learning/Machine Learning|Machine Learning]], [[LLM Engineering/LLM Engineering|LLM Engineering]] и [[Python Backend/Python Backend|Python Backend]] сохранены.

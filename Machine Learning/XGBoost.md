@@ -12,6 +12,8 @@ confidence: 0.95
 
 # Decision Tree, Random Forest и XGBoost
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Одно дерево → голосование деревьев → обучение на ошибках предыдущих деревьев.

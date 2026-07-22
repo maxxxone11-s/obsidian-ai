@@ -14,6 +14,8 @@ difficulty: easy
 
 # model.parameters()
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 `model.parameters()` возвращает все обучаемые параметры модели: веса и bias, которые могут изменяться во время обучения.

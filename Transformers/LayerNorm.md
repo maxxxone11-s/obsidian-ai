@@ -16,6 +16,8 @@ aliases:
 
 # LayerNorm
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 LayerNorm — слой нормализации, который стандартизирует признаки каждого embedding независимо от остальных элементов batch.

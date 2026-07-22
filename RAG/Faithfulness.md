@@ -12,6 +12,8 @@ difficulty: intermediate
 
 # Faithfulness
 
+Область: [[RAG/RAG|RAG]]
+
 ## Академическое определение
 
 Faithfulness — метрика Generation Evaluation, оценивающая, насколько утверждения в ответе LLM подтверждаются переданным контекстом.

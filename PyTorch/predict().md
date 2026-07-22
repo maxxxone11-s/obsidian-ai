@@ -14,6 +14,8 @@ difficulty: medium
 
 # predict()
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 `predict()` выполняет полный цикл получения предсказания.

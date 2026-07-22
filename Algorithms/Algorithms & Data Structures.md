@@ -1,11 +1,11 @@
 ---
-type: index
+type: area_index
 area: Algorithms & Data Structures
-created: 2026-06-26
-updated: 2026-06-29
+aliases:
+  - Algorithms & Data Structures
 tags:
-  - index
-  - system
+  - algorithms
+  - area-index
 ---
 
 # Algorithms & Data Structures
@@ -19,6 +19,7 @@ tags:
 - [[Graph Theory/Basics/Изолированная вершина|Изолированная вершина]]
 - [[Graph Theory/Basics/Ориентированный и неориентированный граф|Ориентированный и неориентированный граф]]
 - [[Graph Theory/Basics/Представление графов в памяти|Представление графов в памяти]]
+- [[Graph Theory/Basics/Список смежности|Список смежности]]
 - [[Graph Theory/Basics/Путь|Путь]]
 - [[Graph Theory/Basics/Удаление вершины и удаление ребра|Удаление вершины и удаление ребра]]
 - [[Graph Theory/Basics/Цикл|Цикл]]

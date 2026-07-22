@@ -11,6 +11,8 @@ confidence: 0.98
 
 # State Update
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 LangGraph сам объединяет изменения с текущим [[State]].

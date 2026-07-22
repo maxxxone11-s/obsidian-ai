@@ -13,6 +13,8 @@ confidence: 0.95
 
 # Router
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 Маршрутизатор для выбора следующего узла в зависимости от State.
 
 ## Интуитивное объяснение

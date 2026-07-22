@@ -41,5 +41,5 @@ tags:
 - [[Python Backend/Git|Git]]
 - [[Python Backend/Docker|Docker]]
 - [[Python Backend/FastAPI|FastAPI]]
-- [[PyTorch/Index|PyTorch]]
-- [[LangGraph/Index|LangGraph]]
+- [[PyTorch/PyTorch|PyTorch]]
+- [[LangGraph/LangGraph|LangGraph]]

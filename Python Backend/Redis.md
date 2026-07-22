@@ -14,6 +14,8 @@ confidence: 0
 
 # Redis
 
+Область: [[Python Backend/Python Backend|Python Backend]]
+
 In-memory хранилище данных для кэширования и обмена сообщениями.
 
 ## Простое объяснение

@@ -12,6 +12,8 @@ confidence: 0.93
 
 # Model
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Model — это весь механизм, внутри которого работают нейроны.

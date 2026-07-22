@@ -37,7 +37,7 @@ status: learned
 
 Related concepts:
 
-- [[Transformers/Index|Transformers]]
+- [[Transformers/Transformers|Transformers]]
 - [[Python Backend/FastAPI|FastAPI]]
 - [[PyTorch/Inference Pipeline|Inference Pipeline]]
 - [[OpenRouter через OpenAI SDK]]
@@ -76,7 +76,7 @@ Related concepts:
 
 - [[Transformers/Language Modeling Head|Language Modeling Head]]
 - [[Transformers/Temperature Sampling|Temperature Sampling]]
-- [[AI Agents/Index|AI Agents]]
+- [[AI Agents/AI Agents|AI Agents]]
 - [[Prompt Engineering]]
 - [[System Prompt]]
 - [[User Prompt]]
@@ -137,7 +137,7 @@ Related concepts:
 - [[LangGraph/LLM Tool Calling|LLM Tool Calling]]
 - [[LangGraph/Tool|Tool]]
 - [[LangGraph/Tool Node|Tool Node]]
-- [[AI Agents/Index|AI Agents]]
+- [[AI Agents/AI Agents|AI Agents]]
 - [[Function Calling]]
 - [[Function Schema]]
 - [[Tool Selection]]
@@ -192,8 +192,8 @@ Related concepts:
 
 - [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]]
 - [[Transformers/KV Cache|KV Cache]]
-- [[RAG/Index|RAG]]
-- [[AI Agents/Index|AI Agents]]
+- [[RAG/RAG|RAG]]
+- [[AI Agents/AI Agents|AI Agents]]
 - [[Context Window]]
 - [[Переполнение Context Window]]
 - [[Token Counting]]
@@ -280,7 +280,6 @@ status: not_started
 
 Related concepts:
 
-- [[LLM Engineering/Plan|LLM Engineering Plan]]
 - [[Python Backend/FastAPI|FastAPI]]
 
 Topics:
@@ -301,9 +300,9 @@ status: not_started
 Related concepts:
 
 - [[Python Backend/FastAPI|FastAPI]]
-- [[RAG/Index|RAG]]
-- [[AI Agents/Index|AI Agents]]
-- [[LangGraph/Index|LangGraph]]
+- [[RAG/RAG|RAG]]
+- [[AI Agents/AI Agents|AI Agents]]
+- [[LangGraph/LangGraph|LangGraph]]
 
 ## Practical Projects
 
@@ -324,13 +323,13 @@ Related concepts:
 
 ## Dependencies
 
-- [[Python Backend/Index|Python Backend]] — FastAPI, async, API design, logging, error handling.
-- [[Machine Learning/Index|Machine Learning]] — базовое понимание моделей, параметров и evaluation.
-- [[Neural Networks/Index|Neural Networks]] — logits, softmax, inference, training intuition.
-- [[PyTorch/Index|PyTorch]] — inference pipeline и чтение ML-кода.
-- [[Transformers/Index|Transformers]] — tokens, context, attention, generation, KV Cache.
-- [[RAG/Index|RAG]] — внешний контекст, retrieval и vector search.
-- [[AI Agents/Index|AI Agents]] — tools, memory, orchestration, agent workflows.
+- [[Python Backend/Python Backend|Python Backend]] — FastAPI, async, API design, logging, error handling.
+- [[Machine Learning/Machine Learning|Machine Learning]] — базовое понимание моделей, параметров и evaluation.
+- [[Neural Networks/Neural Networks|Neural Networks]] — logits, softmax, inference, training intuition.
+- [[PyTorch/PyTorch|PyTorch]] — inference pipeline и чтение ML-кода.
+- [[Transformers/Transformers|Transformers]] — tokens, context, attention, generation, KV Cache.
+- [[RAG/RAG|RAG]] — внешний контекст, retrieval и vector search.
+- [[AI Agents/AI Agents|AI Agents]] — tools, memory, orchestration, agent workflows.
 
 ## Future KNOWLEDGE_EXPORT targets
 

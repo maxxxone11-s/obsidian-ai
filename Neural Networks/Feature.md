@@ -12,6 +12,8 @@ confidence: 0.98
 
 # Feature
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Feature — это факт о мире: рост человека, площадь квартиры, пиксели изображения или токены текста.

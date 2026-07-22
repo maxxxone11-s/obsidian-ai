@@ -13,6 +13,8 @@ confidence: 0
 
 # Tree Traversal
 
+Область: [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]]
+
 ## Простое объяснение
 
 Tree Traversal — обход всех узлов дерева в определенном порядке.

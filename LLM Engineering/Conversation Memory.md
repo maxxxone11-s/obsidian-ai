@@ -12,6 +12,8 @@ difficulty: medium
 
 # Conversation Memory
 
+Область: [[LLM Engineering/LLM Engineering|LLM Engineering]]
+
 ## Академическое определение
 
 Conversation Memory — механизм хранения и повторной передачи истории диалога приложением, благодаря которому LLM учитывает предыдущие сообщения, несмотря на отсутствие собственной долговременной памяти между API-запросами.

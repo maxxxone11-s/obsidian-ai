@@ -13,6 +13,8 @@ difficulty: medium
 
 # torch.no_grad()
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Простое объяснение
 
 Если модель только делает prediction, вычислительный граф больше не нужен.

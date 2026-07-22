@@ -12,6 +12,8 @@ confidence: 0.97
 
 # Forward Pass
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 ## Кратко
 
 Forward Pass — процесс прохождения данных через нейронную сеть от входных признаков до получения итогового предсказания.

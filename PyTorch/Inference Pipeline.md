@@ -14,6 +14,8 @@ difficulty: medium
 
 # Inference Pipeline
 
+Область: [[PyTorch/PyTorch|PyTorch]]
+
 ## Простое объяснение
 
 Inference Pipeline — последовательность действий для получения предсказания после обучения модели.

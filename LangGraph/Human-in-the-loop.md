@@ -11,6 +11,8 @@ confidence: 0.94
 
 # Human-in-the-loop
 
+Область: [[LangGraph/LangGraph|LangGraph]]
+
 ## Простое объяснение
 
 interrupt → checkpoint → ожидание → resume.

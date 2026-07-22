@@ -12,6 +12,8 @@ confidence: 0.7
 
 # Data Leakage
 
+Область: [[Machine Learning/Machine Learning|Machine Learning]]
+
 ## Простое объяснение
 
 Модель получает подсказку из будущего.

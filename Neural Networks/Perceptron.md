@@ -15,6 +15,8 @@ confidence: 0.9
 
 # Perceptron
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 Простейший элемент нейронной сети.
 
 ## Интуитивное объяснение

@@ -15,6 +15,8 @@ aliases:
 
 # Transformer Block Interface
 
+Область: [[Transformers/Transformers|Transformers]]
+
 ## Академическое определение
 
 Transformer Block Interface — контракт, по которому [[Transformer Block]] является самостоятельным модулем с фиксированным входом и выходом.

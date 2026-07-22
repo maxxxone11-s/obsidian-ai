@@ -15,6 +15,8 @@ confidence: 0.95
 
 # Backpropagation
 
+Область: [[Neural Networks/Neural Networks|Neural Networks]]
+
 Алгоритм обратного распространения ошибки.
 
 ## Интуитивное объяснение
@@ -85,6 +87,6 @@ Loss → Layer 3 → Layer 2 → Layer 1.
 - [[Gradient Descent]] — использует градиенты из backprop
 - [[Weights]] — обновляют через backprop
 - [[Loss Function]] — нужна для вычисления gradients
-- [[PyTorch/Index|PyTorch]] — автоматическое вычисление градиентов
+- [[PyTorch/PyTorch|PyTorch]] — автоматическое вычисление градиентов
 
 - [[Loss]] · [[Gradient]] · [[Chain Rule]] · [[Optimizer]]

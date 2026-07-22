@@ -4,16 +4,82 @@ tags:
   - dashboard
   - system
 created: 2026-06-26
-updated: 2026-07-13
+updated: 2026-07-22
 ---
 
 # 📊 Журнал прогресса обучения
+
+## 2026-07-22 (Knowledge Area initialization: Physics)
+
+### ✅ Создано
+
+- Зарегистрирована стабильная Knowledge Area [[Physics/Physics|Physics]] с canonical graph node `Physics/Physics.md` и high-level tag `physics`.
+- Созданы гибкий [[Physics/Plan|Physics Plan]] и лёгкий [[Indexes/Physics Index|Physics Index]].
+- Physics добавлена в Dashboard, Knowledge Map, Roadmap, главный индекс и Graph Groups.
+- Concept notes и пустые stubs не создавались; будущие заметки будут появляться только после изучения реального материала.
+
+### Следующий шаг
+
+- Добавить первый пользовательский Physics module и сохранить его структуру в Plan.
+
+## 2026-07-17 (KNOWLEDGE_EXPORT sync: Vector Databases — HNSW Parameters & Practical Implementation)
+
+### ✅ Синхронизировано
+
+- Экспорт синхронизирован в подтверждённую Knowledge Area [[Vector Databases/Vector Databases|Vector Databases]]; source-метка `AI Infrastructure` не использовалась как область.
+- Созданы concept notes: [[Vector Databases/Параметр M в HNSW|Параметр M в HNSW]], [[Vector Databases/Параметр efConstruction|Параметр efConstruction]], [[Vector Databases/Параметр efSearch|Параметр efSearch]] и [[Vector Databases/Жизненный цикл параметров HNSW|Жизненный цикл параметров HNSW]].
+- Практическая реализация Exact Search объединена с [[Vector Databases/Exact Search|Exact Search]] без создания дубликата.
+- Практическая реализация Greedy Search объединена с [[Vector Databases/Greedy Search в HNSW|Greedy Search в HNSW]] без создания дубликата.
+- Unresolved links `M`, `efConstruction` и `efSearch` заменены canonical path-qualified ссылками; пустые stubs не создавались.
+
+### 🧠 Weak spots
+
+- Многокандидатный поиск вместо одного жадного пути.
+- Реализация аналога `efSearch` в учебном коде.
+- Воспроизведение локального максимума на практике.
+
+### Повторяющиеся ошибки
+
+- Использование `>=` вместо `>` в Greedy Search.
+- Возврат similarity без связи с документом в Exact Search.
+
+### Следующий шаг
+
+- Реализовать Multi Candidate Search, добавить аналог `efSearch` и сравнить его с Exact Search на сценарии локального максимума.
+
+## 2026-07-15 (canonical area node filename remediation)
+
+### ✅ Обновлено
+
+- 12 canonical area nodes переименованы из `[Area]/Index.md` в `[Area]/[Canonical Area Name].md`, чтобы filename и отображаемое имя узла совпадали с Knowledge Area.
+- Все точные path-qualified ссылки на старые canonical paths обновлены; ordinary semantic links не изменялись.
+- Approved thematic indexes сохранили имя `Index.md`.
+- Learning statuses и concept statistics не изменялись.
+
+### ⚠️ Manual review
+
+- После переименования filename `RAG` совпадает у `RAG/RAG.md` и legacy `AI Engineering/RAG.md`.
+- Filename `Neural Networks` совпадает у `Neural Networks/Neural Networks.md` и `Machine Learning/Neural Networks.md`.
+- Pathless ссылки `[[RAG]]` и `[[Neural Networks]]` оставлены для отдельного context-aware audit.
+
+## 2026-07-15 (Knowledge Area graph architecture remediation)
+
+### ✅ Обновлено
+
+- Нормализованы 12 canonical area indexes с `type: area_index`, точными H1, canonical aliases и high-level graph tags.
+- Во все корректно размещённые concept notes добавлена одна прямая ссылка на canonical Knowledge Area.
+- Canonical indexes дополнены отсутствующими concept links и сохраняют тематическую структуру.
+- 11 файлов `Indexes/[Area] Index.md` преобразованы в лёгкие secondary navigation notes без полного дублирования каталогов concepts.
+- Сохранены тематические индексы [[PyTorch/Tensors/Index|PyTorch Tensor Fundamentals]], [[Algorithms/Graph Theory/Index|Graph Theory]] и [[Algorithms/Recursion/Index|Recursion]].
+- [[RAG/Plan|RAG Plan]], [[Vector Databases/Plan|Vector Databases Plan]] и [[LLM Engineering/Plan|LLM Engineering Plan]] сохранены как дочерние узлы; self-link LLM Engineering Plan удалён.
+- Legacy-файлы `AI Engineering/*` и `Indexes/AI Engineering Index.md` исключены и оставлены для отдельного placement audit.
+- Learning statuses и concept statistics не изменялись.
 
 ## 2026-07-13 (KNOWLEDGE_EXPORT sync: Vector Databases — Similarity Search и HNSW)
 
 ### ✅ Синхронизировано
 
-- `knowledge_area: AI Infrastructure` нормализовано в явно подтверждённую стабильную область [[Vector Databases/Index|Vector Databases]]; область AI Infrastructure не создавалась.
+- `knowledge_area: AI Infrastructure` нормализовано в явно подтверждённую стабильную область [[Vector Databases/Vector Databases|Vector Databases]]; область AI Infrastructure не создавалась.
 - Созданы concept notes: [[Vector Databases/Exact Search|Exact Search]], [[Vector Databases/Approximate Nearest Neighbor (ANN)|Approximate Nearest Neighbor (ANN)]], [[Vector Databases/Recall в Approximate Nearest Neighbor|Recall в ANN]], [[Vector Databases/HNSW|HNSW]], [[Vector Databases/Greedy Search в HNSW|Greedy Search в HNSW]], [[Vector Databases/Local Maximum в HNSW|Local Maximum в HNSW]] и [[Vector Databases/Hierarchical Levels в HNSW|Hierarchical Levels в HNSW]].
 - Материал «HNSW как граф поиска» синхронизирован в расширяемую canonical-концепцию HNSW, чтобы будущие параметры индекса дополняли одну заметку.
 - Alias `Retrieval Recall` не добавлялся к ANN Recall, поскольку он неоднозначен относительно Retrieval Evaluation в RAG.
@@ -41,7 +107,7 @@ updated: 2026-07-13
 ### ✅ Подготовлено
 
 - Создан [[Vector Databases/Plan|Vector Databases Plan]] из 10 учебных частей: fundamentals, similarity search, indexes, pgvector, Qdrant, Pinecone, performance, RAG integration, production и practice.
-- Созданы [[Vector Databases/Index|внутренний Index]] и [[Indexes/Vector Databases Index|глобальный Vector Databases Index]].
+- Созданы [[Vector Databases/Vector Databases|внутренний Index]] и [[Indexes/Vector Databases Index|глобальный Vector Databases Index]].
 - Модуль подключён к Dashboard, Knowledge Map, Roadmap и главному Index Vault.
 - Существующая [[AI Engineering/Vector Database|Vector Database]] сохранена в области RAG как связанная концепция; дубликат не создавался.
 - Будущие темы из плана не материализовались как пустые concept notes.
@@ -85,7 +151,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Экспорт `Retrieval Augmented Generation` синхронизирован в подтверждённую Knowledge Area [[RAG/Index|RAG]].
+- Экспорт `Retrieval Augmented Generation` синхронизирован в подтверждённую Knowledge Area [[RAG/RAG|RAG]].
 - Созданы concept notes: [[RAG/Query Rewrite|Query Rewrite]], [[RAG/Query Expansion|Query Expansion]], [[RAG/HyDE|HyDE]], [[RAG/Multi Query Retrieval|Multi Query Retrieval]] и [[RAG/Step-back Prompting|Step-back Prompting]].
 - [[RAG/Query Transformation|Query Transformation]] обновлён path-qualified ссылками на изученные техники.
 - Зафиксировано различие responsibilities: embedding-модель строит vectors, а similarity search выполняет [[RAG/Retrieval|Retriever]].
@@ -111,7 +177,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Экспорт `Retrieval Augmented Generation` синхронизирован в ранее подтверждённую Knowledge Area [[RAG/Index|RAG]]; новая область не создавалась.
+- Экспорт `Retrieval Augmented Generation` синхронизирован в ранее подтверждённую Knowledge Area [[RAG/RAG|RAG]]; новая область не создавалась.
 - Обновлены существующие concept notes: [[RAG/Indexing Pipeline|Indexing Pipeline]], [[RAG/Query Pipeline|Query Pipeline]] и [[RAG/Document Loader|Document Loader]].
 - Созданы полноценные concept notes: [[RAG/Orchestrator|Orchestrator]] и [[RAG/Query Transformation|Query Transformation]].
 - Зафиксировано требование полной переиндексации при смене embedding-модели.
@@ -184,7 +250,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Экспорт `Retrieval Augmented Generation` синхронизирован в canonical Knowledge Area [[RAG/Index|RAG]]; новая область не создавалась.
+- Экспорт `Retrieval Augmented Generation` синхронизирован в canonical Knowledge Area [[RAG/RAG|RAG]]; новая область не создавалась.
 - Созданы concept-заметки: [[RAG/Faithfulness|Faithfulness]], [[RAG/Answer Relevancy|Answer Relevancy]], [[RAG/Context Precision|Context Precision]], [[RAG/Context Recall|Context Recall]], [[RAG/LLM-as-a-Judge|LLM-as-a-Judge]].
 - Groundedness объединён с [[RAG/Faithfulness|Faithfulness]] как алиас; отдельная дублирующая заметка не создавалась.
 - [[RAG/Plan|RAG Plan]] обновлён: этап Evaluation переведён в `learned`.
@@ -210,7 +276,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Экспорт `Retrieval Augmented Generation` синхронизирован в canonical Knowledge Area [[RAG/Index|RAG]]; новая область не создавалась.
+- Экспорт `Retrieval Augmented Generation` синхронизирован в canonical Knowledge Area [[RAG/RAG|RAG]]; новая область не создавалась.
 - Созданы concept-заметки: [[RAG/Evaluation|Evaluation]], [[RAG/Ground Truth|Ground Truth]], [[RAG/Mean Reciprocal Rank (MRR)|Mean Reciprocal Rank (MRR)]], [[RAG/Hit Rate|Hit Rate]], [[RAG/Normalized Discounted Cumulative Gain (NDCG)|NDCG]].
 - Обновлена существующая [[Machine Learning/Accuracy Precision Recall и F1|Accuracy, Precision, Recall и F1]]: добавлены retrieval-интерпретации Precision и Recall без создания дубликатов.
 - [[RAG/Plan|RAG Plan]] обновлён: этап Evaluation переведён в `learning`.
@@ -236,7 +302,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Экспорт `Retrieval Augmented Generation` синхронизирован в ранее подтверждённую canonical Knowledge Area [[RAG/Index|RAG]]; новая область не создавалась.
+- Экспорт `Retrieval Augmented Generation` синхронизирован в ранее подтверждённую canonical Knowledge Area [[RAG/RAG|RAG]]; новая область не создавалась.
 - Созданы concept-заметки: [[RAG/Retrieval|Retrieval]], [[RAG/Top-K Retrieval|Top-K Retrieval]], [[RAG/Reranking|Reranking]], [[RAG/Hybrid Search|Hybrid Search]].
 - [[RAG/Plan|RAG Plan]] обновлён: этапы Retrieval, Hybrid Search и Reranking переведены в `learning`.
 - Обновлены RAG Index, внешний RAG Index, Dashboard, Knowledge Map и Roadmap.
@@ -259,7 +325,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Экспорт `Retrieval Augmented Generation` синхронизирован в подтверждённую canonical Knowledge Area [[RAG/Index|RAG]]; новая область не создавалась.
+- Экспорт `Retrieval Augmented Generation` синхронизирован в подтверждённую canonical Knowledge Area [[RAG/RAG|RAG]]; новая область не создавалась.
 - Обновлены существующие concept-заметки: [[AI Engineering/RAG|Retrieval-Augmented Generation (RAG)]], [[AI Engineering/Embeddings|Embedding]], [[Machine Learning/Mathematics/Cosine Similarity|Cosine Similarity]].
 - Созданы concept-заметки: [[RAG/Chunk|Chunk]], [[RAG/Fixed-size Chunking|Fixed-size Chunking]], [[RAG/Chunk Overlap|Chunk Overlap]], [[RAG/Recursive Chunking|Recursive Chunking]].
 - [[RAG/Plan|RAG Plan]] переведён в `learning`; первые три этапа отмечены как частично изученные.
@@ -285,7 +351,7 @@ updated: 2026-07-13
 
 ### ✅ Обновлено
 
-- Стабильная Knowledge Area [[RAG/Index|RAG]] инициализирована для обучения.
+- Стабильная Knowledge Area [[RAG/RAG|RAG]] инициализирована для обучения.
 - Создан [[RAG/Plan|RAG Plan]] с 11 учебными блоками и финальным production-подобным проектом.
 - Создан внешний [[Indexes/RAG Index|RAG Index]], обновлены Dashboard, Knowledge Map и Roadmap.
 - `tag:#rag` уже присутствовал в Graph Groups; дублирующая группа не добавлялась.
@@ -315,10 +381,10 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
+- Модуль синхронизирован в существующую область [[LLM Engineering/LLM Engineering|LLM Engineering]].
 - Созданы concept-заметки: [[LLM Engineering/Стоимость LLM-запросов|Стоимость LLM-запросов]], [[LLM Engineering/Cost Optimization|Cost Optimization]], [[LLM Engineering/Исключение ненужных вызовов LLM|Исключение ненужных вызовов LLM]], [[LLM Engineering/Model Routing|Model Routing]], [[LLM Engineering/Prompt Caching|Prompt Caching]], [[LLM Engineering/Production Pipeline LLM-приложения|Production Pipeline LLM-приложения]].
 - [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: блок Cost Optimization переведён в `learned`, Production Pipeline добавлен в production architecture.
-- LLM Engineering отмечен в Roadmap как `Foundation Completed`; следующим модулем выбран [[RAG/Index|RAG]].
+- LLM Engineering отмечен в Roadmap как `Foundation Completed`; следующим модулем выбран [[RAG/RAG|RAG]].
 - Отсутствующие related-термины сохранены как unresolved wikilinks; автоматические stub-заметки не создавались.
 - Обновлены Dashboard, Knowledge Map, Roadmap и оба индекса LLM Engineering.
 
@@ -334,13 +400,13 @@ updated: 2026-07-13
 
 ### Следующий шаг
 
-- Завершить LLM Engineering как Foundation Completed и перейти к модулю [[RAG/Index|RAG]], где будут использоваться знания о Context Window, Memory Management, Tool Calling и Production Pipeline.
+- Завершить LLM Engineering как Foundation Completed и перейти к модулю [[RAG/RAG|RAG]], где будут использоваться знания о Context Window, Memory Management, Tool Calling и Production Pipeline.
 
 ## 2026-07-10 (KNOWLEDGE_EXPORT sync: LLM Engineering — Context Window & Memory Management)
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
+- Модуль синхронизирован в существующую область [[LLM Engineering/LLM Engineering|LLM Engineering]].
 - Созданы concept-заметки: [[LLM Engineering/Context Window|Context Window]], [[LLM Engineering/Переполнение Context Window|Переполнение Context Window]], [[LLM Engineering/Token Counting|Token Counting]], [[LLM Engineering/Conversation Memory|Conversation Memory]], [[LLM Engineering/Conversation State|Conversation State]], [[LLM Engineering/Memory Management|Memory Management]].
 - [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: блок Context Engineering переведён в `learned` по изученным ключевым темам.
 - Отсутствующие related-термины сохранены как unresolved wikilinks; автоматические stub-заметки не создавались.
@@ -363,7 +429,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
+- Модуль синхронизирован в существующую область [[LLM Engineering/LLM Engineering|LLM Engineering]].
 - Созданы concept-заметки: [[LLM Engineering/Function Calling|Function Calling]], [[LLM Engineering/Function Schema|Function Schema]], [[LLM Engineering/Tool Selection|Tool Selection]], [[LLM Engineering/Tool Loop|Tool Loop]], [[LLM Engineering/Multiple Tool Calls|Multiple Tool Calls]], [[LLM Engineering/Tool Calling|Tool Calling]], [[LLM Engineering/Streaming|Streaming]], [[LLM Engineering/Streaming API в OpenAI SDK|Streaming API в OpenAI SDK]], [[LLM Engineering/Streaming при Function Calling|Streaming при Function Calling]].
 - [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: блоки Function Calling и Streaming переведены в `learned` по изученным ключевым темам.
 - Обновлены Dashboard, Knowledge Map, Roadmap и оба индекса LLM Engineering.
@@ -384,7 +450,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
+- Модуль синхронизирован в существующую область [[LLM Engineering/LLM Engineering|LLM Engineering]].
 - Созданы concept-заметки: [[LLM Engineering/Max Tokens|Max Tokens]], [[LLM Engineering/Stop Sequence|Stop Sequence]], [[LLM Engineering/Prompt Engineering|Prompt Engineering]], [[LLM Engineering/System Prompt|System Prompt]], [[LLM Engineering/User Prompt|User Prompt]], [[LLM Engineering/Prompt Templates|Prompt Templates]], [[LLM Engineering/Few-shot Prompting|Few-shot Prompting]], [[LLM Engineering/Delimiters|Delimiters]], [[LLM Engineering/Output Formatting|Output Formatting]], [[LLM Engineering/Structured Output|Structured Output]], [[LLM Engineering/JSON Schema|JSON Schema]], [[LLM Engineering/Pydantic в Structured Output|Pydantic в Structured Output]], [[LLM Engineering/Response Validation|Validation]], [[LLM Engineering/Error Recovery|Error Recovery]].
 - [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: `max_tokens` и `stop` отмечены как learned; блоки Prompt Engineering и Structured Output переведены в learned по изученным темам.
 
@@ -404,7 +470,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[LLM Engineering/Index|LLM Engineering]].
+- Модуль синхронизирован в существующую область [[LLM Engineering/LLM Engineering|LLM Engineering]].
 - Созданы concept-заметки: [[LLM Engineering/OpenRouter через OpenAI SDK|OpenRouter через OpenAI SDK]], [[LLM Engineering/Архитектура OpenAI SDK|Архитектура OpenAI SDK]], [[LLM Engineering/Цепочка выполнения chat.completions.create|Цепочка выполнения chat.completions.create]], [[LLM Engineering/Messages как источник контекста модели|Messages как источник контекста модели]], [[LLM Engineering/Top-p (Nucleus Sampling)|Top-p (Nucleus Sampling)]].
 - Обновлена существующая концепция: [[Transformers/Temperature Sampling|Temperature Sampling]].
 - [[LLM Engineering/Plan|LLM Engineering Plan]] обновлён: блок "Основы LLM API" переведён в `learning`, изученные темы отмечены.
@@ -426,7 +492,7 @@ updated: 2026-07-13
 ### ✅ Обновлено
 
 - Создан module plan: [[LLM Engineering/Plan|LLM Engineering Plan]].
-- Обновлены LLM Engineering indexes: [[LLM Engineering/Index|LLM Engineering Index]] и [[Indexes/LLM Engineering Index|Indexes/LLM Engineering Index]].
+- Обновлены LLM Engineering indexes: [[LLM Engineering/LLM Engineering|LLM Engineering Index]] и [[Indexes/LLM Engineering Index|Indexes/LLM Engineering Index]].
 - Concept-заметки не создавались, статистика concept notes не увеличивалась.
 
 ### Learning Path
@@ -450,7 +516,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]].
+- Модуль синхронизирован в существующую область [[Transformers/Transformers|Transformers]].
 - Созданы concept-заметки: [[Transformers/CausalSelfAttention.forward Pipeline|CausalSelfAttention.forward Pipeline]], [[Transformers/Attention Tensor Shapes|Attention Tensor Shapes]].
 - Обновлены существующие концепции: [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]], [[Transformers/Attention Scores|Attention Scores]], [[Transformers/Multi-Head Attention|Multi-Head Attention]], [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]], [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]], [[Transformers/Feed Forward Network|Feed Forward Network]], [[Transformers/Transformer Block|Transformer Block]].
 - В [[Transformers/Formula Cards|Formula Cards]] добавлена только карточка FeedForward Expansion; существующие формулы не дублировались.
@@ -474,7 +540,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]].
+- Модуль синхронизирован в существующую область [[Transformers/Transformers|Transformers]].
 - Созданы concept-заметки: [[Transformers/GPTConfig|GPTConfig]], [[Transformers/ModuleList|ModuleList]].
 - Обновлены существующие концепции: [[Transformers/Embedding Layer|Embedding Layer]], [[Transformers/Position Embedding|Position Embedding]], [[Transformers/nanoGPT Architecture|nanoGPT Architecture]], [[Transformers/Transformer Block|Transformer Block]], [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]].
 - Не созданы отдельные заметки для `nn.Embedding` lookup, отличия `nn.Embedding` от обычного Tensor, WPE, `tok_emb + pos_emb`, Dropout после embedding и независимых весов blocks; материал слит в существующие concepts.
@@ -498,7 +564,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]]; новая Knowledge Area `Deep Learning` не создавалась.
+- Модуль синхронизирован в существующую область [[Transformers/Transformers|Transformers]]; новая Knowledge Area `Deep Learning` не создавалась.
 - Созданы concept-заметки: [[Transformers/Causal Mask|Causal Mask]], [[Transformers/Веса как долговременная память модели|Веса как долговременная память модели]], [[Transformers/Разделение ролей LLM и RAG|Разделение ролей LLM и RAG]], [[Transformers/Weight Tying|Weight Tying]], [[Transformers/Autoregressive Generation|Autoregressive Generation]].
 - Обновлены существующие концепции: [[Transformers/Attention Scores|Attention Scores]], [[Transformers/Query Key Value|Query Key Value]], [[Transformers/Language Modeling Head|Language Modeling Head]], [[Transformers/Embedding Layer|Embedding Layer]], [[Transformers/KV Cache|KV Cache]], [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]], [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]], [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]].
 - Не созданы отдельные заметки для scaling через `sqrt(head_dim)`, семантики QKV и Transformer как последовательности преобразований представлений; материал слит в существующие concepts.
@@ -522,7 +588,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]]; новая Knowledge Area `Deep Learning` не создавалась.
+- Модуль синхронизирован в существующую область [[Transformers/Transformers|Transformers]]; новая Knowledge Area `Deep Learning` не создавалась.
 - Созданы concept-заметки: [[Transformers/Position Embedding|Position Embedding]], [[Transformers/Pre-LayerNorm|Pre-LayerNorm]], [[Transformers/Transformer Block Interface|Transformer Block Interface]], [[Transformers/nn.Module __call__|nn.Module __call__]], [[Transformers/Self-Attention Pipeline|Self-Attention Pipeline]].
 - Обновлены существующие концепции: [[Transformers/Embedding Layer|Embedding Layer]], [[Transformers/Residual Connection|Residual Connection]], [[Transformers/LayerNorm|LayerNorm]], [[Transformers/Query Key Value|Query Key Value]], [[Transformers/Multi-Head Attention|Multi-Head Attention]].
 - Implementation details не вынесены в отдельные заметки: сложение вместо concat, Residual Philosophy, `c_attn`, output projection и роль `c_proj` слиты в существующие concepts.
@@ -541,10 +607,10 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]]; новая Knowledge Area `Deep Learning` не создавалась.
+- Модуль синхронизирован в существующую область [[Transformers/Transformers|Transformers]]; новая Knowledge Area `Deep Learning` не создавалась.
 - Созданы concept-заметки: [[Transformers/KV Cache|KV Cache]], [[Transformers/Attention Complexity During Inference|Attention Complexity During Inference]], [[Transformers/Language Modeling Head|Language Modeling Head]], [[Transformers/Temperature Sampling|Temperature Sampling]], [[Transformers/Context Window vs KV Cache|Context Window vs KV Cache]], [[Transformers/nanoGPT Architecture|nanoGPT Architecture]].
 - Обновлена существующая концепция: [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]].
-- Связи добавлены с [[Neural Networks/Logits|Logits]], [[Neural Networks/Softmax|Softmax]], [[RAG/Index|RAG]], [[Transformers/Query Key Value|Query Key Value]] и [[Transformers/Transformer Block|Transformer Block]].
+- Связи добавлены с [[Neural Networks/Logits|Logits]], [[Neural Networks/Softmax|Softmax]], [[RAG/RAG|RAG]], [[Transformers/Query Key Value|Query Key Value]] и [[Transformers/Transformer Block|Transformer Block]].
 
 ### 🧠 Weak spots
 
@@ -560,7 +626,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]].
+- Модуль синхронизирован в существующую область [[Transformers/Transformers|Transformers]].
 - Concept Test выполнен: создана только самостоятельная concept-заметка [[Transformers/Multi-Head Attention|Multi-Head Attention]].
 - Head Projection, Output Projection, Tensor Reshaping и объединение `batch × heads` не вынесены в отдельные concept-заметки; материал слит в [[Transformers/Multi-Head Attention|Multi-Head Attention]], [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]], [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]] и [[Transformers/Query Key Value|Query Key Value]].
 
@@ -581,7 +647,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]].
+- Модуль синхронизирован в существующую область [[Transformers/Transformers|Transformers]].
 - Обновлены существующие concept-заметки по Knowledge Synchronization Protocol 2.1: [[Transformers/LayerNorm|LayerNorm]], [[Transformers/Residual Connection|Residual Connection]], [[Transformers/Feed Forward Network|Feed Forward Network]].
 - Тема "Причина расположения LayerNorm после Residual Connection" не вынесена в отдельную concept-заметку; знание слито в [[Transformers/LayerNorm|LayerNorm]] и [[Transformers/Residual Connection|Residual Connection]].
 - [[Transformers/LayerNorm|LayerNorm]] переведен из `needs_review` в `learned`, так как learning_state указывает понимание математической связи LayerNorm и z-score, назначения `γ` и `β`, а также инженерной причины применения LayerNorm после Residual.
@@ -603,9 +669,9 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Формулы добавлены в существующие concept-заметки области [[Statistics/Index|Statistics]] без создания дублей.
+- Формулы добавлены в существующие concept-заметки области [[Statistics/Statistics|Statistics]] без создания дублей.
 - Обновлены заметки: [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Z-score Standardization|Standardization]], [[Statistics/Z-score|Z-score]], [[Statistics/Normal Distribution|Normal Distribution]].
-- `Math Statistic` не создавался как новая Knowledge Area; обновление применено к подтвержденной области [[Statistics/Index|Statistics]].
+- `Math Statistic` не создавался как новая Knowledge Area; обновление применено к подтвержденной области [[Statistics/Statistics|Statistics]].
 
 ### Следующий шаг
 
@@ -615,10 +681,10 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Создана новая Knowledge Area [[Statistics/Index|Statistics]] по явному подтверждению пользователя.
+- Создана новая Knowledge Area [[Statistics/Statistics|Statistics]] по явному подтверждению пользователя.
 - Модуль синхронизирован в `Statistics`, не в `Math Statistic`.
 - Созданы concept-заметки: [[Statistics/Mean|Mean]], [[Statistics/Variance|Variance]], [[Statistics/Причина использования квадратов в статистике|Причина использования квадратов в статистике]], [[Statistics/Standard Deviation|Standard Deviation]], [[Statistics/Min-Max Normalization|Min-Max Normalization]], [[Statistics/Z-score Standardization|Standardization]], [[Statistics/Z-score|Z-score]], [[Statistics/Normal Distribution|Normal Distribution]], [[Statistics/Связь основных статистических понятий|Связь основных статистических понятий]].
-- Созданы обзорные индексы: [[Statistics/Index|Statistics Index]] и [[Indexes/Statistics Index|Statistics Index]].
+- Созданы обзорные индексы: [[Statistics/Statistics|Statistics Index]] и [[Indexes/Statistics Index|Statistics Index]].
 - Связи проставлены на существующие темы [[Machine Learning/Feature Scaling|Feature Scaling]], [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Feature Standardization|Standardization]], [[Machine Learning/Mathematics/MSE|MSE]] и [[Transformers/LayerNorm|LayerNorm]].
 
 ### 🧠 Weak spots
@@ -636,7 +702,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[Transformers/Index|Transformers]].
+- Модуль синхронизирован в существующую область [[Transformers/Transformers|Transformers]].
 - Созданы concept-заметки: [[Transformers/Transformer Block|Transformer Block]], [[Transformers/Residual Connection|Residual Connection]], [[Transformers/Постепенное уточнение embedding|Постепенное уточнение embedding]], [[Transformers/Feed Forward Network|Feed Forward Network]], [[Transformers/Module и Functional в PyTorch|Module и Functional в PyTorch]], [[Transformers/Batch Matrix Multiplication|Batch Matrix Multiplication]], [[Transformers/LayerNorm|LayerNorm]].
 - Обновлены существующие концепции: [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]] и [[Transformers/Embedding Space|Embedding Space]].
 - Тема реализации QKV через объединенную матрицу весов не вынесена в отдельную concept-заметку; знание слито в [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]].
@@ -658,10 +724,10 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Создана новая Knowledge Area [[Transformers/Index|Transformers]] по явному подтверждению пользователя.
+- Создана новая Knowledge Area [[Transformers/Transformers|Transformers]] по явному подтверждению пользователя.
 - Модуль синхронизирован в `Transformers`, не в `Neural Networks`.
 - Созданы concept-заметки: [[Transformers/Embedding Layer|Embedding Layer]], [[Transformers/Статический и контекстный Embedding|Статический и контекстный Embedding]], [[Transformers/Query Key Value|Query Key Value]], [[Transformers/Attention Scores|Attention Scores]], [[Transformers/Attention Weights|Attention Weights]], [[Transformers/Attention Output|Attention Output]], [[Transformers/Embedding Space|Embedding Space]], [[Transformers/MultiheadAttention в PyTorch|MultiheadAttention в PyTorch]].
-- Созданы обзорные индексы: [[Transformers/Index|Transformers Index]] и [[Indexes/Transformers Index|Transformers Index]].
+- Созданы обзорные индексы: [[Transformers/Transformers|Transformers Index]] и [[Indexes/Transformers Index|Transformers Index]].
 - Связи проставлены на существующие темы [[Neural Networks/Softmax|Softmax]] и [[PyTorch/nn.Linear|nn.Linear]] без создания дублей.
 
 ### 🧠 Weak spots
@@ -681,7 +747,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]]; новая Knowledge Area `ML Engineering` не создавалась.
+- Модуль синхронизирован в существующую область [[PyTorch/PyTorch|PyTorch]]; новая Knowledge Area `ML Engineering` не создавалась.
 - Созданы concept-заметки: [[PyTorch/Как анализировать неизвестный код|Как анализировать неизвестный код]], [[PyTorch/Модель как универсальная функция|Модель как универсальная функция]], [[PyTorch/Интерфейс важнее реализации|Интерфейс важнее реализации]], [[PyTorch/Повторение терминов PyTorch Foundations|Повторение терминов PyTorch Foundations]].
 - Обновлены существующие концепции: [[PyTorch/Reading GitHub ML Projects|Reading GitHub ML Projects]], [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]], [[PyTorch/train.py как центр обучения|train.py как центр обучения]], [[PyTorch/PyTorch Dataset|Dataset]], [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]], [[PyTorch/Separation of Concerns|Separation of Concerns]], [[Neural Networks/Model|Model]].
 - Темы про независимость `train.py` от Dataset, заменяемость Dataset и interface over implementation связаны с существующими PyTorch architecture/data pipeline заметками.
@@ -700,7 +766,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
+- Модуль синхронизирован в существующую область [[PyTorch/PyTorch|PyTorch]].
 - Созданы concept-заметки: [[PyTorch/train_utils.py|train_utils.py]], [[PyTorch/predict.py|predict.py]], [[PyTorch/Inference Pipeline|Inference Pipeline]], [[PyTorch/load_model()|load_model()]], [[PyTorch/preprocess_image()|preprocess_image()]], [[PyTorch/predict()|predict()]], [[PyTorch/top_k|top_k]], [[PyTorch/loss.item()|loss.item()]], [[PyTorch/Weighted Average Loss|Weighted Average Loss]], [[PyTorch/Tuple Unpacking|Tuple Unpacking]].
 - Обновлены существующие концепции: [[PyTorch/model.py как отдельная ответственность|model.py как отдельная ответственность]], [[PyTorch/train.py как центр обучения|train.py как центр обучения]], [[PyTorch/Unsqueeze|Unsqueeze]], [[Neural Networks/Softmax|Softmax]], [[Neural Networks/Inference|Inference]], [[Neural Networks/model.train() и model.eval()|model.train() и model.eval()]], [[Neural Networks/torch.no_grad()|torch.no_grad()]], [[PyTorch/model.eval()|model.eval()]], [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]].
 - `softmax(dim=1)` не вынесен в отдельную concept-заметку; знание слито в [[Neural Networks/Softmax|Softmax]] и связано с [[PyTorch/Inference Pipeline|Inference Pipeline]].
@@ -720,7 +786,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
+- Модуль синхронизирован в существующую область [[PyTorch/PyTorch|PyTorch]].
 - Созданы concept-заметки: [[PyTorch/CrossEntropyLoss|CrossEntropyLoss]], [[PyTorch/model.parameters()|model.parameters()]].
 - Обновлены существующие концепции: [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]], [[Neural Networks/Logits|Logits]], [[Neural Networks/Adam|Adam]], [[PyTorch/torch.optim|torch.optim]], [[PyTorch/Autograd|Autograd]], [[Neural Networks/torch.no_grad()|torch.no_grad()]], [[Neural Networks/model.train() и model.eval()|model.train() и model.eval()]], [[PyTorch/model.eval()|model.eval()]], [[PyTorch/DataLoader|DataLoader]], [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]].
 - `Softmax внутри CrossEntropyLoss` не вынесен в отдельную concept-заметку; знание слито в [[PyTorch/CrossEntropyLoss|CrossEntropyLoss]].
@@ -741,7 +807,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
+- Модуль синхронизирован в существующую область [[PyTorch/PyTorch|PyTorch]].
 - Созданы concept-заметки: [[PyTorch/Reading GitHub ML Projects|Reading GitHub ML Projects]], [[PyTorch/Архитектура ML-проекта|Архитектура ML-проекта]], [[PyTorch/model.py как отдельная ответственность|model.py как отдельная ответственность]], [[PyTorch/train.py как центр обучения|train.py как центр обучения]], [[PyTorch/config.py|config.py]], [[PyTorch/Separation of Concerns|Separation of Concerns]], [[PyTorch/Интерфейс Dataset DataLoader Model|Интерфейс Dataset DataLoader Model]].
 - Обновлены существующие концепции: [[PyTorch/Чтение архитектуры PyTorch-проектов|Чтение архитектуры PyTorch-проектов]], [[PyTorch/nn.Module|nn.Module]], [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]], [[PyTorch/PyTorch Dataset|Dataset]], [[PyTorch/DataLoader|DataLoader]], [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]].
 - Тема "Гиперпараметры vs параметры датасета" не вынесена в отдельную concept-заметку; знание слито в [[Machine Learning/Parameters и Hyperparameters|Parameters и Hyperparameters]] и связано с [[PyTorch/config.py|config.py]].
@@ -760,7 +826,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
+- Модуль синхронизирован в существующую область [[PyTorch/PyTorch|PyTorch]].
 - Созданы concept-заметки: [[PyTorch/Многослойная нейронная сеть|Многослойная нейронная сеть]], [[PyTorch/Анализ архитектуры модели по слоям|Анализ архитектуры модели по слоям]], [[PyTorch/Чтение архитектуры PyTorch-проектов|Чтение архитектуры PyTorch-проектов]].
 - Обновлены существующие концепции: [[Neural Networks/Train Validation Test|Train Validation Test]], [[PyTorch/nn.Module|nn.Module]], [[Neural Networks/ReLU|ReLU]], [[Neural Networks/model.train() и model.eval()|model.train() и model.eval()]], [[PyTorch/model.eval()|model.eval()]], [[Neural Networks/Output|Output]], [[PyTorch/nn.Linear|nn.Linear]].
 - Правило "последний слой определяется задачей" не вынесено в отдельную concept-заметку; знание слито в [[Neural Networks/Output|Output]] и [[PyTorch/nn.Linear|nn.Linear]].
@@ -779,7 +845,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[Algorithms/Index|Algorithms & Data Structures]].
+- Модуль синхронизирован в существующую область [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]].
 - Обновлены существующие концепции: [[Algorithms/Graph Theory/Basics/Что такое граф|Что такое граф]], [[Algorithms/Graph Theory/Basics/Вершины и ребра|Вершины и ребра]], [[Algorithms/Graph Theory/Basics/Изолированная вершина|Изолированная вершина]], [[Algorithms/Graph Theory/Basics/Удаление вершины и удаление ребра|Удаление вершины и удаление ребра]], [[Algorithms/Graph Theory/Basics/Ориентированный и неориентированный граф|Ориентированный и неориентированный граф]], [[Algorithms/Graph Theory/Basics/Путь|Путь]], [[Algorithms/Graph Theory/Trees/Дерево|Дерево]], [[Algorithms/Graph Theory/Trees/Root Parent Child Leaf|Root Parent Child Leaf]], [[Algorithms/Graph Theory/Basics/Цикл|Цикл]], [[Algorithms/Graph Theory/DAG/DAG|DAG]].
 - Создана новая concept-заметка: [[Algorithms/Graph Theory/Basics/Список смежности|Список смежности]].
 - Обновлена обзорная заметка [[Algorithms/Graph Theory/Basics/Представление графов в памяти|Представление графов в памяти]] ссылкой на список смежности.
@@ -798,7 +864,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[Algorithms/Index|Algorithms & Data Structures]].
+- Модуль синхронизирован в существующую область [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]].
 - Созданы concept-заметки: [[Algorithms/Recursion/Trees/Дерево как рекурсивная структура данных|Дерево как рекурсивная структура данных]], [[Algorithms/Recursion/Trees/DFS на дереве|DFS на дереве]], [[Algorithms/Recursion/Trees/Рекурсия с возвратом результата из поддерева|Рекурсия с возвратом результата из поддерева]], [[Algorithms/Recursion/Trees/Подсчет количества узлов дерева|Подсчет количества узлов дерева]], [[Algorithms/Recursion/Trees/Поиск максимальной глубины дерева|Поиск максимальной глубины дерева]].
 - Обновлены связи в [[Algorithms/Tree|Tree]], [[Algorithms/DFS|DFS]], [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]], [[Algorithms/Recursion/Trees/Binary Tree Traversal|Binary Tree Traversal]] и [[Algorithms/Recursion/Patterns/Recursive Return Chain|Recursive Return Chain]].
 
@@ -818,7 +884,7 @@ updated: 2026-07-13
 
 ### ✅ Синхронизировано
 
-- Модуль синхронизирован в существующую область [[PyTorch/Index|PyTorch]].
+- Модуль синхронизирован в существующую область [[PyTorch/PyTorch|PyTorch]].
 - Созданы новые concept-заметки: [[PyTorch/Matrix Multiplication in PyTorch (matmul)|Matrix Multiplication in PyTorch (matmul)]], [[PyTorch/nn.Linear|nn.Linear]], [[PyTorch/PyTorch Training Loop|PyTorch Training Loop]].
 - Обновлены существующие заметки: [[PyTorch/Autograd|Autograd]], [[Machine Learning/Gradient Descent|Gradient Descent]], [[Machine Learning/Loss Function|Loss Function]], [[Machine Learning/Mathematics/Производная|Производная]], [[PyTorch/Tensors/Tensor Operations|Tensor Operations]], [[PyTorch/nn.Module|nn.Module]].
 - `Derivatives for AI` не создавался как новая Knowledge Area; материал слит в [[Machine Learning/Mathematics/Производная|Производная]].
@@ -863,7 +929,7 @@ updated: 2026-07-13
 - Обновлены и выделены отдельные концепции: [[Machine Learning/Normalization|Normalization]], [[Machine Learning/Feature Standardization|Standardization]], [[Machine Learning/Fit Transform и Data Leakage|Fit Transform и Data Leakage]], [[Machine Learning/Scaling и Gradient Descent|Scaling и Gradient Descent]], [[Machine Learning/Scaling для KNN и SVM|Scaling для KNN и SVM]], [[Machine Learning/Scaling и Tree-Based Models|Scaling и Tree-Based Models]].
 - [[Machine Learning/Loss Function|Loss Function]] превращён в overview по функциям потерь.
 - Обновлены loss-концепции: [[Machine Learning/Mathematics/MSE|MSE]], [[Machine Learning/Mathematics/MAE|MAE]], [[Machine Learning/Mathematics/Cross Entropy|Cross Entropy]].
-- [[AI Agents/Index|AI Agents Index]] очищен от полного импорта LangGraph и оставлен как короткий overview со ссылкой на [[LangGraph/Index]].
+- [[AI Agents/AI Agents|AI Agents Index]] очищен от полного импорта LangGraph и оставлен как короткий overview со ссылкой на [[LangGraph/LangGraph]].
 
 ### Следующий шаг
 
@@ -873,7 +939,7 @@ updated: 2026-07-13
 
 ### ✅ Импортировано
 
-- Модуль импортирован в существующую область [[Algorithms/Index|Algorithms & Data Structures]] во внутреннюю структуру [[Algorithms/Recursion/Index|Algorithms/Recursion]].
+- Модуль импортирован в существующую область [[Algorithms/Algorithms & Data Structures|Algorithms & Data Structures]] во внутреннюю структуру [[Algorithms/Recursion/Index|Algorithms/Recursion]].
 - Созданы основные концепции: [[Algorithms/Recursion/Basics/Recursion|Recursion]], [[Algorithms/Recursion/Basics/Base Case|Base Case]], [[Algorithms/Recursion/Internals/Call Stack|Call Stack]], [[Algorithms/Recursion/Patterns/Recursive Return Chain|Recursive Return Chain]].
 - Созданы примеры: [[Algorithms/Recursion/Examples/Factorial|Factorial]], [[Algorithms/Recursion/Examples/Рекурсивная сумма чисел|Рекурсивная сумма чисел]], [[Algorithms/Recursion/Examples/Рекурсивный разворот строки|Рекурсивный разворот строки]], [[Algorithms/Recursion/Examples/Рекурсивная проверка палиндрома|Рекурсивная проверка палиндрома]].
 - Созданы stub-заметки: [[Algorithms/Recursion/Patterns/Recursive Thinking|Recursive Thinking]], [[Algorithms/Recursion/Patterns/Recursion Patterns|Recursion Patterns]], [[Algorithms/Recursion/Patterns/Divide and Conquer|Divide and Conquer]], [[Algorithms/Recursion/Examples/String Slicing in Recursion|String Slicing in Recursion]], [[Algorithms/Recursion/Trees/Tree Traversal|Tree Traversal]], [[Algorithms/Recursion/Trees/Binary Tree Traversal|Binary Tree Traversal]].
@@ -895,7 +961,7 @@ updated: 2026-07-13
 
 ### ✅ Импортировано
 
-- Модуль импортирован в существующую область [[PyTorch/Index|PyTorch]].
+- Модуль импортирован в существующую область [[PyTorch/PyTorch|PyTorch]].
 - Создана внутренняя структура [[PyTorch/Tensors/Index|PyTorch/Tensors]].
 - Обновлены концепции: [[PyTorch/Tensor|Tensor]], [[PyTorch/Shape|Tensor Shape]], [[PyTorch/Reshape|Reshape]], [[PyTorch/View|View]], [[PyTorch/Unsqueeze|Unsqueeze]], [[PyTorch/Squeeze|Squeeze]], [[PyTorch/Broadcasting|Broadcasting]].
 - Созданы концепции: [[PyTorch/Tensors/Tensor Dimensions (ndim)|Tensor Dimensions (ndim)]], [[PyTorch/Tensors/Tensor Creation|Tensor Creation]], [[PyTorch/Tensors/Tensor Dtype|Tensor Dtype]], [[PyTorch/Tensors/Tensor Indexing and Slicing|Tensor Indexing and Slicing]].
@@ -1006,14 +1072,14 @@ updated: 2026-07-13
 
 ### ✅ Итог модуля
 
-- Модуль [[Neural Networks/Index|Neural Networks]] завершен.
+- Модуль [[Neural Networks/Neural Networks|Neural Networks]] завершен.
 - Итоговая проверка пройдена.
 - Общий уровень понимания: высокий.
 - Основные слабые места: [[Adam]], [[Chain Rule]], отличие [[Batch Normalization]] от [[Machine Learning/Feature Scaling|Feature Scaling]].
 
 ### Следующий шаг
 
-- Активировать модуль [[PyTorch/Index|PyTorch]] и увидеть в коде: [[PyTorch/Tensor|Tensor]], [[PyTorch/nn.Module|nn.Module]], [[PyTorch/Autograd|Autograd]], `loss.backward()`, [[PyTorch/torch.optim|optimizer.step()]].
+- Активировать модуль [[PyTorch/PyTorch|PyTorch]] и увидеть в коде: [[PyTorch/Tensor|Tensor]], [[PyTorch/nn.Module|nn.Module]], [[PyTorch/Autograd|Autograd]], `loss.backward()`, [[PyTorch/torch.optim|optimizer.step()]].
 
 ## 2026-06-26 (KNOWLEDGE_EXPORT: Neural Networks — Optimizers и Regularization)
 

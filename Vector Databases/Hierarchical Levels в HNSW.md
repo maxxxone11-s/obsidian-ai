@@ -3,7 +3,7 @@ type: concept
 area: Vector Databases
 status: learned
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-17
 aliases:
   - Hierarchical Navigable Small World Levels
   - HNSW Layers
@@ -12,6 +12,8 @@ tags:
 ---
 
 # Hierarchical Levels в HNSW
+
+Область: [[Vector Databases/Vector Databases|Vector Databases]]
 
 ## Академическое определение
 
@@ -62,4 +64,4 @@ HNSW организует граф в несколько уровней. Вер�
 
 ## Следующие темы
 
-[[M parameter]] · [[efConstruction]] · [[efSearch]]
+[[Vector Databases/Параметр M в HNSW|M]] · [[Vector Databases/Параметр efConstruction|efConstruction]] · [[Vector Databases/Параметр efSearch|efSearch]]
